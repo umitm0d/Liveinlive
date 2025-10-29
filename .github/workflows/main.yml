@@ -1,4 +1,4 @@
-name: run main.py
+name: ÜmitM0d yayincilik
 on:
   schedule:
     - cron: '0 */2 * * *'
