@@ -213,7 +213,7 @@ def main():
         print(f"\n=== Creating final M3U playlist ===")
         
         # GitHub raw URL base (bunu kendi GitHub reponuza göre değiştirin)
-        github_base_url = "https://raw.githubusercontent.com/username/repo/main/"
+        github_base_url = "https://raw.githubusercontent.com/umitm0d/Liveinlive/main/"
         final_m3u_content = create_final_m3u_playlist(
             processed_channels, 
             github_base_url, 
