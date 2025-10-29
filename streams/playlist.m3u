@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="baskatv-kick" tvg-name="Başka TV [Kick]" tvg-logo="",Başka TV [Kick]
+https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/baskatv-kick.m3u8
+#EXTINF:-1 tvg-id="baskatv-twitch" tvg-name="Başka TV [Twitch]" tvg-logo="",Başka TV [Twitch]
+https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/baskatv-twitch.m3u8
+#EXTINF:-1 tvg-id="bizimbergamatv" tvg-name="Bizim Bergama TV" tvg-logo="",Bizim Bergama TV
+https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/bizimbergamatv.m3u8
+#EXTINF:-1 tvg-id="euro90tv" tvg-name="Euro 90 TV" tvg-logo="",Euro 90 TV
+https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/euro90tv.m3u8
+#EXTINF:-1 tvg-id="serhattv" tvg-name="Serhat TV" tvg-logo="",Serhat TV
+https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/serhattv.m3u8
+#EXTINF:-1 tvg-id="teleon" tvg-name="Teleon" tvg-logo="",Teleon
+https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/teleon.m3u8
+#EXTINF:-1 tvg-id="tvkayseri" tvg-name="TV Kayseri" tvg-logo="",TV Kayseri
+https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/tvkayseri.m3u8
