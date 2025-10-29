@@ -3,6 +3,7 @@ import sys
 import os 
 import json
 import traceback
+from urllib.parse import urljoin
 
 def info_to_text(stream_info, url):
     text = '#EXT-X-STREAM-INF:'
@@ -72,6 +73,24 @@ def create_best_playlist(playlists, multivariant):
     
     return best_text
 
+def create_final_m3u_playlist(channels, base_url, master_folder):
+    """Tüm kanalları içeren tek bir M3U playlist oluştur"""
+    m3u_content = '#EXTM3U\n'
+    
+    for channel in channels:
+        slug = channel.get("slug", "")
+        name = channel.get("name", slug)
+        
+        if slug:
+            # M3U8 dosyasının URL'sini oluştur
+            m3u8_url = urljoin(base_url, f"{master_folder}/{slug}.m3u8")
+            
+            # M3U formatında kanal bilgisi
+            m3u_content += f'#EXTINF:-1 tvg-id="{slug}" tvg-name="{name}" tvg-logo="",{name}\n'
+            m3u_content += f'{m3u8_url}\n'
+    
+    return m3u_content
+
 def main():
     print("=== Starting stream processing ===")
     
@@ -93,30 +112,32 @@ def main():
     current_dir = os.getcwd()
     root_folder = os.path.join(current_dir, folder_name)
     best_folder = os.path.join(root_folder, best_folder_name)
-    master_folder = os.path.join(root_folder, master_folder_name)
+    master_folder_path = os.path.join(root_folder, master_folder_name) if master_folder_name else root_folder
     
     print(f"Creating folders:")
     print(f"  Root: {root_folder}")
     print(f"  Best: {best_folder}")
-    print(f"  Master: {master_folder}")
+    print(f"  Master: {master_folder_path}")
     
     os.makedirs(best_folder, exist_ok=True)
-    os.makedirs(master_folder, exist_ok=True)
+    os.makedirs(master_folder_path, exist_ok=True)
 
     channels = config["channels"]
     print(f"\n=== Processing {len(channels)} channels ===\n")
     
     success_count = 0
     fail_count = 0
+    processed_channels = []
 
     for idx, channel in enumerate(channels, 1):
         slug = channel.get("slug", "unknown")
         url = channel.get("url", "")
+        name = channel.get("name", slug)
         
-        print(f"[{idx}/{len(channels)}] Processing: {slug}")
+        print(f"[{idx}/{len(channels)}] Processing: {name}")
         print(f"  URL: {url}")
         
-        master_file_path = os.path.join(master_folder, f"{slug}.m3u8")
+        master_file_path = os.path.join(master_folder_path, f"{slug}.m3u8")
         best_file_path = os.path.join(best_folder, f"{slug}.m3u8")
         
         try:
@@ -167,9 +188,8 @@ def main():
                     best_file.write(best_text)
                 
                 print(f"  ✅ Success - Files created")
-                print(f"  📁 Master: {master_file_path}")
-                print(f"  📁 Best: {best_file_path}")
                 success_count += 1
+                processed_channels.append(channel)
             else:
                 print(f"  ⚠️  No valid content generated for {slug}")
                 # Clean up any existing files
@@ -187,6 +207,34 @@ def main():
                 if os.path.isfile(file_path):
                     os.remove(file_path)
             fail_count += 1
+    
+    # Create final M3U playlist with all channels
+    if processed_channels:
+        print(f"\n=== Creating final M3U playlist ===")
+        
+        # GitHub raw URL base (bunu kendi GitHub reponuza göre değiştirin)
+        github_base_url = "https://raw.githubusercontent.com/username/repo/main/"
+        final_m3u_content = create_final_m3u_playlist(
+            processed_channels, 
+            github_base_url, 
+            f"{folder_name}/{master_folder_name}" if master_folder_name else folder_name
+        )
+        
+        final_m3u_path = os.path.join(root_folder, "playlist.m3u")
+        with open(final_m3u_path, "w+", encoding='utf-8') as f:
+            f.write(final_m3u_content)
+        
+        print(f"✅ Final playlist created: {final_m3u_path}")
+        
+        # Show example URLs
+        print(f"\n📋 Example M3U8 URLs:")
+        for channel in processed_channels[:3]:  # Show first 3 as examples
+            slug = channel["slug"]
+            m3u8_url = f"{github_base_url}{folder_name}"
+            if master_folder_name:
+                m3u8_url += f"/{master_folder_name}"
+            m3u8_url += f"/{slug}.m3u8"
+            print(f"  {channel['name']}: {m3u8_url}")
     
     print(f"\n=== Summary ===")
     print(f"✅ Successful: {success_count}")
