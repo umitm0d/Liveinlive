@@ -1,0 +1,54 @@
+{
+    "output": {
+        "folder": "streams",
+        "bestFolder": "best",
+        "masterFolder": ""
+    },
+    "channels": [
+        {
+            "name": "Başka TV [Kick]",
+            "slug": "baskatv-kick",
+            "url": "https://kick.com/baska-tv"
+        },
+        {
+            "name": "Başka TV [Twitch]",
+            "slug": "baskatv-twitch",
+            "url": "https://www.twitch.tv/baska_tv"
+        },
+        {
+            "name": "Bizim Bergama TV",
+            "slug": "bizimbergamatv",
+            "url": "https://www.twitch.tv/bizimbergama"
+        },
+        {
+            "name": "Euro 90 TV",
+            "slug": "euro90tv",
+            "url": "https://www.twitch.tv/euro90tvglobal"  
+        },
+        {
+            "name": "Kuzey TV",
+            "slug": "kuzeytv",
+            "url": "https://kick.com/kuzeymedyatv"  
+        },
+        {
+            "name": "Safa TV",
+            "slug": "safatv",
+            "url": "https://www.twitch.tv/safatv95"  
+        },
+        {
+            "name": "Serhat TV",
+            "slug": "serhattv",
+            "url": "https://www.twitch.tv/serhattvlive"
+        },
+        {
+            "name": "Teleon",
+            "slug": "teleon",
+            "url": "https://kick.com/teleontv"  
+        },
+        {
+            "name": "TV Kayseri",
+            "slug": "tvkayseri",
+            "url": "https://www.twitch.tv/tvkayseri"
+        }
+    ]
+}
