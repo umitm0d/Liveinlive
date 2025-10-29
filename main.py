@@ -3,7 +3,6 @@ import sys
 import os 
 import json
 import traceback
-from urllib.parse import urljoin
 
 def info_to_text(stream_info, url):
     text = '#EXT-X-STREAM-INF:'
@@ -73,21 +72,20 @@ def create_best_playlist(playlists, multivariant):
     
     return best_text
 
-def create_final_m3u_playlist(channels, base_url, master_folder):
+def create_final_m3u_playlist(processed_channels, repo_base_url, master_folder_path):
     """Tüm kanalları içeren tek bir M3U playlist oluştur"""
     m3u_content = '#EXTM3U\n'
     
-    for channel in channels:
-        slug = channel.get("slug", "")
-        name = channel.get("name", slug)
+    for channel in processed_channels:
+        slug = channel["slug"]
+        name = channel["name"]
         
-        if slug:
-            # M3U8 dosyasının URL'sini oluştur
-            m3u8_url = urljoin(base_url, f"{master_folder}/{slug}.m3u8")
-            
-            # M3U formatında kanal bilgisi
-            m3u_content += f'#EXTINF:-1 tvg-id="{slug}" tvg-name="{name}" tvg-logo="",{name}\n'
-            m3u_content += f'{m3u8_url}\n'
+        # M3U8 dosyasının URL'sini oluştur
+        m3u8_url = f"{repo_base_url}{master_folder_path}/{slug}.m3u8"
+        
+        # M3U formatında kanal bilgisi
+        m3u_content += f'#EXTINF:-1 tvg-id="{slug}" tvg-name="{name}",{name}\n'
+        m3u_content += f'{m3u8_url}\n'
     
     return m3u_content
 
@@ -168,14 +166,12 @@ def main():
             best_text = create_best_playlist(playlists, best_stream.multivariant)
 
             # HTTPS -> HTTP for cinergroup plugin
-            http_flag = False
             if url.startswith("http://"):
                 try:
                     plugin_name, plugin_type, given_url = streamlink.session.Streamlink().resolve_url(url)
                     if plugin_name == "cinergroup":
                         master_text = master_text.replace("https://", "http://")
                         best_text = best_text.replace("https://", "http://")
-                        http_flag = True
                 except:
                     pass
 
@@ -189,7 +185,11 @@ def main():
                 
                 print(f"  ✅ Success - Files created")
                 success_count += 1
-                processed_channels.append(channel)
+                processed_channels.append({
+                    "slug": slug,
+                    "name": name,
+                    "master_file": f"{slug}.m3u8"
+                })
             else:
                 print(f"  ⚠️  No valid content generated for {slug}")
                 # Clean up any existing files
@@ -212,29 +212,44 @@ def main():
     if processed_channels:
         print(f"\n=== Creating final M3U playlist ===")
         
-        # GitHub raw URL base (bunu kendi GitHub reponuza göre değiştirin)
-        github_base_url = "https://raw.githubusercontent.com/umitm0d/Liveinlive/main/"
-        final_m3u_content = create_final_m3u_playlist(
-            processed_channels, 
-            github_base_url, 
-            f"{folder_name}/{master_folder_name}" if master_folder_name else folder_name
-        )
+        # GitHub raw URL base - BURAYI KENDİ BİLGİLERİNİZLE DEĞİŞTİRİN
+        github_username = "umitm0d"
+        repo_name = "Liveinlive"
+        branch_name = "main"
         
-        final_m3u_path = os.path.join(root_folder, "playlist.m3u")
+        repo_base_url = f"https://raw.githubusercontent.com/{github_username}/{repo_name}/{branch_name}/"
+        
+        # Master folder path for URLs
+        master_url_path = f"{folder_name}"
+        if master_folder_name:
+            master_url_path += f"/{master_folder_name}"
+        
+        final_m3u_content = create_final_m3u_playlist(processed_channels, repo_base_url, master_url_path)
+        
+        # Final M3U dosyasını ana dizine kaydet
+        final_m3u_path = os.path.join(current_dir, "playlist.m3u")
         with open(final_m3u_path, "w+", encoding='utf-8') as f:
             f.write(final_m3u_content)
         
         print(f"✅ Final playlist created: {final_m3u_path}")
         
+        # Ayrıca streams klasörüne de kopyala
+        final_m3u_in_streams = os.path.join(root_folder, "playlist.m3u")
+        with open(final_m3u_in_streams, "w+", encoding='utf-8') as f:
+            f.write(final_m3u_content)
+        
+        print(f"✅ Final playlist copied to: {final_m3u_in_streams}")
+        
         # Show example URLs
-        print(f"\n📋 Example M3U8 URLs:")
+        print(f"\n📋 Example M3U8 URLs in final playlist:")
         for channel in processed_channels[:3]:  # Show first 3 as examples
             slug = channel["slug"]
-            m3u8_url = f"{github_base_url}{folder_name}"
-            if master_folder_name:
-                m3u8_url += f"/{master_folder_name}"
-            m3u8_url += f"/{slug}.m3u8"
+            m3u8_url = f"{repo_base_url}{master_url_path}/{slug}.m3u8"
             print(f"  {channel['name']}: {m3u8_url}")
+        
+        print(f"\n🔗 Your final M3U playlist URL will be:")
+        final_playlist_url = f"{repo_base_url}playlist.m3u"
+        print(f"  {final_playlist_url}")
     
     print(f"\n=== Summary ===")
     print(f"✅ Successful: {success_count}")
