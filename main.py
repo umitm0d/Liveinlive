@@ -83,8 +83,8 @@ def create_final_m3u_playlist(processed_channels, repo_base_url, master_folder_p
         # M3U8 dosyasının URL'sini oluştur
         m3u8_url = f"{repo_base_url}{master_folder_path}/{slug}.m3u8"
         
-        # M3U formatında kanal bilgisi
-        m3u_content += f'#EXTINF:-1 tvg-id="{slug}" tvg-name="{name}",{name}\n'
+        # M3U formatında kanal bilgisi - group-title "ÜmitM0d" olarak ayarlandı
+        m3u_content += f'#EXTINF:-1 tvg-id="{slug}" tvg-name="{name}" group-title="ÜmitM0d",{name}\n'
         m3u_content += f'{m3u8_url}\n'
     
     return m3u_content
@@ -250,6 +250,16 @@ def main():
         print(f"\n🔗 Your final M3U playlist URL will be:")
         final_playlist_url = f"{repo_base_url}playlist.m3u"
         print(f"  {final_playlist_url}")
+        
+        # Final M3U içeriğini göster
+        print(f"\n📄 Final M3U content preview:")
+        print("=" * 50)
+        lines = final_m3u_content.split('\n')[:6]  # İlk 3 kanalı göster
+        for line in lines:
+            print(line)
+        if len(processed_channels) > 3:
+            print(f"... and {len(processed_channels) - 3} more channels")
+        print("=" * 50)
     
     print(f"\n=== Summary ===")
     print(f"✅ Successful: {success_count}")
