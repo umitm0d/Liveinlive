@@ -1,0 +1,65 @@
+name: run main.py
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  pull_request:
+      branches:
+        - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps: 
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+            python-version: '3.12'  # Use stable version
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install streamlink
+      
+      - name: Debug - Check config file
+        run: |
+          echo "=== Config file content ==="
+          cat config.json
+          echo ""
+          echo "=== Current directory ==="
+          pwd
+          ls -la
+      
+      - name: execute py script 
+        run: |
+          python main.py config.json
+          echo ""
+          echo "=== Script completed, checking output ==="
+          ls -la
+          if [ -d "playlist" ]; then
+            echo "Playlist folder exists:"
+            ls -la playlist/
+            if [ -d "playlist/master" ]; then
+              echo "Master folder files:"
+              ls -la playlist/master/
+            fi
+            if [ -d "playlist/best" ]; then
+              echo "Best folder files:"
+              ls -la playlist/best/
+            fi
+          else
+            echo "ERROR: Playlist folder not created!"
+          fi
+      
+      - name: commit and push files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git status
+          git diff --quiet && git diff --staged --quiet || git commit -m "updated streams $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
