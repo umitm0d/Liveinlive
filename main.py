@@ -18,11 +18,59 @@ def info_to_text(stream_info, url):
             if len(codecs) - 1 != i:
                 text = text + ','
         text = text + '",'
-    if stream_info.resolution.width:
+    if stream_info.resolution and stream_info.resolution.width:
         text = text + 'RESOLUTION=' + str(stream_info.resolution.width) + 'x' + str(stream_info.resolution.height) 
 
     text = text + "\n" + url + "\n"
     return text
+
+def create_master_playlist(playlists, multivariant):
+    """Ana master playlist oluştur"""
+    master_text = '#EXTM3U\n'
+    
+    if multivariant.version:
+        master_text += f'#EXT-X-VERSION:{multivariant.version}\n'
+    
+    # Çözünürlüğe göre sırala (yüksekten düşüğe)
+    sorted_playlists = sorted(
+        [p for p in playlists if hasattr(p.stream_info, 'resolution') and p.stream_info.resolution],
+        key=lambda x: (x.stream_info.resolution.height if x.stream_info.resolution else 0, 
+                      x.stream_info.bandwidth if x.stream_info.bandwidth else 0),
+        reverse=True
+    )
+    
+    for playlist in sorted_playlists:
+        if (hasattr(playlist.stream_info, 'video') and 
+            playlist.stream_info.video != "audio_only" and
+            playlist.stream_info.resolution):
+            master_text += info_to_text(playlist.stream_info, playlist.uri)
+    
+    return master_text
+
+def create_best_playlist(playlists, multivariant):
+    """En iyi kalite için playlist oluştur"""
+    best_text = '#EXTM3U\n'
+    
+    if multivariant.version:
+        best_text += f'#EXT-X-VERSION:{multivariant.version}\n'
+    
+    # En yüksek çözünürlüklü stream'i bul
+    best_playlist = None
+    max_resolution = 0
+    
+    for playlist in playlists:
+        if (hasattr(playlist.stream_info, 'video') and 
+            playlist.stream_info.video != "audio_only" and
+            playlist.stream_info.resolution):
+            resolution = playlist.stream_info.resolution.height
+            if resolution > max_resolution:
+                max_resolution = resolution
+                best_playlist = playlist
+    
+    if best_playlist:
+        best_text += info_to_text(best_playlist.stream_info, best_playlist.uri)
+    
+    return best_text
 
 def main():
     print("=== Starting stream processing ===")
@@ -32,9 +80,8 @@ def main():
     print(f"Loading config from: {config_file}")
     
     try:
-        f = open(config_file, "r")
-        config = json.load(f)
-        f.close()
+        with open(config_file, "r", encoding='utf-8') as f:
+            config = json.load(f)
     except Exception as e:
         print(f"❌ ERROR loading config file: {e}")
         sys.exit(1)
@@ -69,6 +116,9 @@ def main():
         print(f"[{idx}/{len(channels)}] Processing: {slug}")
         print(f"  URL: {url}")
         
+        master_file_path = os.path.join(master_folder, f"{slug}.m3u8")
+        best_file_path = os.path.join(best_folder, f"{slug}.m3u8")
+        
         try:
             # Get streams and playlists
             streams = streamlink.streams(url)
@@ -84,77 +134,58 @@ def main():
                 fail_count += 1
                 continue
             
-            playlists = streams['best'].multivariant.playlists
-
-            # Text preparation
-            previous_res_height = 0
-            master_text = ''
-            best_text = ''
-
-            # Check http/https options
-            http_flag = False
-            if url.startswith("http://"):
-                plugin_name, plugin_type, given_url = streamlink.session.Streamlink().resolve_url(url)
-                http_flag = True
-
-            for playlist in playlists:
-                uri = playlist.uri
-                info = playlist.stream_info
-                # Sorting sub-playlist based on resolution
-                if info.video != "audio_only": 
-                    sub_text = info_to_text(info, uri)
-                    if info.resolution.height > previous_res_height:
-                        master_text = sub_text + master_text
-                        best_text = sub_text
-                    else:
-                        master_text = master_text + sub_text
-                    previous_res_height = info.resolution.height
+            best_stream = streams['best']
+            if not hasattr(best_stream, 'multivariant') or not best_stream.multivariant.playlists:
+                print(f"  ⚠️  No multivariant playlists found for {slug}")
+                fail_count += 1
+                continue
             
-            # Necessary values for HLS
-            if master_text:
-                if streams['best'].multivariant.version:
-                    master_text = '#EXT-X-VERSION:' + str(streams['best'].multivariant.version) + "\n" + master_text
-                    best_text = '#EXT-X-VERSION:' + str(streams['best'].multivariant.version) + "\n" + best_text
-                master_text = '#EXTM3U\n' + master_text
-                best_text = '#EXTM3U\n' + best_text
+            playlists = best_stream.multivariant.playlists
+
+            # Create playlists
+            master_text = create_master_playlist(playlists, best_stream.multivariant)
+            best_text = create_best_playlist(playlists, best_stream.multivariant)
 
             # HTTPS -> HTTP for cinergroup plugin
-            if http_flag:
-                if plugin_name == "cinergroup":
-                    master_text = master_text.replace("https://", "http://")
-                    best_text = best_text.replace("https://", "http://")
+            http_flag = False
+            if url.startswith("http://"):
+                try:
+                    plugin_name, plugin_type, given_url = streamlink.session.Streamlink().resolve_url(url)
+                    if plugin_name == "cinergroup":
+                        master_text = master_text.replace("https://", "http://")
+                        best_text = best_text.replace("https://", "http://")
+                        http_flag = True
+                except:
+                    pass
 
             # File operations
-            master_file_path = os.path.join(master_folder, channel["slug"] + ".m3u8")
-            best_file_path = os.path.join(best_folder, channel["slug"] + ".m3u8")
-
-            if master_text:
-                with open(master_file_path, "w+") as master_file:
+            if master_text.strip() and len(master_text.strip()) > len('#EXTM3U\n'):
+                with open(master_file_path, "w+", encoding='utf-8') as master_file:
                     master_file.write(master_text)
 
-                with open(best_file_path, "w+") as best_file:
+                with open(best_file_path, "w+", encoding='utf-8') as best_file:
                     best_file.write(best_text)
                 
                 print(f"  ✅ Success - Files created")
+                print(f"  📁 Master: {master_file_path}")
+                print(f"  📁 Best: {best_file_path}")
                 success_count += 1
             else:
-                print(f"  ⚠️  No content generated for {slug}")
-                if os.path.isfile(master_file_path):
-                    os.remove(master_file_path)
-                if os.path.isfile(best_file_path):
-                    os.remove(best_file_path)
+                print(f"  ⚠️  No valid content generated for {slug}")
+                # Clean up any existing files
+                for file_path in [master_file_path, best_file_path]:
+                    if os.path.isfile(file_path):
+                        os.remove(file_path)
                 fail_count += 1
                 
         except Exception as e:
             print(f"  ❌ ERROR processing {slug}: {str(e)}")
             print(f"  {traceback.format_exc()}")
             
-            master_file_path = os.path.join(master_folder, channel["slug"] + ".m3u8")
-            best_file_path = os.path.join(best_folder, channel["slug"] + ".m3u8")
-            if os.path.isfile(master_file_path):
-                os.remove(master_file_path)
-            if os.path.isfile(best_file_path):
-                os.remove(best_file_path)
+            # Clean up on error
+            for file_path in [master_file_path, best_file_path]:
+                if os.path.isfile(file_path):
+                    os.remove(file_path)
             fail_count += 1
     
     print(f"\n=== Summary ===")
