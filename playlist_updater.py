@@ -12,7 +12,7 @@ def load_config():
     if source_url:
         return {
             'source_playlist_url': source_url,
-            'output_file': 'playlist.m3u'
+            'output_file': 'umitm0d.m3u'
         }
     
     # Sonra config.yml'den dene
