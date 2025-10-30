@@ -1,0 +1,35 @@
+name:Ümitm0d Daily Playlist Update
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests pyyaml
+        
+    - name: Run playlist updater
+      env:
+        SOURCE_PLAYLIST_URL: ${{ secrets.SOURCE_PLAYLIST_URL }}
+      run: python playlist_updater.py
+      
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add playlist.m3u
+        git diff --staged --quiet || (git commit -m "Auto-update playlist [skip ci]" && git push)
