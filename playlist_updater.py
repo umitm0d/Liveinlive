@@ -1,3 +1,4 @@
+import os
 import requests
 import yaml
 import sys
@@ -5,19 +6,28 @@ import re
 
 # --- Yardımcı Fonksiyonlar ---
 
-def load_config(config_path='config.yml'):
+def load_config():
+    # Önce environment variable'dan kontrol et
+    source_url = os.getenv('SOURCE_PLAYLIST_URL')
+    if source_url:
+        return {
+            'source_playlist_url': source_url,
+            'output_file': 'playlist.m3u'
+        }
+    
+    # Sonra config.yml'den dene
     try:
-        with open(config_path, 'r', encoding='utf-8') as f:
+        with open('config.yml', 'r', encoding='utf-8') as f:
             config = yaml.safe_load(f)
             if not config:
-                print(f"HATA: Yapılandırma dosyası boş: '{config_path}'")
+                print("HATA: Yapılandırma dosyası boş")
                 sys.exit(1)
             return config
     except FileNotFoundError:
-        print(f"HATA: Yapılandırma dosyası bulunamadı: '{config_path}'")
+        print("HATA: Config dosyası bulunamadı ve SOURCE_PLAYLIST_URL environment variable tanımlı değil")
         sys.exit(1)
     except Exception as e:
-        print(f"HATA: Yapılandırma dosyası okunurken bir hata oluştu: {e}")
+        print(f"HATA: Yapılandırma okunurken hata: {e}")
         sys.exit(1)
 
 def fetch_playlist(url):
@@ -64,10 +74,6 @@ def parse_source_playlist(source_content):
     return channels
 
 def build_new_playlist(channels):
-    """
-    Kanalları olduğu gibi bırakır, URL’leri değiştirme.
-    Türk kanalları başa alınır (esnek kontrol).
-    """
     if not channels:
         return "#EXTM3U\n# UYARI: İşlenecek hiç kanal bulunamadı."
 
@@ -76,7 +82,6 @@ def build_new_playlist(channels):
     turkish_channels = []
     other_channels = []
 
-    # Türk kanallarını esnek şekilde ayır
     turkish_keywords = ['türk', 'turk', 'türkçe', 'turkish']
 
     for channel in channels:
