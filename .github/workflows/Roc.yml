@@ -1,9 +1,9 @@
 name: Roxiestreams Playlist Scraper
 
 on:
-  workflow_dispatch:  # Manuel tetikleme
+  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'  # 6 saatte bir çalışsın
+    - cron: '0 */6 * * *'
 
 jobs:
   scrape-and-upload:
@@ -20,7 +20,6 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
         pip install requests beautifulsoup4 dropbox
 
     - name: Run scraper
@@ -36,15 +35,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: roxiestreams-playlist
-        path: |
-          Roxiestreams.m3u8
-          dropbox_link.txt
-        retention-days: 1  # Sadece 1 gün sakla
-
-    - name: Commit updated link
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add dropbox_link.txt
-        git diff --staged --quiet || git commit -m "Update Roxiestreams playlist - $(date +'%Y-%m-%d %H:%M')"
-        git push
+        path: Roxiestreams.m3u8
+        retention-days: 1
