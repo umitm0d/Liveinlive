@@ -267,9 +267,8 @@ def main():
 
         logging.info(f"  Added {valid_count} valid streams for {group_name} section.")
 
-    # Tarih damgası ekleyerek dosya adı oluştur
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_filename = f"Roxiestreams_{timestamp}.m3u8"
+    # SABİT dosya adı kullan - her seferinde aynı dosyanın üzerine yazsın
+    output_filename = "Roxiestreams.m3u8"
     
     try:
         with open(output_filename, "w", encoding="utf-8") as f:
@@ -278,19 +277,19 @@ def main():
         logging.info(f"Playlist saved as {output_filename}")
         logging.info(f"Total valid streams found: {(len(playlist_lines) - 1) // 2}")
         
-        # Dropbox'a yükle
+        # Dropbox'a yükle - SABİT dosya adıyla
         logging.info("\n--- DROPBOX UPLOAD ---")
-        dropbox_path = f"/{output_filename}"
+        dropbox_path = f"/{output_filename}"  # Her zaman aynı dosya
         download_url = upload_to_dropbox(output_filename, dropbox_path)
         
         if download_url:
-            logging.info(f"📥 İndirme Linki: {download_url}")
+            logging.info(f"📥 SABİT İndirme Linki: {download_url}")
             
-            # Linki txt dosyasına da kaydet
+            # Linki txt dosyasına kaydet
             try:
-                with open("dropbox_links.txt", "a", encoding="utf-8") as link_file:
-                    link_file.write(f"{timestamp}: {download_url}\n")
-                logging.info("✓ Link kaydedildi: dropbox_links.txt")
+                with open("dropbox_link.txt", "w", encoding="utf-8") as link_file:
+                    link_file.write(download_url)
+                logging.info("✓ Sabit link kaydedildi: dropbox_link.txt")
             except Exception as e:
                 logging.error(f"Link dosyası yazılırken hata: {e}")
         else:
