@@ -284,14 +284,7 @@ def main():
         
         if download_url:
             logging.info(f"📥 SABİT İndirme Linki: {download_url}")
-            
-            # Linki txt dosyasına kaydet
-            try:
-                with open("dropbox_link.txt", "w", encoding="utf-8") as link_file:
-                    link_file.write(download_url)
-                logging.info("✓ Sabit link kaydedildi: dropbox_link.txt")
-            except Exception as e:
-                logging.error(f"Link dosyası yazılırken hata: {e}")
+            # Artık txt dosyasına kaydetmiyoruz, sadece log'da gösteriyoruz
         else:
             logging.warning("⚠ Dropbox'a yükleme başarısız veya atlandı!")
 
