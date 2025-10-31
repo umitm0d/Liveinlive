@@ -1,64 +1,50 @@
-name: 🔁 Update RoxieStreams Playlist 🎥
+name: Roxiestreams Playlist Scraper
 
 on:
+  workflow_dispatch:  # Manuel tetikleme
   schedule:
-    - cron: '0 * * * *'  # ⏰ Run every hour
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 */6 * * *'  # 6 saatte bir çalışsın
 
 jobs:
-  scrape:
+  scrape-and-upload:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: 📥 Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: 🐍 Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
 
-      - name: 📦 Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 dropbox
 
-      - name: 🎯 Run RoxieStreams scraper
-        run: python rox.py
+    - name: Run scraper
+      env:
+        ROXIESTREAMS_BASE_URL: ${{ secrets.ROXIESTREAMS_BASE_URL }}
+        DROPBOX_REFRESH_TOKEN: ${{ secrets.DROPBOX_REFRESH_TOKEN }}
+        DROPBOX_APP_KEY: ${{ secrets.DROPBOX_APP_KEY }}
+        DROPBOX_APP_SECRET: ${{ secrets.DROPBOX_APP_SECRET }}
+      run: |
+        python roxiestreams_scraper.py
 
-      - name: 💾 Commit & Push if Playlist Changed
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Upload generated files
+      uses: actions/upload-artifact@v4
+      with:
+        name: playlist-files
+        path: |
+          Roxiestreams_*.m3u8
+          dropbox_links.txt
+        retention-days: 7
 
-          # --- THIS LINE WAS CHANGED TO MATCH THE SCRIPT'S OUTPUT ---
-          git add Roxiestreams.m3u8
-
-          if git diff --cached --quiet; then
-            echo "✅ No changes detected — skipping commit."
-            exit 0
-          fi
-
-          git commit -m "🔁 Auto-update RoxieStreams playlist ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-
-          # Random delay to reduce push collisions
-          sleep $((RANDOM % 10 + 5))
-
-          if ! git push origin main; then
-            echo "⚠️ Push failed, attempting safe rebase..."
-            git pull origin main --rebase || {
-              echo "❌ Rebase failed. Stopping to avoid corruption."
-              exit 1
-            }
-            git push origin main || {
-              echo "❌ Push failed again after rebase."
-              exit 1
-            }
-          fi
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add dropbox_links.txt
+        git diff --staged --quiet || git commit -m "Update Dropbox links - $(date)"
+        git push
