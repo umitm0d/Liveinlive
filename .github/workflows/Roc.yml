@@ -32,19 +32,19 @@ jobs:
       run: |
         python roxiestreams_scraper.py
 
-    - name: Upload generated files
+    - name: Upload playlist as artifact
       uses: actions/upload-artifact@v4
       with:
-        name: playlist-files
+        name: roxiestreams-playlist
         path: |
-          Roxiestreams_*.m3u8
-          dropbox_links.txt
-        retention-days: 7
+          Roxiestreams.m3u8
+          dropbox_link.txt
+        retention-days: 1  # Sadece 1 gün sakla
 
-    - name: Commit and push if changed
+    - name: Commit updated link
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add dropbox_links.txt
-        git diff --staged --quiet || git commit -m "Update Dropbox links - $(date)"
+        git add dropbox_link.txt
+        git diff --staged --quiet || git commit -m "Update Roxiestreams playlist - $(date +'%Y-%m-%d %H:%M')"
         git push
