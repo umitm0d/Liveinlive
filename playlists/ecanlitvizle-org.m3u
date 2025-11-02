@@ -44,6 +44,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizl
 #EXTINF:-1 tvg-id="" tvg-name="24 TV HD" tvg-logo="https://tv.ecanlitvizle.org/logo/kanal-24-izle.png",24 TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/24tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="EKOL TV" tvg-logo="https://tv.ecanlitvizle.org/logo/ekol-tv-canli.png",EKOL TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/ekoltv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TELE1" tvg-logo="https://tv.ecanlitvizle.org/logo/tele-1-izle.png",TELE1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/tele1.m3u8
