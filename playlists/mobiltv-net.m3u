@@ -122,6 +122,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="Real Tv" tvg-logo="",Real Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/realtv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Muz Tv" tvg-logo="",Muz Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/muztv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Dünya Tv" tvg-logo="",Dünya Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/dunyatv.m3u8
@@ -290,9 +293,6 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="Kanal Avrupa" tvg-logo="",Kanal Avrupa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/kanalavrupa.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kanal V" tvg-logo="",Kanal V
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/kanalv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kıbrıs Genç Tv" tvg-logo="",Kıbrıs Genç Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/kibrisgenctv.m3u8
