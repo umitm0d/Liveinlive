@@ -146,6 +146,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizl
 #EXTINF:-1 tvg-id="" tvg-name="VUSLAT TV" tvg-logo="https://tv.ecanlitvizle.org/logo/vuslat-tv-izle.png",VUSLAT TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/vuslattv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="KANAL 33" tvg-logo="https://tv.ecanlitvizle.org/logo/kanal-33.png",KANAL 33
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/kanal33.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="LİNE TV" tvg-logo="https://tv.ecanlitvizle.org/logo/bursa-line-tv-izle.png",LİNE TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/linetv.m3u8
