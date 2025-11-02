@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn506.freebroadcast.vip/ahaber720.m3u8?tkn=MaEM7N0SJ4Roe6qXEgtbYA&tms=1762049388&hst=tr.mobiltv.net&ip=20.171.127.98&source=ahaber-master
+https://cdn502.freebroadcast.vip/ahaber720.m3u8?tkn=wdALuXg5MMCLDI2D6VY1JQ&tms=1762059165&hst=tr.mobiltv.net&ip=172.215.209.97&source=ahaber-master
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn506.freebroadcast.vip/ahaber.m3u8?tkn=MaEM7N0SJ4Roe6qXEgtbYA&tms=1762049388&hst=tr.mobiltv.net&ip=20.171.127.98&source=ahaber-master
+https://cdn502.freebroadcast.vip/ahaber.m3u8?tkn=wdALuXg5MMCLDI2D6VY1JQ&tms=1762059165&hst=tr.mobiltv.net&ip=172.215.209.97&source=ahaber-master
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn506.freebroadcast.vip/ahaber360.m3u8?tkn=MaEM7N0SJ4Roe6qXEgtbYA&tms=1762049388&hst=tr.mobiltv.net&ip=20.171.127.98&source=ahaber-master
+https://cdn502.freebroadcast.vip/ahaber360.m3u8?tkn=wdALuXg5MMCLDI2D6VY1JQ&tms=1762059165&hst=tr.mobiltv.net&ip=172.215.209.97&source=ahaber-master
