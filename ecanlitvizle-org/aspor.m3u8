@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn504.freebroadcast.vip/aspor720.m3u8?tkn=Gypm8UDUvj1f4unGBZmhEw&tms=1762244454&hst=tv.ecanlitvizle.org&ip=172.184.219.210
+https://cdn503.freebroadcast.vip/aspor720.m3u8?tkn=7j_j9cC5wASwcBH3r5rCpA&tms=1762259017&hst=tv.ecanlitvizle.org&ip=172.177.209.215
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn504.freebroadcast.vip/aspor.m3u8?tkn=Gypm8UDUvj1f4unGBZmhEw&tms=1762244454&hst=tv.ecanlitvizle.org&ip=172.184.219.210
+https://cdn503.freebroadcast.vip/aspor.m3u8?tkn=7j_j9cC5wASwcBH3r5rCpA&tms=1762259017&hst=tv.ecanlitvizle.org&ip=172.177.209.215
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn504.freebroadcast.vip/aspor360.m3u8?tkn=Gypm8UDUvj1f4unGBZmhEw&tms=1762244454&hst=tv.ecanlitvizle.org&ip=172.184.219.210
+https://cdn503.freebroadcast.vip/aspor360.m3u8?tkn=7j_j9cC5wASwcBH3r5rCpA&tms=1762259017&hst=tv.ecanlitvizle.org&ip=172.177.209.215
