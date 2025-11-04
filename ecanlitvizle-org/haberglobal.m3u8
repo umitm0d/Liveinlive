@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn506.freebroadcast.vip/haberglobal720.m3u8?tkn=6GAk6imxs48nbg9zIpgc0Q&tms=1762240124&hst=tv.ecanlitvizle.org&ip=51.8.121.164
+https://cdn501.freebroadcast.vip/haberglobal720.m3u8?tkn=6PVZRCFl4GJdoKPa_74t5Q&tms=1762244449&hst=tv.ecanlitvizle.org&ip=172.184.219.210
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn506.freebroadcast.vip/haberglobal.m3u8?tkn=6GAk6imxs48nbg9zIpgc0Q&tms=1762240124&hst=tv.ecanlitvizle.org&ip=51.8.121.164
+https://cdn501.freebroadcast.vip/haberglobal.m3u8?tkn=6PVZRCFl4GJdoKPa_74t5Q&tms=1762244449&hst=tv.ecanlitvizle.org&ip=172.184.219.210
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn506.freebroadcast.vip/haberglobal360.m3u8?tkn=6GAk6imxs48nbg9zIpgc0Q&tms=1762240124&hst=tv.ecanlitvizle.org&ip=51.8.121.164
+https://cdn501.freebroadcast.vip/haberglobal360.m3u8?tkn=6PVZRCFl4GJdoKPa_74t5Q&tms=1762244449&hst=tv.ecanlitvizle.org&ip=172.184.219.210
