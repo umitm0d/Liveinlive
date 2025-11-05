@@ -191,6 +191,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizl
 #EXTINF:-1 tvg-id="" tvg-name="BRTV" tvg-logo="https://tv.ecanlitvizle.org/logo/brtv-canli.png",BRTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/brtvkarabuk.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="PARS TV" tvg-logo="https://tv.ecanlitvizle.org/logo/pars-tv.png",PARS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/parstv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Alikhbaria Tv" tvg-logo="https://tv.ecanlitvizle.org/logo/alikhbaria-tv.png",Alikhbaria Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/alikhbaria.m3u8
@@ -200,6 +203,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizl
 #EXTINF:-1 tvg-id="" tvg-name="BRTV" tvg-logo="https://tv.ecanlitvizle.org/logo/brtv-canli.png",BRTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/brtvkarabuk.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="PARS TV" tvg-logo="https://tv.ecanlitvizle.org/logo/pars-tv.png",PARS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/parstv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Alikhbaria Tv" tvg-logo="https://tv.ecanlitvizle.org/logo/alikhbaria-tv.png",Alikhbaria Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/alikhbaria.m3u8
