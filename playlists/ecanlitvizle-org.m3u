@@ -53,9 +53,6 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizl
 #EXTINF:-1 tvg-id="" tvg-name="KRT TV" tvg-logo="https://tv.ecanlitvizle.org/logo/krt-tv-canli.png",KRT TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/krttv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="A PARA" tvg-logo="https://tv.ecanlitvizle.org/logo/a-para.png",A PARA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/apara.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A SPOR HD" tvg-logo="https://tv.ecanlitvizle.org/logo/a-spor-canli.png",A SPOR HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/aspor.m3u8
@@ -119,6 +116,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizl
 #EXTINF:-1 tvg-id="" tvg-name="DOST TV" tvg-logo="https://tv.ecanlitvizle.org/logo/dost-tv-izle.png",DOST TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/dosttv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TRT TÜRK" tvg-logo="https://tv.ecanlitvizle.org/logo/trt-turk-izle.png",TRT TÜRK
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/trtturk.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKOTÜRK TV" tvg-logo="https://tv.ecanlitvizle.org/logo/ekoturk-tv-canli.png",EKOTÜRK TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/ekoturktv.m3u8
