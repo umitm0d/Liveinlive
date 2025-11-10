@@ -8,6 +8,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="Halk Tv" tvg-logo="",Halk Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/halktv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Habertürk" tvg-logo="",Habertürk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/haberturk.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Star Tv" tvg-logo="",Star Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/startv.m3u8
@@ -89,9 +92,6 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="Kanal Fırat" tvg-logo="",Kanal Fırat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/kanalfirat.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Show Türk" tvg-logo="",Show Türk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/showturk.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Euro Star" tvg-logo="",Euro Star
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/eurostar.m3u8
