@@ -176,6 +176,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="Agro Tv" tvg-logo="",Agro Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/agrotv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Kanal Urfa" tvg-logo="",Kanal Urfa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/kanalurfa.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Güneydoğu Tv" tvg-logo="",Güneydoğu Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/guneydogutv.m3u8
@@ -224,9 +227,6 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="1 TV Georgia" tvg-logo="",1 TV Georgia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/1tvgeorgia.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Dost Tv" tvg-logo="",Dost Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/dosttv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="FB Tv" tvg-logo="",FB Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/fbtv.m3u8
@@ -236,9 +236,6 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="Kanal 32" tvg-logo="",Kanal 32
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/kanal32.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Tek Rumeli Tv" tvg-logo="",Tek Rumeli Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/tekrumelitv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal T Kıbrıs" tvg-logo="",Kanal T Kıbrıs
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/kanaltkibris.m3u8
