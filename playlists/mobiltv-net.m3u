@@ -26,9 +26,6 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="NTV" tvg-logo="",NTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/ntv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Ülke Tv" tvg-logo="",Ülke Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/ulketv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A Haber" tvg-logo="",A Haber
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/ahaber.m3u8
@@ -50,15 +47,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="TGRT Haber" tvg-logo="",TGRT Haber
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/tgrthaber.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Bengütürk Tv" tvg-logo="",Bengütürk Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/benguturktv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="360 Tv" tvg-logo="",360 Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/360tv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TRT Çocuk" tvg-logo="",TRT Çocuk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/trtcocuk.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Minika Çocuk" tvg-logo="",Minika Çocuk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/minikacocuk.m3u8
@@ -332,9 +323,6 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net
 #EXTINF:-1 tvg-id="" tvg-name="ARB 24" tvg-logo="",ARB 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/arb24.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Minika Go" tvg-logo="",Minika Go
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/minikago.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ekol Tv" tvg-logo="",Ekol Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/mobiltv-net/ekoltv.m3u8
