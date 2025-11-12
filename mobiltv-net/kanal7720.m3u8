@@ -1,7 +1,0 @@
-#EXTM3U
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=800000
-https://cdn505.mobiltv.net/kanal7720.m3u8?tkn=BNrMaKHDWgwQ0wedDWNZaw&tms=1762992712&hst=tr.mobiltv.net&ip=64.236.161.32&utkn=d77c754a0527c7a4e3b5fcd7fe443619&source=kanal7
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1200000
-https://cdn505.mobiltv.net/kanal7.m3u8?tkn=BNrMaKHDWgwQ0wedDWNZaw&tms=1762992712&hst=tr.mobiltv.net&ip=64.236.161.32&utkn=d77c754a0527c7a4e3b5fcd7fe443619&source=kanal7
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1800000
-https://cdn505.mobiltv.net/kanal7360.m3u8?tkn=BNrMaKHDWgwQ0wedDWNZaw&tms=1762992712&hst=tr.mobiltv.net&ip=64.236.161.32&utkn=d77c754a0527c7a4e3b5fcd7fe443619&source=kanal7
