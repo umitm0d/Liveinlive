@@ -26,6 +26,9 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizl
 #EXTINF:-1 tvg-id="" tvg-name="TGRT HABER" tvg-logo="https://tv.ecanlitvizle.org/logo/tgrt-haber-tv-izle.png",TGRT HABER
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/tgrthaber.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="360 TV HD" tvg-logo="https://tv.ecanlitvizle.org/logo/360-tv-izle.png",360 TV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/360tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A HABER HD" tvg-logo="https://tv.ecanlitvizle.org/logo/a-haber-canli.png",A HABER HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/ahaber.m3u8
@@ -110,9 +113,6 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizl
 #EXTINF:-1 tvg-id="" tvg-name="REHBER TV" tvg-logo="https://tv.ecanlitvizle.org/logo/rehber-tv.png",REHBER TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/rehbertv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DOST TV" tvg-logo="https://tv.ecanlitvizle.org/logo/dost-tv-izle.png",DOST TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/dosttv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TRT TÜRK" tvg-logo="https://tv.ecanlitvizle.org/logo/trt-turk-izle.png",TRT TÜRK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/trtturk.m3u8
@@ -158,9 +158,6 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizl
 #EXTINF:-1 tvg-id="" tvg-name="KANAL URFA" tvg-logo="https://tv.ecanlitvizle.org/logo/kanal-urfa-tv-izle.png",KANAL URFA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/kanalurfa.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="FM TV" tvg-logo="https://tv.ecanlitvizle.org/logo/fm-tv-izle.png",FM TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/fmtv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KIBRIS GENÇ TV" tvg-logo="https://tv.ecanlitvizle.org/logo/kibris-genc-tv-canli-izle.png",KIBRIS GENÇ TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/umitm0d/Liveinlive/refs/heads/main/ecanlitvizle-org/kibrisgenctv.m3u8
