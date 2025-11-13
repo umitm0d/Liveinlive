@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="bizimbergamatv" tvg-name="Bizim Bergama TV" group-title="ÜmitM0d",Bizim Bergama TV
 https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/bizimbergamatv.m3u8
-#EXTINF:-1 tvg-id="euro90tv" tvg-name="Euro 90 TV" group-title="ÜmitM0d",Euro 90 TV
-https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/euro90tv.m3u8
 #EXTINF:-1 tvg-id="serhattv" tvg-name="Serhat TV" group-title="ÜmitM0d",Serhat TV
 https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/serhattv.m3u8
 #EXTINF:-1 tvg-id="teleon" tvg-name="Teleon" group-title="ÜmitM0d",Teleon
