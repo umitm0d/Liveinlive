@@ -1,7 +1,0 @@
-#EXTM3U
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=800000
-https://cdn503.mobiltv.net/haberturk720.m3u8?tkn=YkwHudp8bO9Awp-f5g_DKQ&tms=1765342378&hst=tr.mobiltv.net&ip=64.236.141.177&utkn=d77c754a0527c7a4e3b5fcd7fe443619&ch=haberturk-canli-hd-izle&source=haberturk
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1200000
-https://cdn503.mobiltv.net/haberturk.m3u8?tkn=YkwHudp8bO9Awp-f5g_DKQ&tms=1765342378&hst=tr.mobiltv.net&ip=64.236.141.177&utkn=d77c754a0527c7a4e3b5fcd7fe443619&ch=haberturk-canli-hd-izle&source=haberturk
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1800000
-https://cdn503.mobiltv.net/haberturk360.m3u8?tkn=YkwHudp8bO9Awp-f5g_DKQ&tms=1765342378&hst=tr.mobiltv.net&ip=64.236.141.177&utkn=d77c754a0527c7a4e3b5fcd7fe443619&ch=haberturk-canli-hd-izle&source=haberturk
