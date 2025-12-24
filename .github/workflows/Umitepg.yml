@@ -24,13 +24,7 @@ jobs:
       - name: Run EPG update script
         run: python update_epg_full.py
 
-      - name: Commit & push changes if any
+      - name: Git commit and push if changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
           git add epg/merged.xml epg/merged.xml.gz epg/.hash/*.hash
-          if ! git diff --cached --quiet; then
-            git commit -m "EPG otomatik güncellendi"
-            git push
-          else
-            echo "Hiçbir değişiklik yok"
+          git diff --cached --quiet || (git config user.name "github-actions" && git config user.email "actions@github.com" && git commit -m "EPG otomatik güncellendi" && git push)
