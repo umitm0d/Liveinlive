@@ -30,6 +30,7 @@ jobs:
         run: python update_epg_full.py
 
       - name: Check for hash changes and commit
+        shell: bash
         run: |
           FILES="epg/merged.xml epg/merged.xml.gz"
           CHANGED=false
