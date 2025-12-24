@@ -1,30 +1,34 @@
-name: Full EPG Automation (Safe & Hash Controlled)
+name: Full EPG Automation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * *"   # UTC’ye göre
   workflow_dispatch:
+
+env:
+  TZ: Europe/Istanbul
 
 jobs:
   epg:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install aiohttp
+      - run: pip install aiohttp
 
-      - name: Run EPG update script
-        run: python update_epg_full.py
+      - run: python update_epg_full.py
 
-      - name: Git commit and push if changes
+      - name: Commit & Push if changed
         run: |
           git add epg/merged.xml epg/merged.xml.gz epg/.hash/*.hash
-          git diff --cached --quiet || (git config user.name "github-actions" && git config user.email "actions@github.com" && git commit -m "EPG otomatik güncellendi" && git push)
+          git diff --cached --quiet || (
+            git config user.name "github-actions" &&
+            git config user.email "actions@github.com" &&
+            git commit -m "EPG otomatik güncellendi" &&
+            git push
+          )
