@@ -2,7 +2,7 @@ name: Full EPG Automation (Safe & Hash Controlled)
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Her 6 saatte bir
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -22,56 +22,33 @@ jobs:
         run: pip install aiohttp
 
       - name: Ensure directories exist
-        shell: bash
-        run: mkdir -p epg/.hash
+        run: bash -c 'mkdir -p epg/.hash'
 
       - name: Run EPG update script
-        shell: bash
-        run: python update_epg_full.py
+        run: bash -c 'python update_epg_full.py'
 
       - name: Check for hash changes and commit
-        shell: bash
-        run: |
-          CHANGED=false
-          for f in "epg/merged.xml" "epg/merged.xml.gz"; do
-            if [ -f "$f" ]; then
-              HASH_FILE="epg/.hash/$(basename "$f").hash"
-              NEW_HASH=$(sha256sum "$f" | awk '{print $1}')
-              OLD_HASH=$(cat "$HASH_FILE" 2>/dev/null || echo "")
-              if [ "$NEW_HASH" != "$OLD_HASH" ]; then
-                echo "$NEW_HASH" > "$HASH_FILE"
-                CHANGED=true
-              fi
-            fi
-          done
+        run: bash -c '
+CHANGED=false
+for f in "epg/merged.xml" "epg/merged.xml.gz"; do
+  if [ -f "$f" ]; then
+    HASH_FILE="epg/.hash/$(basename "$f").hash"
+    NEW_HASH=$(sha256sum "$f" | awk "{print \$1}")
+    OLD_HASH=$(cat "$HASH_FILE" 2>/dev/null || echo "")
+    if [ "$NEW_HASH" != "$OLD_HASH" ]; then
+      echo "$NEW_HASH" > "$HASH_FILE"
+      CHANGED=true
+    fi
+  fi
+done
 
-          if [ "$CHANGED" = true ]; then
-            git config user.name "github-actions"
-            git config user.email "actions@github.com"
-            git add epg/merged.xml epg/merged.xml.gz epg/.hash/*.hash
-            git commit -m "EPG otomatik güncellendi (hash kontrolü ile)"
-            git push
-          else
-            echo "Hiçbir değişiklik yok"          FILES="epg/merged.xml epg/merged.xml.gz"
-          CHANGED=false
-
-          for f in $FILES; do
-            if [ -f "$f" ]; then
-              HASH_FILE="epg/.hash/$(basename "$f").hash"
-              NEW_HASH=$(sha256sum "$f" | awk '{print $1}')
-              OLD_HASH=$(cat "$HASH_FILE" 2>/dev/null || echo "")
-              if [ "$NEW_HASH" != "$OLD_HASH" ]; then
-                echo "$NEW_HASH" > "$HASH_FILE"
-                CHANGED=true
-              fi
-            fi
-          done
-
-          if [ "$CHANGED" = true ]; then
-            git config user.name "github-actions"
-            git config user.email "actions@github.com"
-            git add epg/merged.xml epg/merged.xml.gz epg/.hash/*.hash
-            git commit -m "EPG otomatik güncellendi (hash kontrolü ile)"
-            git push
-          else
-            echo "Hiçbir değişiklik yok"
+if [ "$CHANGED" = true ]; then
+  git config user.name "github-actions"
+  git config user.email "actions@github.com"
+  git add epg/merged.xml epg/merged.xml.gz epg/.hash/*.hash
+  git commit -m "EPG otomatik güncellendi (hash kontrolü ile)"
+  git push
+else
+  echo "Hiçbir değişiklik yok"
+fi
+'
