@@ -1,0 +1,38 @@
+name: EPG 
+
+on:
+  schedule:
+    - cron: '0 */10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  epg-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo klonla
+        uses: actions/checkout@v4
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Bağımlılıkları yükle
+        run: pip install requests
+
+      - name: EPG Verisini Güncelle
+        run: |
+          python update_epg.py
+          ls -lah
+
+      - name: Commit & Push
+        run: |
+          git config --global user.name "epg-bot"
+          git config --global user.email "epg@bot.com"
+          git add epg.xml || echo "Dosya yok"
+          git commit -m "🔄 EPG otomatik güncellendi" || echo "Değişiklik yok"
+          git push origin main || echo "Push yok"
