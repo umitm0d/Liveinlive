@@ -1,0 +1,33 @@
+name: Refresh YouTube m3u8
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # 30 dakikada bir
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v4
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Gerekli paketler
+        run: pip install requests
+
+      - name: m3u8 üret
+        run: python get_m3u8.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add m3u8_list.txt
+          git commit -m "Auto refresh m3u8" || exit 0
+          git push
