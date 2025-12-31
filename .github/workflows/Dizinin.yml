@@ -1,0 +1,35 @@
+name: Dizi Listesi Guncelle
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Her 6 saatte bir çalışır
+  workflow_dispatch: # Manuel çalıştırma butonu ekler
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Depoyu Kontrol Et
+      uses: actions/checkout@v3
+
+    - name: Python Kur
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Bagimliliklari Yukle
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Botu Calistir
+      run: python bot.py
+
+    - name: Listeyi Kaydet ve Guncelle
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add iptv_list.m3u
+        git diff --quiet && git diff --staged --quiet || git commit -m "Liste güncellendi: $(date)"
+        git push
