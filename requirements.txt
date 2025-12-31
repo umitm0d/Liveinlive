@@ -1,3 +1,5 @@
+selenium
+webdriver-manager
 attrs==23.2.0
 certifi==2023.11.17
 charset-normalizer==3.3.2
