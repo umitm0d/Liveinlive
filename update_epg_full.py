@@ -16,7 +16,8 @@ EPG_SOURCES = {
     "epg6": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey4.xml",
 }
 
-FUTURE_DAYS = 3  # BUGÜN + 3 GÜN
+PAST_DAYS = 3
+FUTURE_DAYS = 3
 
 BASE_DIR = Path("epg")
 MERGED_XML = BASE_DIR / "merged.xml"
@@ -40,11 +41,18 @@ def strip_ns(tag):
 def normalize_channel_id(cid):
     return cid.lower().replace(" ", "").replace("_", "").replace("-", "").split(".")[0]
 
-def parse_xmltv_naive(t):
+def parse_naive(t):
     try:
         return datetime.strptime(t[:14], "%Y%m%d%H%M%S")
     except:
         return None
+
+def add_tr_tz(t):
+    if not t:
+        return t
+    if "+" in t or "-" in t[14:]:
+        return t
+    return t[:14] + " +0300"
 
 def find_text_ns(elem, tag):
     for c in elem:
@@ -72,14 +80,14 @@ async def download_all():
 # ================== MERGE ==================
 
 def merge_and_dedupe():
-    tv = ET.Element("tv", {"generator-info-name": "merged-epg-tr-fixed"})
+    tv = ET.Element("tv", {"generator-info-name": "merged-epg-tr-3-3"})
 
     channel_map = {}
     programme_keys = set()
 
     now = datetime.now()
-    today_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
-    end_day = today_start + timedelta(days=FUTURE_DAYS + 1)
+    start_limit = now.replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=PAST_DAYS)
+    end_limit = now.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=FUTURE_DAYS + 1)
 
     total_prog = kept_prog = 0
 
@@ -111,18 +119,20 @@ def merge_and_dedupe():
                 start_raw = elem.get("start")
                 stop_raw = elem.get("stop") or start_raw
 
-                start_dt = parse_xmltv_naive(start_raw)
-                stop_dt = parse_xmltv_naive(stop_raw)
+                start_dt = parse_naive(start_raw)
+                stop_dt = parse_naive(stop_raw)
 
                 if not start_dt or not stop_dt:
                     continue
 
-                # 🔥 ASIL FIX BURASI
-                # Şu an devam eden VEYA ileri tarihli programları al
-                if stop_dt <= now:
+                # 🔥 GEÇMİŞ 3 / GELECEK 3 FİLTRESİ
+                if stop_dt < start_limit:
                     continue
-                if start_dt >= end_day:
+                if start_dt >= end_limit:
                     continue
+
+                elem.set("start", add_tr_tz(start_raw))
+                elem.set("stop", add_tr_tz(stop_raw))
 
                 cid = elem.get("channel")
                 if not cid:
@@ -131,7 +141,7 @@ def merge_and_dedupe():
                 norm = normalize_channel_id(cid)
                 title = find_text_ns(elem, "title")
 
-                key = (norm, start_raw, stop_raw, title)
+                key = (norm, elem.get("start"), elem.get("stop"), title)
                 if key in programme_keys:
                     continue
 
@@ -167,7 +177,7 @@ async def main():
 
     merge_and_dedupe()
     gzip_merged()
-    log("\n✅ merged.xml + merged.xml.gz hazır (KAYMA FIX OK)")
+    log("\n✅ merged.xml + merged.xml.gz hazır (GEÇMİŞ 3 / GELECEK 3)")
 
 if __name__ == "__main__":
     asyncio.run(main())
