@@ -17,10 +17,11 @@ EPG_SOURCES = {
     "epg6": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey4.xml",
 }
 
-PAST_DAYS = 7
-FUTURE_DAYS = 7
+PAST_DAYS = 0          # sadece BUGÜN ve sonrası
+FUTURE_DAYS = 3        # +3 gün
 
-TR_TZ = timezone(timedelta(hours=3))  # 🇹🇷 Türkiye Saati
+TR_TZ = timezone(timedelta(hours=3))
+UTC = timezone.utc
 
 DEBUG = True
 
@@ -45,21 +46,15 @@ def strip_ns(tag):
     return tag.split("}", 1)[-1]
 
 def normalize_channel_id(cid):
-    cid = cid.lower()
-    cid = cid.replace(" ", "").replace("_", "").replace("-", "")
-    cid = cid.split(".")[0]
-    return cid
+    return cid.lower().replace(" ", "").replace("_", "").replace("-", "").split(".")[0]
 
-# 🔥 XMLTV zamanı → TÜRKİYE SAATİ
-def parse_xmltv_time(t):
+# 🔹 SADECE KARŞILAŞTIRMA İÇİN PARSE
+def parse_xmltv_time_for_compare(t):
     if not t:
         return None
-
     try:
-        # YYYYMMDDHHMMSS
         base = datetime.strptime(t[:14], "%Y%m%d%H%M%S")
 
-        # Offset varsa (+0300 gibi)
         m = re.search(r"([+-])(\d{2})(\d{2})", t)
         if m:
             sign, hh, mm = m.groups()
@@ -69,14 +64,11 @@ def parse_xmltv_time(t):
             tz = timezone(timedelta(minutes=offset))
             base = base.replace(tzinfo=tz)
         else:
-            # Offset yoksa UTC varsay
-            base = base.replace(tzinfo=timezone.utc)
+            base = base.replace(tzinfo=UTC)
 
-        # 🔁 TÜRKİYE SAATİNE ÇEVİR
         return base.astimezone(TR_TZ)
 
-    except Exception as e:
-        log(f"⛔ zaman parse edilemedi: {t} ({e})")
+    except:
         return None
 
 def find_text_ns(elem, tag):
@@ -106,18 +98,15 @@ async def download_all():
 
 def merge_and_dedupe():
     tv = ET.Element("tv", {
-        "generator-info-name": "merged-epg",
-        "source-info-name": "multiple",
-        "source-data-url": "github.com/umitm0d/Liveinlive",
+        "generator-info-name": "merged-epg-tr",
     })
 
     channel_map = {}
     programme_keys = set()
 
-    # 🇹🇷 TÜRKİYE SAATİNE GÖRE ŞİMDİ
-    now = datetime.now(TR_TZ)
-    past_limit = now - timedelta(days=PAST_DAYS)
-    future_limit = now + timedelta(days=FUTURE_DAYS)
+    now_tr = datetime.now(TR_TZ)
+    start_limit = now_tr.replace(hour=0, minute=0, second=0, microsecond=0)
+    end_limit = start_limit + timedelta(days=FUTURE_DAYS + 1)
 
     total_prog = kept_prog = 0
 
@@ -136,7 +125,6 @@ def merge_and_dedupe():
                 cid = elem.get("id")
                 if not cid:
                     continue
-
                 norm = normalize_channel_id(cid)
                 if norm not in channel_map:
                     elem.set("id", norm)
@@ -147,14 +135,19 @@ def merge_and_dedupe():
             elif tag == "programme":
                 total_prog += 1
 
-                start = parse_xmltv_time(elem.get("start", ""))
-                if not start:
+                start_raw = elem.get("start")
+                stop_raw = elem.get("stop")
+
+                start_tr = parse_xmltv_time_for_compare(start_raw)
+                if not start_tr:
                     continue
 
-                # 🇹🇷 TÜRKİYE SAATİNE GÖRE FİLTRE
-                if not (past_limit <= start <= future_limit):
-                    log(f"⏭ zaman dışı (TR): {start}")
+                if not (start_limit <= start_tr <= end_limit):
                     continue
+
+                if not stop_raw:
+                    stop_raw = start_raw
+                    elem.set("stop", stop_raw)
 
                 cid = elem.get("channel")
                 if not cid:
@@ -163,7 +156,7 @@ def merge_and_dedupe():
                 norm = normalize_channel_id(cid)
                 title = find_text_ns(elem, "title")
 
-                key = (norm, elem.get("start"), elem.get("stop"), title)
+                key = (norm, start_raw, stop_raw, title)
                 if key in programme_keys:
                     continue
 
@@ -192,7 +185,6 @@ async def main():
         DEBUG_LOG.unlink()
 
     results = await download_all()
-
     for name, data in results:
         if data:
             (BASE_DIR / f"{name}.xml").write_bytes(data)
@@ -200,7 +192,7 @@ async def main():
 
     merge_and_dedupe()
     gzip_merged()
-    log("\n✅ merged.xml + merged.xml.gz hazır (Türkiye Saati)")
+    log("\n✅ merged.xml + merged.xml.gz hazır (EPG FIX OK)")
 
 if __name__ == "__main__":
     asyncio.run(main())
