@@ -1,7 +1,6 @@
 import asyncio
 import aiohttp
 import gzip
-import hashlib
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -17,12 +16,11 @@ EPG_SOURCES = {
     "epg6": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey4.xml",
 }
 
-MAX_DAYS = 3
+PAST_DAYS = 7
+FUTURE_DAYS = 7
 TR_TZ = timezone(timedelta(hours=3))
 
-FORCE_REBUILD = True     # 🔥 her çalıştırmada merge
-DISABLE_HASH = True     # 🔥 hash kontrolünü kapat
-DEBUG = True            # 🔍 detaylı log
+DEBUG = True
 
 BASE_DIR = Path("epg")
 MERGED_XML = BASE_DIR / "merged.xml"
@@ -31,13 +29,15 @@ DEBUG_LOG = BASE_DIR / "debug.log"
 
 BASE_DIR.mkdir(exist_ok=True)
 
-# ================== YARDIMCI ==================
+# ================== LOG ==================
 
 def log(msg):
     print(msg)
     if DEBUG:
         with open(DEBUG_LOG, "a", encoding="utf-8") as f:
             f.write(msg + "\n")
+
+# ================== YARDIMCI ==================
 
 def strip_ns(tag):
     return tag.split("}", 1)[-1]
@@ -49,7 +49,10 @@ def normalize_channel_id(cid):
     return cid
 
 def parse_xmltv_time(t):
+    if not t:
+        return None
     try:
+        # Saat bilgisi varsa onu kullan
         return datetime.strptime(t[:14], "%Y%m%d%H%M%S").replace(tzinfo=TR_TZ)
     except:
         return None
@@ -64,11 +67,11 @@ def find_text_ns(elem, tag):
 
 async def fetch(session, name, url):
     try:
-        async with session.get(url, timeout=30) as r:
+        async with session.get(url, timeout=40) as r:
             r.raise_for_status()
             return name, await r.read()
     except Exception as e:
-        log(f"{name} hata: {e}")
+        log(f"⛔ {name} indirilemedi: {e}")
         return name, None
 
 async def download_all():
@@ -90,7 +93,8 @@ def merge_and_dedupe():
     programme_keys = set()
 
     now = datetime.now(TR_TZ)
-    limit = now + timedelta(days=MAX_DAYS)
+    past_limit = now - timedelta(days=PAST_DAYS)
+    future_limit = now + timedelta(days=FUTURE_DAYS)
 
     total_prog = kept_prog = 0
 
@@ -104,10 +108,10 @@ def merge_and_dedupe():
         for elem in root:
             tag = strip_ns(elem.tag)
 
+            # ---------- CHANNEL ----------
             if tag == "channel":
                 cid = elem.get("id")
                 if not cid:
-                    log("⛔ channel id yok")
                     continue
 
                 norm = normalize_channel_id(cid)
@@ -116,6 +120,7 @@ def merge_and_dedupe():
                     channel_map[norm] = elem
                     tv.append(elem)
 
+            # ---------- PROGRAMME ----------
             elif tag == "programme":
                 total_prog += 1
 
@@ -124,7 +129,7 @@ def merge_and_dedupe():
                     log("⛔ start parse edilemedi")
                     continue
 
-                if not (now <= start <= limit):
+                if not (past_limit <= start <= future_limit):
                     log(f"⏭ zaman dışı: {start}")
                     continue
 
@@ -138,7 +143,6 @@ def merge_and_dedupe():
 
                 key = (norm, elem.get("start"), elem.get("stop"), title)
                 if key in programme_keys:
-                    log(f"⏭ duplicate: {norm} | {title}")
                     continue
 
                 programme_keys.add(key)
@@ -168,16 +172,13 @@ async def main():
     results = await download_all()
 
     for name, data in results:
-        if not data:
-            log(f"{name} indirilemedi")
-            continue
-
-        (BASE_DIR / f"{name}.xml").write_bytes(data)
-        log(f"{name} kaydedildi")
+        if data:
+            (BASE_DIR / f"{name}.xml").write_bytes(data)
+            log(f"{name} kaydedildi")
 
     merge_and_dedupe()
     gzip_merged()
-    log("\n✅ merged.xml + merged.xml.gz hazır (FORCE)")
+    log("\n✅ merged.xml + merged.xml.gz hazır (FULL FIX)")
 
 if __name__ == "__main__":
     asyncio.run(main())
