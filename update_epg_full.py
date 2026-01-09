@@ -19,10 +19,17 @@ EPG_SOURCES = {
 PAST_DAYS = 3
 FUTURE_DAYS = 3
 
+# Spor kanalı tespiti
+SPORT_KEYWORDS = [
+    "spor", "sport", "beinsport", "s sport", "ssport",
+    "tivibuspor", "trtspor", "eurosport", "nba", "ufc"
+]
+
 BASE_DIR = Path("epg")
 MERGED_XML = BASE_DIR / "merged.xml"
 MERGED_GZ = BASE_DIR / "merged.xml.gz"
 DEBUG_LOG = BASE_DIR / "debug.log"
+NO_EPG_REPORT = BASE_DIR / "no_epg_channels.txt"
 
 BASE_DIR.mkdir(exist_ok=True)
 
@@ -60,6 +67,10 @@ def find_text_ns(elem, tag):
             return (c.text or "").strip()
     return ""
 
+def is_sport_channel(name):
+    n = name.lower()
+    return any(k in n for k in SPORT_KEYWORDS)
+
 # ================== DOWNLOAD ==================
 
 async def fetch(session, name, url):
@@ -80,10 +91,11 @@ async def download_all():
 # ================== MERGE ==================
 
 def merge_and_dedupe():
-    tv = ET.Element("tv", {"generator-info-name": "merged-epg-tr-3-3"})
+    tv = ET.Element("tv", {"generator-info-name": "merged-epg-tr-3-3-live"})
 
     channel_map = {}
     programme_keys = set()
+    channel_programme_count = {}
 
     now = datetime.now()
     start_limit = now.replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=PAST_DAYS)
@@ -95,7 +107,6 @@ def merge_and_dedupe():
         if xml_file.name.startswith("merged"):
             continue
 
-        log(f"\n📂 Kaynak: {xml_file.name}")
         root = ET.fromstring(xml_file.read_bytes())
 
         for elem in root:
@@ -106,10 +117,12 @@ def merge_and_dedupe():
                 cid = elem.get("id")
                 if not cid:
                     continue
+
                 norm = normalize_channel_id(cid)
                 if norm not in channel_map:
                     elem.set("id", norm)
                     channel_map[norm] = elem
+                    channel_programme_count[norm] = 0
                     tv.append(elem)
 
             # ---------- PROGRAMME ----------
@@ -125,32 +138,48 @@ def merge_and_dedupe():
                 if not start_dt or not stop_dt:
                     continue
 
-                # 🔥 GEÇMİŞ 3 / GELECEK 3 FİLTRESİ
-                if stop_dt < start_limit:
+                if stop_dt < start_limit or start_dt >= end_limit:
                     continue
-                if start_dt >= end_limit:
-                    continue
-
-                elem.set("start", add_tr_tz(start_raw))
-                elem.set("stop", add_tr_tz(stop_raw))
 
                 cid = elem.get("channel")
                 if not cid:
                     continue
 
                 norm = normalize_channel_id(cid)
+
+                # 🔴 CANLI SPOR OVERRIDE
                 title = find_text_ns(elem, "title")
+                channel_name = find_text_ns(channel_map.get(norm), "display-name")
+
+                if is_sport_channel(channel_name):
+                    if start_dt <= now <= stop_dt:
+                        title = "🔴 CANLI - " + title
+                        for c in elem:
+                            if strip_ns(c.tag) == "title":
+                                c.text = title
+
+                elem.set("start", add_tr_tz(start_raw))
+                elem.set("stop", add_tr_tz(stop_raw))
+                elem.set("channel", norm)
 
                 key = (norm, elem.get("start"), elem.get("stop"), title)
                 if key in programme_keys:
                     continue
 
                 programme_keys.add(key)
-                elem.set("channel", norm)
+                channel_programme_count[norm] += 1
                 tv.append(elem)
                 kept_prog += 1
 
-    log(f"\n📊 PROGRAMME: {kept_prog}/{total_prog} eklendi")
+    # ================== EPG'Sİ OLMAYAN KANALLAR ==================
+    with open(NO_EPG_REPORT, "w", encoding="utf-8") as f:
+        for cid, count in channel_programme_count.items():
+            if count == 0:
+                name = find_text_ns(channel_map[cid], "display-name")
+                f.write(f"{cid} | {name}\n")
+
+    log(f"\n📊 PROGRAMME: {kept_prog}/{total_prog}")
+    log(f"📄 EPG'si olmayan kanal raporu yazıldı")
 
     ET.ElementTree(tv).write(
         MERGED_XML,
@@ -173,11 +202,10 @@ async def main():
     for name, data in results:
         if data:
             (BASE_DIR / f"{name}.xml").write_bytes(data)
-            log(f"{name} kaydedildi")
 
     merge_and_dedupe()
     gzip_merged()
-    log("\n✅ merged.xml + merged.xml.gz hazır (GEÇMİŞ 3 / GELECEK 3)")
+    log("\n✅ merged.xml + merged.xml.gz hazır (CANLI + RAPOR)")
 
 if __name__ == "__main__":
     asyncio.run(main())
