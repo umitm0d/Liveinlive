@@ -3,7 +3,7 @@ import aiohttp
 import gzip
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 
 # ================== AYARLAR ==================
 
@@ -18,8 +18,6 @@ EPG_SOURCES = {
 
 PAST_DAYS = 3
 FUTURE_DAYS = 3
-
-TR_TZ = timezone(timedelta(hours=3))
 
 BASE_DIR = Path("epg")
 MERGED_XML = BASE_DIR / "merged.xml"
@@ -41,35 +39,25 @@ def strip_ns(tag):
     return tag.split("}", 1)[-1]
 
 def normalize_channel_id(cid):
-    return cid.lower().replace(" ", "").replace("_", "").replace("-", "").split(".")[0]
+    return (
+        cid.lower()
+        .replace(" ", "")
+        .replace("_", "")
+        .replace("-", "")
+        .split(".")[0]
+    )
 
-def parse_xmltv_to_utc(t):
+def extract_date_yyyymmdd(t):
     """
-    XMLTV zamanı:
-    - +0300 varsa olduğu gibi al
-    - yoksa TR (+0300) kabul et
-    - UTC'ye çevir (SADECE KARŞILAŞTIRMA İÇİN)
+    XMLTV start içinden SADECE GÜN alır
+    Saat ve timezone'a ASLA dokunmaz
     """
-    if not t:
+    if not t or len(t) < 8:
         return None
-
     try:
-        if "+" in t or "-" in t[14:]:
-            dt = datetime.strptime(t, "%Y%m%d%H%M%S %z")
-        else:
-            dt = datetime.strptime(t[:14], "%Y%m%d%H%M%S").replace(tzinfo=TR_TZ)
-
-        return dt.astimezone(timezone.utc)
+        return datetime.strptime(t[:8], "%Y%m%d").date()
     except:
         return None
-
-def find_text_ns(elem, tag):
-    if elem is None:
-        return ""
-    for c in elem:
-        if strip_ns(c.tag) == tag:
-            return (c.text or "").strip()
-    return ""
 
 # ================== DOWNLOAD ==================
 
@@ -91,14 +79,16 @@ async def download_all():
 # ================== MERGE ==================
 
 def merge_and_filter():
-    tv = ET.Element("tv", {"generator-info-name": "merged-epg-tr-correct-time"})
+    tv = ET.Element("tv", {
+        "generator-info-name": "merged-epg-tr-no-time-shift"
+    })
 
     channel_map = {}
     programme_keys = set()
 
-    now_utc = datetime.now(timezone.utc)
-    past_limit = now_utc - timedelta(days=PAST_DAYS)
-    future_limit = now_utc + timedelta(days=FUTURE_DAYS)
+    today = datetime.now().date()
+    past_limit = today - timedelta(days=PAST_DAYS)
+    future_limit = today + timedelta(days=FUTURE_DAYS)
 
     total_prog = kept_prog = 0
 
@@ -106,6 +96,7 @@ def merge_and_filter():
         if xml_file.name.startswith("merged"):
             continue
 
+        log(f"\n📂 Kaynak: {xml_file.name}")
         root = ET.fromstring(xml_file.read_bytes())
 
         for elem in root:
@@ -128,16 +119,13 @@ def merge_and_filter():
                 total_prog += 1
 
                 start_raw = elem.get("start")
-                stop_raw = elem.get("stop") or start_raw
+                prog_date = extract_date_yyyymmdd(start_raw)
 
-                start_utc = parse_xmltv_to_utc(start_raw)
-                stop_utc = parse_xmltv_to_utc(stop_raw)
-
-                if not start_utc or not stop_utc:
+                if not prog_date:
                     continue
 
-                # ⛔ SADECE FİLTRE – SAATE DOKUNMA
-                if stop_utc < past_limit or start_utc > future_limit:
+                # 🔥 SADECE GÜN FİLTRESİ (SAATE DOKUNMA)
+                if not (past_limit <= prog_date <= future_limit):
                     continue
 
                 cid = elem.get("channel")
@@ -146,8 +134,12 @@ def merge_and_filter():
 
                 norm = normalize_channel_id(cid)
 
-                title = find_text_ns(elem, "title")
-                key = (norm, start_raw, stop_raw, title)
+                key = (
+                    norm,
+                    elem.get("start"),
+                    elem.get("stop"),
+                    elem.findtext(".//title", "")
+                )
 
                 if key in programme_keys:
                     continue
@@ -157,7 +149,7 @@ def merge_and_filter():
                 tv.append(elem)
                 kept_prog += 1
 
-    log(f"\n📊 PROGRAMME: {kept_prog}/{total_prog}")
+    log(f"\n📊 PROGRAMME: {kept_prog}/{total_prog} eklendi")
 
     ET.ElementTree(tv).write(
         MERGED_XML,
@@ -177,6 +169,7 @@ async def main():
         DEBUG_LOG.unlink()
 
     results = await download_all()
+
     for name, data in results:
         if data:
             (BASE_DIR / f"{name}.xml").write_bytes(data)
@@ -184,6 +177,7 @@ async def main():
 
     merge_and_filter()
     gzip_merged()
+
     log("\n✅ merged.xml + merged.xml.gz hazır (SAAT KAYMASI YOK)")
 
 if __name__ == "__main__":
