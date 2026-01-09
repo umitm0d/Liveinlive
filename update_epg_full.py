@@ -72,13 +72,14 @@ async def download_all():
 # ================== MERGE ==================
 
 def merge_and_dedupe():
-    tv = ET.Element("tv", {"generator-info-name": "merged-epg-tr"})
+    tv = ET.Element("tv", {"generator-info-name": "merged-epg-tr-fixed"})
 
     channel_map = {}
     programme_keys = set()
 
-    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-    end_day = today + timedelta(days=FUTURE_DAYS + 1)
+    now = datetime.now()
+    today_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    end_day = today_start + timedelta(days=FUTURE_DAYS + 1)
 
     total_prog = kept_prog = 0
 
@@ -92,6 +93,7 @@ def merge_and_dedupe():
         for elem in root:
             tag = strip_ns(elem.tag)
 
+            # ---------- CHANNEL ----------
             if tag == "channel":
                 cid = elem.get("id")
                 if not cid:
@@ -102,15 +104,24 @@ def merge_and_dedupe():
                     channel_map[norm] = elem
                     tv.append(elem)
 
+            # ---------- PROGRAMME ----------
             elif tag == "programme":
                 total_prog += 1
 
                 start_raw = elem.get("start")
+                stop_raw = elem.get("stop") or start_raw
+
                 start_dt = parse_xmltv_naive(start_raw)
-                if not start_dt:
+                stop_dt = parse_xmltv_naive(stop_raw)
+
+                if not start_dt or not stop_dt:
                     continue
 
-                if not (today <= start_dt < end_day):
+                # 🔥 ASIL FIX BURASI
+                # Şu an devam eden VEYA ileri tarihli programları al
+                if stop_dt <= now:
+                    continue
+                if start_dt >= end_day:
                     continue
 
                 cid = elem.get("channel")
@@ -120,7 +131,6 @@ def merge_and_dedupe():
                 norm = normalize_channel_id(cid)
                 title = find_text_ns(elem, "title")
 
-                stop_raw = elem.get("stop") or start_raw
                 key = (norm, start_raw, stop_raw, title)
                 if key in programme_keys:
                     continue
@@ -157,8 +167,7 @@ async def main():
 
     merge_and_dedupe()
     gzip_merged()
-    log("\n✅ merged.xml + merged.xml.gz hazır")
+    log("\n✅ merged.xml + merged.xml.gz hazır (KAYMA FIX OK)")
 
-# ⬇️ DOSYANIN EN ALTINDA TEK BAŞINA OLMALI
 if __name__ == "__main__":
     asyncio.run(main())
