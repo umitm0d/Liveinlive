@@ -17,8 +17,10 @@ EPG_SOURCES = {
     "epg6": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey4.xml",
 }
 
-PAST_DAYS = 2
-FUTURE_DAYS = 3
+# Script'in başındaki ayarları şu şekilde güncelleyin:
+PAST_DAYS = 2    # Geçmiş 2 gün
+FUTURE_DAYS = 7  # Gelecek 7 gün (Haftalık olması için)
+
 
 # Eğer yayınlar hala kayıksa burayı değiştir.
 # Örn: Yayınlar 1 saat geriden geliyorsa +1, ileriden gidiyorsa -1 yap.
