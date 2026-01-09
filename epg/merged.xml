@@ -71798,6 +71798,7 @@ Ekip, su altından katı atıkları toplayıp kamuoyunun bilgisine sunarak, su a
     <display-name lang="tr">Kanal S</display-name>
     <icon src="https://www.kanals.com.tr/wp-content/uploads/2023/08/logo1.png" />
   </channel>
+<programme start="20260102032100 +0000" stop="20260102032700 +0000" channel="davincihd"><title>Futuris: Kabuklardan Domuzlara</title><desc>Bilimadamları yemek artıklarını hayvan yemi haline getirmenin guvenli, etkili ve endustriyel yollarını arıyorlar. Boyle yaparak tarım rekabetini ve enerji verimini arttırırken aynı zamanda tuketici ile daha kaliteli tarım urunleri sağlamayı umuyorlar.</desc></programme>
 <channel id="akit"><display-name>Akit.tr</display-name></channel>
 <channel id="aljazeera(arapça)"><display-name>Al Jazeera (Arapça).tr</display-name></channel>
 <channel id="aljazeera(i̇ngilizce)"><display-name>Al Jazeera (İngilizce).tr</display-name></channel>
