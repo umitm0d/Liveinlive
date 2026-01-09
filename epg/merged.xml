@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="merged-epg-tr-3-3"><channel id="24"><display-name>24.tr</display-name></channel>
+<tv generator-info-name="merged-epg-tr-3-3-live"><channel id="24"><display-name>24.tr</display-name></channel>
 <channel id="360"><display-name>360.tr</display-name></channel>
 <channel id="90’lar"><display-name>90’ LAR.tr</display-name></channel>
 <channel id="ahaber"><display-name>A HABER.tr</display-name></channel>
@@ -661,7 +661,7 @@
 <programme start="20260109020000 +0000" stop="20260109030000 +0000" channel="asporhd"><title>Spor Gundemi</title><desc>Gundeme ilişkin haberler ve gelişen spor olayları ekrana yansıyor.</desc></programme>
 <programme start="20260109030000 +0000" stop="20260109050000 +0000" channel="asporhd"><title>Avrupada Turk Takımları</title></programme>
 <programme start="20260109050000 +0000" stop="20260109080000 +0000" channel="asporhd"><title>Sabah Sporu</title><desc>Futboldan basketbola, voleyboldan motor sporlarına kadar tum spor branşlarından haberler izleyenlere aktarılıyor.</desc></programme>
-<programme start="20260109080000 +0000" stop="20260109110000 +0000" channel="asporhd"><title>Spor Ajansı</title><desc>Spor Ajansı programı ekrana geliyor.</desc></programme>
+<programme start="20260109080000 +0000" stop="20260109110000 +0000" channel="asporhd"><title>🔴 CANLI - Spor Ajansı</title><desc>Spor Ajansı programı ekrana geliyor.</desc></programme>
 <programme start="20260109110000 +0000" stop="20260109120000 +0000" channel="asporhd"><title>Gun Ortası</title><desc>Spor dunyasında yaşanan gelişmeler, spor bultenlerinde ekrana geliyor.</desc></programme>
 <programme start="20260109120000 +0000" stop="20260109150000 +0000" channel="asporhd"><title>Spor Gundemi</title><desc>Gundeme ilişkin haberler ve gelişen spor olayları ekrana yansıyor.</desc></programme>
 <programme start="20260109150000 +0000" stop="20260109170000 +0000" channel="asporhd"><title>Super Kupa Özel</title></programme>
@@ -4723,7 +4723,7 @@
 <programme start="20260109054500 +0000" stop="20260109063000 +0000" channel="eurosport1hd"><title>Alp Disiplini Dunya Kupası</title><desc>Erkekler Slalom 2. Ayak , Madonna di Campiglio / İtalya (Tekrar)</desc></programme>
 <programme start="20260109063000 +0000" stop="20260109073000 +0000" channel="eurosport1hd"><title>2026 Rally Raid</title><desc>5. Etap , Dakar / Senegal (Tekrar)</desc></programme>
 <programme start="20260109073000 +0000" stop="20260109090000 +0000" channel="eurosport1hd"><title>Serbest Stil Kayak Dunya Kupası</title><desc>Aerials , Lac-Beauport / Kanada (Tekrar)</desc></programme>
-<programme start="20260109090000 +0000" stop="20260109110000 +0000" channel="eurosport1hd"><title>Snooker Shout Out</title><desc>Final (Tekrar)</desc></programme>
+<programme start="20260109090000 +0000" stop="20260109110000 +0000" channel="eurosport1hd"><title>🔴 CANLI - Snooker Shout Out</title><desc>Final (Tekrar)</desc></programme>
 <programme start="20260109110000 +0000" stop="20260109113500 +0000" channel="eurosport1hd"><title>Biatlon Dunya Kupası</title><desc>Erkekler Sprint , Oberhof / Almanya (Tekrar)</desc></programme>
 <programme start="20260109113500 +0000" stop="20260109122000 +0000" channel="eurosport1hd"><title>Kuzey Kombine Dunya Kupası</title><desc>Kadınlar 5 KM Toplu Çıkış , Otepaa / Estonya (Canlı)</desc></programme>
 <programme start="20260109122000 +0000" stop="20260109131000 +0000" channel="eurosport1hd"><title>Kuzey Kombine Dunya Kupası</title><desc>Erkekler 10 KM Toplu Çıkış , Otepaa / Estonya (Canlı)</desc></programme>
@@ -4767,7 +4767,7 @@
 <programme start="20260109070000 +0000" stop="20260109073000 +0000" channel="eurosport2hd"><title>Kış Sporları Dunya Kupaları</title><desc>Öne Çıkanlar , Winterberg / Almanya</desc></programme>
 <programme start="20260109073000 +0000" stop="20260109093000 +0000" channel="eurosport2hd"><title>2025 Avustralya Açık</title><desc>Tek Erkekler Finali (Tekrar)</desc></programme>
 <programme start="20260109093000 +0000" stop="20260109101500 +0000" channel="eurosport2hd"><title>Biatlon Dunya Kupası</title><desc>Erkekler Sprint , Oberhof / Almanya (Tekrar)</desc></programme>
-<programme start="20260109101500 +0000" stop="20260109110000 +0000" channel="eurosport2hd"><title>Serbest Stil Kayak Dunya Kupası</title><desc>Aerials , Lac-Beauport / Kanada (Tekrar)</desc></programme>
+<programme start="20260109101500 +0000" stop="20260109110000 +0000" channel="eurosport2hd"><title>🔴 CANLI - Serbest Stil Kayak Dunya Kupası</title><desc>Aerials , Lac-Beauport / Kanada (Tekrar)</desc></programme>
 <programme start="20260109110000 +0000" stop="20260109120000 +0000" channel="eurosport2hd"><title>Alp Disiplini Dunya Kupası</title><desc>Erkekler Slalom 1. Ayak , Madonna di Campiglio / İtalya (Tekrar)</desc></programme>
 <programme start="20260109120000 +0000" stop="20260109130000 +0000" channel="eurosport2hd"><title>Alp Disiplini Dunya Kupası</title><desc>Erkekler Slalom 2. Ayak , Madonna di Campiglio / İtalya (Tekrar)</desc></programme>
 <programme start="20260109130000 +0000" stop="20260109140000 +0000" channel="eurosport2hd"><title>Snooker Shout Out</title><desc>Final (Tekrar)</desc></programme>
@@ -5777,7 +5777,7 @@
 <programme start="20260109050000 +0000" stop="20260109080000 +0000" channel="htspor"><title>Başlama Vuruşu</title><desc>Hafta içi her gun gazete ve gunun manşetleriyle gun başlıyor.</desc></programme>
 <programme start="20260109080000 +0000" stop="20260109093000 +0000" channel="htspor"><title>HT Spor Gundem</title><desc>Cem Dizdarın yorumlarıyla gundeme dair her şey bu programda konuşuluyor.</desc></programme>
 <programme start="20260109093000 +0000" stop="20260109103000 +0000" channel="htspor"><title>Kursu</title><desc>Tum spor dallarının nabzı bu programda atıyor.</desc></programme>
-<programme start="20260109103000 +0000" stop="20260109120000 +0000" channel="htspor"><title>Bakış Açısı</title><desc>Dosya haberler, gundemdeki konular, derinlemesine analizler hafta içi her gun Bakış Açısında...</desc></programme>
+<programme start="20260109103000 +0000" stop="20260109120000 +0000" channel="htspor"><title>🔴 CANLI - Bakış Açısı</title><desc>Dosya haberler, gundemdeki konular, derinlemesine analizler hafta içi her gun Bakış Açısında...</desc></programme>
 <programme start="20260109120000 +0000" stop="20260109140000 +0000" channel="htspor"><title>Satır Arası</title><desc>Spora dair her şey, ozel roportajlar, muhabir bağlantıları, son dakika gelişmeleri ve eğlenceli içeriklerin tumu bu programda...</desc></programme>
 <programme start="20260109140000 +0000" stop="20260109160000 +0000" channel="htspor"><title>Basketbol Maçı</title></programme>
 <programme start="20260109160000 +0000" stop="20260109173000 +0000" channel="htspor"><title>Ana Haber Bulteni</title><desc>Gunun spor haberleri Sine Çakırın sunumuyla HT Spor Ana Haberde...</desc></programme>
@@ -8012,7 +8012,7 @@
 <programme start="20260109070000 +0000" stop="20260109080000 +0000" channel="ssport2"><title>Super Cars</title><desc>Supercars dunyanın en pahalı, en prestijli ve en hızlı araçlarını ekrana getiriyor.</desc></programme>
 <programme start="20260109080000 +0000" stop="20260109083000 +0000" channel="ssport2"><title>World Strongest Man</title><desc>Guç sporlarının en onemli etkinliği olan World Strongest Man, 30 yılı aşkın suredir dunyanın en guçlu adamlarını bir araya getiriyor.</desc></programme>
 <programme start="20260109083000 +0000" stop="20260109103000 +0000" channel="ssport2"><title>ESPN Belgeseli</title><desc>Dwyane Wade</desc></programme>
-<programme start="20260109103000 +0000" stop="20260109123000 +0000" channel="ssport2"><title>İtalya Serie A</title><desc>Özetler</desc></programme>
+<programme start="20260109103000 +0000" stop="20260109123000 +0000" channel="ssport2"><title>🔴 CANLI - İtalya Serie A</title><desc>Özetler</desc></programme>
 <programme start="20260109123000 +0000" stop="20260109143000 +0000" channel="ssport2"><title>Moto Gp -amp; Moto 2</title><desc>İtalya</desc></programme>
 <programme start="20260109143000 +0000" stop="20260109150000 +0000" channel="ssport2"><title>Gearing Up</title><desc>Final Maçı</desc></programme>
 <programme start="20260109150000 +0000" stop="20260109170000 +0000" channel="ssport2"><title>İtalya Serie A</title><desc>Özetler</desc></programme>
@@ -8050,7 +8050,7 @@
 <programme start="20260109060000 +0000" stop="20260109063000 +0000" channel="ssport"><title>The Outdoor Sports</title></programme>
 <programme start="20260109063000 +0000" stop="20260109083000 +0000" channel="ssport"><title>NBA</title><desc>Sezon Maçları</desc></programme>
 <programme start="20260109083000 +0000" stop="20260109093000 +0000" channel="ssport"><title>Probull Riders</title></programme>
-<programme start="20260109093000 +0000" stop="20260109113000 +0000" channel="ssport"><title>İspanya Laliga</title><desc>Geniş Özetler</desc></programme>
+<programme start="20260109093000 +0000" stop="20260109113000 +0000" channel="ssport"><title>🔴 CANLI - İspanya Laliga</title><desc>Geniş Özetler</desc></programme>
 <programme start="20260109113000 +0000" stop="20260109120000 +0000" channel="ssport"><title>NBA Özetler</title><desc>NBA maçlarından ozet goruntuler ekrana geliyor.</desc></programme>
 <programme start="20260109120000 +0000" stop="20260109140000 +0000" channel="ssport"><title>Euroleague</title><desc>Geniş Özetler</desc></programme>
 <programme start="20260109140000 +0000" stop="20260109160000 +0000" channel="ssport"><title>İspanya Laliga</title><desc>Geniş Özetler</desc></programme>
@@ -8659,7 +8659,7 @@
 <programme start="20260109080000 +0000" stop="20260109081500 +0000" channel="sportstvhd"><title>Pilates</title><desc>Pilates eğitmeni Taha Erpulat ile pilates hakkında bilmeniz gerekenleri uygulamalı dersler ve egzersizlerle sizlere sunuyoruz.</desc></programme>
 <programme start="20260109081500 +0000" stop="20260109084500 +0000" channel="sportstvhd"><title>Yoga</title><desc>Hatha Yoga Eğitmeni Mujde Mısırlı, yoga ile ilgili tum bilmeniz gerekenleri uygulamalı olarak egzersizlerle yaparak sizlere sunuyor...</desc></programme>
 <programme start="20260109084500 +0000" stop="20260109090000 +0000" channel="sportstvhd"><title>Spor ve Çocuk</title><desc>Spor ve Çocuk, minik izleyicilere sporu sevdiren, başarı hikâyeleri ve eğlenceli etkinliklerle dolu ilham verici bir çocuk programıdır.</desc></programme>
-<programme start="20260109090000 +0000" stop="20260109110000 +0000" channel="sportstvhd"><title>İtalya Kadınlar Voleybol Ligi</title><desc>İtalyadaki erkekler voleybol ligi gibi, kadınlar voleybol ligi de dunyanın en kaliteli organizasyonlarından biri olarak kabul edilir. Voleybolun gerçek tutkunları bu mucadeleyi kesinlikle kaçırmamalı!</desc></programme>
+<programme start="20260109090000 +0000" stop="20260109110000 +0000" channel="sportstvhd"><title>🔴 CANLI - İtalya Kadınlar Voleybol Ligi</title><desc>İtalyadaki erkekler voleybol ligi gibi, kadınlar voleybol ligi de dunyanın en kaliteli organizasyonlarından biri olarak kabul edilir. Voleybolun gerçek tutkunları bu mucadeleyi kesinlikle kaçırmamalı!</desc></programme>
 <programme start="20260109110000 +0000" stop="20260109120000 +0000" channel="sportstvhd"><title>Center Court</title><desc>Eski milli tenisçi Mert Adanalı ve Milena Zubkova tenise dair her şeyi Center Court programında konuşuyor.</desc></programme>
 <programme start="20260109120000 +0000" stop="20260109140000 +0000" channel="sportstvhd"><title>İtalya Erkekler Voleybol Ligi</title><desc>Geçtiğimiz yuzyılın 1990lı yıllarında İtalyan Erkek Voleybol Ligi, "Voleybol NBA" olarak anılıyordu. Bugun o seviyede olmasa da, her gerçek voleybolsever yine de kendine gore heyecan verici bir karşılaşma bulabilir.</desc></programme>
 <programme start="20260109140000 +0000" stop="20260109150000 +0000" channel="sportstvhd"><title>Spor 360</title><desc>Spor 360ta Koray Aldemir, olimpik branşları, atletizm, cimnastik, gureş dallarından tum sporcuları, federasyonları ve yoneticilerini konuk ediyor.</desc></programme>
@@ -8710,7 +8710,7 @@
 <programme start="20260108172500 +0000" stop="20260108192000 +0000" channel="tabiispor"><title>Suudi Arabistan Pro Lig Futbol Karşılaşması Al Nasser - Al Qadsiah</title></programme>
 <programme start="20260108192000 +0000" stop="20260108210500 +0000" channel="tabiispor"><title>UEFA Şampiyonlar Ligi Futbol Karşılaşması Inter - Liverpool</title></programme>
 <programme start="20260108210500 +0000" stop="20260108225000 +0000" channel="tabiispor"><title>UEFA Avrupa Ligi Futbol Karşılaşması Utrecht - Nottingham Forest</title></programme>
-<programme start="20260108225000 +0000" stop="20260110000000 +0000" channel="tabiispor"><title>TRT SPOR YILDIZ ORTAK YAYIN</title></programme>
+<programme start="20260108225000 +0000" stop="20260110000000 +0000" channel="tabiispor"><title>🔴 CANLI - TRT SPOR YILDIZ ORTAK YAYIN</title></programme>
 <programme start="20260107232900 +0000" stop="20260108010100 +0000" channel="tabiitv"><title>Filinta</title><desc>Lara, dadısı Gulbaharın bir anda gidişine anlam veremez. Perada esrarengiz bir cinayet işlenir. Mustafa ve Ali işin peşine duşer. Gorgu tanıklarının ifadeleri onları hiç ummadıkları biriyle karşı karşıya getirir.</desc><episode-num system="xmltv_ns">0.21.</episode-num></programme>
 <programme start="20260108010100 +0000" stop="20260108015100 +0000" channel="tabiitv"><title>En Son Babalar Duyar</title><desc>Kumarda bıyıklarını kaybeden Kadir, onunla alay eden Mustafanın bıyıklarını uyku sırasında keser.</desc><episode-num system="xmltv_ns">1.39.</episode-num></programme>
 <programme start="20260108015100 +0000" stop="20260108024000 +0000" channel="tabiitv"><title>Yedi Numara</title><desc>Vahit annesi hakkında kotu haberler alınca Zeliha, birlikte memlekete donmeyi teklif eder. Evdeki bilgisayara virus girince gençlerin okul için hazırladıkları odevler tehlikeye girer.</desc><episode-num system="xmltv_ns">2.80.</episode-num></programme>
@@ -10202,7 +10202,7 @@
 <programme start="20260109072500 +0000" stop="20260109080000 +0000" channel="trtsporhd"><title>Spor Bulteni</title><desc>Spora dair flaş gelişmeler, son dakika haberleri ve canlı bağlantılar Spor Bulteninde.</desc></programme>
 <programme start="20260109080000 +0000" stop="20260109093000 +0000" channel="trtsporhd"><title>Spor Manşet</title><desc>Spor dunyası gune bu programla merhaba diyor. Gunun one çıkan gazete manşetlerini, koşe yazılarını ve spor dunyasındaki diğer tum gelişmeleri sunucu yorumlarıyla ekranlarınıza geliyor.</desc></programme>
 <programme start="20260109093000 +0000" stop="20260109100000 +0000" channel="trtsporhd"><title>Gun Ortası</title><desc>Gun içinde spora dair Turkiye ve dunyada yaşanan gelişmelerden ilk siz haberdar olun.Gunun flaş gelişmeleri, son dakika haberleri ve canlı bağlantılar Gun Ortasında</desc></programme>
-<programme start="20260109100000 +0000" stop="20260109113000 +0000" channel="trtsporhd"><title>Spor Studyosu</title><desc>Spor dunyasının nabzı Spor Studyosunda atıyor.Son dakika haberler, sıcak gelişmeler, roportajlar ve gunun on plana çıkan başlıkları Spor Studyosuyla evlerinize geliyor.</desc></programme>
+<programme start="20260109100000 +0000" stop="20260109113000 +0000" channel="trtsporhd"><title>🔴 CANLI - Spor Studyosu</title><desc>Spor dunyasının nabzı Spor Studyosunda atıyor.Son dakika haberler, sıcak gelişmeler, roportajlar ve gunun on plana çıkan başlıkları Spor Studyosuyla evlerinize geliyor.</desc></programme>
 <programme start="20260109113000 +0000" stop="20260109133000 +0000" channel="trtsporhd"><title>Van Spor - Boluspor</title><desc>Trendyol 1. Lig Futbol Karşılaşması 20. Hafta</desc></programme>
 <programme start="20260109133000 +0000" stop="20260109143000 +0000" channel="trtsporhd"><title>Gundem Futbol Transfer</title><desc>Öne çıkan haberler, canlı bağlantılar, son dakika haberleri, gundemi sarsan analizler. Transfer donemine ait butun gelişmeler Gundem Futbol Transferde.</desc></programme>
 <programme start="20260109143000 +0000" stop="20260109150000 +0000" channel="trtsporhd"><title>Dunyadan Spor</title><desc>Dunyanın dort bir yanında yaşanan spordaki gelişmeler ekranlarınıza geliyor.</desc></programme>
@@ -10246,7 +10246,7 @@
 <programme start="20260109010500 +0000" stop="20260109013000 +0000" channel="trtsporyildiz"><title>Sporun İkonları</title><desc>Spor dunyasında başarılı işlere imza atmış sporcular ve onemli spor olayları hakkında bilgiler veriliyor.</desc></programme>
 <programme start="20260109013000 +0000" stop="20260109032000 +0000" channel="trtsporyildiz"><title>Turk Telekom - D.E. Trento</title><desc>BKT Eurocup Basketbol Karşılaşması</desc></programme>
 <programme start="20260109032000 +0000" stop="20260109035500 +0000" channel="trtsporyildiz"><title>Kardeşler Takımı</title><desc>Korumalı Futbol Turk Milli Takımının destansı yolculuğuna yer veriliyor.</desc></programme>
-<programme start="20260109035500 +0000" stop="20260110050000 +0000" channel="trtsporyildiz"><title>Nedir, Nasıl Oynanır?</title><desc>Çeşitli spor branşlarının nasıl oynandığıyla ilgili bilgilerin verildiği Nedir, Nasıl Oynanır? programı ekranlara geliyor.</desc></programme>
+<programme start="20260109035500 +0000" stop="20260110050000 +0000" channel="trtsporyildiz"><title>🔴 CANLI - Nedir, Nasıl Oynanır?</title><desc>Çeşitli spor branşlarının nasıl oynandığıyla ilgili bilgilerin verildiği Nedir, Nasıl Oynanır? programı ekranlara geliyor.</desc></programme>
 <programme start="20260107232000 +0000" stop="20260108001000 +0000" channel="trttürk"><title>Boyle Bitmesin</title><desc>Turkiyede son 20 yılda hızla artan boşanmalar, bu boşanmaların ilginç içerikleri, toplumun bu artışa direnemeyişi, ulkenin doğusuyla batısı arasında bu artış noktasındaki farkın gittikçe kapanıyor olması bir şey işaret ediyordu. Şuphesiz, boşanma denen şey, aile mefhumuyla ilgili en buyuk kriz noktasıydı. Ve bir şeyi tanımlamanın en temel yollarından birisi onun karşıtıyla aynı çerçevenin içine alınmasıydı.</desc></programme>
 <programme start="20260108001000 +0000" stop="20260108004000 +0000" channel="trttürk"><title>Haberdar</title><desc>Guncel olayları, Avrupa gundemini, haberleri ve toplumsal gelişmeleri canlı ve studyo konukları ile birlikte ele alan bir haber programıdır. Program, izleyicilere, ulke ve dunya genelindeki onemli haberleri kapsamlı ve tarafsız bir şekilde sunar. Haberdar uzman konuklarla yapılan roportajlar, analizler ve tartışmalarla, haberlerin arka planını ve gelişimlerini derinlemesine inceler.</desc></programme>
 <programme start="20260108004000 +0000" stop="20260108014000 +0000" channel="trttürk"><title>Aile</title><desc>Bir aile nasıl kurulur, evlilik yoluna giderken nelere dikkat edilmelidir... Bu ve buna benzer aile dair her şey bu programda konuşuluyor.</desc></programme>
@@ -31792,7 +31792,7 @@
     <image type="backdrop" size="3" orient="L">https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260106/42/2204264653195eb9b42e.jpg</image>
   </programme>
   <programme start="20260109102500 +0300" stop="20260109110000 +0300" channel="trtspor">
-    <title lang="tr">Spor Bülteni</title>
+    <title lang="tr">🔴 CANLI - Spor Bülteni</title>
     <desc lang="tr">Spora dair flaş gelişmeler, son dakika haberleri ve canlı bağlantılar Spor Bülteni'nde.</desc>
     <category lang="tr">Haber</category>
     <icon src="https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260106/18/2204264663275eb9b42e.jpg" />
@@ -32077,7 +32077,7 @@
     <image type="backdrop" size="3" orient="L">https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260108/97/0800168019995eb78424.jpg</image>
   </programme>
   <programme start="20260109092500 +0300" stop="20260109140000 +0300" channel="trtsporyildiz">
-    <title lang="tr">Tenis United Cup - Çeyrek Final</title>
+    <title lang="tr">🔴 CANLI - Tenis United Cup - Çeyrek Final</title>
     <desc lang="tr">Avustralya'da yapılan Tenis United Cup maçları ekrana geliyor.</desc>
     <category lang="tr">Spor</category>
     <icon src="https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260108/98/2204226452955eb7f426.jpg" />
@@ -32693,7 +32693,7 @@
     <image type="backdrop" size="3" orient="L">https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260104/27/2126284151545eb9b42e.jpg</image>
   </programme>
   <programme start="20260109080000 +0300" stop="20260109110000 +0300" channel="aspor">
-    <title lang="tr">Sabah Sporu</title>
+    <title lang="tr">🔴 CANLI - Sabah Sporu</title>
     <desc lang="tr">Futboldan basketbola, voleyboldan motor sporlarına kadar tüm spor branşlarından haberler izleyenlere aktarılıyor.</desc>
     <category lang="tr">Haber</category>
     <icon src="https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260104/50/2126284684545eb9b42e.jpg" />
@@ -32859,7 +32859,7 @@
     <image type="backdrop" size="3" orient="L">https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260105/71/2126239222855eb8f42a.jpg</image>
   </programme>
   <programme start="20260109080000 +0300" stop="20260109110000 +0300" channel="htspor">
-    <title lang="tr">Başlama Vuruşu</title>
+    <title lang="tr">🔴 CANLI - Başlama Vuruşu</title>
     <desc lang="tr">Hafta içi her gün gazete ve günün manşetleriyle gün başlıyor.</desc>
     <category lang="tr">Spor</category>
     <icon src="https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260108/52/0700169782575eb9b42e.jpg" />
@@ -33027,7 +33027,7 @@
     <image type="backdrop" size="3" orient="L">https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260102/68/0005191569525eb9542c.jpg</image>
   </programme>
   <programme start="20260109100000 +0300" stop="20260109160000 +0300" channel="ekolsports">
-    <title lang="tr">Ekol Sport</title>
+    <title lang="tr">🔴 CANLI - Ekol Sport</title>
     <desc lang="tr">Her Anı Yakalayın: Sporun Kısa, Net ve Etkili Hali!</desc>
     <category lang="tr">Diğer</category>
     <icon src="https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260102/3/0005191569605eb9542c.jpg" />
@@ -33123,7 +33123,7 @@
     <title lang="tr">Trendyol 1. Lig Maç Özetleri</title>
   </programme>
   <programme start="20260109100000 +0300" stop="20260109120000 +0300" channel="beinsportshaber">
-    <title lang="tr">beIN Sabah</title>
+    <title lang="tr">🔴 CANLI - beIN Sabah</title>
   </programme>
   <programme start="20260109120000 +0300" stop="20260109123000 +0300" channel="beinsportshaber">
     <title lang="tr">Özel Röportaj</title>
@@ -33320,7 +33320,7 @@
     <image type="backdrop" size="3" orient="L">https://itv224234.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg</image>
   </programme>
   <programme start="20260109103000 +0300" stop="20260109110000 +0300" channel="tivibuspor">
-    <title lang="tr">Rallye du Maroc</title>
+    <title lang="tr">🔴 CANLI - Rallye du Maroc</title>
     <category lang="tr">Spor</category>
     <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
     <rating system="TRAI">
@@ -34074,7 +34074,7 @@
     <image type="backdrop" size="3" orient="L">https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260102/76/0005268230765eb88428.jpg</image>
   </programme>
   <programme start="20260109104500 +0300" stop="20260109110000 +0300" channel="sportstv">
-    <title lang="tr">Dinamik Sabahlar</title>
+    <title lang="tr">🔴 CANLI - Dinamik Sabahlar</title>
     <desc lang="tr">Spor Eğitmeni İnanç Akbaş ile evde kolaylıkla yapabileceğiniz egzersizlerle AXA Sigorta ile Dinamik Sabahlar'da sizlerleyiz...</desc>
     <category lang="tr">Spor</category>
     <icon src="https://izmottvsc25.tvplus.com.tr:33207/CPS/images/universal/film/program/202601/20260102/79/0005268230845eb88428.jpg" />
