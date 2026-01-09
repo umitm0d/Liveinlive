@@ -3,7 +3,7 @@ import aiohttp
 import gzip
 from pathlib import Path
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # ================== AYARLAR ==================
 
@@ -19,17 +19,12 @@ EPG_SOURCES = {
 PAST_DAYS = 3
 FUTURE_DAYS = 3
 
-# Spor kanalı tespiti
-SPORT_KEYWORDS = [
-    "spor", "sport", "beinsport", "s sport", "ssport",
-    "tivibuspor", "trtspor", "eurosport", "nba", "ufc"
-]
+TR_TZ = timezone(timedelta(hours=3))
 
 BASE_DIR = Path("epg")
 MERGED_XML = BASE_DIR / "merged.xml"
 MERGED_GZ = BASE_DIR / "merged.xml.gz"
 DEBUG_LOG = BASE_DIR / "debug.log"
-NO_EPG_REPORT = BASE_DIR / "no_epg_channels.txt"
 
 BASE_DIR.mkdir(exist_ok=True)
 
@@ -48,28 +43,33 @@ def strip_ns(tag):
 def normalize_channel_id(cid):
     return cid.lower().replace(" ", "").replace("_", "").replace("-", "").split(".")[0]
 
-def parse_naive(t):
+def parse_xmltv_to_utc(t):
+    """
+    XMLTV zamanı:
+    - +0300 varsa olduğu gibi al
+    - yoksa TR (+0300) kabul et
+    - UTC'ye çevir (SADECE KARŞILAŞTIRMA İÇİN)
+    """
+    if not t:
+        return None
+
     try:
-        return datetime.strptime(t[:14], "%Y%m%d%H%M%S")
+        if "+" in t or "-" in t[14:]:
+            dt = datetime.strptime(t, "%Y%m%d%H%M%S %z")
+        else:
+            dt = datetime.strptime(t[:14], "%Y%m%d%H%M%S").replace(tzinfo=TR_TZ)
+
+        return dt.astimezone(timezone.utc)
     except:
         return None
 
-def add_tr_tz(t):
-    if not t:
-        return t
-    if "+" in t or "-" in t[14:]:
-        return t
-    return t[:14] + " +0300"
-
 def find_text_ns(elem, tag):
+    if elem is None:
+        return ""
     for c in elem:
         if strip_ns(c.tag) == tag:
             return (c.text or "").strip()
     return ""
-
-def is_sport_channel(name):
-    n = name.lower()
-    return any(k in n for k in SPORT_KEYWORDS)
 
 # ================== DOWNLOAD ==================
 
@@ -90,16 +90,15 @@ async def download_all():
 
 # ================== MERGE ==================
 
-def merge_and_dedupe():
-    tv = ET.Element("tv", {"generator-info-name": "merged-epg-tr-3-3-live"})
+def merge_and_filter():
+    tv = ET.Element("tv", {"generator-info-name": "merged-epg-tr-correct-time"})
 
     channel_map = {}
     programme_keys = set()
-    channel_programme_count = {}
 
-    now = datetime.now()
-    start_limit = now.replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=PAST_DAYS)
-    end_limit = now.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=FUTURE_DAYS + 1)
+    now_utc = datetime.now(timezone.utc)
+    past_limit = now_utc - timedelta(days=PAST_DAYS)
+    future_limit = now_utc + timedelta(days=FUTURE_DAYS)
 
     total_prog = kept_prog = 0
 
@@ -122,7 +121,6 @@ def merge_and_dedupe():
                 if norm not in channel_map:
                     elem.set("id", norm)
                     channel_map[norm] = elem
-                    channel_programme_count[norm] = 0
                     tv.append(elem)
 
             # ---------- PROGRAMME ----------
@@ -132,13 +130,14 @@ def merge_and_dedupe():
                 start_raw = elem.get("start")
                 stop_raw = elem.get("stop") or start_raw
 
-                start_dt = parse_naive(start_raw)
-                stop_dt = parse_naive(stop_raw)
+                start_utc = parse_xmltv_to_utc(start_raw)
+                stop_utc = parse_xmltv_to_utc(stop_raw)
 
-                if not start_dt or not stop_dt:
+                if not start_utc or not stop_utc:
                     continue
 
-                if stop_dt < start_limit or start_dt >= end_limit:
+                # ⛔ SADECE FİLTRE – SAATE DOKUNMA
+                if stop_utc < past_limit or start_utc > future_limit:
                     continue
 
                 cid = elem.get("channel")
@@ -147,39 +146,18 @@ def merge_and_dedupe():
 
                 norm = normalize_channel_id(cid)
 
-                # 🔴 CANLI SPOR OVERRIDE
                 title = find_text_ns(elem, "title")
-                channel_name = find_text_ns(channel_map.get(norm), "display-name")
+                key = (norm, start_raw, stop_raw, title)
 
-                if is_sport_channel(channel_name):
-                    if start_dt <= now <= stop_dt:
-                        title = "🔴 CANLI - " + title
-                        for c in elem:
-                            if strip_ns(c.tag) == "title":
-                                c.text = title
-
-                elem.set("start", add_tr_tz(start_raw))
-                elem.set("stop", add_tr_tz(stop_raw))
-                elem.set("channel", norm)
-
-                key = (norm, elem.get("start"), elem.get("stop"), title)
                 if key in programme_keys:
                     continue
 
                 programme_keys.add(key)
-                channel_programme_count[norm] += 1
+                elem.set("channel", norm)
                 tv.append(elem)
                 kept_prog += 1
 
-    # ================== EPG'Sİ OLMAYAN KANALLAR ==================
-    with open(NO_EPG_REPORT, "w", encoding="utf-8") as f:
-        for cid, count in channel_programme_count.items():
-            if count == 0:
-                name = find_text_ns(channel_map[cid], "display-name")
-                f.write(f"{cid} | {name}\n")
-
     log(f"\n📊 PROGRAMME: {kept_prog}/{total_prog}")
-    log(f"📄 EPG'si olmayan kanal raporu yazıldı")
 
     ET.ElementTree(tv).write(
         MERGED_XML,
@@ -202,10 +180,11 @@ async def main():
     for name, data in results:
         if data:
             (BASE_DIR / f"{name}.xml").write_bytes(data)
+            log(f"{name} kaydedildi")
 
-    merge_and_dedupe()
+    merge_and_filter()
     gzip_merged()
-    log("\n✅ merged.xml + merged.xml.gz hazır (CANLI + RAPOR)")
+    log("\n✅ merged.xml + merged.xml.gz hazır (SAAT KAYMASI YOK)")
 
 if __name__ == "__main__":
     asyncio.run(main())
