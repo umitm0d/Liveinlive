@@ -4,6 +4,7 @@ import gzip
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+import re
 
 # ================== AYARLAR ==================
 
@@ -18,7 +19,8 @@ EPG_SOURCES = {
 
 PAST_DAYS = 7
 FUTURE_DAYS = 7
-TR_TZ = timezone(timedelta(hours=3))
+
+TR_TZ = timezone(timedelta(hours=3))  # 🇹🇷 Türkiye Saati
 
 DEBUG = True
 
@@ -48,13 +50,33 @@ def normalize_channel_id(cid):
     cid = cid.split(".")[0]
     return cid
 
+# 🔥 XMLTV zamanı → TÜRKİYE SAATİ
 def parse_xmltv_time(t):
     if not t:
         return None
+
     try:
-        # Saat bilgisi varsa onu kullan
-        return datetime.strptime(t[:14], "%Y%m%d%H%M%S").replace(tzinfo=TR_TZ)
-    except:
+        # YYYYMMDDHHMMSS
+        base = datetime.strptime(t[:14], "%Y%m%d%H%M%S")
+
+        # Offset varsa (+0300 gibi)
+        m = re.search(r"([+-])(\d{2})(\d{2})", t)
+        if m:
+            sign, hh, mm = m.groups()
+            offset = int(hh) * 60 + int(mm)
+            if sign == "-":
+                offset = -offset
+            tz = timezone(timedelta(minutes=offset))
+            base = base.replace(tzinfo=tz)
+        else:
+            # Offset yoksa UTC varsay
+            base = base.replace(tzinfo=timezone.utc)
+
+        # 🔁 TÜRKİYE SAATİNE ÇEVİR
+        return base.astimezone(TR_TZ)
+
+    except Exception as e:
+        log(f"⛔ zaman parse edilemedi: {t} ({e})")
         return None
 
 def find_text_ns(elem, tag):
@@ -92,6 +114,7 @@ def merge_and_dedupe():
     channel_map = {}
     programme_keys = set()
 
+    # 🇹🇷 TÜRKİYE SAATİNE GÖRE ŞİMDİ
     now = datetime.now(TR_TZ)
     past_limit = now - timedelta(days=PAST_DAYS)
     future_limit = now + timedelta(days=FUTURE_DAYS)
@@ -126,16 +149,15 @@ def merge_and_dedupe():
 
                 start = parse_xmltv_time(elem.get("start", ""))
                 if not start:
-                    log("⛔ start parse edilemedi")
                     continue
 
+                # 🇹🇷 TÜRKİYE SAATİNE GÖRE FİLTRE
                 if not (past_limit <= start <= future_limit):
-                    log(f"⏭ zaman dışı: {start}")
+                    log(f"⏭ zaman dışı (TR): {start}")
                     continue
 
                 cid = elem.get("channel")
                 if not cid:
-                    log("⛔ channel yok")
                     continue
 
                 norm = normalize_channel_id(cid)
@@ -178,7 +200,7 @@ async def main():
 
     merge_and_dedupe()
     gzip_merged()
-    log("\n✅ merged.xml + merged.xml.gz hazır (FULL FIX)")
+    log("\n✅ merged.xml + merged.xml.gz hazır (Türkiye Saati)")
 
 if __name__ == "__main__":
     asyncio.run(main())
