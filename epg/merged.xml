@@ -38178,19 +38178,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260107223000 +0300" stop="20260107230000 +0300" channel="agrotv">
-    <title lang="tr">Bolulu Heidi</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260107230000 +0300" stop="20260107233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260107233000 +0300" stop="20260108000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260108000000 +0300" stop="20260108010000 +0300" channel="agrotv">
     <title lang="tr">Agro TV İle Günaydın</title>
     <desc lang="tr">-</desc>
