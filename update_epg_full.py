@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 EPG_SOURCES = {
     "epg1": "https://streams.uzunmuhalefet.com/epg/tr.xml",
     "epg2": "https://belgeselsemo.com.tr/yayin-akisi2/xml/turkey3.xml",
-    "epg3": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey1.xml",
+    "epg3": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/epg/kabloepg.xml",
     "epg4": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey2.xml",
     "epg5": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey3.xml",
     "epg6": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey4.xml",
