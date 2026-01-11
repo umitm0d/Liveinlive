@@ -35986,19 +35986,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260108223000 +0300" stop="20260108230000 +0300" channel="agrotv">
-    <title lang="tr">Bozkırın Gözcüleri</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260108230000 +0300" stop="20260108233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260108233000 +0300" stop="20260109000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260109000000 +0300" stop="20260109010000 +0300" channel="agrotv">
     <title lang="tr">Agro TV İle Günaydın</title>
     <desc lang="tr">-</desc>
