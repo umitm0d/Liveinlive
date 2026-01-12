@@ -17,15 +17,19 @@ EPG_SOURCES = {
     "epg6": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey4.xml",
 }
 
-# Script'in başındaki ayarları şu şekilde güncelleyin:
+# Alternatif URL'ler (GitHub'a erişim sorunu olursa kullanılacak)
+ALTERNATIVE_SOURCES = {
+    "epg3": [
+        "https://raw.githubusercontent.com/KiNGTV2025/King-/main/epg/kabloepg.xml",  # refs/heads kısmı kaldırıldı
+        "https://github.com/KiNGTV2025/King-/raw/main/epg/kabloepg.xml",  # GitHub raw alternatif format
+    ]
+}
+
 PAST_DAYS = 2    # Geçmiş 2 gün
 FUTURE_DAYS = 7  # Gelecek 7 gün (Haftalık olması için)
-
-
-# Eğer yayınlar hala kayıksa burayı değiştir.
-# Örn: Yayınlar 1 saat geriden geliyorsa +1, ileriden gidiyorsa -1 yap.
-# Senin sorunun muhtemelen Timezone etiketi hatasıydı, o yüzden kodun mantığını değiştirdim, bunu 0'da bırak.
 SAAT_FARKI = 0 
+RETRY_COUNT = 3  # Başarısız olursa kaç kere tekrar denensin
+TIMEOUT = 30     # Timeout süresi (saniye)
 
 BASE_DIR = Path("epg")
 MERGED_XML = BASE_DIR / "merged.xml"
@@ -78,25 +82,62 @@ def extract_date(t):
     except:
         return None
 
-# ================== DOWNLOAD ==================
+# ================== GELİŞTİRİLMİŞ DOWNLOAD ==================
 
-async def fetch(session, name, url):
-    print(f"İndiriliyor: {name}...")
-    try:
-        async with session.get(url, timeout=60) as r:
-            r.raise_for_status()
-            data = await r.read()
-            print(f"Tamamlandı: {name}")
-            return name, data
-    except Exception as e:
-        print(f"HATA {name}: {e}")
-        return name, None
+async def fetch_with_retry(session, name, url, retries=RETRY_COUNT):
+    """Bir URL'yi belirtilen sayıda tekrar dener."""
+    for attempt in range(retries):
+        print(f"İndiriliyor: {name} (Deneme {attempt + 1}/{retries})...")
+        try:
+            async with session.get(url, timeout=TIMEOUT) as r:
+                if r.status == 200:
+                    data = await r.read()
+                    # Boş olup olmadığını kontrol et
+                    if data and len(data) > 100:  # 100 byte'tan küçükse boş say
+                        print(f"Tamamlandı: {name} ({len(data)} byte)")
+                        return name, data, url
+                    else:
+                        print(f"Uyarı: {name} boş içerik ({len(data) if data else 0} byte)")
+                else:
+                    print(f"HATA {name}: HTTP {r.status}")
+        except asyncio.TimeoutError:
+            print(f"Timeout: {name} (deneme {attempt + 1})")
+        except Exception as e:
+            print(f"HATA {name}: {e}")
+        
+        # Son deneme değilse bekle ve tekrar dene
+        if attempt < retries - 1:
+            await asyncio.sleep(2)  # 2 saniye bekle
+    
+    return name, None, url
 
 async def download_all():
-    async with aiohttp.ClientSession() as session:
-        return await asyncio.gather(
-            *[fetch(session, n, u) for n, u in EPG_SOURCES.items()]
-        )
+    async with aiohttp.ClientSession(headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }) as session:
+        tasks = []
+        
+        for name, url in EPG_SOURCES.items():
+            # Eğer bu kaynak için alternatif URL'ler varsa
+            if name in ALTERNATIVE_SOURCES:
+                # Önce ana URL'yi dene
+                tasks.append(fetch_with_retry(session, name, url))
+                # Alternatifleri de ekle
+                for alt_url in ALTERNATIVE_SOURCES[name]:
+                    tasks.append(fetch_with_retry(session, f"{name}_alt", alt_url))
+            else:
+                tasks.append(fetch_with_retry(session, name, url))
+        
+        results = await asyncio.gather(*tasks)
+        
+        # İndirilenleri işle
+        downloaded = {}
+        for name, data, url in results:
+            if data and name not in downloaded:  # İlk başarılı indirmeyi kullan
+                downloaded[name] = data
+                print(f"✓ {name.replace('_alt', '')} başarıyla indirildi")
+        
+        return [(name.replace('_alt', ''), data) for name, data in downloaded.items()]
 
 # ================== MERGE ==================
 
@@ -117,8 +158,18 @@ def merge_epg():
             continue
         
         try:
+            file_size = xml_file.stat().st_size
+            print(f"İşleniyor: {xml_file.name} ({file_size} byte)")
+            
+            if file_size < 100:  # 100 byte'tan küçükse atla
+                print(f"  Atlandı: Çok küçük dosya")
+                continue
+                
             tree = ET.parse(xml_file)
             root = tree.getroot()
+        except ET.ParseError as e:
+            print(f"XML Parse hatası {xml_file}: {e}")
+            continue
         except Exception as e:
             print(f"XML Okuma hatası {xml_file}: {e}")
             continue
@@ -142,6 +193,9 @@ def merge_epg():
                 start_raw = elem.get("start")
                 stop_raw = elem.get("stop")
                 
+                if not start_raw:
+                    continue
+                    
                 # Tarih filtresi
                 date_obj = extract_date(start_raw)
                 if not date_obj or not (past_limit <= date_obj <= future_limit):
@@ -165,7 +219,7 @@ def merge_epg():
 
                 # Mükerrer kayıt kontrolü (Aynı kanal, aynı saat, aynı başlık)
                 title_text = elem.findtext(".//title", "") or ""
-                unique_key = (norm, new_start, title_text)
+                unique_key = (norm, new_start, title_text[:50])  # Sadece ilk 50 karakter
                 
                 if unique_key in programme_keys:
                     continue
@@ -173,33 +227,88 @@ def merge_epg():
                 programme_keys.add(unique_key)
                 tv.append(elem)
 
-    print(f"Toplam {len(programme_keys)} program işlendi.")
+    print(f"Toplam {len(channel_map)} kanal, {len(programme_keys)} program işlendi.")
     
     # XML Yaz
     tree = ET.ElementTree(tv)
     tree.write(MERGED_XML, encoding="utf-8", xml_declaration=True)
-    print(f"XML kaydedildi: {MERGED_XML}")
+    print(f"XML kaydedildi: {MERGED_XML} ({MERGED_XML.stat().st_size} byte)")
 
 def gzip_merged():
     print("GZIP sıkıştırma yapılıyor...")
-    with open(MERGED_XML, "rb") as f:
-        with gzip.open(MERGED_GZ, "wb", compresslevel=9) as g:
-            g.write(f.read())
-    print(f"GZ kaydedildi: {MERGED_GZ}")
+    try:
+        with open(MERGED_XML, "rb") as f:
+            with gzip.open(MERGED_GZ, "wb", compresslevel=9) as g:
+                g.write(f.read())
+        print(f"GZ kaydedildi: {MERGED_GZ} ({MERGED_GZ.stat().st_size} byte)")
+    except Exception as e:
+        print(f"GZIP hatası: {e}")
+
+# ================== DEBUG ==================
+
+def check_downloaded_files():
+    """İndirilen dosyaları kontrol et"""
+    print("\n" + "="*50)
+    print("İndirilen Dosya Kontrolü:")
+    print("="*50)
+    
+    for xml_file in BASE_DIR.glob("*.xml"):
+        if not xml_file.name.startswith("merged"):
+            try:
+                size = xml_file.stat().st_size
+                with open(xml_file, 'rb') as f:
+                    first_line = f.readline(100).decode('utf-8', errors='ignore')
+                print(f"{xml_file.name}: {size} byte")
+                print(f"  İlk satır: {first_line[:80]}")
+            except Exception as e:
+                print(f"{xml_file.name}: OKUNAMADI - {e}")
 
 # ================== MAIN ==================
 
 async def main():
+    print("EPG Toplayıcı Başlıyor...")
+    
+    # Önceki dosyaları temizle (opsiyonel)
+    for xml_file in BASE_DIR.glob("epg*.xml"):
+        try:
+            xml_file.unlink()
+        except:
+            pass
+    
     results = await download_all()
     
     # Dosyaları diske yaz
     for name, data in results:
         if data:
-            (BASE_DIR / f"{name}.xml").write_bytes(data)
-
+            file_path = BASE_DIR / f"{name}.xml"
+            file_path.write_bytes(data)
+            print(f"✓ {name}.xml kaydedildi ({len(data)} byte)")
+        else:
+            print(f"✗ {name} indirilemedi")
+    
+    # İndirilen dosyaları kontrol et
+    check_downloaded_files()
+    
+    # Birleştirme işlemi
     merge_epg()
     gzip_merged()
-    print("İşlem başarıyla tamamlandı.")
+    
+    print("\n" + "="*50)
+    print("İşlem tamamlandı!")
+    
+    # Sonuçları göster
+    if MERGED_XML.exists():
+        size_mb = MERGED_XML.stat().st_size / (1024 * 1024)
+        print(f"Oluşturulan EPG: {size_mb:.2f} MB")
+    
+    if MERGED_GZ.exists():
+        size_mb = MERGED_GZ.stat().st_size / (1024 * 1024)
+        print(f"Sıkıştırılmış EPG: {size_mb:.2f} MB")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("\nİşlem kullanıcı tarafından durduruldu.")
+    except Exception as e:
+        print(f"\nBeklenmeyen hata: {e}")
