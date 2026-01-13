@@ -32280,16 +32280,6 @@
     <display-name lang="tr">Sıfır TV</display-name>
     <icon src="https://i.dsmart.com.tr/kanallar/sifir-tv.png" />
   </channel>
-  <programme start="20260110210000 +0300" stop="20260110230000 +0300" channel="sifirtv">
-    <title lang="tr">Hollanda Suudi Arabistan İskoçya Maç Özetleri</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260110230000 +0300" stop="20260111010000 +0300" channel="sifirtv">
-    <title lang="tr">Futbol: Tff 3. Lig</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260111070000 +0300" stop="20260111090000 +0300" channel="sifirtv">
     <title lang="tr">Futbol: TFF 2. Lig</title>
     <desc lang="tr">-</desc>
@@ -37640,19 +37630,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260110223000 +0300" stop="20260110230000 +0300" channel="agrotv">
-    <title lang="tr">Traktörmetre</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260110230000 +0300" stop="20260110233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260110233000 +0300" stop="20260111000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260111000000 +0300" stop="20260111010000 +0300" channel="agrotv">
     <title lang="tr">10 Ton Yem Bulmaca</title>
     <desc lang="tr">-</desc>
