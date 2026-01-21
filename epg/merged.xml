@@ -4172,7 +4172,6 @@
 <programme start="20260122031300 +0300" stop="20260122031600 +0300" channel="ducktvhd"><title>Miyu and Litto</title><desc>Miyu and Litto want you to come on their latest adventure! This is a Duck TV production, designed to both entertain and educate young children. Problem solving and decision making are key to the success of their adventures, along with their trusty colour wheel, too. Will you be able to apply skills of logic and reasoning to help Miyu and Litto in their adventures?</desc></programme>
 <programme start="20260122031600 +0300" stop="20260122031800 +0300" channel="ducktvhd"><title>Colorwheel</title><desc>One brave little pup is determined to find his friend, who is lost in the forest. He uses his trusty colour wheel to navigate his way, using skills of reasoning and logic. This programme is a Duck TV production, that intends to educate its audience, alongside entertaining them. In this series, children will develop skills such as problem solving, decision making, and also knowledge around colour.</desc></programme>
 <programme start="20260122031800 +0300" stop="20260122032200 +0300" channel="ducktvhd"><title>Partners in Fun</title><desc>Go on countless adventures and mess around with this adorable duo. Join a baby monkey and bear-cub as they play around, making friends and having fun. Young viewers can develop their social skills and learn about the value of friendship whilst experiencing lots of different adventures. Get your little one to interact with the show by identifying colours as they come onto the screen for extra learning.</desc></programme>
-<programme start="20260118210000 +0300" stop="20260120030000 +0300" channel="ekoltv"><title>Tekrar Programlar</title></programme>
 <programme start="20260120050000 +0300" stop="20260120080000 +0300" channel="ekoltv"><title>Gun Başlarken</title><desc>Gazetelerde ve sosyal mecralarda one çıkan haberlerle ve son dakika gelişmeleriyle karşınızdayız.</desc></programme>
 <programme start="20260120080000 +0300" stop="20260120090000 +0300" channel="ekoltv"><title>Gundem</title><desc>Siyasetin nabzı, para piyasalarındaki son dakika gelişmeleri ve onemli konuklarla "Gundem" ekranlarınızda.</desc></programme>
 <programme start="20260120090000 +0300" stop="20260120100000 +0300" channel="ekoltv"><title>Spor Bulteni</title><desc>Turkiyede ve dunya gundeminde one çıkan spor manşetleriyle ekranlarınızdayız. Spor dunyasından çarpıcı gelişmeler Spor Bulteninde!</desc></programme>
@@ -32001,16 +32000,6 @@
     <display-name lang="tr">Sıfır TV</display-name>
     <icon src="https://i.dsmart.com.tr/kanallar/sifir-tv.png" />
   </channel>
-  <programme start="20260118210000 +0300" stop="20260118230000 +0300" channel="sifirtv">
-    <title lang="tr">Futbol: TFF 2. Lig</title>
-    <desc lang="tr">TFF 2. Lig, Türk futbolunun gelişim basamaklarından biri olarak büyük bir rekabete sahne oluyor. Şampiyonluk ve üst lig hedefiyle mücadele eden takımlar, sezon boyunca zorlu karşılaşmalarda kozlarını paylaşıyor. Genç oyuncuların kendini gösterdiği, tecrübenin ve mücadelenin ön plana çıktığı lig, futbolseverlere tempolu ve çekişmeli maçlar sunuyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260118230000 +0300" stop="20260119010000 +0300" channel="sifirtv">
-    <title lang="tr">Hollanda Suudi Arabistan İskoçya Maç Özetleri</title>
-    <desc lang="tr">Hollanda, Suudi Arabistan ve İskoçya liglerinden haftaya damga vuran karşılaşmalar, muhteşem goller ve kritik pozisyonlar bu özel özet programında buluşuyor. Tempolu maçlar, yıldız oyuncuların dikkat çeken performansları ve sürpriz sonuçlar; akıcı ve dinamik bir anlatımla ekrana taşınıyor. Program, farklı ligleri yakından takip etmek isteyen futbolseverler için kapsamlı, keyifli ve bilgilendirici bir özet deneyimi sunuyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260119040000 +0300" stop="20260119080000 +0300" channel="sifirtv">
     <title lang="tr">Sıfır TV</title>
     <desc lang="tr">-</desc>
@@ -36660,19 +36649,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260118223000 +0300" stop="20260118230000 +0300" channel="agrotv">
-    <title lang="tr">10 Ton Yem Bulmaca</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260118230000 +0300" stop="20260118233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260118233000 +0300" stop="20260119000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260119000000 +0300" stop="20260119010000 +0300" channel="agrotv">
     <title lang="tr">Abi Nerdesin</title>
     <desc lang="tr">-</desc>
