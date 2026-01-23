@@ -34471,15 +34471,6 @@
     <display-name lang="tr">Sıfır TV</display-name>
     <icon src="https://i.dsmart.com.tr/kanallar/sifir-tv.png" />
   </channel>
-  <programme start="20260120210000 +0300" stop="20260120230000 +0300" channel="sifirtv">
-    <title lang="tr">90+2. Lig</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260120230000 +0300" stop="20260121000000 +0300" channel="sifirtv">
-    <title lang="tr">Sıfırdan Soralım</title>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260121000000 +0300" stop="20260121010000 +0300" channel="sifirtv">
     <title lang="tr">Sıfırdan Konuşalım</title>
     <language lang="tr">tr</language>
@@ -39604,19 +39595,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260120223000 +0300" stop="20260120230000 +0300" channel="agrotv">
-    <title lang="tr">Ala Türkiye</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260120230000 +0300" stop="20260120233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260120233000 +0300" stop="20260121000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260121000000 +0300" stop="20260121010000 +0300" channel="agrotv">
     <title lang="tr">Agro TV İle Günaydın</title>
     <desc lang="tr">-</desc>
