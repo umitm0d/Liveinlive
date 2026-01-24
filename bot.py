@@ -50,41 +50,62 @@ def extract_slug(full_url):
 def get_latest_episode_slug(driver, show_url):
     """
     Dizi sayfasına girip en güncel bölümün slug'ını alır.
-    Örnek: '...-izle-4', '...-full-izle' formatlarını yakalar.
+    DÜZELTME: Yan menüdeki (Medcezir gibi) linkleri değil, 
+    sadece o diziye ait linkleri alır.
     """
     try:
+        # Şu an taranan dizinin ana slug'ını al (örn: bir-peri-masali)
+        current_show_slug = extract_slug(show_url)
+        
+        # Dizi sayfasına git
         driver.get(show_url)
-        # Sayfanın ana gövdesinin yüklenmesini bekle
         WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
         
-        # Linkleri topla
+        # Sayfadaki tüm linkleri al
         potential_links = driver.find_elements(By.TAG_NAME, "a")
         
-        # Öncelikli olarak 'son bolum' veya ilk sıradaki bölümü arar
+        # Bölüm linklerini filtrele
+        valid_episodes = []
+        
         for link in potential_links:
-            href = link.get_attribute("href")
-            
-            if href and ("/dizi/" in href):
-                # Slug analizi
-                slug = extract_slug(href)
+            try:
+                href = link.get_attribute("href")
+                if not href: continue
                 
-                # Şunları içeren linkleri ALMA:
-                ignorable = ["fragman", "tanitim", "oyuncular", "cast", "takvim"]
+                slug = extract_slug(href)
+                if not slug: continue
+                
+                # KRİTİK KONTROL: Bulunan link, dizinin kendi ismini içeriyor mu?
+                # Eğer dizi "bir-peri-masali" ise, bulunan linkte "bir-peri-masali" geçmeli.
+                # "medcezir" linkinde bu geçmediği için elenecek.
+                if current_show_slug not in slug:
+                    continue
+                
+                # Gereksiz linkleri ele
+                ignorable = ["fragman", "tanitim", "oyuncular", "cast", "takvim", "page="]
                 if any(x in slug for x in ignorable):
                     continue
 
-                # Şunları içeren linkleri AL:
-                # "bolum", "izle" kelimeleri genelde bölüm linklerinde olur.
+                # Sadece bölüm veya izleme linki mi?
                 if "bolum" in slug or "izle" in slug:
-                    # Ana dizi linkiyle aynıysa (döngüsel link) atla
-                    if slug == extract_slug(show_url):
+                    # Ana dizi linkinin aynısıysa alma
+                    if slug == current_show_slug:
                         continue
+                        
+                    valid_episodes.append(slug)
                     
-                    return slug # İlk bulunan (genelde en yeni) bölümü döndür
-                    
+            except:
+                continue
+        
+        # Eğer geçerli bölümler bulduysak
+        if valid_episodes:
+            # Genellikle en üstteki veya listedeki ilk link en yeni bölümdür.
+            # Medcezir sorunu 'current_show_slug not in slug' ile çözüldü.
+            return valid_episodes[0]
+
         return None
+        
     except Exception as e:
-        # print(f"    Bölüm arama hatası: {e}") # Hata kalabalığı yapmasın diye kapalı
         return None
 
 def scrape_all_pages():
