@@ -1,4 +1,5 @@
 import time
+import re
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -6,6 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from urllib.parse import urlparse
 
 # --- AYARLAR ---
 BASE_URL = "https://tvdiziler.tv/dizi-izle"
@@ -26,294 +28,222 @@ def setup_driver():
     
     return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
-def extract_slug_from_href(href):
-    """https://tvdiziler.tv/esref-ruya-29-bolum-full-izle -> esref-ruya-29-bolum-full-izle"""
-    if not href:
+def clean_dizi_slug(url):
+    """URL'den temiz dizi slug'ını çıkarır: dizi-adi-izle formatında"""
+    if not url or "/dizi/" not in url:
         return None
     
-    # URL'yi temizle
-    href = href.strip()
+    # URL'yi parçala
+    parsed = urlparse(url)
+    path = parsed.path
     
-    # Base URL'yi kaldır
-    if href.startswith("https://tvdiziler.tv/"):
-        slug = href[22:]  # "https://tvdiziler.tv/" sonrasını al
-    elif href.startswith("/"):
-        slug = href[1:]  # Başındaki / kaldır
+    # /dizi/ kısmından sonrasını al
+    if "/dizi/" in path:
+        slug = path.split("/dizi/")[-1].rstrip('/')
     else:
-        slug = href
+        slug = path.lstrip('/').rstrip('/')
     
-    # Sondaki / varsa kaldır
-    slug = slug.rstrip('/')
+    # Eğer slug bölüm içeriyorsa (29-bolum gibi), sadece dizi adını al
+    # Örnek: esref-ruya-29-bolum-full-izle -> esref-ruya-izle
+    # Örnek: esref-ruya-son-bolum-izle-68 -> esref-ruya-izle
     
-    # Sadece bölüm içeren slug'ları al
-    # "bolum" veya "son-bolum" içermeli
-    if "bolum" not in slug.lower():
-        return None
+    # Bölüm numaralarını ve "son-bolum" ifadesini temizle
+    slug = re.sub(r'-\d+-bolum-', '-izle-', slug)
+    slug = re.sub(r'-son-bolum-', '-izle-', slug)
+    slug = re.sub(r'-\d+$', '', slug)  # Sondaki sayıları kaldır
     
-    # "izle" ile bitmeli
-    if not slug.endswith("-izle"):
-        # Eğer "full-izle" ile bitiyorsa, sadece "izle" yap
-        if slug.endswith("-full-izle"):
-            slug = slug[:-10] + "-izle"
+    # "izle" ekini kontrol et ve düzelt
+    if not slug.endswith('-izle'):
+        # "full-izle" varsa düzelt
+        if '-full-izle' in slug:
+            slug = slug.replace('-full-izle', '-izle')
+        elif '-izle-' in slug:
+            # Örnek: esref-ruya-izle-68 -> esref-ruya-izle
+            slug = slug.split('-izle-')[0] + '-izle'
         else:
-            slug = slug + "-izle"
+            slug = slug + '-izle'
+    
+    # "-hd" ekini kaldır
+    slug = slug.replace('-hd', '')
     
     return slug
+
+def get_correct_slug_from_dizi_page(driver, dizi_url):
+    """Dizi sayfasına gidip doğru slug'ı bul"""
+    try:
+        driver.get(dizi_url)
+        time.sleep(3)
+        
+        # İlk bölüm linkini bul
+        episode_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/dizi/']")
+        
+        for link in episode_links[:5]:  # İlk 5 linki kontrol et
+            href = link.get_attribute("href")
+            if href and "bolum" in href and "izle" in href:
+                # Bölüm linkinden temiz dizi slug'ını çıkar
+                clean_slug = clean_dizi_slug(href)
+                if clean_slug:
+                    return clean_slug
+                    
+    except Exception as e:
+        print(f"  Dizi sayfası hatası: {e}")
+    
+    return None
 
 def scrape_all_pages():
     driver = setup_driver()
     playlist_data = []
     seen_slugs = set()
-    page_num = 1
     
     try:
-        while True:
-            if page_num == 1:
-                page_url = BASE_URL
-            else:
-                page_url = f"{BASE_URL}/{page_num}"
-            
-            print(f"\n{'='*60}")
-            print(f"Sayfa {page_num} taranıyor: {page_url}")
-            print(f"{'='*60}")
-            
-            driver.get(page_url)
-            
-            # Sayfanın yüklenmesini bekle
-            time.sleep(5)
-            
-            # Sayfanın yüklendiğini kontrol et
+        print(f"Tarama Başlatılıyor: {BASE_URL}")
+        driver.get(BASE_URL)
+        
+        # Sayfanın yüklenmesini bekle
+        time.sleep(8)
+        
+        # Alfabetik dizi linklerini bul - DİKKAT: Bu sayfada dizi listesi var, bölümler değil!
+        all_links = driver.find_elements(By.CSS_SELECTOR, 'a[href*="/dizi/"]')
+        print(f"Bulunan dizi linkleri: {len(all_links)}")
+        
+        # Linkleri filtrele ve işle
+        for i, link in enumerate(all_links):
             try:
-                # Farklı olası elementleri dene
-                selectors = [
-                    ".little-series", 
-                    ".poster-xs",
-                    ".poster-media",
-                    "ul li",
-                    "div[class*='series']"
-                ]
+                href = link.get_attribute("href")
+                text = link.text.strip()
                 
-                element_found = False
-                for selector in selectors:
-                    try:
-                        elements = driver.find_elements(By.CSS_SELECTOR, selector)
-                        if len(elements) > 0:
-                            print(f"✓ Element bulundu: {selector} ({len(elements)} adet)")
-                            element_found = True
-                            break
-                    except:
-                        continue
+                # Filtreleme
+                if not href or not text or text in ["Giriş yap", "Kayıt ol", ""]:
+                    continue
                 
-                if not element_found:
-                    print("⚠ Hiç element bulunamadı!")
-                    # Debug için sayfa kaynağını göster
-                    page_source = driver.page_source[:500]
-                    print(f"Sayfa (ilk 500 karakter):\n{page_source}")
+                # Sadece ana dizi sayfalarını al (bölüm sayfalarını değil)
+                # Dizi sayfası: /dizi/esref-ruya-izle
+                # Bölüm sayfası: /dizi/esref-ruya-29-bolum-full-izle
+                
+                # Eğer link bölüm içermiyorsa (bolum kelimesi yoksa), bu bir dizi ana sayfasıdır
+                if "bolum" not in href.lower():
+                    # Temiz slug oluştur
+                    clean_slug = clean_dizi_slug(href)
                     
-            except Exception as e:
-                print(f"⚠ Bekleme hatası: {e}")
-            
-            # 1. YÖNTEM: Son bölümlerden (little-series)
-            print("\n1. Son bölümleri tarıyor...")
-            episode_cards = driver.find_elements(By.CSS_SELECTOR, ".little-series li, .poster-xs, div[class*='poster']")
-            print(f"   Bulunan kart: {len(episode_cards)}")
-            
-            # 2. YÖNTEM: Tüm linkleri tarı
-            print("\n2. Tüm linkleri tarıyor...")
-            all_links = driver.find_elements(By.TAG_NAME, "a")
-            print(f"   Toplam link: {len(all_links)}")
-            
-            # Tüm yöntemleri birleştir
-            all_elements = episode_cards + all_links
-            
-            new_items_count = 0
-            processed_count = 0
-            
-            for element in all_elements:
-                try:
-                    processed_count += 1
-                    
-                    # Elementten href al
-                    if hasattr(element, 'get_attribute'):
-                        href = element.get_attribute("href")
-                    else:
-                        # Eğer element bir WebElement değilse atla
+                    if not clean_slug or clean_slug in seen_slugs:
                         continue
                     
-                    if not href:
-                        continue
-                    
-                    # Sadece tvdiziler.tv linklerini al
-                    if "tvdiziler.tv" not in href:
-                        continue
-                    
-                    # Slug'ı çıkar
-                    slug = extract_slug_from_href(href)
-                    
-                    if not slug:
-                        continue
-                    
-                    # Zaten işlenmiş mi?
-                    if slug in seen_slugs:
-                        continue
-                    
-                    # Başlığı al
-                    try:
-                        # Önce h2, h3 veya .truncate class'ını dene
-                        title_elem = element.find_element(By.CSS_SELECTOR, "h2, h3, .truncate, [itemprop='name']")
-                        title = title_elem.text.strip()
-                    except:
-                        # Elementin kendi text'ini al
-                        title = element.text.strip()
-                    
-                    if not title or len(title) < 2:
-                        # Slug'dan başlık oluştur
-                        title = slug.replace("-", " ").replace(" bolum", "").replace(" full izle", "").title()
-                    
-                    # Temizle
-                    title = title.replace(" izle", "").replace(" HD", "").strip()
+                    # Başlığı temizle
+                    clean_title = text.replace(" izle", "").replace(" HD", "").strip()
                     
                     # Worker linkini oluştur
-                    worker_link = f"{WORKER_BASE_URL}{slug}&ext=m3u8"
+                    worker_link = f"{WORKER_BASE_URL}{clean_slug}&ext=m3u8"
                     
-                    # Test için birkaç tanesini göster
-                    if new_items_count < 5:
-                        print(f"   Örnek: {title[:30]:30} -> {slug[:40]}")
+                    # Test et
+                    test_url = worker_link
+                    print(f"{i+1:3}. {clean_title[:30]:30} -> {clean_slug}")
                     
-                    # Listeye ekle
-                    playlist_data.append((title, worker_link))
-                    seen_slugs.add(slug)
-                    new_items_count += 1
+                    playlist_data.append((clean_title, worker_link))
+                    seen_slugs.add(clean_slug)
                     
-                    # Her 20 işlemde bir ilerleme göster
-                    if new_items_count % 20 == 0:
-                        print(f"   İşlenen: {new_items_count}")
-                    
-                except Exception as e:
-                    if processed_count % 100 == 0:
-                        # Çok fazla hata gösterme
-                        continue
+            except Exception as e:
+                print(f"  Link hatası: {e}")
+                continue
+        
+        print(f"\n✓ Toplam {len(playlist_data)} dizi bulundu")
+        
+        # Eğer az sayıda dizi bulunduysa, alternatif yöntem dene
+        if len(playlist_data) < 50:
+            print("\nAlternatif yöntem deneniyor...")
             
-            print(f"\n✓ Sayfa {page_num}: {new_items_count} yeni bölüm eklendi")
+            # Ana sayfadaki son bölümlerden dizi isimlerini al
+            episode_sections = driver.find_elements(By.CSS_SELECTOR, ".poster-xs, .poster-media")
             
-            # Pagination kontrolü
-            if new_items_count == 0 and page_num > 1:
-                print("\n⚠ Yeni içerik bulunamadı. Tarama tamamlandı.")
-                break
-            
-            # Sonraki sayfa için URL kontrolü
-            next_page_exists = False
-            try:
-                # Sonraki sayfa linklerini ara
-                next_buttons = driver.find_elements(By.XPATH, 
-                    "//a[contains(text(), 'Sonraki') or contains(text(), 'İleri') or contains(text(), 'Next') or contains(@rel, 'next')]")
-                
-                for btn in next_buttons:
-                    if btn.is_displayed():
-                        next_page_exists = True
-                        break
-                
-                # Sayfa numarası linklerini kontrol et
-                page_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/dizi-izle/']")
-                for link in page_links:
+            for section in episode_sections[:50]:  # İlk 50'yi kontrol et
+                try:
+                    link = section.find_element(By.TAG_NAME, "a")
                     href = link.get_attribute("href")
-                    if href and str(page_num + 1) in href:
-                        next_page_exists = True
-                        break
+                    
+                    if href and "/dizi/" in href and "bolum" in href:
+                        # Bölüm linkinden dizi slug'ını çıkar
+                        clean_slug = clean_dizi_slug(href)
                         
-            except:
-                pass
-            
-            if not next_page_exists and page_num > 3:
-                print("\n⚠ Son sayfaya ulaşıldı.")
-                break
-            
-            page_num += 1
-            time.sleep(2)  # Sunucuyu yormamak için bekle
-            
-            # Test için ilk 3 sayfayı tarasın
-            if page_num > 3:
-                print("\n⚠ Test için ilk 3 sayfa taranıyor. Devam etmek için kodu değiştirin.")
-                break
-            
+                        if clean_slug and clean_slug not in seen_slugs:
+                            # Başlığı bul
+                            try:
+                                title_elem = section.find_element(By.CSS_SELECTOR, "h2, h3, .truncate")
+                                title = title_elem.text.strip()
+                            except:
+                                title = clean_slug.replace("-", " ").replace(" izle", "").title()
+                            
+                            clean_title = title.replace(" HD", "").replace(" izle", "").strip()
+                            worker_link = f"{WORKER_BASE_URL}{clean_slug}&ext=m3u8"
+                            
+                            playlist_data.append((clean_title, worker_link))
+                            seen_slugs.add(clean_slug)
+                            
+                            print(f"  + {clean_title[:30]} -> {clean_slug}")
+                            
+                except:
+                    continue
+        
     except Exception as e:
         print(f"\n✗ Hata: {e}")
         import traceback
         traceback.print_exc()
     finally:
         driver.quit()
-        print("\n✓ Tarayıcı kapatıldı")
     
     return playlist_data
 
 def save_m3u(data):
     if not data:
-        print("\n✗ Liste boş olduğu için dosya oluşturulmadı.")
+        print("\n✗ Liste boş!")
         return
-
+    
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for title, link in data:
-            # Başlıktaki özel karakterleri temizle
-            clean_title = title.replace(",", " -").replace('"', "'").replace(":", " -")
+            clean_title = title.replace(",", " -").replace('"', "'")
             f.write(f'#EXTINF:-1 group-title="TvDiziler", {clean_title}\n')
             f.write(f"{link}\n")
     
     print(f"\n{'='*60}")
-    print(f"✓ İŞLEM TAMAMLANDI")
+    print(f"✓ TAMAMLANDI: {len(data)} dizi")
+    print(f"✓ Dosya: {OUTPUT_FILE}")
     print(f"{'='*60}")
-    print(f"Toplam İçerik: {len(data)}")
-    print(f"Çıktı Dosyası: {OUTPUT_FILE}")
     
-    # Test için ilk 5 linki göster
+    # Test için birkaç link göster
     if data:
-        print("\nİlk 5 bölüm:")
-        print("-" * 60)
+        print("\nTest linkleri:")
         for i, (title, link) in enumerate(data[:5], 1):
-            print(f"{i:2}. {title}")
-            print(f"    {link}")
+            print(f"{i}. {title}")
+            print(f"   {link}")
         
-        # Link testi yap
-        print("\n✓ Test ediliyor...")
+        # Linkleri test et
+        print("\nLink testleri:")
         import requests
-        success_count = 0
-        
-        for title, link in data[:3]:  # İlk 3'ü test et
+        for title, link in data[:3]:
             try:
-                response = requests.head(link, timeout=10)
-                if response.status_code == 200:
-                    print(f"   ✓ {title[:30]:30} ÇALIŞIYOR")
-                    success_count += 1
-                else:
-                    print(f"   ✗ {title[:30]:30} HATA: {response.status_code}")
-            except Exception as e:
-                print(f"   ✗ {title[:30]:30} BAĞLANTI HATASI: {e}")
-        
-        print(f"\n✓ Test sonucu: {success_count}/3 başarılı")
+                response = requests.head(link, timeout=5)
+                status = "✓ Çalışıyor" if response.status_code == 200 else f"✗ Hata: {response.status_code}"
+                print(f"  {title[:20]:20} {status}")
+            except:
+                print(f"  {title[:20]:20} ✗ Bağlantı hatası")
 
 def main():
-    print("TV Dizileri Bölüm Scraper")
-    print("="*60)
-    print("NOT: Bu kod bölüm linklerini tarar (https://tvdiziler.tv/esref-ruya-29-bolum-full-izle)")
-    print("Çıktı: https://tvdiziler.umittv.workers.dev/?id=esref-ruya-29-bolum-full-izle&ext=m3u8")
+    print("TV Dizileri IPTV Scraper")
     print("="*60)
     
     # Örnek test
-    print("\nÖrnek test:")
     test_urls = [
-        "https://tvdiziler.tv/esref-ruya-29-bolum-full-izle",
-        "https://tvdiziler.tv/kizilcik-serbeti-122-bolum-izle",
-        "https://tvdiziler.tv/gonul-dagi-202-bolum-izle"
+        "https://tvdiziler.tv/dizi/esref-ruya-29-bolum-full-izle",
+        "https://tvdiziler.tv/dizi/esref-ruya-son-bolum-izle-68",
+        "https://tvdiziler.tv/dizi/esref-ruya-izle"
     ]
     
+    print("Slug temizleme testi:")
     for url in test_urls:
-        slug = extract_slug_from_href(url)
-        if slug:
-            worker_link = f"{WORKER_BASE_URL}{slug}&ext=m3u8"
-            print(f"✓ {url}")
-            print(f"  -> {worker_link}")
-        else:
-            print(f"✗ Geçersiz: {url}")
+        slug = clean_dizi_slug(url)
+        worker_link = f"{WORKER_BASE_URL}{slug}&ext=m3u8" if slug else "Geçersiz"
+        print(f"  {url}")
+        print(f"  -> {slug}")
+        print(f"  -> {worker_link}\n")
     
     # Ana tarama
     all_data = scrape_all_pages()
