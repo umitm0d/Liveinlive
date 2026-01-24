@@ -1,0 +1,41 @@
+name: TV Dizileri Scraper
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 */3 * *'  # Her 3 günde bir çalıştır
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget gnupg
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium webdriver-manager
+    
+    - name: Run scraper
+      run: python bot.py
+    
+    - name: Upload output file
+      uses: actions/upload-artifact@v3
+      with:
+        name: iptv-playlist
+        path: iptv_list.m3u
