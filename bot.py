@@ -5,108 +5,95 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-# ================== AYARLAR ==================
-BASE_URL = "https://tvdiziler.tv/dizi-izle"
-WORKER_BASE_URL = "https://tvdiziler.umittv.workers.dev/?id="
-OUTPUT_FILE = "iptv_list.m3u"
+BASE_URL = "https://tvdiziler.tv/diziler"
+WORKER = "https://tvdiziler.umittv.workers.dev/?id="
+OUT = "iptv_list.m3u"
 
-# ================== DRIVER ==================
-def setup_driver():
-    options = Options()
-    options.add_argument("--headless")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu")
-    options.add_argument("window-size=1920,1080")
-    options.add_argument(
-        "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
+def driver_setup():
+    opt = Options()
+    opt.add_argument("--headless")
+    opt.add_argument("--disable-gpu")
+    opt.add_argument("--no-sandbox")
+    opt.add_argument("--disable-dev-shm-usage")
+    opt.add_argument("--window-size=1920,1080")
+    opt.add_argument(
+        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
     )
+    opt.add_experimental_option("excludeSwitches", ["enable-automation"])
+    opt.add_experimental_option("useAutomationExtension", False)
 
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option("useAutomationExtension", False)
-
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
-
-    driver.execute_script(
-        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+    drv = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()),
+        options=opt
     )
-    return driver
+    drv.execute_script(
+        "Object.defineProperty(navigator,'webdriver',{get:()=>undefined})"
+    )
+    return drv
 
-# ================== BÖLÜM SLUG BUL ==================
+def scroll_all(driver):
+    last = 0
+    while True:
+        height = driver.execute_script("return document.body.scrollHeight")
+        if height == last:
+            break
+        last = height
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+        time.sleep(2)
+
 def get_episode_slug(driver, dizi_url):
     driver.get(dizi_url)
     time.sleep(4)
-
     links = driver.find_elements(By.CSS_SELECTOR, "a[href*='-bolum-full-izle']")
-    for link in links:
-        href = link.get_attribute("href")
-        if href:
-            return href.rstrip("/").split("/")[-1]
-
+    if links:
+        return links[0].get_attribute("href").split("/")[-1]
     return None
 
-# ================== SCRAPER ==================
-def scrape():
-    driver = setup_driver()
-    playlist = []
+def run():
+    d = driver_setup()
+    print("Dizi listesi çekiliyor...")
+    d.get(BASE_URL)
+    time.sleep(5)
+
+    scroll_all(d)
+
+    cards = d.find_elements(By.CSS_SELECTOR, "a[href*='/dizi/']")
+    print("Bulunan dizi:", len(cards))
+
+    data = []
     seen = set()
 
-    print("Dizi listesi açılıyor...")
-    driver.get(BASE_URL)
-    time.sleep(6)
+    for c in cards:
+        href = c.get_attribute("href")
+        title = c.text.strip()
+        if not href or not title or href in seen:
+            continue
+        seen.add(href)
 
-    dizi_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/dizi/']")
-    print(f"Bulunan dizi linki: {len(dizi_links)}")
+        print("→", title)
+        slug = get_episode_slug(d, href)
+        if not slug:
+            print("   ✗ bölüm yok")
+            continue
 
-    for a in dizi_links:
-        try:
-            dizi_url = a.get_attribute("href")
-            title = a.text.strip()
+        data.append((title, f"{WORKER}{slug}&ext=m3u8"))
+        print("   ✓ OK")
 
-            if not dizi_url or not title or dizi_url in seen:
-                continue
+    d.quit()
+    return data
 
-            seen.add(dizi_url)
-            print(f"\n→ {title}")
-
-            episode_slug = get_episode_slug(driver, dizi_url)
-
-            if not episode_slug:
-                print("   ✗ Bölüm bulunamadı")
-                continue
-
-            worker_link = f"{WORKER_BASE_URL}{episode_slug}&ext=m3u8"
-            playlist.append((title, worker_link))
-
-            print(f"   ✓ {worker_link}")
-
-        except Exception as e:
-            print("   Hata:", e)
-
-    driver.quit()
-    return playlist
-
-# ================== M3U KAYDET ==================
-def save_m3u(data):
-    if not data:
-        print("\nListe boş.")
+def save(lst):
+    if not lst:
+        print("Liste boş.")
         return
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(OUT, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for title, link in data:
-            title = title.replace(",", " -").replace('"', "'")
-            f.write(f'#EXTINF:-1 group-title="TvDiziler", {title}\n')
-            f.write(f"{link}\n")
+        for t, l in lst:
+            f.write(f'#EXTINF:-1,{t}\n{l}\n')
+    print("✓ M3U hazır:", OUT)
 
-    print(f"\n✓ M3U oluşturuldu: {OUTPUT_FILE}")
-    print(f"Toplam içerik: {len(data)}")
-
-# ================== MAIN ==================
 if __name__ == "__main__":
     print("TvDiziler → IPTV Worker BOT")
     print("=" * 45)
-
-    data = scrape()
-    save_m3u(data)
+    res = run()
+    save(res)
