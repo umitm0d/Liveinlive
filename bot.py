@@ -117,3 +117,11 @@ def save_m3u(data):
 if __name__ == "__main__":
     all_data = scrape_all_pages()
     save_m3u(all_data)
+
+Tarama Yapılıyor: Sayfa 1 
+
+Daha fazla içerik bulunamadı veya sayfa yüklenemedi. Tarama bitiriliyor. 
+
+Liste boş olduğu için dosya oluşturulmadı
+
+ hatası veriyor halbuki var dosya
