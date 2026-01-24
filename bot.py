@@ -14,224 +14,214 @@ OUTPUT_FILE = "iptv_list.m3u"
 
 def setup_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    # Hata ayıklama için headless'i kapatın, çalıştığında tekrar açabilirsiniz
+    # chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("window-size=1920,1080")
     chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36")
+    
+    # Anti-bot koruma önlemleri
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option('useAutomationExtension', False)
+    chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+    
     return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
 def extract_slug(full_url):
-    if not full_url: return None
+    """URL'den dizi slug'ını çıkarır"""
+    if not full_url: 
+        return None
     return full_url.rstrip('/').split('/')[-1]
 
 def scrape_all_pages():
     driver = setup_driver()
     playlist_data = []
     seen_slugs = set()
-    page_num = 1
     
     try:
-        while True:
-            if page_num == 1:
-                page_url = BASE_URL  # İlk sayfa için sadece BASE_URL kullan
-            else:
-                page_url = f"{BASE_URL}/{page_num}"
-            
-            print(f"Tarama Yapılıyor: Sayfa {page_num} - {page_url}")
-            
-            driver.get(page_url)
-            
-            # Sayfanın yüklenmesini bekle
-            time.sleep(3)  # Daha uzun bekleme süresi
-            
-            # Daha esnek bir bekleme stratejisi
+        print(f"Tarama Başlatılıyor: {BASE_URL}")
+        driver.get(BASE_URL)
+        
+        # Sayfanın tam yüklenmesini bekle (alfabetik listeler için)
+        time.sleep(5)
+        
+        # Sayfanın yüklendiğini kontrol et
+        page_title = driver.title
+        print(f"Sayfa Başlığı: {page_title}")
+        
+        # Sayfanın HTML içeriğini kontrol et (debug için)
+        page_source = driver.page_source
+        if "A" in page_source and "B" in page_source:  # Alfabetik bölümler var mı?
+            print("✓ Alfabetik dizi listesi tespit edildi")
+        else:
+            print("✗ Alfabetik dizi listesi bulunamadı!")
+            print("İlk 1000 karakter:", page_source[:1000])
+        
+        # 1. YÖNTEM: Tüm dizi linklerini topla
+        all_dizi_links = driver.find_elements(By.CSS_SELECTOR, 'a[href*="/dizi/"]')
+        print(f"\nToplam {len(all_dizi_links)} adet '/dizi/' içeren link bulundu")
+        
+        # Filtrelenmiş linkler
+        filtered_links = []
+        unwanted_texts = ["Giriş yap", "Kayıt ol", "Şifremi Unuttum", "Gönder", ""]
+        
+        for link in all_dizi_links:
             try:
-                # Sayfada herhangi bir içeriğin yüklenmesini bekle
-                wait = WebDriverWait(driver, 15)
-                # Farklı olası konteynerları dene
-                selectors_to_try = [
-                    "div[class*='series']", 
-                    "div[class*='dizi']",
-                    "a[href*='/dizi/']",
-                    "div.poster",
-                    "div.card",
-                    "ul.little-series",
-                    "div.flex-wrap",
-                    "body"
-                ]
+                href = link.get_attribute('href')
+                text = link.text.strip()
                 
-                for selector in selectors_to_try:
-                    try:
-                        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, selector)))
-                        print(f"Sayfa yüklendi - bulunan element: {selector}")
-                        break
-                    except:
-                        continue
-                
-            except Exception as e:
-                print(f"Sayfa yüklenirken hata: {e}")
-                # Ekran görüntüsü al (hata ayıklama için)
-                try:
-                    driver.save_screenshot(f"error_page_{page_num}.png")
-                except:
-                    pass
-                break
-
-            # Dizi linklerini bul - tüm olası seçenekleri dene
-            card_selectors = [
-                "a[href*='/dizi/']",
-                "div.poster a",
-                "div.card a",
-                ".poster-xs a",
-                ".poster-media a",
-                "ul.little-series a",
-                "div.series-item a",
-                "div[class*='series-card'] a"
-            ]
-            
-            cards = []
-            for selector in card_selectors:
-                try:
-                    found_cards = driver.find_elements(By.CSS_SELECTOR, selector)
-                    if found_cards:
-                        print(f"{len(found_cards)} adet kart bulundu - selector: {selector}")
-                        cards.extend(found_cards)
-                        # Benzersiz kartları al
-                        unique_cards = []
-                        seen_hrefs = set()
-                        for card in cards:
-                            href = card.get_attribute("href")
-                            if href and href not in seen_hrefs:
-                                seen_hrefs.add(href)
-                                unique_cards.append(card)
-                        cards = unique_cards
-                        break
-                except:
+                # İstenmeyen linkleri filtrele
+                if not text or text in unwanted_texts:
                     continue
-            
-            if not cards:
-                print(f"Sayfa {page_num} boş döndü veya kartlar bulunamadı.")
-                
-                # Sayfa içeriğini kontrol et
-                page_content = driver.page_source[:500] if driver.page_source else "Boş"
-                print(f"Sayfa içeriği (ilk 500 karakter): {page_content}")
-                
-                # Hata durumunda sayfanın HTML'sini kaydet
-                with open(f"debug_page_{page_num}.html", "w", encoding="utf-8") as f:
-                    f.write(driver.page_source)
-                
-                if page_num == 1:
-                    print("İlk sayfa bile yüklenemedi. Site yapısı değişmiş olabilir.")
-                break
-
-            print(f"Sayfa {page_num}: {len(cards)} adet potansiyel dizi kartı bulundu")
-
-            new_items_count = 0
-            for i, card in enumerate(cards):
-                try:
-                    full_href = card.get_attribute("href")
-                    if not full_href or "/dizi/" not in full_href:
-                        continue
                     
-                    slug = extract_slug(full_href)
-
-                    if not slug or slug in seen_slugs:
-                        continue
-
-                    # Başlık alma
-                    title = ""
-                    try:
-                        # Önce img alt text'ini dene
-                        img = card.find_element(By.CSS_SELECTOR, "img")
-                        title = img.get_attribute("alt")
-                    except:
-                        try:
-                            # Sonra p veya span içindeki text'i dene
-                            title_elem = card.find_element(By.CSS_SELECTOR, "p, span, h3, h4, div[class*='title']")
-                            title = title_elem.text.strip()
-                        except:
-                            # En son kendi text'ini al
-                            title = card.text.strip()
-                    
-                    if not title or len(title) < 2:
-                        title = slug.replace("-", " ").title()
-                    
-                    # Başlığı temizle
-                    title = " ".join(title.split())  # Fazla boşlukları temizle
-                    
-                    worker_link = f"{WORKER_BASE_URL}{slug}&ext=m3u8"
-                    playlist_data.append((title, worker_link))
-                    seen_slugs.add(slug)
-                    new_items_count += 1
-                    
-                    if new_items_count % 10 == 0:
-                        print(f"  İşlenen: {new_items_count}/{len(cards)}")
-                        
-                except Exception as e:
-                    print(f"Kart işlenirken hata ({i}. kart): {str(e)[:100]}")
+                # Geçersiz href kontrolü
+                if not href or "javascript:void" in href:
                     continue
-            
-            print(f"Sayfa {page_num}: {new_items_count} yeni içerik eklendi.")
-            
-            # Sonraki sayfa butonunu kontrol et
-            try:
-                next_buttons = driver.find_elements(By.XPATH, "//a[contains(text(), 'Sonraki') or contains(text(), 'İleri') or contains(text(), 'Next')]")
-                next_buttons.extend(driver.find_elements(By.CSS_SELECTOR, "[rel='next'], .next-page, .pagination-next"))
-                
-                has_next_page = False
-                for btn in next_buttons:
-                    if btn.is_displayed() and btn.is_enabled():
-                        has_next_page = True
-                        break
-                
-                if not has_next_page and new_items_count == 0:
-                    print("Son sayfaya ulaşıldı.")
-                    break
                     
+                filtered_links.append((href, text))
+                
             except:
-                # Pagination bulunamazsa, bir sonraki sayfa numarasını dene
-                if new_items_count == 0 and page_num > 1:
-                    print("Yeni içerik bulunamadı, döngüden çıkılıyor.")
-                    break
+                continue
+        
+        print(f"Filtrelenmiş dizi link sayısı: {len(filtered_links)}")
+        
+        # 2. YÖNTEM: Alfabetik bölümlerdeki linkleri ara
+        # Her harf bölümündeki linkleri ayrı ayrı bul
+        alphabet_sections = driver.find_elements(By.XPATH, '//div[contains(@class, "flex") or contains(@class, "section")]')
+        
+        if alphabet_sections:
+            print(f"Alfabetik bölüm sayısı: {len(alphabet_sections)}")
+        
+        # Her iki yöntemden gelen linkleri işle
+        all_links_set = set(filtered_links)  # Tekilleştirme
+        
+        print(f"\nToplam {len(all_links_set)} benzersiz dizi linki işlenecek")
+        
+        # Linkleri işle
+        processed_count = 0
+        for href, title in all_links_set:
+            try:
+                # Slug'ı çıkar
+                slug = extract_slug(href)
+                
+                if not slug:
+                    continue
+                    
+                # Zaten işlenmiş mi kontrol et
+                if slug in seen_slugs:
+                    continue
+                
+                # Geçersiz slug'ları filtrele
+                if any(x in slug for x in ["kesfet", "takvim", "film-izle", "profile", "oyuncu"]):
+                    continue
+                
+                # Başlık temizleme
+                clean_title = title.strip()
+                if not clean_title:
+                    clean_title = slug.replace("-", " ").title()
+                
+                # Worker linkini oluştur
+                worker_link = f"{WORKER_BASE_URL}{slug}&ext=m3u8"
+                
+                # Listeye ekle
+                playlist_data.append((clean_title, worker_link))
+                seen_slugs.add(slug)
+                processed_count += 1
+                
+                # İlerleme durumu
+                if processed_count % 20 == 0:
+                    print(f"  İşlenen: {processed_count}/{len(all_links_set)} - {clean_title}")
+                    
+            except Exception as e:
+                print(f"  Hata ({href}): {str(e)[:50]}")
+                continue
+        
+        print(f"\nBaşarıyla işlenen dizi sayısı: {processed_count}")
+        
+        # Eğer hiç dizi bulunamazsa, alternatif yöntem dene
+        if processed_count == 0:
+            print("\nAlternatif tarama yöntemi deneniyor...")
             
-            page_num += 1
-            time.sleep(2)  # Siteyi yormamak için bekle
-
+            # Tüm linkleri göster (debug için)
+            print("\nTüm bulunan linkler:")
+            for i, (href, text) in enumerate(filtered_links[:50], 1):
+                print(f"{i:3}. {text[:40]:40} -> {href}")
+            
+            # Basit yöntem: tüm <a> tag'larını kontrol et
+            all_links = driver.find_elements(By.TAG_NAME, 'a')
+            for link in all_links:
+                try:
+                    href = link.get_attribute('href')
+                    text = link.text.strip()
+                    
+                    if href and "/dizi/" in href and text and len(text) > 2:
+                        slug = extract_slug(href)
+                        if slug and slug not in seen_slugs:
+                            worker_link = f"{WORKER_BASE_URL}{slug}&ext=m3u8"
+                            playlist_data.append((text, worker_link))
+                            seen_slugs.add(slug)
+                            
+                except:
+                    continue
+            
+            print(f"Alternatif yöntemle bulunan: {len(playlist_data)}")
+    
     except Exception as e:
-        print(f"Ana hata oluştu: {e}")
+        print(f"\n✗ Hata Oluştu: {e}")
         import traceback
         traceback.print_exc()
+        
     finally:
         driver.quit()
+        print("\nTarayıcı kapatıldı")
     
     return playlist_data
 
 def save_m3u(data):
     if not data:
-        print("Liste boş olduğu için dosya oluşturulmadı.")
+        print("\n✗ Liste boş olduğu için dosya oluşturulmadı.")
         return
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for title, link in data:
             # Başlıktaki virgülleri temizle (M3U formatı için önemli)
-            clean_title = title.replace(",", " -")
-            # Diğer özel karakterleri de temizle
-            clean_title = clean_title.replace("\"", "'")
+            clean_title = title.replace(",", " -").replace('"', "'")
             f.write(f'#EXTINF:-1 group-title="TvDiziler-Tum", {clean_title}\n')
             f.write(f"{link}\n")
     
-    print(f"\n--- İŞLEM TAMAM ---")
+    print(f"\n{'='*50}")
+    print(f"✓ İŞLEM TAMAMLANDI")
+    print(f"{'='*50}")
     print(f"Toplam İçerik: {len(data)}")
-    print(f"Dosya: {OUTPUT_FILE}")
+    print(f"Çıktı Dosyası: {OUTPUT_FILE}")
     
-    # Hangi dizilerin eklendiğini göster
-    print("\n--- EKLENEN İLK 10 DİZİ ---")
-    for i, (title, _) in enumerate(data[:10], 1):
-        print(f"{i}. {title}")
+    # Örnek içerikleri göster
+    if len(data) > 0:
+        print(f"\nİlk 10 Dizi:")
+        for i, (title, link) in enumerate(data[:10], 1):
+            print(f"{i:2}. {title[:50]}")
+        
+        print(f"\nSon 5 Dizi:")
+        for i, (title, link) in enumerate(data[-5:], len(data)-4):
+            print(f"{i:2}. {title[:50]}")
 
 if __name__ == "__main__":
-    print("TV Dizileri tarayıcısı başlatılıyor...")
+    print("="*50)
+    print("TV Dizileri IPTV Playlist Oluşturucu")
+    print("="*50)
+    
     all_data = scrape_all_pages()
     save_m3u(all_data)
+    
+    # Ek bilgi
+    if all_data:
+        print(f"\n✓ Playlist başarıyla oluşturuldu!")
+        print(f"✓ {OUTPUT_FILE} dosyasını IPTV oynatıcınızda kullanabilirsiniz.")
+    else:
+        print(f"\n✗ Hiç veri toplanamadı.")
+        print("✗ Lütfen:")
+        print("  1. İnternet bağlantınızı kontrol edin")
+        print("  2. Siteye erişiminizi kontrol edin")
+        print("  3. CSS seçicilerinin güncel olduğundan emin olun")
