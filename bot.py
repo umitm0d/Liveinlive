@@ -1,107 +1,58 @@
-import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
+import requests
+import re
 
-BASE_URL = "https://tvdiziler.tv/dizi-izle"
-WORKER_BASE_URL = "https://tvdiziler.umittv.workers.dev/?id="
+# ================== AYARLAR ==================
+DIZILER_URL = "https://tvdiziler.tv/diziler"
+WORKER_BASE = "https://tvdiziler.umittv.workers.dev/?id="
 OUTPUT_FILE = "iptv_list.m3u"
 
-def setup_driver():
-    options = Options()
-    options.add_argument("--headless")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu")
-    options.add_argument("window-size=1920,1080")
-    options.add_argument(
-        "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
-    )
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/120.0.0.0 Safari/537.36"
+}
 
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
-    driver.execute_script(
-        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-    )
-    return driver
+# ================== DIZI SLUGLARINI CEK ==================
+def get_dizi_slugs():
+    print("Dizi listesi çekiliyor...")
+    r = requests.get(DIZILER_URL, headers=HEADERS, timeout=15)
 
-def extract_slug(url):
-    if not url:
-        return None
-    return url.rstrip("/").split("/")[-1]
+    if r.status_code != 200:
+        print("Sayfa alınamadı:", r.status_code)
+        return []
 
-def get_last_episode_slug(driver, dizi_url):
-    driver.get(dizi_url)
-    time.sleep(5)
+    slugs = re.findall(r'/dizi/([a-z0-9\-]+)', r.text)
+    slugs = sorted(set(slugs))
 
-    links = driver.find_elements(By.CSS_SELECTOR, "a[href*='bolum']")
-    for a in links:
-        href = a.get_attribute("href")
-        if href and "full-izle" in href:
-            return extract_slug(href)
+    print(f"Bulunan dizi sayısı: {len(slugs)}")
+    return slugs
 
-    return None
-
-def scrape():
-    driver = setup_driver()
-    playlist = []
-    seen = set()
-
-    print("Dizi listesi açılıyor...")
-    driver.get(BASE_URL)
-    time.sleep(10)
-
-    # 🔥 TEXT’E BAKMADAN SADECE HREF
-    dizi_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/dizi/']")
-    print(f"Bulunan dizi linki: {len(dizi_links)}")
-
-    for a in dizi_links:
-        try:
-            dizi_url = a.get_attribute("href")
-            if not dizi_url or dizi_url in seen:
-                continue
-
-            seen.add(dizi_url)
-
-            dizi_slug = extract_slug(dizi_url)
-            title = dizi_slug.replace("-", " ").title()
-
-            print(f"→ {title}")
-
-            episode_slug = get_last_episode_slug(driver, dizi_url)
-            if not episode_slug:
-                print("   ✗ Bölüm yok")
-                continue
-
-            worker = f"{WORKER_BASE_URL}{episode_slug}&ext=m3u8"
-            playlist.append((title, worker))
-
-            print(f"   ✓ OK")
-
-        except Exception as e:
-            print("   HATA:", e)
-
-    driver.quit()
-    return playlist
-
-def save_m3u(data):
-    if not data:
+# ================== M3U OLUSTUR ==================
+def create_m3u(slugs):
+    if not slugs:
         print("Liste boş.")
         return
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for title, link in data:
+
+        for slug in slugs:
+            title = slug.replace("-", " ").title()
+
+            # 🔥 Worker son bölümü otomatik çözüyor
+            stream_url = f"{WORKER_BASE}{slug}&latest=1&ext=m3u8"
+
             f.write(f'#EXTINF:-1 group-title="TvDiziler", {title}\n')
-            f.write(link + "\n")
+            f.write(stream_url + "\n")
 
-    print(f"\n✓ M3U oluşturuldu: {OUTPUT_FILE}")
-    print(f"Toplam içerik: {len(data)}")
+    print("\n✓ M3U oluşturuldu")
+    print("Dosya:", OUTPUT_FILE)
+    print("Toplam kanal:", len(slugs))
 
+# ================== MAIN ==================
 if __name__ == "__main__":
-    print("TvDiziler → IPTV Worker Test")
-    print("=" * 40)
-    data = scrape()
-    save_m3u(data)
+    print("TvDiziler → IPTV Worker BOT")
+    print("=" * 45)
+
+    dizi_slugs = get_dizi_slugs()
+    create_m3u(dizi_slugs)
