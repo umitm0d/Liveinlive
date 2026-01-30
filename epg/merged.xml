@@ -34105,16 +34105,6 @@
     <display-name lang="tr">Sıfır TV</display-name>
     <icon src="https://i.dsmart.com.tr/kanallar/sifir-tv.png" />
   </channel>
-  <programme start="20260127210000 +0300" stop="20260127230000 +0300" channel="sifirtv">
-    <title lang="tr">90+2. Lig</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260127230000 +0300" stop="20260128010000 +0300" channel="sifirtv">
-    <title lang="tr">Futbol: TFF 2. Lig. Beyoğlu Yeni Çarşı Spor Faaliyetleri A.ş. - Seza Çimento Elazığspor</title>
-    <desc lang="tr">TFF 2. Lig, Türk futbolunun gelişim basamaklarından biri olarak büyük bir rekabete sahne oluyor. Şampiyonluk ve üst lig hedefiyle mücadele eden takımlar, sezon boyunca zorlu karşılaşmalarda kozlarını paylaşıyor. Genç oyuncuların kendini gösterdiği, tecrübenin ve mücadelenin ön plana çıktığı lig, futbolseverlere tempolu ve çekişmeli maçlar sunuyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260128010000 +0300" stop="20260128030000 +0300" channel="sifirtv">
     <title lang="tr">Futbol: TFF 2. Lig. Kct 1461 Trabzon Fk - Güzide Gebze Spor Kulübü</title>
     <desc lang="tr">TFF 2. Lig, Türk futbolunun gelişim basamaklarından biri olarak büyük bir rekabete sahne oluyor. Şampiyonluk ve üst lig hedefiyle mücadele eden takımlar, sezon boyunca zorlu karşılaşmalarda kozlarını paylaşıyor. Genç oyuncuların kendini gösterdiği, tecrübenin ve mücadelenin ön plana çıktığı lig, futbolseverlere tempolu ve çekişmeli maçlar sunuyor.</desc>
@@ -39488,21 +39478,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260127223000 +0300" stop="20260127230000 +0300" channel="agrotv">
-    <title lang="tr">Ala Türkiye</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260127230000 +0300" stop="20260127233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260127233000 +0300" stop="20260128000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260128000000 +0300" stop="20260128010000 +0300" channel="agrotv">
     <title lang="tr">Agro TV İle Günaydın</title>
     <desc lang="tr">-</desc>
