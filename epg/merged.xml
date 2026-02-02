@@ -34433,15 +34433,6 @@
     <display-name lang="tr">Sıfır TV</display-name>
     <icon src="https://i.dsmart.com.tr/kanallar/sifir-tv.png" />
   </channel>
-  <programme start="20260130210000 +0300" stop="20260130230000 +0300" channel="sifirtv">
-    <title lang="tr">Hollanda Suudi Arabistan İskoçya Maç Özetleri</title>
-    <desc lang="tr">Hollanda, Suudi Arabistan ve İskoçya liglerinden haftaya damga vuran karşılaşmalar, muhteşem goller ve kritik pozisyonlar bu özel özet programında buluşuyor. Tempolu maçlar, yıldız oyuncuların dikkat çeken performansları ve sürpriz sonuçlar; akıcı ve dinamik bir anlatımla ekrana taşınıyor. Program, farklı ligleri yakından takip etmek isteyen futbolseverler için kapsamlı, keyifli ve bilgilendirici bir özet deneyimi sunuyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260130230000 +0300" stop="20260131000000 +0300" channel="sifirtv">
-    <title lang="tr">Sıfırdan Soralım</title>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260131000000 +0300" stop="20260131010000 +0300" channel="sifirtv">
     <title lang="tr">Sıfırdan Konuşalım</title>
     <language lang="tr">tr</language>
@@ -39600,21 +39591,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260130223000 +0300" stop="20260130230000 +0300" channel="agrotv">
-    <title lang="tr">Yaşamaya Dair</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260130230000 +0300" stop="20260130233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260130233000 +0300" stop="20260131000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260131000000 +0300" stop="20260131010000 +0300" channel="agrotv">
     <title lang="tr">Agro TV İle Günaydın</title>
     <desc lang="tr">-</desc>
