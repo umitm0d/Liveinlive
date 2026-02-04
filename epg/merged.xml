@@ -34975,21 +34975,6 @@
     <display-name lang="tr">Sıfır TV</display-name>
     <icon src="https://i.dsmart.com.tr/kanallar/sifir-tv.png" />
   </channel>
-  <programme start="20260201210000 +0300" stop="20260201230000 +0300" channel="sifirtv">
-    <title lang="tr">Futbol: Tff 3. Lig. Bursaspor Adanaspor A.ş.</title>
-    <desc lang="tr">Futbol: TFF 3. Lig, Türk futbolunun nabzının attığı, genç yeteneklerin kendini gösterdiği ve köklü kulüplerin yeniden yükselme mücadelesi verdiği özel bir ligdir. Her karşılaşmada büyük bir rekabet, sürpriz anlar ve yüksek tempo izleyiciyi bekler. Sahadaki mücadele, tribünlerin coşkusu ve futbolun saf ruhu; bu ligde her maçta kendini hissettirir. TFF 3. Lig karşılaşmaları, futbolun gerçek heyecanını yaşamak isteyenler için kaçırılmayacak bir deneyim sunar.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260201230000 +0300" stop="20260201233000 +0300" channel="sifirtv">
-    <title lang="tr">Senin Takımın</title>
-    <desc lang="tr">Senin Takımın programı, futbol gündemini merkezine alarak liglerde yaşanan gelişmeleri ve takımların performanslarını detaylı biçimde ele alıyor. Maç analizleri, haftanın öne çıkan karşılaşmaları ve futbol kamuoyunda konuşulan başlıklar programda yer buluyor. Taraftar bakış açısıyla hazırlanan içerik, yorumlar ve değerlendirmelerle zenginleştirilerek futbolseverlere güncel, anlaşılır ve keyifli bir izleme deneyimi sunuyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260201233000 +0300" stop="20260202013000 +0300" channel="sifirtv">
-    <title lang="tr">Futbol: Tff 3. Lig. Kütahyaspor Futbol Spor Kulübü Nev Sağlık Grubu Balıkesirspor</title>
-    <desc lang="tr">Futbol: TFF 3. Lig, Türk futbolunun nabzının attığı, genç yeteneklerin kendini gösterdiği ve köklü kulüplerin yeniden yükselme mücadelesi verdiği özel bir ligdir. Her karşılaşmada büyük bir rekabet, sürpriz anlar ve yüksek tempo izleyiciyi bekler. Sahadaki mücadele, tribünlerin coşkusu ve futbolun saf ruhu; bu ligde her maçta kendini hissettirir. TFF 3. Lig karşılaşmaları, futbolun gerçek heyecanını yaşamak isteyenler için kaçırılmayacak bir deneyim sunar.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260202013000 +0300" stop="20260202033000 +0300" channel="sifirtv">
     <title lang="tr">Futbol: TFF 2. Lig. Adana 01 Futbol Kulübü Sk Batman Petrol Spor A.ş.</title>
     <desc lang="tr">TFF 2. Lig, Türk futbolunun gelişim basamaklarından biri olarak büyük bir rekabete sahne oluyor. Şampiyonluk ve üst lig hedefiyle mücadele eden takımlar, sezon boyunca zorlu karşılaşmalarda kozlarını paylaşıyor. Genç oyuncuların kendini gösterdiği, tecrübenin ve mücadelenin ön plana çıktığı lig, futbolseverlere tempolu ve çekişmeli maçlar sunuyor.</desc>
@@ -40344,21 +40329,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260201223000 +0300" stop="20260201230000 +0300" channel="agrotv">
-    <title lang="tr">10 Ton Yem Bulmaca</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260201230000 +0300" stop="20260201233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260201233000 +0300" stop="20260202000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260202000000 +0300" stop="20260202010000 +0300" channel="agrotv">
     <title lang="tr">Abi Nerdesin</title>
     <desc lang="tr">-</desc>
