@@ -35796,11 +35796,6 @@
     <display-name lang="tr">Sıfır TV</display-name>
     <icon src="https://i.dsmart.com.tr/kanallar/sifir-tv.png" />
   </channel>
-  <programme start="20260203220000 +0300" stop="20260204000000 +0300" channel="sifirtv">
-    <title lang="tr">Hollanda Federasyon Kupası. Az Alkmaar - Twente</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260204000000 +0300" stop="20260204010000 +0300" channel="sifirtv">
     <title lang="tr">Futbol: Almanya Kupası. Bayer Leverkusen - Fc St Pauli</title>
     <desc lang="tr">-</desc>
@@ -41153,21 +41148,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260203223000 +0300" stop="20260203230000 +0300" channel="agrotv">
-    <title lang="tr">Ala Türkiye</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260203230000 +0300" stop="20260203233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260203233000 +0300" stop="20260204000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260204000000 +0300" stop="20260204010000 +0300" channel="agrotv">
     <title lang="tr">Agro TV İle Günaydın</title>
     <desc lang="tr">-</desc>
