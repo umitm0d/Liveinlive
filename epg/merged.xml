@@ -34036,16 +34036,6 @@
     <display-name lang="tr">Sıfır TV</display-name>
     <icon src="https://i.dsmart.com.tr/kanallar/sifir-tv.png" />
   </channel>
-  <programme start="20260204210000 +0300" stop="20260204230000 +0300" channel="sifirtv">
-    <title lang="tr">Avrupa'dan Futbol</title>
-    <desc lang="tr">Erbatur Ergenekon ve Ali Ece ile Avrupa'dan Futbol her hafta FB TV'de. Programımızda sporla ilgili tüm güncel olayları takip edin. Fenerbahçe Televizyon' da sizlerle..</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260204230000 +0300" stop="20260205010000 +0300" channel="sifirtv">
-    <title lang="tr">Hollanda Federasyon Kupası. Psv - Herenveen</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260205010000 +0300" stop="20260205030000 +0300" channel="sifirtv">
     <title lang="tr">Hollanda Federasyon Kupası. Az Alkmaar - Twente</title>
     <desc lang="tr">-</desc>
@@ -39228,21 +39218,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260204223000 +0300" stop="20260204230000 +0300" channel="agrotv">
-    <title lang="tr">Bolulu Heidi</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260204230000 +0300" stop="20260204233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260204233000 +0300" stop="20260205000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260205000000 +0300" stop="20260205010000 +0300" channel="agrotv">
     <title lang="tr">Agro TV İle Günaydın</title>
     <desc lang="tr">-</desc>
@@ -72930,10 +72905,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Ülke TV</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/5a733c68-7739-4466-851d-573cfd125990.png" />
   </channel>
-  <programme start="20260204230000 +0300" stop="20260205070000 +0300" channel="0b38d5bd5cc545958e2dbc7a8119bb57">
-    <title lang="tr">Ülkede Bu Gece</title>
-    <desc lang="tr">Ülke'de Bu Gece, Türkiye ve dünyadaki sıcak gelişmeleri, siyaset, ekonomi ve sağlık başlıklarını doğru ve tarafsız şekilde izleyiciye aktarıyor.</desc>
-  </programme>
   <programme start="20260205070000 +0300" stop="20260205110000 +0300" channel="0b38d5bd5cc545958e2dbc7a8119bb57">
     <title lang="tr">Ülke'de Bu Sabah</title>
     <desc lang="tr">Güne erken başlayanların programı "Ülke'de Bu Sabah", hafta içi her sabah Ülke TV ekranlarında.</desc>
@@ -73154,10 +73125,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Akit</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/76a7dd67-cee1-4c70-914e-551d77e09661.png" />
   </channel>
-  <programme start="20260204233000 +0300" stop="20260205070000 +0300" channel="c2713840e44643ab85eb0215aa564d41">
-    <title lang="tr">Gece Ajansı</title>
-    <desc lang="tr">Gündemi sarsan olaylar, gün içinde olup bitenler, gündeme damgasını vuran siyasiler ve kişiler, yakın plan yansımalarla doğru haberin adresi Akit Haber'de.</desc>
-  </programme>
   <programme start="20260205070000 +0300" stop="20260205103000 +0300" channel="c2713840e44643ab85eb0215aa564d41">
     <title lang="tr">Gün Başlıyor</title>
     <desc lang="tr">Siz de doğruya doğru, eğriye eğri diyorsanız. Güne bizimle başlayın. Güçlünün, kuvvetlinin değil, haklının sözünün geçtiği program Gün Başlıyor Murat Şahin 'in sunumuyla hafta içi her gün Akit TV'de.</desc>
@@ -73214,10 +73181,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Brt 1</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1f260af7-37dd-4368-8c9a-2d4c28fa5fd1.png" />
   </channel>
-  <programme start="20260204223500 +0300" stop="20260205070000 +0300" channel="1a5c4077fc8e4733879e1e820955ca5d">
-    <title lang="tr">1. Lig Maç Özetleri</title>
-    <desc lang="tr">BRT ekranlarında 1. Lig heyecanı ekrana geliyor! Haftanın tüm maç özetleri, goller ve kritik anlar hızlı ve akıcı şekilde izleyiciye sunuluyor.</desc>
-  </programme>
   <programme start="20260205070000 +0300" stop="20260205084000 +0300" channel="1a5c4077fc8e4733879e1e820955ca5d">
     <title lang="tr">Sabah Haber</title>
     <desc lang="tr">Güne dair öne çıkan gelişmeler, ekonomi, siyaset ve toplumsal başlıklar sade bir anlatımla izleyiciye aktarılıyor güvenilir biçimde.</desc>
@@ -73999,10 +73962,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Ekol TV</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/229e051d-6090-4235-a2ef-9420a17e6f9d.png" />
   </channel>
-  <programme start="20260204220000 +0300" stop="20260205060000 +0300" channel="c683858c23d54a43b768e43a4d4e7df0">
-    <title lang="tr">Ekol Tv</title>
-    <desc lang="tr">EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır.</desc>
-  </programme>
   <programme start="20260205060000 +0300" stop="20260205100000 +0300" channel="c683858c23d54a43b768e43a4d4e7df0">
     <title lang="tr">Ekol Tv</title>
     <desc lang="tr">EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır.</desc>
@@ -74131,10 +74090,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Halk TV</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c9acd31e-5cc0-4b5d-bdef-7c9f8b577c42.png" />
   </channel>
-  <programme start="20260204200000 +0300" stop="20260205060000 +0300" channel="3c0c47cd01694d1bb362817c2a304037">
-    <title lang="tr">Kürşad Oğuz ile Rota</title>
-    <desc lang="tr">Kürşad Oğuz ile Rota, güncel siyasi ve toplumsal konuları derinlemesine tartışıyor. Uzman yorumlar ve canlı analizlerle gündeme farklı bir bakış sunuyor.</desc>
-  </programme>
   <programme start="20260205060000 +0300" stop="20260205080000 +0300" channel="3c0c47cd01694d1bb362817c2a304037">
     <title lang="tr">Günaydın Türkiye</title>
     <desc lang="tr">Günaydın Türkiye, günün önemli gelişmelerini ve toplumsal haberleri izleyiciye hızlı ve anlaşılır bir şekilde aktaran bilgilendirici bir programdır.</desc>
@@ -74502,10 +74457,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Ekotürk</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c5d7d21d-7fc2-4429-8331-bb7bdb20172a.png" />
   </channel>
-  <programme start="20260204233000 +0300" stop="20260205063000 +0300" channel="3fcf2e0a59ea41aa99c4252d3ae8264d">
-    <title lang="tr">Gün Ortası</title>
-    <desc lang="tr">Ekonomideki gelişmeler, enflasyon, faiz ve piyasalar Gün Ortası'nda; Türkiye ve dünya ekonomisi uzman analizleriyle ekranda.</desc>
-  </programme>
   <programme start="20260205063000 +0300" stop="20260205070000 +0300" channel="3fcf2e0a59ea41aa99c4252d3ae8264d">
     <title lang="tr">Sabah Ekranı</title>
     <desc lang="tr">Küresel piyasalar güne nasıl başlıyor? Asya açılışı, ABD-Avrupa kapanışları, veriler ve gündem. Sami Altınkaya ile hafta içi EKOTÜRK'te.</desc>
@@ -75018,10 +74969,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Tele 1</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/50921da2-0f81-40cf-971b-1b3db26245d7.png" />
   </channel>
-  <programme start="20260204230000 +0300" stop="20260205070000 +0300" channel="5630fb7b18e64ecc98fc2c5c542ee11a">
-    <title lang="tr">Başrol</title>
-    <desc lang="tr">Başrol, Tele1'de her gün Türk müziği, sineması, edebiyatı ve futbolunun güçlü isimlerinin yaşam öykülerini ve Türkiye'nin dönüşümünü ekrana taşıyor.</desc>
-  </programme>
   <programme start="20260205070000 +0300" stop="20260205080000 +0300" channel="5630fb7b18e64ecc98fc2c5c542ee11a">
     <title lang="tr">Başrol</title>
     <desc lang="tr">Başrol, Tele1'de her gün Türk müziği, sineması, edebiyatı ve futbolunun güçlü isimlerinin yaşam öykülerini ve Türkiye'nin dönüşümünü ekrana taşıyor.</desc>
@@ -75098,10 +75045,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>As Tv</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1c6b3e55-2898-47ce-9a1b-42695e31c61c.png" />
   </channel>
-  <programme start="20260204220000 +0300" stop="20260205060000 +0300" channel="df867b57060742d78e55f4f89b59eda6">
-    <title lang="tr">AS TV</title>
-    <desc lang="tr">"Hayatın içinden, sizin için, sizinle birlikte"</desc>
-  </programme>
   <programme start="20260205060000 +0300" stop="20260205100000 +0300" channel="df867b57060742d78e55f4f89b59eda6">
     <title lang="tr">AS TV</title>
     <desc lang="tr">"Hayatın içinden, sizin için, sizinle birlikte"</desc>
@@ -80191,10 +80134,6 @@ Doğduklarında tehlikelerle dolu bir dünyaya gözlerini açarlar ve avlarını
     <display-name>Saudi Tv</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bfe7a0d7-cd08-4a5c-850a-8dd2b6dbbac4.png" />
   </channel>
-  <programme start="20260204220000 +0300" stop="20260205060000 +0300" channel="881a05d1af9d492d86e75567a90677d7">
-    <title lang="tr">Saudi TV</title>
-    <desc lang="tr">Your Window to Saudi Arabia and Beyond</desc>
-  </programme>
   <programme start="20260205060000 +0300" stop="20260205100000 +0300" channel="881a05d1af9d492d86e75567a90677d7">
     <title lang="tr">Saudi TV</title>
     <desc lang="tr">Your Window to Saudi Arabia and Beyond</desc>
@@ -91570,10 +91509,6 @@ Doğduklarında tehlikelerle dolu bir dünyaya gözlerini açarlar ve avlarını
     <display-name>Dream Türk</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/63d6800d-1ecb-40b6-bc2b-01a225f0d3ec.png" />
   </channel>
-  <programme start="20260204220000 +0300" stop="20260205070000 +0300" channel="0ab0f933cd79436b866c5320e92da037">
-    <title lang="tr">Dream Türk En İyiler</title>
-    <desc lang="tr">Listelerde zirveye çıkan, dönemine damga vuran ve dinleyicilerin favorisi olan Türkçe pop şarkıları, klipleriyle bu programda buluşuyor.</desc>
-  </programme>
   <programme start="20260205070000 +0300" stop="20260205120000 +0300" channel="0ab0f933cd79436b866c5320e92da037">
     <title lang="tr">Dream Türk En İyiler</title>
     <desc lang="tr">Listelerde zirveye çıkan, dönemine damga vuran ve dinleyicilerin favorisi olan Türkçe pop şarkıları, klipleriyle bu programda buluşuyor.</desc>
