@@ -33852,16 +33852,6 @@
     <display-name lang="tr">Sıfır TV</display-name>
     <icon src="https://i.dsmart.com.tr/kanallar/sifir-tv.png" />
   </channel>
-  <programme start="20260206224000 +0300" stop="20260206230000 +0300" channel="sifirtv">
-    <title lang="tr">Spor Sokağı</title>
-    <desc lang="tr">Spor Sokağı programı, spor gündemini yakından takip eden izleyiciler için kapsamlı bir içerik sunuyor. Futbol, basketbol ve diğer spor branşlarında yaşanan gelişmeler, maç sonuçları ve öne çıkan sporcular detaylı şekilde ele alınıyor. Güncel haberler, yorumlar ve analizlerle zenginleştirilen program, spor dünyasındaki nabzı tutarken izleyiciye bilgilendirici ve keyifli bir izleme deneyimi yaşatmayı hedefliyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260206230000 +0300" stop="20260207000000 +0300" channel="sifirtv">
-    <title lang="tr">Sıfırdan Soralım</title>
-    <desc lang="tr">Sıfırdan Soralım, Sıfır TV'de güncel olaylar ve toplumsal konuları derinlemesine tartışan bir programdır. Sunucular, izleyicilerden gelen sorular ve alanında uzman konuklarla interaktif sohbetler yapar. Program boyunca farklı bakış açıları, analizler ve yorumlar ekrana taşınır. İzleyiciler hem bilgilendirilir hem de güncel konular hakkında düşündürücü tartışmaları izleme fırsatı bulur. Program, interaktif ve kapsamlı bir tartışma deneyimi sunar.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260207000000 +0300" stop="20260207010000 +0300" channel="sifirtv">
     <title lang="tr">Sıfır'da Gündem</title>
     <desc lang="tr">Sıfır'da Gündem, Sıfır TV'de günün öne çıkan haberlerini ve önemli olayları izleyiciye aktaran kapsamlı bir haber programıdır. Programda sıcak gelişmeler, analizler, yorumlar ve muhabir röportajları ekrana taşınır. Sunucular, izleyicilere olayların ayrıntılarını anlaşılır biçimde sunar, haberleri bağlam içinde değerlendirir. Program, güncel olayları takip edenler için hem bilgilendirici hem de kapsamlı bir deneyim sağlar.</desc>
@@ -38999,21 +38989,6 @@
     <display-name lang="tr">AGRO TV</display-name>
     <icon src="https://static.ssportplus.com/wp-content/uploads/2024/03/agro-tv-logo-1-281x281.avif" />
   </channel>
-  <programme start="20260206223000 +0300" stop="20260206230000 +0300" channel="agrotv">
-    <title lang="tr">Yaşamaya Dair</title>
-    <desc lang="tr">-</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260206230000 +0300" stop="20260206233000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
-  <programme start="20260206233000 +0300" stop="20260207000000 +0300" channel="agrotv">
-    <title lang="tr">Belgesel</title>
-    <desc lang="tr">Belgesel kuşağı, izleyicileri dünyanın dört bir yanına götürerek doğa, tarih, kültür, bilim ve insan hikâyelerini ekrana taşıyor. Özenle seçilmiş yapımlar sayesinde izleyiciler, farklı coğrafyaları keşfederken aynı zamanda bilgi ve farkındalık kazanıyor. Doğanın büyüleyici güzellikleri, geçmişin izlerini süren tarihi anlatılar ve toplumsal yaşamı derinlemesine inceleyen içerikler, belgesel severlere keyifli ve öğretici bir deneyim sunuyor. Belgesel kuşağı, hem merak uyandırıyor hem de izleyicilere dünyaya farklı bir pencereden bakma fırsatı veriyor.</desc>
-    <language lang="tr">tr</language>
-  </programme>
   <programme start="20260207000000 +0300" stop="20260207010000 +0300" channel="agrotv">
     <title lang="tr">Agro TV İle Günaydın</title>
     <desc lang="tr">-</desc>
