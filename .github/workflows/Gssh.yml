@@ -1,0 +1,50 @@
+name: M3U Güncelleme
+
+on:
+  schedule:
+    # Her 6 saatte bir çalışır (Türkiye saatiyle 03:00, 09:00, 15:00, 21:00)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Manuel çalıştırmak için
+  push:
+    branches: [ main ]  # Kod güncellendiğinde çalıştırmak için (opsiyonel)
+
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Commit yapabilmek için gerekli
+    
+    steps:
+    - name: Repo'yu klonla
+      uses: actions/checkout@v3
+    
+    - name: Python kur
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Gereksinimleri yükle
+      run: |
+        pip install requests
+    
+    - name: M3U oluşturucuyu çalıştır
+      env:
+        KABLO_TOKEN: ${{ secrets.KABLO_TOKEN }}
+      run: python m3u_generator.py
+    
+    - name: Değişiklikleri kontrol et ve commit yap
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        
+        # Eğer yeni.m3u değişmişse commit yap
+        git add yeni.m3u
+        
+        # Değişiklik var mı kontrol et
+        if git diff --staged --quiet; then
+          echo "📝 Değişiklik yok, commit atlanıyor"
+        else
+          git commit -m "🔄 M3U dosyası güncellendi [$(date +'%d.%m.%Y %H:%M')]"
+          git push
+          echo "✅ Değişiklikler push edildi"
+        fi
