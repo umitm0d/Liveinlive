@@ -11559,10 +11559,6 @@
     <display-name>Kablo Info</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/05224d68-1e63-435b-b3f4-93f95e94b890.png" />
   </channel>
-  <programme start="20260301220000 +0300" stop="20260302060000 +0300" channel="b746ac274d6a4fcb8cb38d3feb059778">
-    <title lang="tr">KABLO İnfo</title>
-    <desc lang="tr">Kablo Info, Türksat'ın resmi bilgi ve tanıtım kanalıdır. Hizmetler, yenilikler ve kurumsal duyurular tek ekranda, güvenilir bir yayın anlayışıyla sunulur.</desc>
-  </programme>
   <programme start="20260302060000 +0300" stop="20260302100000 +0300" channel="b746ac274d6a4fcb8cb38d3feb059778">
     <title lang="tr">KABLO İnfo</title>
     <desc lang="tr">Kablo Info, Türksat'ın resmi bilgi ve tanıtım kanalıdır. Hizmetler, yenilikler ve kurumsal duyurular tek ekranda, güvenilir bir yayın anlayışıyla sunulur.</desc>
@@ -15841,10 +15837,6 @@
     <display-name>Akit</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/76a7dd67-cee1-4c70-914e-551d77e09661.png" />
   </channel>
-  <programme start="20260301230000 +0300" stop="20260302080000 +0300" channel="c2713840e44643ab85eb0215aa564d41">
-    <title lang="tr">Orta Saha</title>
-    <desc lang="tr">Futbolun kalbi orta sahada atıyor! Orta saha oyuncularının yetenekleri ve maç içi kritik hamleler ekrana geliyor.</desc>
-  </programme>
   <programme start="20260302030000 +0300" stop="20260302063500 +0300" channel="c2713840e44643ab85eb0215aa564d41">
     <title lang="tr">Sahur Bereketi</title>
     <desc lang="tr">Sahur Bereketi, sahurda manevi sohbet ve bereketi ekranlara taşır.</desc>
@@ -15921,10 +15913,6 @@
     <display-name>Brt 1</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1f260af7-37dd-4368-8c9a-2d4c28fa5fd1.png" />
   </channel>
-  <programme start="20260301230000 +0300" stop="20260302070000 +0300" channel="1a5c4077fc8e4733879e1e820955ca5d">
-    <title lang="tr">Zamanın İzinde</title>
-    <desc lang="tr">Geçmişten bugüne uzanan olaylar ve iz bırakan yaşanmışlıklar, sade bir anlatımla ele alınarak izleyiciye anlamlı bir bakış sunuyor.</desc>
-  </programme>
   <programme start="20260302070000 +0300" stop="20260302084000 +0300" channel="1a5c4077fc8e4733879e1e820955ca5d">
     <title lang="tr">Sabah Haber</title>
     <desc lang="tr">Güne dair öne çıkan gelişmeler, ekonomi, siyaset ve toplumsal başlıklar sade bir anlatımla izleyiciye aktarılıyor güvenilir biçimde.</desc>
@@ -16546,10 +16534,6 @@
     <display-name>Ekol TV</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/229e051d-6090-4235-a2ef-9420a17e6f9d.png" />
   </channel>
-  <programme start="20260301220000 +0300" stop="20260302060000 +0300" channel="c683858c23d54a43b768e43a4d4e7df0">
-    <title lang="tr">Ekol Tv</title>
-    <desc lang="tr">EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır.</desc>
-  </programme>
   <programme start="20260302060000 +0300" stop="20260302100000 +0300" channel="c683858c23d54a43b768e43a4d4e7df0">
     <title lang="tr">Ekol Tv</title>
     <desc lang="tr">EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır.</desc>
@@ -16686,10 +16670,6 @@
     <display-name>Halk TV</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c9acd31e-5cc0-4b5d-bdef-7c9f8b577c42.png" />
   </channel>
-  <programme start="20260301200000 +0300" stop="20260302070000 +0300" channel="3c0c47cd01694d1bb362817c2a304037">
-    <title lang="tr">Sinem Fıstıkoğlu ile Sansürsüz</title>
-    <desc lang="tr">Sinem Fıstıkoğlu ile Sansürsüz, güncel olayları ve toplumsal gelişmeleri ele alan, izleyiciye haberleri anlaşılır ve objektif şekilde sunan bilgilendirici bir programdır.</desc>
-  </programme>
   <programme start="20260302060000 +0300" stop="20260302080000 +0300" channel="3c0c47cd01694d1bb362817c2a304037">
     <title lang="tr">Günaydın Türkiye</title>
     <desc lang="tr">Günaydın Türkiye, günün önemli gelişmelerini ve toplumsal haberleri izleyiciye hızlı ve anlaşılır bir şekilde aktaran bilgilendirici bir programdır.</desc>
@@ -17057,10 +17037,6 @@
     <display-name>Ekotürk</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c5d7d21d-7fc2-4429-8331-bb7bdb20172a.png" />
   </channel>
-  <programme start="20260301233000 +0300" stop="20260302063000 +0300" channel="3fcf2e0a59ea41aa99c4252d3ae8264d">
-    <title lang="tr">Yaşanabilir Dünya</title>
-    <desc lang="tr">Sibel Topaloğlu ile Yaşanabilir Dünya'da iklim değişikliği, küresel ısınma ve biyoçeşitlilik uzman konuklarla EKOTÜRK'te ele alınıyor.</desc>
-  </programme>
   <programme start="20260302063000 +0300" stop="20260302070000 +0300" channel="3fcf2e0a59ea41aa99c4252d3ae8264d">
     <title lang="tr">Sabah Ekranı</title>
     <desc lang="tr">Küresel piyasalar güne nasıl başlıyor? Asya açılışı, ABD-Avrupa kapanışları, veriler ve gündem. Sami Altınkaya ile hafta içi EKOTÜRK'te.</desc>
@@ -17213,10 +17189,6 @@
     <display-name>TV 5</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/043eff4d-bde2-493c-9c7d-c07a698bb0be.png" />
   </channel>
-  <programme start="20260301235000 +0300" stop="20260302050000 +0300" channel="f484aa367c94463590bb7760469bd793">
-    <title lang="tr">Hava-Yol-Para Durumu</title>
-    <desc lang="tr">Günün hava raporu, ulaşım bilgileri ve ekonomik göstergeleri tek ekranda.</desc>
-  </programme>
   <programme start="20260302050000 +0300" stop="20260302050500 +0300" channel="f484aa367c94463590bb7760469bd793">
     <title lang="tr">Sabah Ezanı</title>
     <desc lang="tr">Sabah Ezanı, günün ilk ışıklarıyla birlikte izleyicileri manevi bir atmosfere davet eder. Ezanın huzur veren sedasıyla kalpleri sakinleştirir, güne bilinçli ve dingin bir başlangıç sunar.</desc>
@@ -17633,10 +17605,6 @@
     <display-name>Tele 1</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/50921da2-0f81-40cf-971b-1b3db26245d7.png" />
   </channel>
-  <programme start="20260301230000 +0300" stop="20260302070000 +0300" channel="5630fb7b18e64ecc98fc2c5c542ee11a">
-    <title lang="tr">Başrol</title>
-    <desc lang="tr">Başrol, Tele1'de hafta içi her gün izleyicileri hayatın başrolündeki isimlerle buluşturan özel bir belgesel programıdır. Türk müziği, sineması, edebiyatı ve futbolunun en güçlü isimlerinin yaşam öyküleri, karşılaştıkları zorluklar ve başarıları ekrana....</desc>
-  </programme>
   <programme start="20260302070000 +0300" stop="20260302080000 +0300" channel="5630fb7b18e64ecc98fc2c5c542ee11a">
     <title lang="tr">Başrol</title>
     <desc lang="tr">Başrol, Tele1'de hafta içi her gün izleyicileri hayatın başrolündeki isimlerle buluşturan özel bir belgesel programıdır. Türk müziği, sineması, edebiyatı ve futbolunun en güçlü isimlerinin yaşam öyküleri, karşılaştıkları zorluklar ve başarıları ekrana....</desc>
@@ -17713,10 +17681,6 @@
     <display-name>As Tv</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1c6b3e55-2898-47ce-9a1b-42695e31c61c.png" />
   </channel>
-  <programme start="20260301220000 +0300" stop="20260302060000 +0300" channel="df867b57060742d78e55f4f89b59eda6">
-    <title lang="tr">AS TV</title>
-    <desc lang="tr">"Hayatın içinden, sizin için, sizinle birlikte"</desc>
-  </programme>
   <programme start="20260302060000 +0300" stop="20260302100000 +0300" channel="df867b57060742d78e55f4f89b59eda6">
     <title lang="tr">AS TV</title>
     <desc lang="tr">"Hayatın içinden, sizin için, sizinle birlikte"</desc>
@@ -22833,10 +22797,6 @@
     <display-name>Saudi Tv</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bfe7a0d7-cd08-4a5c-850a-8dd2b6dbbac4.png" />
   </channel>
-  <programme start="20260301220000 +0300" stop="20260302060000 +0300" channel="881a05d1af9d492d86e75567a90677d7">
-    <title lang="tr">Saudi TV</title>
-    <desc lang="tr">Your Window to Saudi Arabia and Beyond</desc>
-  </programme>
   <programme start="20260302060000 +0300" stop="20260302100000 +0300" channel="881a05d1af9d492d86e75567a90677d7">
     <title lang="tr">Saudi TV</title>
     <desc lang="tr">Your Window to Saudi Arabia and Beyond</desc>
@@ -25304,10 +25264,6 @@
     <display-name>Sports Tv</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ce3a853a-b638-44b8-b4f4-9728aec137d3.png" />
   </channel>
-  <programme start="20260301233000 +0300" stop="20260302060000 +0300" channel="16265e63543240309906f4cd736fcb88">
-    <title lang="tr">EHF Şampiyonlar Ligi</title>
-    <desc lang="tr">EHF Şampiyonlar Ligi maçları, canlı skorlar ve analizlerle Avrupa'nın en iyi hentbol takımlarını ve heyecan dolu mücadelelerini ekranlara taşır.</desc>
-  </programme>
   <programme start="20260302060000 +0300" stop="20260302080000 +0300" channel="16265e63543240309906f4cd736fcb88">
     <title lang="tr">İtalya Basketbol Ligi</title>
     <desc lang="tr">Sezon boyunca oynanan karşılaşmalarla ligin öne çıkan maçlarını, takımların performanslarını ve haftanın dikkat çeken anlarını izleyiciyle buluşturuyor.</desc>
@@ -34039,10 +33995,6 @@
     <display-name>Diyanet Tv</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c9fac001-ce36-4712-9eaa-786ec2465171.png" />
   </channel>
-  <programme start="20260301234500 +0300" stop="20260302060000 +0300" channel="224c9da4890f4cecaee9b790d145348c">
-    <title lang="tr">Mavera</title>
-    <desc lang="tr">Mavera, Doğan Ümit Karaca yönetiminde, manevi ve kültürel temaları izleyiciye sürükleyici bir anlatımla sunuyor.</desc>
-  </programme>
   <programme start="20260302060000 +0300" stop="20260302063000 +0300" channel="224c9da4890f4cecaee9b790d145348c">
     <title lang="tr">Şehir Ve...</title>
     <desc lang="tr">Şehir Ve…, farklı şehirlerin kültürel, sosyal ve tarihi dokusunu ekrana taşıyan kısa bir belgesel ve röportaj programıdır.</desc>
@@ -34478,10 +34430,6 @@
     <display-name>Dream Türk</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/63d6800d-1ecb-40b6-bc2b-01a225f0d3ec.png" />
   </channel>
-  <programme start="20260301230000 +0300" stop="20260302070000 +0300" channel="0ab0f933cd79436b866c5320e92da037">
-    <title lang="tr">Dream Türk En İyiler</title>
-    <desc lang="tr">Listelerde zirveye çıkan, dönemine damga vuran ve dinleyicilerin favorisi olan Türkçe pop şarkıları, klipleriyle bu programda buluşuyor.</desc>
-  </programme>
   <programme start="20260302070000 +0300" stop="20260302120000 +0300" channel="0ab0f933cd79436b866c5320e92da037">
     <title lang="tr">Dream Türk En İyiler</title>
     <desc lang="tr">Listelerde zirveye çıkan, dönemine damga vuran ve dinleyicilerin favorisi olan Türkçe pop şarkıları, klipleriyle bu programda buluşuyor.</desc>
@@ -34518,10 +34466,6 @@
     <display-name>Trace Urban</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/39b773d6-719e-440b-b97c-3b8eaed0153e.png" />
   </channel>
-  <programme start="20260301230000 +0300" stop="20260302030000 +0300" channel="dcd25489d13948a7ab90a6b80f2a160b">
-    <title lang="tr">Weekend vibes</title>
-    <desc lang="tr">The perfect playlist to chill on the week-ends.</desc>
-  </programme>
   <programme start="20260302030000 +0300" stop="20260302090000 +0300" channel="dcd25489d13948a7ab90a6b80f2a160b">
     <title lang="tr">Sounds Of Trace</title>
     <desc lang="tr">Join to hear an amazing and fun playlist featuring all the biggest and latest international hit songs.</desc>
