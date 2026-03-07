@@ -11449,10 +11449,6 @@
     <display-name>Kablo Info</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/05224d68-1e63-435b-b3f4-93f95e94b890.png" />
   </channel>
-  <programme start="20260304220000 +0300" stop="20260305060000 +0300" channel="b746ac274d6a4fcb8cb38d3feb059778">
-    <title lang="tr">KABLO İnfo</title>
-    <desc lang="tr">Kablo Info, Türksat'ın resmi bilgi ve tanıtım kanalıdır. Hizmetler, yenilikler ve kurumsal duyurular tek ekranda, güvenilir bir yayın anlayışıyla sunulur.</desc>
-  </programme>
   <programme start="20260305060000 +0300" stop="20260305100000 +0300" channel="b746ac274d6a4fcb8cb38d3feb059778">
     <title lang="tr">KABLO İnfo</title>
     <desc lang="tr">Kablo Info, Türksat'ın resmi bilgi ve tanıtım kanalıdır. Hizmetler, yenilikler ve kurumsal duyurular tek ekranda, güvenilir bir yayın anlayışıyla sunulur.</desc>
@@ -11653,10 +11649,6 @@
     <display-name>Sinema Aile</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c8283b71-81f8-4fc6-8e48-6bb8f7f49ad7.png" />
   </channel>
-  <programme start="20260304231500 +0300" stop="20260305023000 +0300" channel="94d87a64efe245b2a5fba286268da9d8">
-    <title lang="tr">Milyoner Köpek</title>
-    <desc lang="tr">Jack Russel cinsi Pancho, piyangoyu kazanıp lüks bir hayat sürerken yatırımcı Montalbán onu kaçırmaya çalışır. Tehlikeli macerada Pancho, gerçek zenginliğin para değil dostluk olduğunu anlar.</desc>
-  </programme>
   <programme start="20260305023000 +0300" stop="20260305041500 +0300" channel="94d87a64efe245b2a5fba286268da9d8">
     <title lang="tr">Boule ve Bill 2</title>
     <desc lang="tr">Boule ailesinin sakin yaşamı, babalarının karikatürlerini yayınlayan şirketin bir anda bu kararından vazgeçmesiyle karışır.</desc>
@@ -11905,10 +11897,6 @@
     <display-name>Atv</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/33b10329-faa9-4247-aa46-92a305ed5a92.png" />
   </channel>
-  <programme start="20260304224500 +0300" stop="20260305020000 +0300" channel="02abd1635c0a444aa035cb6f45b4700a">
-    <title lang="tr">Kuruluş Orhan</title>
-    <desc lang="tr">Kuruluş Orhan, Osmanlı'nın yükselişinde Orhan Bey'in adalet arayışı, savaşları ve ihanet dolu mücadelesini aksiyon ve dram eşliğinde ekranlara taşıyor.</desc>
-  </programme>
   <programme start="20260305020000 +0300" stop="20260305034500 +0300" channel="02abd1635c0a444aa035cb6f45b4700a">
     <title lang="tr">Hz. Muhammed Allah'ın Elçisi</title>
     <desc lang="tr">İslam peygamberinin hayatını ve Allah'a bağlılığını epik bir anlatımla ekrana taşıyor; izleyiciye ilham verici bir tarihî ve manevi yolculuk sunuyor.</desc>
@@ -12181,10 +12169,6 @@
     <display-name>NOW</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/000ce792-db90-411c-a22a-cd53f1f45369.png" />
   </channel>
-  <programme start="20260304234500 +0300" stop="20260305024500 +0300" channel="3639c98ff79540cba4b38feb4de05d33">
-    <title lang="tr">Halef</title>
-    <desc lang="tr">Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
-  </programme>
   <programme start="20260305024500 +0300" stop="20260305041500 +0300" channel="3639c98ff79540cba4b38feb4de05d33">
     <title lang="tr">Şevkat Yerimdar</title>
     <desc lang="tr">Saf ve iyi kalpli bir adamın başına gelen komik ve sürpriz olayları, aile ve arkadaş ilişkileriyle birlikte izleyiciye eğlenceli bir dille sunuyor.</desc>
@@ -15056,10 +15040,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>A Haber</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7f90b121-1f7f-4dc7-980f-38167b147cdb.png" />
   </channel>
-  <programme start="20260304230000 +0300" stop="20260305020000 +0300" channel="34cf00c56bcd4fab807dfb0c38861dd1">
-    <title lang="tr">Gece Ajansı</title>
-    <desc lang="tr">Güne son nokta, A Haber ekranlarında, Gece Ajansı'nda konuluyor. İç dış siyaset, spor, ekonomi…</desc>
-  </programme>
   <programme start="20260305020000 +0300" stop="20260305043000 +0300" channel="34cf00c56bcd4fab807dfb0c38861dd1">
     <title lang="tr">A Haber Gece</title>
     <desc lang="tr">A Haber Gece gece saatlerinde Türkiye ve dünyada gün boyunca yaşanan önemli gelişmeleri toparlayarak izleyiciye net ve çarpıcı haber başlıklarıyla aktarıyor.</desc>
@@ -15903,10 +15883,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Ülke TV</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/5a733c68-7739-4466-851d-573cfd125990.png" />
   </channel>
-  <programme start="20260304230000 +0300" stop="20260305040000 +0300" channel="0b38d5bd5cc545958e2dbc7a8119bb57">
-    <title lang="tr">Ülkede Bu Gece</title>
-    <desc lang="tr">Ülke'de Bu Gece, Türkiye ve dünyadaki sıcak gelişmeleri, siyaset, ekonomi ve sağlık başlıklarını doğru ve tarafsız şekilde izleyiciye aktarıyor.</desc>
-  </programme>
   <programme start="20260305040000 +0300" stop="20260305070000 +0300" channel="0b38d5bd5cc545958e2dbc7a8119bb57">
     <title lang="tr">Ülke'de Sahur</title>
     <desc lang="tr">Ülke'de Sahur, Ramazan gecelerinde izleyicilere keyifli ve bilgilendirici sahur programı sunuyor.</desc>
@@ -16207,10 +16183,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Brt 1</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1f260af7-37dd-4368-8c9a-2d4c28fa5fd1.png" />
   </channel>
-  <programme start="20260304223500 +0300" stop="20260305070000 +0300" channel="1a5c4077fc8e4733879e1e820955ca5d">
-    <title lang="tr">1. Lig Maç Özetleri</title>
-    <desc lang="tr">BRT ekranlarında 1. Lig heyecanı ekrana geliyor! Haftanın tüm maç özetleri, goller ve kritik anlar hızlı ve akıcı şekilde izleyiciye sunuluyor.</desc>
-  </programme>
   <programme start="20260305070000 +0300" stop="20260305084000 +0300" channel="1a5c4077fc8e4733879e1e820955ca5d">
     <title lang="tr">Sabah Haber</title>
     <desc lang="tr">Güne dair öne çıkan gelişmeler, ekonomi, siyaset ve toplumsal başlıklar sade bir anlatımla izleyiciye aktarılıyor güvenilir biçimde.</desc>
@@ -17081,10 +17053,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Ekol TV</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/229e051d-6090-4235-a2ef-9420a17e6f9d.png" />
   </channel>
-  <programme start="20260304220000 +0300" stop="20260305060000 +0300" channel="c683858c23d54a43b768e43a4d4e7df0">
-    <title lang="tr">Ekol Tv</title>
-    <desc lang="tr">EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır.</desc>
-  </programme>
   <programme start="20260305060000 +0300" stop="20260305100000 +0300" channel="c683858c23d54a43b768e43a4d4e7df0">
     <title lang="tr">Ekol Tv</title>
     <desc lang="tr">EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır.</desc>
@@ -17221,10 +17189,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Halk TV</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c9acd31e-5cc0-4b5d-bdef-7c9f8b577c42.png" />
   </channel>
-  <programme start="20260304200000 +0300" stop="20260305060000 +0300" channel="3c0c47cd01694d1bb362817c2a304037">
-    <title lang="tr">Kürşad Oğuz ile Rota</title>
-    <desc lang="tr">Kürşad Oğuz ile Rota, güncel siyasi ve toplumsal konuları derinlemesine tartışıyor. Uzman yorumlar ve canlı analizlerle gündeme farklı bir bakış sunuyor.</desc>
-  </programme>
   <programme start="20260305060000 +0300" stop="20260305080000 +0300" channel="3c0c47cd01694d1bb362817c2a304037">
     <title lang="tr">Günaydın Türkiye</title>
     <desc lang="tr">Günaydın Türkiye, günün önemli gelişmelerini ve toplumsal haberleri izleyiciye hızlı ve anlaşılır bir şekilde aktaran bilgilendirici bir programdır.</desc>
@@ -17601,10 +17565,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Ekotürk</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c5d7d21d-7fc2-4429-8331-bb7bdb20172a.png" />
   </channel>
-  <programme start="20260304233000 +0300" stop="20260305063000 +0300" channel="3fcf2e0a59ea41aa99c4252d3ae8264d">
-    <title lang="tr">Gün Ortası</title>
-    <desc lang="tr">Ekonomideki gelişmeler, enflasyon, faiz ve piyasalar Gün Ortası'nda; Türkiye ve dünya ekonomisi uzman analizleriyle ekranda.</desc>
-  </programme>
   <programme start="20260305063000 +0300" stop="20260305070000 +0300" channel="3fcf2e0a59ea41aa99c4252d3ae8264d">
     <title lang="tr">Sabah Ekranı</title>
     <desc lang="tr">Küresel piyasalar güne nasıl başlıyor? Asya açılışı, ABD-Avrupa kapanışları, veriler ve gündem. Sami Altınkaya ile hafta içi EKOTÜRK'te.</desc>
@@ -17757,10 +17717,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>TV 5</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/043eff4d-bde2-493c-9c7d-c07a698bb0be.png" />
   </channel>
-  <programme start="20260304235500 +0300" stop="20260305050000 +0300" channel="f484aa367c94463590bb7760469bd793">
-    <title lang="tr">Hava-Yol-Para Durumu</title>
-    <desc lang="tr">Günün hava raporu, ulaşım bilgileri ve ekonomik göstergeleri tek ekranda.</desc>
-  </programme>
   <programme start="20260305050000 +0300" stop="20260305050500 +0300" channel="f484aa367c94463590bb7760469bd793">
     <title lang="tr">Sabah Ezanı</title>
     <desc lang="tr">Sabah Ezanı, günün ilk ışıklarıyla birlikte izleyicileri manevi bir atmosfere davet eder. Ezanın huzur veren sedasıyla kalpleri sakinleştirir, güne bilinçli ve dingin bir başlangıç sunar.</desc>
@@ -18184,10 +18140,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Tele 1</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/50921da2-0f81-40cf-971b-1b3db26245d7.png" />
   </channel>
-  <programme start="20260304230000 +0300" stop="20260305070000 +0300" channel="5630fb7b18e64ecc98fc2c5c542ee11a">
-    <title lang="tr">Başrol</title>
-    <desc lang="tr">Başrol, Tele1'de hafta içi her gün izleyicileri hayatın başrolündeki isimlerle buluşturan özel bir belgesel programıdır. Türk müziği, sineması, edebiyatı ve futbolunun en güçlü isimlerinin yaşam öyküleri, karşılaştıkları zorluklar ve başarıları ekrana....</desc>
-  </programme>
   <programme start="20260305070000 +0300" stop="20260305080000 +0300" channel="5630fb7b18e64ecc98fc2c5c542ee11a">
     <title lang="tr">Başrol</title>
     <desc lang="tr">Başrol, Tele1'de hafta içi her gün izleyicileri hayatın başrolündeki isimlerle buluşturan özel bir belgesel programıdır. Türk müziği, sineması, edebiyatı ve futbolunun en güçlü isimlerinin yaşam öyküleri, karşılaştıkları zorluklar ve başarıları ekrana....</desc>
@@ -18264,10 +18216,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>As Tv</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1c6b3e55-2898-47ce-9a1b-42695e31c61c.png" />
   </channel>
-  <programme start="20260304220000 +0300" stop="20260305060000 +0300" channel="df867b57060742d78e55f4f89b59eda6">
-    <title lang="tr">AS TV</title>
-    <desc lang="tr">"Hayatın içinden, sizin için, sizinle birlikte"</desc>
-  </programme>
   <programme start="20260305060000 +0300" stop="20260305100000 +0300" channel="df867b57060742d78e55f4f89b59eda6">
     <title lang="tr">AS TV</title>
     <desc lang="tr">"Hayatın içinden, sizin için, sizinle birlikte"</desc>
@@ -22929,10 +22877,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Az TV</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/29fb144d-ad0e-4402-9afb-0b1a9dfc98a3.png" />
   </channel>
-  <programme start="20260304190000 +0300" stop="20260305020000 +0300" channel="b452d7b5a3be42e2a398d5d531ca5e1e">
-    <title lang="tr">Week</title>
-    <desc lang="tr">Week is a weekly current affairs program reviewing key political, social and economic developments that shaped events over the past days.</desc>
-  </programme>
   <programme start="20260305020000 +0300" stop="20260305070000 +0300" channel="b452d7b5a3be42e2a398d5d531ca5e1e">
     <title lang="tr">Week</title>
     <desc lang="tr">Week is a weekly current affairs program reviewing key political, social and economic developments that shaped events over the past days.</desc>
@@ -23621,10 +23565,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Saudi Tv</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bfe7a0d7-cd08-4a5c-850a-8dd2b6dbbac4.png" />
   </channel>
-  <programme start="20260304220000 +0300" stop="20260305060000 +0300" channel="881a05d1af9d492d86e75567a90677d7">
-    <title lang="tr">Saudi TV</title>
-    <desc lang="tr">Your Window to Saudi Arabia and Beyond</desc>
-  </programme>
   <programme start="20260305060000 +0300" stop="20260305100000 +0300" channel="881a05d1af9d492d86e75567a90677d7">
     <title lang="tr">Saudi TV</title>
     <desc lang="tr">Your Window to Saudi Arabia and Beyond</desc>
@@ -24118,9 +24058,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Planeta RTR</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/b02e4513-7e5a-4fda-bb41-d155735580d5.png" />
   </channel>
-  <programme start="20260304232500 +0300" stop="20260305020000 +0300" channel="7647688774d94242a1f2b8c1060caad2">
-    <title lang="tr">Evening with Vladimir Solovyov</title>
-  </programme>
   <programme start="20260305020000 +0300" stop="20260305030000 +0300" channel="7647688774d94242a1f2b8c1060caad2">
     <title lang="tr">Lost Key</title>
   </programme>
@@ -34978,10 +34915,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Al Quran Al Kareem</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/655c2fee-0b87-48df-b41e-cb5c742807ad.png" />
   </channel>
-  <programme start="20260304220000 +0300" stop="20260305020000 +0300" channel="1f03ad77067b4376af7d2d3bd0a0e16c">
-    <title lang="tr">Kabe'den Canlı Yayın</title>
-    <desc lang="tr">Kabe'den canlı yayınla ibadet ve hac ritüellerine tanıklık edin. Müslümanların kalbine dokunan kutsal atmosferi, tavaf ve duaları anbean ekrana taşıyoruz. Bu özel yayınla manevi yolculuğunuzu evinizden deneyimleyin.</desc>
-  </programme>
   <programme start="20260305020000 +0300" stop="20260305060000 +0300" channel="1f03ad77067b4376af7d2d3bd0a0e16c">
     <title lang="tr">Kabe'den Canlı Yayın</title>
     <desc lang="tr">Kabe'den canlı yayınla ibadet ve hac ritüellerine tanıklık edin. Müslümanların kalbine dokunan kutsal atmosferi, tavaf ve duaları anbean ekrana taşıyoruz. Bu özel yayınla manevi yolculuğunuzu evinizden deneyimleyin.</desc>
@@ -35010,10 +34943,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Al Sunnah Al Nabawiya</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/00701177-8898-4f68-a08e-5f45e0e12df3.png" />
   </channel>
-  <programme start="20260304220000 +0300" stop="20260305020000 +0300" channel="23bf7efa822e41558ff516903eae670c">
-    <title lang="tr">Mescid-i Nebevi'den Canlı Yayın</title>
-    <desc lang="tr">Yeryüzündeki mescitlerin en faziletlilerinden biri olarak kabul edilen Mescid-i Nebevi'den yapılan yayın.</desc>
-  </programme>
   <programme start="20260305020000 +0300" stop="20260305060000 +0300" channel="23bf7efa822e41558ff516903eae670c">
     <title lang="tr">Mescid-i Nebevi'den Canlı Yayın</title>
     <desc lang="tr">Yeryüzündeki mescitlerin en faziletlilerinden biri olarak kabul edilen Mescid-i Nebevi'den yapılan yayın.</desc>
@@ -35278,10 +35207,6 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Dream Türk</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/63d6800d-1ecb-40b6-bc2b-01a225f0d3ec.png" />
   </channel>
-  <programme start="20260304220000 +0300" stop="20260305070000 +0300" channel="0ab0f933cd79436b866c5320e92da037">
-    <title lang="tr">Dream Türk En İyiler</title>
-    <desc lang="tr">Listelerde zirveye çıkan, dönemine damga vuran ve dinleyicilerin favorisi olan Türkçe pop şarkıları, klipleriyle bu programda buluşuyor.</desc>
-  </programme>
   <programme start="20260305070000 +0300" stop="20260305120000 +0300" channel="0ab0f933cd79436b866c5320e92da037">
     <title lang="tr">Dream Türk En İyiler</title>
     <desc lang="tr">Listelerde zirveye çıkan, dönemine damga vuran ve dinleyicilerin favorisi olan Türkçe pop şarkıları, klipleriyle bu programda buluşuyor.</desc>
