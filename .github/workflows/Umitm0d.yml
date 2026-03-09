@@ -25,23 +25,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install cloudscraper
         
-    - name: Umitm0dRec.m3u dosyasını kontrol et
-      run: |
-        if [ ! -f Umitm0dRec.m3u ]; then
-          echo "#EXTM3U" > Umitm0dRec.m3u
-          echo "# Bu dosya otomatik oluşturuldu" >> Umitm0dRec.m3u
-          echo "✅ Umitm0dRec.m3u dosyası oluşturuldu"
-        else
-          echo "✅ Umitm0dRec.m3u dosyası mevcut"
-        fi
-        
     - name: Domain'i güncelle
-      run: python umitm0drec.py
+      run: python r2.py
       
     - name: Değişiklikleri kontrol et ve commit'le
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add Umitm0dRec.m3u
+        git add r2.m3u
         git diff --quiet && git diff --staged --quiet || git commit -m "🔄 RecTV domain güncellendi [$(date +'%Y-%m-%d %H:%M:%S')]"
         git push
