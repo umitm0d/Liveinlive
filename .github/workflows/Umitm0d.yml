@@ -1,0 +1,37 @@
+name: umitm0d Domain Güncelleme
+
+on:
+  schedule:
+    # Her gün 03:00'te çalış (Türkiye saatiyle 06:00)
+    - cron: '0 3 * * *'
+  # Manuel tetikleme için
+  workflow_dispatch:
+
+jobs:
+  update-domain:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Repoyu klonla
+      uses: actions/checkout@v3
+      
+    - name: Python kur
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Gereksinimleri yükle
+      run: |
+        python -m pip install --upgrade pip
+        pip install cloudscraper
+        
+    - name: Domain'i güncelle
+      run: python umitm0drec.py
+      
+    - name: Değişiklikleri kontrol et ve commit'le
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add Umitm0dRec.m3u
+        git diff --quiet && git diff --staged --quiet || git commit -m "🔄 RecTV domain güncellendi [$(date +'%Y-%m-%d %H:%M:%S')]"
+        git push
