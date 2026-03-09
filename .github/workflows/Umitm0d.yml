@@ -1,4 +1,4 @@
-name: umitm0d Domain Güncelleme
+name: RecTV Domain Güncelleme
 
 on:
   schedule:
@@ -24,6 +24,16 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install cloudscraper
+        
+    - name: Umitm0dRec.m3u dosyasını kontrol et
+      run: |
+        if [ ! -f Umitm0dRec.m3u ]; then
+          echo "#EXTM3U" > Umitm0dRec.m3u
+          echo "# Bu dosya otomatik oluşturuldu" >> Umitm0dRec.m3u
+          echo "✅ Umitm0dRec.m3u dosyası oluşturuldu"
+        else
+          echo "✅ Umitm0dRec.m3u dosyası mevcut"
+        fi
         
     - name: Domain'i güncelle
       run: python umitm0drec.py
