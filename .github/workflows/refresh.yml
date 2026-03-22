@@ -18,8 +18,9 @@ jobs:
 
       - name: Gerekli araçları yükle
         run: |
-          sudo apt-get install -y jq curl
-          pip install -q yt-dlp
+          sudo apt-get install -y jq curl python3-pip
+          pip3 install -q yt-dlp
+          yt-dlp --version
 
       - name: Script'e çalışma izni ver
         run: chmod +x refresh.sh
@@ -35,9 +36,4 @@ jobs:
       - name: Değişiklikleri commit et ve push yap
         run: |
           git add playlist/
-          if ! git diff-index --quiet HEAD --; then
-            git commit -m "Refresh: $(date +'%d-%m-%Y %H:%M UTC')"
-            git push
-          else
-            echo "Değişiklik yok, push atlandı."
-          fi
+          git diff-index --quiet HEAD -- playlist/ || git commit -m "Refresh: $(date +'%d-%m-%Y %H:%M UTC')" && git push || echo "Push atlandı."
