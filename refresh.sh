@@ -18,11 +18,12 @@ cat link.json | jq -c '.[]' | while read -r i; do
 
     echo ">>> $name işleniyor..."
 
-    # YouTube sayfasını çek, googlevideo manifest linkini bul
-    raw_manifest=$(curl -s --max-time 30 \
-        -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-        "$target_url" \
-        | grep -o "https://manifest.googlevideo.com[^\"'\\\\]*" \
+    # yt-dlp ile HLS manifest URL'yi çek
+    raw_manifest=$(yt-dlp \
+        --no-warnings \
+        --get-url \
+        -f "best[protocol=m3u8_native]/best" \
+        "$target_url" 2>/dev/null \
         | head -n 1 \
         | tr -d '\r\n')
 
@@ -49,7 +50,7 @@ for file in playlist/*.m3u8; do
     [ -s "$file" ] || continue
     fname=$(basename "$file" .m3u8)
 
-    if grep -q "googlevideo" "$file"; then
+    if grep -q "^http" "$file"; then
         echo "#EXTINF:-1,$fname" >> playlist/playlist.m3u
         echo "https://raw.githubusercontent.com/${REPO}/main/playlist/${fname}.m3u8?t=$(date +%s)" >> playlist/playlist.m3u
     fi
