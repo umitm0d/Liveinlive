@@ -1,12 +1,9 @@
 #!/bin/bash
 
-# --- AYARLAR ---
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/runner/.local/bin"
 
-# GitHub repo bilgisi (Actions ortamında otomatik gelir)
-REPO="${GITHUB_REPOSITORY}"   # örn: kullanici/repo-adi
+REPO="${GITHUB_REPOSITORY}"
 
-# Playlist klasörünü hazırla
 mkdir -p playlist
 rm -f playlist/*.m3u8
 
@@ -18,16 +15,18 @@ cat link.json | jq -c '.[]' | while read -r i; do
 
     echo ">>> $name işleniyor..."
 
-    # yt-dlp ile HLS manifest URL'yi çek
+    # yt-dlp ile tüm format URL'lerini al, ilk http olanı seç
     raw_manifest=$(yt-dlp \
         --no-warnings \
         --get-url \
-        -f "best[protocol=m3u8_native]/best" \
-        "$target_url" 2>/dev/null \
-        | head -n 1 \
-        | tr -d '\r\n')
+        -f "best" \
+        "$target_url" 2>&1)
 
-    if [ -n "$raw_manifest" ] && [[ "$raw_manifest" == http* ]]; then
+    echo "   [DEBUG] yt-dlp çıktısı: $raw_manifest"
+
+    raw_manifest=$(echo "$raw_manifest" | grep "^http" | head -n 1 | tr -d '\r\n')
+
+    if [ -n "$raw_manifest" ]; then
         cat <<EOF > "playlist/${name}.m3u8"
 #EXTM3U
 #EXT-X-VERSION:3
@@ -36,20 +35,18 @@ $raw_manifest
 EOF
         echo "   [OK] $name yazıldı."
     else
-        echo "   [!] $name için manifest bulunamadı, atlanıyor."
+        echo "   [!] $name için URL alınamadı."
     fi
 
-    sleep 1
+    sleep 2
 done
 
-# --- ANA PLAYLIST OLUŞTUR ---
 echo ">>> playlist.m3u oluşturuluyor..."
 echo "#EXTM3U" > playlist/playlist.m3u
 
 for file in playlist/*.m3u8; do
     [ -s "$file" ] || continue
     fname=$(basename "$file" .m3u8)
-
     if grep -q "^http" "$file"; then
         echo "#EXTINF:-1,$fname" >> playlist/playlist.m3u
         echo "https://raw.githubusercontent.com/${REPO}/main/playlist/${fname}.m3u8?t=$(date +%s)" >> playlist/playlist.m3u
