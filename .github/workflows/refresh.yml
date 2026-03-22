@@ -2,24 +2,24 @@ name: Playlist Refresh
 
 on:
   schedule:
-    # Her 4 saatte bir çalışır (UTC saati)
     - cron: '0 */4 * * *'
   workflow_dispatch:
-    # Manuel tetikleme butonu (Actions sekmesinden)
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # Repo'ya commit/push için gerekli
+      contents: write
 
     steps:
       - name: Repo'yu çek
         uses: actions/checkout@v4
 
       - name: Gerekli araçları yükle
-        run: sudo apt-get install -y jq curl
+        run: |
+          sudo apt-get install -y jq curl
+          pip install -q yt-dlp
 
       - name: Script'e çalışma izni ver
         run: chmod +x refresh.sh
