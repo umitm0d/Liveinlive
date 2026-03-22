@@ -3,38 +3,65 @@ name: StarTV Otomatik Güncelleme
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'  # Her gün 03:00 UTC’de çalışacak
+    - cron: '0 3 * * *'
 
 jobs:
   update_startv:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Önemli: write izni ekleyin
+    
     steps:
       - name: Depoyu Klonla
         uses: actions/checkout@v4
-
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Python 3.11 Kur
         uses: actions/setup-python@v5
         with:
           python-version: 3.11
-
+          
       - name: Gereksinimleri Kur
         run: |
           python -m pip install --upgrade pip
           pip install -U requests tqdm beautifulsoup4
-
+          
       - name: startv.py Çalıştır
-        run: python startv.py
-
-      - name: Değişiklik Kontrolü
+        run: |
+          python startv.py
+          ls -la  # Dosyaları listele, m3u oluştu mu kontrol et
+          
+      - name: Değişiklikleri Kontrol Et
         id: check_changes
         run: |
-          git diff --quiet . || echo "changes=true" >> $GITHUB_OUTPUT
-
-      - name: Değişiklikleri Commit Et
+          git status
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # startv.m3u dosyasının varlığını kontrol et
+          if [ -f "startv.m3u" ]; then
+            echo "✅ startv.m3u dosyası oluşturuldu"
+            cat startv.m3u | head -n 5  # İlk 5 satırı göster
+          else
+            echo "❌ startv.m3u dosyası oluşturulamadı!"
+            exit 1
+          fi
+          
+          # Değişiklikleri kontrol et
+          if [[ -n $(git status -s) ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "📝 Değişiklikler bulundu:"
+            git status -s
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ Değişiklik bulunamadı"
+          fi
+          
+      - name: Değişiklikleri Commit Et ve Pushla
         if: steps.check_changes.outputs.changes == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "🔄 StarTV güncellendi - Otomatik"
-          git push
+          git add startv.m3u  # Sadece bu dosyayı ekle
+          git status
+          git commit -m "🔄 StarTV güncellendi - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push origin HEAD:main
