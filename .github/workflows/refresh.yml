@@ -1,0 +1,43 @@
+name: Playlist Refresh
+
+on:
+  schedule:
+    # Her 4 saatte bir çalışır (UTC saati)
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+    # Manuel tetikleme butonu (Actions sekmesinden)
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # Repo'ya commit/push için gerekli
+
+    steps:
+      - name: Repo'yu çek
+        uses: actions/checkout@v4
+
+      - name: Gerekli araçları yükle
+        run: sudo apt-get install -y jq curl
+
+      - name: Script'e çalışma izni ver
+        run: chmod +x refresh.sh
+
+      - name: Manifest'leri yenile
+        run: ./refresh.sh
+
+      - name: Git ayarları
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Değişiklikleri commit et ve push yap
+        run: |
+          git add playlist/
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Refresh: $(date +'%d-%m-%Y %H:%M UTC')"
+            git push
+          else
+            echo "Değişiklik yok, push atlandı."
+          fi
