@@ -16,11 +16,12 @@ cat link.json | jq -c '.[]' | while read -r i; do
 
     echo ">>> $name işleniyor..."
 
+    # YouTube Live için HLS stream URL'sini çek
     raw_manifest=$(yt-dlp \
         --no-warnings \
         --cookies "$COOKIES_FILE" \
         --get-url \
-        -f "best" \
+        -f "95/94/93/92/best" \
         "$target_url" 2>&1)
 
     echo "   [DEBUG] $raw_manifest"
