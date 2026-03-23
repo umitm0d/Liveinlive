@@ -16,17 +16,17 @@ cat link.json | jq -c '.[]' | while read -r i; do
 
     echo ">>> $name işleniyor..."
 
-    # YouTube Live için HLS stream URL'sini çek
+    # Önce mevcut formatları listele (debug için)
+    echo "   [FORMATS]:"
+    yt-dlp --no-warnings --cookies "$COOKIES_FILE" -F "$target_url" 2>&1 | tail -20
+
+    # HLS formatlarından birini seç
     raw_manifest=$(yt-dlp \
         --no-warnings \
         --cookies "$COOKIES_FILE" \
         --get-url \
-        -f "95/94/93/92/best" \
-        "$target_url" 2>&1)
-
-    echo "   [DEBUG] $raw_manifest"
-
-    raw_manifest=$(echo "$raw_manifest" | grep "^http" | head -n 1 | tr -d '\r\n')
+        -f "hls-1080/hls-720/hls-480/hls-360/hls-240/bestvideo/best" \
+        "$target_url" 2>&1 | grep "^http" | head -n 1 | tr -d '\r\n')
 
     if [ -n "$raw_manifest" ]; then
         cat <<EOF > "playlist/${name}.m3u8"
