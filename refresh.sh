@@ -3,6 +3,7 @@
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/runner/.local/bin"
 
 REPO="${GITHUB_REPOSITORY}"
+COOKIES_FILE="cookies.txt"
 
 mkdir -p playlist
 rm -f playlist/*.m3u8
@@ -15,14 +16,14 @@ cat link.json | jq -c '.[]' | while read -r i; do
 
     echo ">>> $name işleniyor..."
 
-    # yt-dlp ile tüm format URL'lerini al, ilk http olanı seç
     raw_manifest=$(yt-dlp \
         --no-warnings \
+        --cookies "$COOKIES_FILE" \
         --get-url \
         -f "best" \
         "$target_url" 2>&1)
 
-    echo "   [DEBUG] yt-dlp çıktısı: $raw_manifest"
+    echo "   [DEBUG] $raw_manifest"
 
     raw_manifest=$(echo "$raw_manifest" | grep "^http" | head -n 1 | tr -d '\r\n')
 
