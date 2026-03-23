@@ -35,16 +35,20 @@ cat link.json | jq -c '.[]' | while read -r i; do
         -H "Cookie: $COOKIE_STR" \
         "https://www.youtube.com/watch?v=${video_id}")
 
-    # Önce hls_playlist dene (doğrudan stream linki)
+    # Sayfada geçen tüm googlevideo linklerini göster
+    echo "   [ALL LINKS]:"
+    echo "$page" | grep -o 'https://manifest.googlevideo.com[^"\\]*' | head -5
+
+    # hls_playlist linkini çek
     raw_manifest=$(echo "$page" \
-        | grep -o '"https://manifest.googlevideo.com/api/manifest/hls_playlist/[^"]*"' \
+        | grep -o 'https://manifest\.googlevideo\.com/api/manifest/hls_playlist/[^"\\]*' \
         | head -1 \
-        | tr -d '"' \
-        | sed 's/\\u0026/\&/g' \
+        | sed 's/\\u0026/\&/g;s/\\//g' \
         | tr -d '\r\n')
 
-    # Bulamazsa hls_variant'a düş
+    # Bulamazsa hls_variant
     if [ -z "$raw_manifest" ]; then
+        echo "   [!] hls_playlist bulunamadı, hls_variant deneniyor..."
         raw_manifest=$(echo "$page" \
             | grep -o '"hlsManifestUrl":"[^"]*"' \
             | head -1 \
@@ -53,15 +57,11 @@ cat link.json | jq -c '.[]' | while read -r i; do
             | tr -d '\r\n')
     fi
 
-    echo "   [DEBUG] $raw_manifest"
+    echo "   [RESULT] $raw_manifest" | head -c 200
+    echo ""
 
     if [ -n "$raw_manifest" ] && [[ "$raw_manifest" == http* ]]; then
-        cat <<EOF > "playlist/${name}.m3u8"
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1280000,RESOLUTION=1280x720
-$raw_manifest
-EOF
+        printf '#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=1280000,RESOLUTION=1280x720\n%s\n' "$raw_manifest" > "playlist/${name}.m3u8"
         echo "   [OK] $name yazıldı."
     else
         echo "   [!] $name için URL alınamadı."
