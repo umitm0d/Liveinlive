@@ -10,7 +10,6 @@ rm -f playlist/*.m3u8
 
 echo ">>> Kanallar taranıyor..."
 
-# Cookie'den SAPISID ve HSID değerlerini çek (auth için)
 get_cookie_value() {
     grep -P "\t$1\t" "$COOKIES_FILE" 2>/dev/null | tail -1 | awk '{print $NF}'
 }
@@ -26,25 +25,35 @@ COOKIE_STR="SAPISID=${SAPISID}; HSID=${HSID}; SID=${SID}; SSID=${SSID}; APISID=$
 cat link.json | jq -c '.[]' | while read -r i; do
     name=$(echo "$i" | jq -r '.name')
     target_url=$(echo "$i" | jq -r '.url')
-
-    # Video ID'yi URL'den çıkar
     video_id=$(echo "$target_url" | grep -oP '(?<=/live/|[?&]v=)[a-zA-Z0-9_-]{11}' | head -1)
 
     echo ">>> $name ($video_id) işleniyor..."
 
-    # YouTube sayfasından hlsManifestUrl çek
-    raw_manifest=$(curl -s --max-time 30 \
+    page=$(curl -s --max-time 30 \
         -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36" \
         -H "Accept-Language: tr-TR,tr;q=0.9" \
         -H "Cookie: $COOKIE_STR" \
-        "https://www.youtube.com/watch?v=${video_id}" \
-        | grep -o '"hlsManifestUrl":"[^"]*"' \
+        "https://www.youtube.com/watch?v=${video_id}")
+
+    # Önce hls_playlist dene (doğrudan stream linki)
+    raw_manifest=$(echo "$page" \
+        | grep -o '"https://manifest.googlevideo.com/api/manifest/hls_playlist/[^"]*"' \
         | head -1 \
-        | sed 's/"hlsManifestUrl":"//;s/"$//' \
+        | tr -d '"' \
         | sed 's/\\u0026/\&/g' \
         | tr -d '\r\n')
 
-    echo "   [DEBUG] manifest: $raw_manifest"
+    # Bulamazsa hls_variant'a düş
+    if [ -z "$raw_manifest" ]; then
+        raw_manifest=$(echo "$page" \
+            | grep -o '"hlsManifestUrl":"[^"]*"' \
+            | head -1 \
+            | sed 's/"hlsManifestUrl":"//;s/"$//' \
+            | sed 's/\\u0026/\&/g' \
+            | tr -d '\r\n')
+    fi
+
+    echo "   [DEBUG] $raw_manifest"
 
     if [ -n "$raw_manifest" ] && [[ "$raw_manifest" == http* ]]; then
         cat <<EOF > "playlist/${name}.m3u8"
@@ -55,7 +64,7 @@ $raw_manifest
 EOF
         echo "   [OK] $name yazıldı."
     else
-        echo "   [!] $name için HLS URL bulunamadı."
+        echo "   [!] $name için URL alınamadı."
     fi
 
     sleep 2
