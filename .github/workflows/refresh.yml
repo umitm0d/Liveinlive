@@ -20,7 +20,9 @@ jobs:
         run: |
           sudo apt-get install -y jq curl python3-pip
           pip3 install -q yt-dlp
-          yt-dlp --version
+
+      - name: Cookie dosyasını oluştur
+        run: echo "${{ secrets.YT_COOKIES }}" > cookies.txt
 
       - name: Script'e çalışma izni ver
         run: chmod +x refresh.sh
@@ -36,4 +38,4 @@ jobs:
       - name: Değişiklikleri commit et ve push yap
         run: |
           git add playlist/
-          git diff-index --quiet HEAD -- playlist/ || git commit -m "Refresh: $(date +'%d-%m-%Y %H:%M UTC')" && git push || echo "Push atlandı."
+          git diff-index --quiet HEAD -- playlist/ || (git commit -m "Refresh: $(date +'%d-%m-%Y %H:%M UTC')" && git push)
