@@ -10,25 +10,43 @@ rm -f playlist/*.m3u8
 
 echo ">>> Kanallar taranıyor..."
 
+# Cookie'den SAPISID ve HSID değerlerini çek (auth için)
+get_cookie_value() {
+    grep -P "\t$1\t" "$COOKIES_FILE" 2>/dev/null | tail -1 | awk '{print $NF}'
+}
+
+SAPISID=$(get_cookie_value "SAPISID")
+HSID=$(get_cookie_value "HSID")
+SID=$(get_cookie_value "SID")
+SSID=$(get_cookie_value "SSID")
+APISID=$(get_cookie_value "APISID")
+
+COOKIE_STR="SAPISID=${SAPISID}; HSID=${HSID}; SID=${SID}; SSID=${SSID}; APISID=${APISID}"
+
 cat link.json | jq -c '.[]' | while read -r i; do
     name=$(echo "$i" | jq -r '.name')
     target_url=$(echo "$i" | jq -r '.url')
 
-    echo ">>> $name işleniyor..."
+    # Video ID'yi URL'den çıkar
+    video_id=$(echo "$target_url" | grep -oP '(?<=/live/|[?&]v=)[a-zA-Z0-9_-]{11}' | head -1)
 
-    raw_manifest=$(yt-dlp \
-        --no-warnings \
-        --cookies "$COOKIES_FILE" \
-        --extractor-args "youtube:player_client=web" \
-        --get-url \
-        -f "best" \
-        "$target_url" 2>&1)
+    echo ">>> $name ($video_id) işleniyor..."
 
-    echo "   [DEBUG] $raw_manifest"
+    # YouTube sayfasından hlsManifestUrl çek
+    raw_manifest=$(curl -s --max-time 30 \
+        -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36" \
+        -H "Accept-Language: tr-TR,tr;q=0.9" \
+        -H "Cookie: $COOKIE_STR" \
+        "https://www.youtube.com/watch?v=${video_id}" \
+        | grep -o '"hlsManifestUrl":"[^"]*"' \
+        | head -1 \
+        | sed 's/"hlsManifestUrl":"//;s/"$//' \
+        | sed 's/\\u0026/\&/g' \
+        | tr -d '\r\n')
 
-    raw_manifest=$(echo "$raw_manifest" | grep "^http" | head -n 1 | tr -d '\r\n')
+    echo "   [DEBUG] manifest: $raw_manifest"
 
-    if [ -n "$raw_manifest" ]; then
+    if [ -n "$raw_manifest" ] && [[ "$raw_manifest" == http* ]]; then
         cat <<EOF > "playlist/${name}.m3u8"
 #EXTM3U
 #EXT-X-VERSION:3
@@ -37,7 +55,7 @@ $raw_manifest
 EOF
         echo "   [OK] $name yazıldı."
     else
-        echo "   [!] $name için URL alınamadı."
+        echo "   [!] $name için HLS URL bulunamadı."
     fi
 
     sleep 2
