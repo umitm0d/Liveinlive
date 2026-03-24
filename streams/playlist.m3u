@@ -5,3 +5,5 @@ https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/baskatv
 https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/euro90tv.m3u8
 #EXTINF:-1 tvg-id="serhattv" tvg-name="Serhat TV" group-title="ÜmitM0d",Serhat TV
 https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/serhattv.m3u8
+#EXTINF:-1 tvg-id="teleon" tvg-name="Teleon" group-title="ÜmitM0d",Teleon
+https://raw.githubusercontent.com/umitm0d/Liveinlive/main/streams/master/teleon.m3u8
