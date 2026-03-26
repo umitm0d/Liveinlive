@@ -1,0 +1,76 @@
+name: Update README with M3U Link
+
+on:
+  push:
+    paths:
+      - '*.m3u'
+      - '*.m3u8'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Find M3U file and update README
+        run: |
+          # M3U dosyasını bul
+          M3U_FILE=$(find . -maxdepth 1 -name "*.m3u" -o -name "*.m3u8" | head -1 | sed 's|^\./||')
+          
+          if [ -z "$M3U_FILE" ]; then
+            echo "❌ M3U dosyası bulunamadı!"
+            exit 1
+          fi
+          
+          echo "📁 Bulunan dosya: $M3U_FILE"
+          
+          # Repo bilgilerini al
+          REPO_FULL="${{ github.repository }}"
+          CDN_LINK="https://cdn.jsdelivr.net/gh/${REPO_FULL}@main/${M3U_FILE}"
+          
+          echo "🔗 Oluşturulan link: $CDN_LINK"
+          
+          # README.md'yi oluştur/güncelle
+          cat > README.md << 'EOF'
+          # 📺 M3U Listem
+          
+          ## 🔗 Güncel jsDelivr Linki
+          
+          ```
+          EOF
+          
+          echo "$CDN_LINK" >> README.md
+          
+          cat >> README.md << 'EOF'
+          ```
+          
+          ## 📖 Kullanım
+          
+          1. Bu linki IPTV oynatıcınıza (VLC, IPTV Smarters, Tivimate) ekleyin
+          2. Liste güncellendiğinde link **aynı kalır**, içerik otomatik yenilenir
+          3. jsDelivr önbelleği 5-30 dakika sürebilir
+          
+          ---
+          
+          *Son güncelleme: $(date '+%Y-%m-%d %H:%M:%S')*
+          EOF
+          
+          echo ""
+          echo "✅ README.md başarıyla güncellendi"
+          
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "📝 README.md'de değişiklik yok"
+          else
+            git commit -m "🔄 M3U linki otomatik güncellendi [skip ci]"
+            git push
+            echo "✅ Değişiklikler gönderildi"
+          fi
