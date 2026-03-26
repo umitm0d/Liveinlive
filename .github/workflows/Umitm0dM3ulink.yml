@@ -1,0 +1,49 @@
+name: M3U Link Oluşturucu
+
+on:
+  push:
+    paths:
+      - '*.m3u'
+      - '*.m3u8'
+
+jobs:
+  create-link:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: M3U Dosyalarını Bul ve Link Oluştur
+        run: |
+          echo "# 📺 M3U Linkleriniz" > m3u_links.md
+          echo "" >> m3u_links.md
+          echo "## 🔗 jsDelivr CDN Linkleri" >> m3u_links.md
+          echo "" >> m3u_links.md
+          
+          for file in *.m3u *.m3u8; do
+            if [ -f "$file" ]; then
+              echo "### $file" >> m3u_links.md
+              echo "\`\`\`" >> m3u_links.md
+              echo "https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/$file" >> m3u_links.md
+              echo "\`\`\`" >> m3u_links.md
+              echo "" >> m3u_links.md
+            fi
+          done
+          
+      - name: Linkleri README'ye Ekle
+        run: |
+          if [ -f "README.md" ]; then
+            sed -i '/<!-- M3U-LINK-START -->/,/<!-- M3U-LINK-END -->/d' README.md
+            echo "<!-- M3U-LINK-START -->" >> README.md
+            cat m3u_links.md >> README.md
+            echo "<!-- M3U-LINK-END -->" >> README.md
+          else
+            cp m3u_links.md README.md
+          fi
+          
+      - name: Değişiklikleri Kaydet
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "M3U linkleri otomatik güncellendi"
+          git push
