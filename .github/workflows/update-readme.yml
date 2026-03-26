@@ -1,4 +1,4 @@
-name: Update README with M3U Link
+name: Update README with M3U Links
 
 on:
   push:
@@ -16,51 +16,68 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      - name: Find M3U file and update README
+      - name: Find all M3U files and update README
         run: |
-          # M3U dosyasını bul
-          M3U_FILE=$(find . -maxdepth 1 -name "*.m3u" -o -name "*.m3u8" | head -1 | sed 's|^\./||')
+          # Repo bilgilerini al
+          REPO_FULL="${{ github.repository }}"
+          REPO_OWNER="${{ github.repository_owner }}"
+          REPO_NAME="${REPO_FULL#*/}"
           
-          if [ -z "$M3U_FILE" ]; then
-            echo "❌ M3U dosyası bulunamadı!"
+          echo "📁 Repo: $REPO_FULL"
+          echo ""
+          
+          # Tüm M3U dosyalarını bul
+          echo "🔍 M3U dosyaları taranıyor..."
+          M3U_FILES=$(find . -maxdepth 1 -name "*.m3u" -o -name "*.m3u8" | sed 's|^\./||' | sort)
+          
+          if [ -z "$M3U_FILES" ]; then
+            echo "❌ Hiç M3U dosyası bulunamadı!"
             exit 1
           fi
           
-          echo "📁 Bulunan dosya: $M3U_FILE"
-          
-          # Repo bilgilerini al
-          REPO_FULL="${{ github.repository }}"
-          CDN_LINK="https://cdn.jsdelivr.net/gh/${REPO_FULL}@main/${M3U_FILE}"
-          
-          echo "🔗 Oluşturulan link: $CDN_LINK"
-          
-          # README.md'yi oluştur/güncelle
+          # README.md'yi oluştur
           cat > README.md << 'EOF'
-          # 📺 M3U Listem
+          # 📺 M3U Listeleri
           
-          ## 🔗 Güncel jsDelivr Linki
+          Bu depoda birden fazla M3U listesi bulunmaktadır. Aşağıdaki linkleri IPTV oynatıcınıza ekleyebilirsiniz.
           
-          ```
+          ## 🔗 jsDelivr CDN Linkleri
+          
           EOF
           
-          echo "$CDN_LINK" >> README.md
+          # Her M3U dosyası için link oluştur
+          for FILE in $M3U_FILES; do
+            CDN_LINK="https://cdn.jsdelivr.net/gh/${REPO_FULL}@main/${FILE}"
+            echo "### 📄 \`${FILE}\`" >> README.md
+            echo '```' >> README.md
+            echo "${CDN_LINK}" >> README.md
+            echo '```' >> README.md
+            echo "" >> README.md
+          done
           
+          # Kullanım kılavuzunu ekle
           cat >> README.md << 'EOF'
-          ```
-          
           ## 📖 Kullanım
           
-          1. Bu linki IPTV oynatıcınıza (VLC, IPTV Smarters, Tivimate) ekleyin
-          2. Liste güncellendiğinde link **aynı kalır**, içerik otomatik yenilenir
-          3. jsDelivr önbelleği 5-30 dakika sürebilir
+          1. Yukarıdaki linklerden istediğinizi kopyalayın
+          2. IPTV oynatıcınıza (VLC, IPTV Smarters, Tivimate) ekleyin
+          3. Liste güncellendiğinde link **aynı kalır**, içerik otomatik yenilenir
+          4. jsDelivr önbelleği 5-30 dakika sürebilir
           
           ---
           
-          *Son güncelleme: $(date '+%Y-%m-%d %H:%M:%S')*
           EOF
           
+          # Tarih bilgisini ekle (düzgün çalışan versiyon)
+          echo "_Son güncelleme: $(TZ='Europe/Istanbul' date '+%Y-%m-%d %H:%M:%S')_" >> README.md
+          
           echo ""
-          echo "✅ README.md başarıyla güncellendi"
+          echo "✅ README.md oluşturuldu"
+          echo ""
+          echo "📋 Oluşturulan linkler:"
+          for FILE in $M3U_FILES; do
+            echo "   - https://cdn.jsdelivr.net/gh/${REPO_FULL}@main/${FILE}"
+          done
           
       - name: Commit and push changes
         run: |
@@ -70,7 +87,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "📝 README.md'de değişiklik yok"
           else
-            git commit -m "🔄 M3U linki otomatik güncellendi [skip ci]"
+            git commit -m "🔄 M3U linkleri otomatik güncellendi [skip ci]"
             git push
             echo "✅ Değişiklikler gönderildi"
           fi
