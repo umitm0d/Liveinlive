@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=2000&pause=500&color=FF6B35&center=true&vCenter=true&width=380&height=70&lines=%24+whoami;ÜmitM0d+%7C+IPTV+Developer">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=2000&pause=500&color=FF6B35&center=true&vCenter=true&width=380&height=70&lines=%24+whoami;ÜmitM0d+%7C+TV+Developer">
     <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=2000&pause=500&color=FF6B35&center=true&vCenter=true&width=380&height=70&lines=%24+whoami;ÜmitM0d+%7C+IPTV+Developer">
   </picture>
 </p>
