@@ -35,7 +35,7 @@ jobs:
             exit 1
           fi
           
-          # README.md'yi oluştur - ŞEKİLLİ BAŞLIK İLE
+          # README.md'yi oluştur
           cat > README.md << 'EOF'
           <p align="center">
             <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&weight=900&size=60&duration=1&pause=2000&color=00FF00&center=true&vCenter=true&width=500&height=100&lines=%C3%9CM%C4%B0TM0d" alt="ÜMİTM0d" />
@@ -84,6 +84,16 @@ jobs:
           
           # Tarih bilgisini ekle
           echo "_Son güncelleme: $(TZ='Europe/Istanbul' date '+%Y-%m-%d %H:%M:%S')_" >> README.md
+          
+          # EN SONA badge'li başlığı ekle
+          cat >> README.md << 'EOF'
+          
+          ---
+          
+          <h1 align="center">
+            <img src="https://img.shields.io/badge/-%C3%9CM%C4%B0TM0d-000000?style=for-the-badge&logo=github&logoColor=00FF00" />
+          </h1>
+          EOF
           
           echo ""
           echo "✅ README.md oluşturuldu"
