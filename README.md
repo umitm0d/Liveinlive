@@ -67,4 +67,10 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-03-29 16:09:43_
+_Son güncelleme: 2026-03-29 16:12:55_
+
+---
+
+<h1 align="center">
+  <img src="https://img.shields.io/badge/-%C3%9CM%C4%B0TM0d-000000?style=for-the-badge&logo=github&logoColor=00FF00" />
+</h1>
