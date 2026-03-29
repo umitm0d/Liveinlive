@@ -4,9 +4,9 @@ Bu depoda birden fazla M3U listesi bulunmaktadır. Aşağıdaki linkleri IPTV oy
 
 ## 🔗 jsDelivr CDN Linkleri
 
-### 📄 `Promosyon.m3u`
+### 📄 `Promosyon-1.m3u`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Promosyon.m3u
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Promosyon-1.m3u
 ```
 
 ### 📄 `Umitm0dRec.m3u`
@@ -53,45 +53,4 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-03-29 04:05:41_
-<!-- M3U-LINK-START -->
-# 📺 M3U Linkleriniz
-
-## 🔗 jsDelivr CDN Linkleri
-
-### Umitm0dRec.m3u
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Umitm0dRec.m3u
-```
-
-### indirilen_playlist.m3u
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/indirilen_playlist.m3u
-```
-
-### iptv_list.m3u
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/iptv_list.m3u
-```
-
-### playlist.m3u
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/playlist.m3u
-```
-
-### r2.m3u
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/r2.m3u
-```
-
-### startv.m3u
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/startv.m3u
-```
-
-### yeni.m3u
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
-```
-
-<!-- M3U-LINK-END -->
+_Son güncelleme: 2026-03-29 04:08:10_
