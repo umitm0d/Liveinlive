@@ -2,8 +2,11 @@ name: Ümitm0d AndroTV Güncelle
 
 on:
   schedule:
-    - cron: '0 * * * *'   # Her saat başı
-  workflow_dispatch:        # Manuel tetikleme
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   update-playlist:
@@ -22,7 +25,7 @@ jobs:
         run: pip install requests urllib3
 
       - name: Botu çalıştır
-        run: python umittv_bot.py
+        run: python androtv_bot.py
 
       - name: Playlist'i commit et
         run: |
