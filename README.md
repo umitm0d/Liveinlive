@@ -53,6 +53,11 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/r2.m3u
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/startv.m3u
 ```
 
+### 📄 `umitm0d.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitm0d.m3u
+```
+
 ### 📄 `yeni.m3u`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
@@ -67,7 +72,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-03-29 16:12:55_
+_Son güncelleme: 2026-03-31 07:01:38_
 
 ---
 
