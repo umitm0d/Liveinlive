@@ -1,0 +1,33 @@
+name: Ümitm0d AndroTV Güncelle
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # Her saat başı
+  workflow_dispatch:        # Manuel tetikleme
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo'yu çek
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Bağımlılıkları kur
+        run: pip install requests urllib3
+
+      - name: Botu çalıştır
+        run: python umittv_bot.py
+
+      - name: Playlist'i commit et
+        run: |
+          git config --global user.name "ümitm0d-bot"
+          git config --global user.email "bot@umitm0d"
+          git add "Ümitm0d.m3u"
+          git diff --cached --quiet || git commit -m "♻️ Playlist güncellendi - $(date '+%Y-%m-%d %H:%M')"
+          git push
