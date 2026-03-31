@@ -13,7 +13,7 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
 }
 
-OUTPUT_FILENAME = "Ümitm0d.m3u"
+OUTPUT_FILENAME = "umitm0d.m3u"
 STATIC_LOGO = "https://i.hizliresim.com/6d22jbw.gif"
 
 def get_andro_content():
@@ -126,7 +126,7 @@ def get_andro_content():
         for cid, cname in channels:
             final_url = f"{server}/{cid}.m3u8" if "checklist" in server else f"{server}/checklist/{cid}.m3u8"
             final_url = final_url.replace("checklist//", "checklist/")
-            entry = f'#EXTINF:-1 tvg-logo="{STATIC_LOGO}" group-title="ümitm0d", {cname}\n#EXTVLCOPT:http-referrer={active_site}/\n{final_url}'
+            entry = f'#EXTINF:-1 tvg-logo="{STATIC_LOGO}" group-title="umitm0d", {cname}\n#EXTVLCOPT:http-referrer={active_site}/\n{final_url}'
             results.append(entry)
 
     return results
