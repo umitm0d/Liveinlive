@@ -77,6 +77,8 @@ https://tvdiziler.umittv.workers.dev/?id=tozluyaka-1-bolum-izle-1&ext=m3u8
 https://tvdiziler.umittv.workers.dev/?id=turnike-1-bolum-izle&ext=m3u8
 #EXTINF:-1 group-title="Diziler", Tuzak
 https://tvdiziler.umittv.workers.dev/?id=tuzak-1-bolum-izle&ext=m3u8
+#EXTINF:-1 group-title="Diziler", Yalnız Karar
+https://tvdiziler.umittv.workers.dev/?id=yalniz-karar-1-bolum-izle&ext=m3u8
 #EXTINF:-1 group-title="Diziler", Yine De Sen
 https://tvdiziler.umittv.workers.dev/?id=yine-de-sen-1-bolum-izle&ext=m3u8
 #EXTINF:-1 group-title="Diziler", Yüzyıllık Mucize
