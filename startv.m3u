@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çirkin 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/kapak(47).jpg" group-title="STARTV Dizileri",TR: Çirkin 1. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_69c7edd6c51e175df4aee164&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çirkin 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/cirkin1920.jpg" group-title="STARTV Dizileri",TR: Çirkin 2. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_69ce6a38c51e175df4aee2df&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Sevdiğim Sensin 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/sevdigim-sensin-b246l252m.jpg" group-title="STARTV Dizileri",TR: Sevdiğim Sensin 1. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_698d68bc3754260b3ea63df3&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Sevdiğim Sensin 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/sevdigim-sensin(2).jpg" group-title="STARTV Dizileri",TR: Sevdiğim Sensin 2. Bölüm
