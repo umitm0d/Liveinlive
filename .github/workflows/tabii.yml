@@ -1,0 +1,59 @@
+name: Tabii Scraper
+
+on:
+  workflow_dispatch:      # Manuel tetikleme butonu (Actions sekmesinden elle başlatmak için)
+  schedule:
+    - cron: '0 */6 * * *' # 6 saatte bir otomatik çalışır
+
+permissions:
+  contents: write         # Repo'ya dosya yükleme izni (ÇOK ÖNEMLİ)
+
+jobs:
+  scrape_and_update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Depodaki kodları çek
+      - name: Depoyu Kontrol Et (Checkout)
+        uses: actions/checkout@v3
+
+      # 2. Python ortamını kur
+      - name: Python Kurulumu
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # 3. Gerekli kütüphaneleri yükle
+      - name: Gerekli Kütüphaneleri Yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      # 4. Senin main.py dosyanı çalıştır
+      - name: Python Scriptini Çalıştır
+        run: python main.py
+
+      # 5. Dosyaları Git'e yükle (Hata Önleyici Mantık)
+      - name: Değişiklikleri Kaydet ve Gönder
+        run: |
+          # Git kullanıcı kimliğini ayarla
+          git config --global user.name "Tabii Bot"
+          git config --global user.email "bot@tabii.scraper"
+
+          # Dosyanın gerçekten oluşup oluşmadığını kontrol et
+          if [ -f "playlist.m3u" ]; then
+            echo "✅ Başarılı: playlist.m3u dosyası bulundu."
+            
+            # Dosyaları ekle
+            git add playlist.m3u tabii_data.json
+            
+            # Eğer dosyalarda değişiklik varsa commit et, yoksa hata verme (|| echo kısmı bunu sağlar)
+            git commit -m "Otomatik Güncelleme: $(date)" || echo "⚠️ Değişiklik yok, commit atlanıyor."
+            
+            # Değişiklikleri gönder
+            git push
+          else
+            echo "❌ KRİTİK HATA: Python scripti çalıştı ama 'playlist.m3u' dosyasını oluşturamadı."
+            echo "Lütfen main.py içindeki giriş bilgilerini ve kodun çalışıp çalışmadığını kontrol et."
+            exit 1
+          fi
