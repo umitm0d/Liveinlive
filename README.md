@@ -72,7 +72,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-03-31 07:01:38_
+_Son güncelleme: 2026-04-10 01:45:30_
 
 ---
 
