@@ -3,6 +3,8 @@ name: Update README with M3U Links
 on:
   push:
     paths:
+      - '**/*.m3u'
+      - '**/*.m3u8'
       - '*.m3u'
       - '*.m3u8'
   workflow_dispatch:
@@ -26,14 +28,18 @@ jobs:
           echo "📁 Repo: $REPO_FULL"
           echo ""
           
-          # Tüm M3U dosyalarını bul
+          # Tüm M3U dosyalarını bul (tüm alt klasörler dahil)
           echo "🔍 M3U dosyaları taranıyor..."
-          M3U_FILES=$(find . -maxdepth 1 -name "*.m3u" -o -name "*.m3u8" | sed 's|^\./||' | sort)
+          M3U_FILES=$(find . -type f \( -name "*.m3u" -o -name "*.m3u8" \) ! -path "./.git/*" | sed 's|^\./||' | sort)
           
           if [ -z "$M3U_FILES" ]; then
             echo "❌ Hiç M3U dosyası bulunamadı!"
             exit 1
           fi
+          
+          echo "📋 Bulunan M3U dosyaları:"
+          echo "$M3U_FILES"
+          echo ""
           
           # README.md'yi oluştur
           cat > README.md << 'EOF'
