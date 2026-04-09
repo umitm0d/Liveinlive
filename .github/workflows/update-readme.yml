@@ -107,10 +107,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
           git add README.md
+          
           if git diff --cached --quiet; then
             echo "📝 README.md'de değişiklik yok"
           else
+            # Uzaktaki değişiklikleri çek
+            git pull --rebase origin main
+            # Commit ve push
             git commit -m "🔄 M3U linkleri otomatik güncellendi [skip ci]"
             git push
             echo "✅ Değişiklikler gönderildi"
