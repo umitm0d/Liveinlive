@@ -1,0 +1,46 @@
+name: Movies Scraper (Only Movies)
+
+on:
+  workflow_dispatch:      # Elle tetiklemek için
+  schedule:
+    - cron: '0 2 * * *'   # Her gece 02:00 UTC (Türkiye saatiyle 05:00)
+
+jobs:
+  scrape-movies:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # Depoya yazma izni
+
+    steps:
+      - name: Depoyu Çek
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Kütüphaneleri Yükle
+        run: pip install requests
+
+      - name: Filmleri Tara (movies.py)
+        run: python movies.py
+        # Eğer işlem çok uzun sürerse GitHub 6 saatte otomatik kapatır.
+        # Senin aralığın (10k-20k) çok büyük olduğu için bu script uzun sürebilir.
+
+      - name: Sonuçları Kaydet ve Yükle
+        run: |
+          git config --global user.name 'GitHub Action Bot'
+          git config --global user.email 'action@github.com'
+          
+          # Output klasörünü ekle
+          git add output/
+          
+          # Eğer değişiklik varsa commit yap, yoksa hata verme
+          git commit -m "Filmler güncellendi: $(date)" || echo "Değişiklik yok, commit atlanıyor."
+          
+          # Çakışmaları önleyerek pull yap ve pushla
+          git pull origin main --rebase --strategy-option=theirs
+          git push origin main
