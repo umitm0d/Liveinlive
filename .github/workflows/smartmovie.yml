@@ -1,0 +1,42 @@
+name: Smart Movies Scraper (Incremental)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *' # Her gece 02:00
+
+jobs:
+  scrape-smart:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Depoyu Çek
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Kütüphaneleri Yükle
+        run: pip install requests
+
+      - name: Akıllı Scripti Çalıştır
+        run: python smart_movies.py
+
+      - name: Durumu ve Verileri Kaydet
+        run: |
+          git config --global user.name 'GitHub Action Bot'
+          git config --global user.email 'action@github.com'
+          
+          # Tüm output klasörünü (json, m3u ve state dosyası dahil) ekle
+          git add output/
+          
+          git commit -m "Veritabanı genişletildi ve durum güncellendi" || echo "Değişiklik yok"
+          
+          git pull origin main --rebase --strategy-option=theirs
+          git push origin main
