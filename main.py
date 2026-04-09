@@ -1,270 +1,110 @@
-import streamlink
-import sys
-import os 
+import requests
 import json
-import traceback
+import sys
 
-def info_to_text(stream_info, url):
-    text = '#EXT-X-STREAM-INF:'
-    if stream_info.program_id:
-        text = text + 'PROGRAM-ID=' + str(stream_info.program_id) + ','
-    if stream_info.bandwidth:
-        text = text + 'BANDWIDTH=' + str(stream_info.bandwidth) + ','
-    if stream_info.codecs:
-        text = text + 'CODECS="'
-        codecs = stream_info.codecs
-        for i in range(0, len(codecs)):
-            text = text + codecs[i]
-            if len(codecs) - 1 != i:
-                text = text + ','
-        text = text + '",'
-    if stream_info.resolution and stream_info.resolution.width:
-        text = text + 'RESOLUTION=' + str(stream_info.resolution.width) + 'x' + str(stream_info.resolution.height) 
+# --- BURAYA SADECE TOKEN'I YAPIŞTIR ---
+# Verdiğin token'ı buraya ekledim.
+# Eğer "401" hatası alırsan yeni token'ı buraya tırnak içine yapıştır.
+MY_TOKEN = "eyJhbGciOiJSUzI1NiIsImtpZCI6IkhPNnNLclR0OGNodHBhRWJMVThJdER3LUVtS2k3Vjk3QTdKY0JRUnYySVEiLCJ0eXAiOiJKV1QifQ.eyJlbWFpbCI6Im1yLmF5a3V0c2VuQGdtYWlsLmNvbSIsImV4cCI6MTc3MDA3ODIwNSwiaWF0IjoxNzcwMDU2NjA1LCJqdGkiOiI5MGUyMzM3OC0zMDQ0LTQ3M2EtODI4MS0yYzdhOTVmMmIzZWYiLCJraWRzIjpmYWxzZSwibWF0dXJpdHlMZXZlbCI6IjE4KyIsIm5hbWUiOiJBeWt1dCDFn2VuIiwicGFpckp0aSI6ImFlZjYxZDY1LWQ2NTMtNDMwZC05YTMxLTNkZDg3ZTA0NjFlZSIsInBpZCI6IjYwZjExMjgzLTliYzktNDlkNi1hMDA0LWVjZDc2NGRiM2MwNiIsInNpZCI6ImJiNTQwNmMyLWRjM2MtNGZmZS1iZjE5LTUwNTE1ZTAyODUwMSIsInN1YiI6ImMyNDA2NzFkLTc1NzgtNGZhNS04YmQzLTkzZjQ4Yjg1Mzc0ZCJ9.ZAUHjfMbLxSEXyv6TwQbJZwbfwtH7C7h83CZrd4rImDn0DdksC-oKxni5gYx6bRqUPV2cDwWIF8aMFN8khDB5hSMgK5WwWmtxbLGhm5JCWwxx3An3QkDCpiZiesDQj-wqxtb4cjl6ZjbeIeXN_7qPO-7QHTu8aDjYkmUUxpPFWL4jUNyezUULKV8YtEnnSq6Z4zgYg2gfDYWLRYGxPVj0ojcXaQnjp4pqKp9d-M23_vXFyFl8BclvUwcvvW_UbVRM4zgI28yShVJg2ozwafQWgc4gL7jdJfYfOSD0swPdAjCifVdgkXGJT1ZcFyAiymSVblMdfCb4BJGF8g5P5kPiA"
 
-    text = text + "\n" + url + "\n"
-    return text
+# --- AYARLAR ---
+BASE_URL = "https://eu1.tabii.com/apigateway"
+TARGET_ID = "149106_149112"  # Diziler Listesi
 
-def create_master_playlist(playlists, multivariant):
-    """Ana master playlist oluştur"""
-    master_text = '#EXTM3U\n'
-    
-    if multivariant.version:
-        master_text += f'#EXT-X-VERSION:{multivariant.version}\n'
-    
-    # Çözünürlüğe göre sırala (yüksekten düşüğe)
-    sorted_playlists = sorted(
-        [p for p in playlists if hasattr(p.stream_info, 'resolution') and p.stream_info.resolution],
-        key=lambda x: (x.stream_info.resolution.height if x.stream_info.resolution else 0, 
-                      x.stream_info.bandwidth if x.stream_info.bandwidth else 0),
-        reverse=True
-    )
-    
-    for playlist in sorted_playlists:
-        if (hasattr(playlist.stream_info, 'video') and 
-            playlist.stream_info.video != "audio_only" and
-            playlist.stream_info.resolution):
-            master_text += info_to_text(playlist.stream_info, playlist.uri)
-    
-    return master_text
+# Android Taklidi Yapan Başlıklar
+HEADERS = {
+    "Authorization": f"Bearer {MY_TOKEN}",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 10; SM-G960F Build/QP1A.190711.020)",
+    "Content-Type": "application/json",
+    "x-tenant-id": "TRT"
+}
 
-def create_best_playlist(playlists, multivariant):
-    """En iyi kalite için playlist oluştur"""
-    best_text = '#EXTM3U\n'
+def get_data_direct():
+    print(f"📡 Token ile {TARGET_ID} sayfasına erişim deneniyor...")
     
-    if multivariant.version:
-        best_text += f'#EXT-X-VERSION:{multivariant.version}\n'
-    
-    # En yüksek çözünürlüklü stream'i bul
-    best_playlist = None
-    max_resolution = 0
-    
-    for playlist in playlists:
-        if (hasattr(playlist.stream_info, 'video') and 
-            playlist.stream_info.video != "audio_only" and
-            playlist.stream_info.resolution):
-            resolution = playlist.stream_info.resolution.height
-            if resolution > max_resolution:
-                max_resolution = resolution
-                best_playlist = playlist
-    
-    if best_playlist:
-        best_text += info_to_text(best_playlist.stream_info, best_playlist.uri)
-    
-    return best_text
-
-def create_final_m3u_playlist(processed_channels, repo_base_url, master_folder_path):
-    """Tüm kanalları içeren tek bir M3U playlist oluştur"""
-    m3u_content = '#EXTM3U\n'
-    
-    for channel in processed_channels:
-        slug = channel["slug"]
-        name = channel["name"]
-        
-        # M3U8 dosyasının URL'sini oluştur
-        m3u8_url = f"{repo_base_url}{master_folder_path}/{slug}.m3u8"
-        
-        # M3U formatında kanal bilgisi - group-title "ÜmitM0d" olarak ayarlandı
-        m3u_content += f'#EXTINF:-1 tvg-id="{slug}" tvg-name="{name}" group-title="ÜmitM0d",{name}\n'
-        m3u_content += f'{m3u8_url}\n'
-    
-    return m3u_content
-
-def main():
-    print("=== Starting stream processing ===")
-    
-    # Loading config file
-    config_file = sys.argv[1] if len(sys.argv) > 1 else "config.json"
-    print(f"Loading config from: {config_file}")
+    url = f"{BASE_URL}/pbr/v1/pages/browse/{TARGET_ID}"
     
     try:
-        with open(config_file, "r", encoding='utf-8') as f:
-            config = json.load(f)
+        response = requests.get(url, headers=HEADERS)
+        
+        if response.status_code == 200:
+            print("✅ BAŞARILI! Sayfa verisi çekildi.")
+            return response.json()
+        elif response.status_code == 401:
+            print("❌ HATA: Token geçersiz veya süresi dolmuş (401 Unauthorized).")
+            print("👉 Lütfen güncel bir token alıp koddaki MY_TOKEN alanına yapıştır.")
+            sys.exit(1)
+        else:
+            print(f"❌ HATA: Sayfaya erişilemedi. Kod: {response.status_code}")
+            print(f"Cevap: {response.text}")
+            sys.exit(1)
+            
     except Exception as e:
-        print(f"❌ ERROR loading config file: {e}")
+        print(f"❌ Bağlantı hatası: {e}")
         sys.exit(1)
 
-    # Getting output options and creating folders
-    folder_name = config["output"]["folder"]
-    best_folder_name = config["output"]["bestFolder"]
-    master_folder_name = config["output"]["masterFolder"]
-    current_dir = os.getcwd()
-    root_folder = os.path.join(current_dir, folder_name)
-    best_folder = os.path.join(root_folder, best_folder_name)
-    master_folder_path = os.path.join(root_folder, master_folder_name) if master_folder_name else root_folder
-    
-    print(f"Creating folders:")
-    print(f"  Root: {root_folder}")
-    print(f"  Best: {best_folder}")
-    print(f"  Master: {master_folder_path}")
-    
-    os.makedirs(best_folder, exist_ok=True)
-    os.makedirs(master_folder_path, exist_ok=True)
+def generate_files(data):
+    if not data:
+        print("❌ Veri boş.")
+        return
 
-    channels = config["channels"]
-    print(f"\n=== Processing {len(channels)} channels ===\n")
+    m3u_content = "#EXTM3U\n"
+    json_list = []
     
-    success_count = 0
-    fail_count = 0
-    processed_channels = []
+    # İçerikleri Bul
+    elements = []
+    if "components" in data:
+        for comp in data["components"]:
+            if "elements" in comp:
+                elements.extend(comp["elements"])
 
-    for idx, channel in enumerate(channels, 1):
-        slug = channel.get("slug", "unknown")
-        url = channel.get("url", "")
-        name = channel.get("name", slug)
-        
-        print(f"[{idx}/{len(channels)}] Processing: {name}")
-        print(f"  URL: {url}")
-        
-        master_file_path = os.path.join(master_folder_path, f"{slug}.m3u8")
-        best_file_path = os.path.join(best_folder, f"{slug}.m3u8")
-        
+    print(f"📂 Listede {len(elements)} öğe bulundu. Linkler oluşturuluyor...")
+
+    for item in elements:
         try:
-            # Get streams and playlists
-            streams = streamlink.streams(url)
+            item_id = item.get("id")
+            title = item.get("title", "Bilinmeyen")
             
-            if not streams:
-                print(f"  ⚠️  No streams found for {slug}")
-                fail_count += 1
-                continue
-                
-            if 'best' not in streams:
-                print(f"  ⚠️  No 'best' stream found for {slug}")
-                print(f"  Available streams: {list(streams.keys())}")
-                fail_count += 1
-                continue
-            
-            best_stream = streams['best']
-            if not hasattr(best_stream, 'multivariant') or not best_stream.multivariant.playlists:
-                print(f"  ⚠️  No multivariant playlists found for {slug}")
-                fail_count += 1
-                continue
-            
-            playlists = best_stream.multivariant.playlists
+            # Görsel URL
+            img = ""
+            if "images" in item and item["images"]:
+                img = item["images"][0].get("url", "")
+                if img and not img.startswith("http"):
+                    img = f"https://cms-tabii-assets.tabii.com{img}"
 
-            # Create playlists
-            master_text = create_master_playlist(playlists, best_stream.multivariant)
-            best_text = create_best_playlist(playlists, best_stream.multivariant)
+            # MPD Linki
+            stream_url = f"{BASE_URL}/pbr/v1/media/{item_id}/master.mpd"
 
-            # HTTPS -> HTTP for cinergroup plugin
-            if url.startswith("http://"):
-                try:
-                    plugin_name, plugin_type, given_url = streamlink.session.Streamlink().resolve_url(url)
-                    if plugin_name == "cinergroup":
-                        master_text = master_text.replace("https://", "http://")
-                        best_text = best_text.replace("https://", "http://")
-                except:
-                    pass
+            # M3U Formatı
+            m3u_content += f'#EXTINF:-1 tvg-id="{item_id}" tvg-logo="{img}", {title}\n'
+            m3u_content += f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}\n'
+            m3u_content += f'#EXTVLCOPT:http-header-authorization=Bearer {MY_TOKEN}\n'
+            m3u_content += f'{stream_url}\n'
 
-            # File operations
-            if master_text.strip() and len(master_text.strip()) > len('#EXTM3U\n'):
-                with open(master_file_path, "w+", encoding='utf-8') as master_file:
-                    master_file.write(master_text)
+            # JSON Formatı
+            json_list.append({
+                "id": item_id,
+                "title": title,
+                "thumbnail": img,
+                "stream_url": stream_url,
+                "headers": {
+                    "Authorization": f"Bearer {MY_TOKEN}",
+                    "User-Agent": HEADERS["User-Agent"]
+                }
+            })
+        except:
+            continue
 
-                with open(best_file_path, "w+", encoding='utf-8') as best_file:
-                    best_file.write(best_text)
-                
-                print(f"  ✅ Success - Files created")
-                success_count += 1
-                processed_channels.append({
-                    "slug": slug,
-                    "name": name,
-                    "master_file": f"{slug}.m3u8"
-                })
-            else:
-                print(f"  ⚠️  No valid content generated for {slug}")
-                # Clean up any existing files
-                for file_path in [master_file_path, best_file_path]:
-                    if os.path.isfile(file_path):
-                        os.remove(file_path)
-                fail_count += 1
-                
-        except Exception as e:
-            print(f"  ❌ ERROR processing {slug}: {str(e)}")
-            print(f"  {traceback.format_exc()}")
-            
-            # Clean up on error
-            for file_path in [master_file_path, best_file_path]:
-                if os.path.isfile(file_path):
-                    os.remove(file_path)
-            fail_count += 1
+    # Dosyaları Kaydet
+    with open("playlist.m3u", "w", encoding="utf-8") as f:
+        f.write(m3u_content)
     
-    # Create final M3U playlist with all channels
-    if processed_channels:
-        print(f"\n=== Creating final M3U playlist ===")
-        
-        # GitHub raw URL base - BURAYI KENDİ BİLGİLERİNİZLE DEĞİŞTİRİN
-        github_username = "umitm0d"
-        repo_name = "Liveinlive"
-        branch_name = "main"
-        
-        repo_base_url = f"https://raw.githubusercontent.com/{github_username}/{repo_name}/{branch_name}/"
-        
-        # Master folder path for URLs
-        master_url_path = f"{folder_name}"
-        if master_folder_name:
-            master_url_path += f"/{master_folder_name}"
-        
-        final_m3u_content = create_final_m3u_playlist(processed_channels, repo_base_url, master_url_path)
-        
-        # Final M3U dosyasını ana dizine kaydet
-        final_m3u_path = os.path.join(current_dir, "playlist.m3u")
-        with open(final_m3u_path, "w+", encoding='utf-8') as f:
-            f.write(final_m3u_content)
-        
-        print(f"✅ Final playlist created: {final_m3u_path}")
-        
-        # Ayrıca streams klasörüne de kopyala
-        final_m3u_in_streams = os.path.join(root_folder, "playlist.m3u")
-        with open(final_m3u_in_streams, "w+", encoding='utf-8') as f:
-            f.write(final_m3u_content)
-        
-        print(f"✅ Final playlist copied to: {final_m3u_in_streams}")
-        
-        # Show example URLs
-        print(f"\n📋 Example M3U8 URLs in final playlist:")
-        for channel in processed_channels[:3]:  # Show first 3 as examples
-            slug = channel["slug"]
-            m3u8_url = f"{repo_base_url}{master_url_path}/{slug}.m3u8"
-            print(f"  {channel['name']}: {m3u8_url}")
-        
-        print(f"\n🔗 Your final M3U playlist URL will be:")
-        final_playlist_url = f"{repo_base_url}playlist.m3u"
-        print(f"  {final_playlist_url}")
-        
-        # Final M3U içeriğini göster
-        print(f"\n📄 Final M3U content preview:")
-        print("=" * 50)
-        lines = final_m3u_content.split('\n')[:6]  # İlk 3 kanalı göster
-        for line in lines:
-            print(line)
-        if len(processed_channels) > 3:
-            print(f"... and {len(processed_channels) - 3} more channels")
-        print("=" * 50)
-    
-    print(f"\n=== Summary ===")
-    print(f"✅ Successful: {success_count}")
-    print(f"❌ Failed: {fail_count}")
-    print(f"Total: {len(channels)}")
+    with open("tabii_data.json", "w", encoding="utf-8") as f:
+        json.dump(json_list, f, ensure_ascii=False, indent=4)
 
-if __name__=="__main__": 
-    main()
+    print("✅ İşlem Tamam! playlist.m3u oluşturuldu.")
+
+if __name__ == "__main__":
+    # Token zaten yukarıda tanımlı
+    data = get_data_direct()
+    generate_files(data)
