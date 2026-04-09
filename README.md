@@ -38,9 +38,54 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/indirilen_playlist.m3u
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/iptv_list.m3u
 ```
 
+### 📄 `output/movies_all.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/output/movies_all.m3u
+```
+
+### 📄 `output/series_all.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/output/series_all.m3u
+```
+
 ### 📄 `playlist.m3u`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/playlist.m3u
+```
+
+### 📄 `playlist/A`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/playlist/A
+```
+
+### 📄 `Haber.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Haber.m3u8
+```
+
+### 📄 `playlist/Haberturk.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/playlist/Haberturk.m3u8
+```
+
+### 📄 `playlist/NTV.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/playlist/NTV.m3u8
+```
+
+### 📄 `playlist/playlist.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/playlist/playlist.m3u
+```
+
+### 📄 `playlists/ecanlitvizle-org.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/playlists/ecanlitvizle-org.m3u
+```
+
+### 📄 `playlists/mobiltv-net.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/playlists/mobiltv-net.m3u
 ```
 
 ### 📄 `r2.m3u`
@@ -51,6 +96,96 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/r2.m3u
 ### 📄 `startv.m3u`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/startv.m3u
+```
+
+### 📄 `streams/baskatv-kick.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/baskatv-kick.m3u8
+```
+
+### 📄 `streams/baskatv-twitch.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/baskatv-twitch.m3u8
+```
+
+### 📄 `streams/best/baskatv-kick.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/best/baskatv-kick.m3u8
+```
+
+### 📄 `streams/best/bizimbergamatv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/best/bizimbergamatv.m3u8
+```
+
+### 📄 `streams/best/euro90tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/best/euro90tv.m3u8
+```
+
+### 📄 `streams/best/serhattv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/best/serhattv.m3u8
+```
+
+### 📄 `streams/best/teleon.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/best/teleon.m3u8
+```
+
+### 📄 `streams/bizimbergamatv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/bizimbergamatv.m3u8
+```
+
+### 📄 `streams/euro90tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/euro90tv.m3u8
+```
+
+### 📄 `streams/master/baskatv-kick.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/master/baskatv-kick.m3u8
+```
+
+### 📄 `streams/master/bizimbergamatv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/master/bizimbergamatv.m3u8
+```
+
+### 📄 `streams/master/euro90tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/master/euro90tv.m3u8
+```
+
+### 📄 `streams/master/serhattv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/master/serhattv.m3u8
+```
+
+### 📄 `streams/master/teleon.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/master/teleon.m3u8
+```
+
+### 📄 `streams/playlist.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/playlist.m3u
+```
+
+### 📄 `streams/serhattv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/serhattv.m3u8
+```
+
+### 📄 `streams/teleon.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/teleon.m3u8
+```
+
+### 📄 `streams/tvkayseri.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/tvkayseri.m3u8
 ```
 
 ### 📄 `umitm0d.m3u`
@@ -72,7 +207,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-04-10 01:45:30_
+_Son güncelleme: 2026-04-10 01:48:29_
 
 ---
 
