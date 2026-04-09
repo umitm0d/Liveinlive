@@ -1,0 +1,59 @@
+name: Kanal D Arşiv Güncelleyici
+
+on:
+  schedule:
+    - cron: '0 6,18 * * *' # Sabah 06:00 ve Akşam 18:00
+  workflow_dispatch: # Manuel tetikleme
+
+permissions:
+  contents: write
+
+jobs:
+  scrape_and_archive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Repoyu Çek
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Tüm geçmişi çek
+
+      - name: 🐍 Python 3.9 Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: 📦 Kütüphaneleri Yükle
+        run: |
+          pip install requests beautifulsoup4 tqdm urllib3
+
+      - name: 📂 Klasör Yapısını Oluştur
+        run: mkdir -p KanalD_Arsiv
+
+      - name: 🚀 Scraper'ı Çalıştır
+        run: python kanald_full_scraper.py
+
+      - name: 🔍 Kontrol (Dosya oluştu mu?)
+        run: |
+          echo "Dosya listesi:"
+          ls -R KanalD_Arsiv/
+          
+      - name: 💾 Git Yapılandırma ve Yükleme
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Dosyaları sahnele
+          git add KanalD_Arsiv/
+          
+          # Durumu kontrol et
+          if git diff --staged --quiet; then
+            echo "⚠️ HİÇBİR DOSYA DEĞİŞMEDİ VEYA OLUŞMADI. Commit atılmıyor."
+          else
+            TIMESTAMP=$(date +'%Y-%m-%d %H:%M')
+            git commit -m "Otomatik Güncelleme: $TIMESTAMP"
+            
+            # Çakışmaları önlemek için önce çek, sonra it
+            git pull --rebase origin main || git pull origin main
+            git push origin main
+          fi
