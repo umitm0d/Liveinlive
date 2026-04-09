@@ -1,0 +1,40 @@
+name: Fanatik Play Selenium Scraper
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape_selenium:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu Çek
+        uses: actions/checkout@v3
+
+      - name: Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Chrome ve Driver Kurulumu
+        # Bu adım Selenium için gerekli tarayıcıyı kurar
+        uses: browser-actions/setup-chrome@latest
+      
+      - name: Gereksinimleri Yükle
+        run: |
+          pip install selenium webdriver-manager requests
+
+      - name: Scraper'ı Çalıştır
+        run: python main.py
+
+      - name: Kaydet ve Gönder
+        run: |
+          git config --global user.name "Fanatik Bot"
+          git config --global user.email "bot@fanatik.app"
+          git add playlist.json playlist.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Liste Güncellendi" && git push)
