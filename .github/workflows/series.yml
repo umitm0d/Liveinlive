@@ -1,0 +1,40 @@
+name: Series Scraper (Only Series)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *' # Her sabah 05:00 (UTC)
+
+jobs:
+  scrape-series:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Depoyu Çek
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Kütüphaneleri Yükle
+        run: pip install requests
+
+      - name: Dizileri Tara (series.py)
+        run: python series.py
+
+      - name: Sonuçları Kaydet ve Yükle
+        run: |
+          git config --global user.name 'GitHub Action Bot'
+          git config --global user.email 'action@github.com'
+          
+          git add output/
+          git commit -m "Diziler güncellendi" || echo "Değişiklik yok"
+          
+          git pull origin main --rebase --strategy-option=theirs
+          git push origin main
