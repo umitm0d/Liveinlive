@@ -1,0 +1,33 @@
+name: Giniko M3U Güncelle
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # Her 6 saatte bir
+  workflow_dispatch:         # Elle de çalıştırılabilir
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo'yu çek
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Bağımlılıkları yükle
+        run: pip install requests
+
+      - name: Scripti çalıştır
+        run: python umitginiko.py
+
+      - name: Dosyaları commit et ve push'la
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add umitginiko.m3u umitginiko.json
+          git diff --cached --quiet || git commit -m "🔄 M3U güncellendi: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
