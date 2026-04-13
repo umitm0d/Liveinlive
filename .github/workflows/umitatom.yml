@@ -1,0 +1,41 @@
+name: Atom Güncelleme
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Her 5 dakikada bir çalışır
+  workflow_dispatch:       # Manuel tetikleme (Actions sekmesinden butonla)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # Depoya yazma izni (Commit atmak için şart)
+
+    steps:
+      - name: Depoyu Çek (Checkout)
+        uses: actions/checkout@v4
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Gerekli Kütüphaneleri Yükle
+        run: |
+          pip install requests
+
+      - name: Scripti Çalıştır (umitatom.py)
+        run: python umitatom.py
+
+      - name: Değişiklikleri Kaydet ve Gönder
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # atom klasörünü ekle
+          git add atom/
+          
+          # Eğer değişiklik varsa commit at, yoksa hata verme geç
+          git commit -m "Oto Güncelleme: $(date)" || echo "Değişiklik yok, commit atlanıyor."
+          
+          git push
