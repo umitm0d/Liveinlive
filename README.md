@@ -362,7 +362,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-04-13 03:44:05_
+_Son güncelleme: 2026-04-13 03:47:43_
 
 ---
 
