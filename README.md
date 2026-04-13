@@ -28,9 +28,89 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Promosyon-1.m3u
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Umitm0dRec.m3u
 ```
 
+### 📄 `catcast/alvin-music.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/alvin-music.m3u8
+```
+
+### 📄 `catcast/b-kerimoff-Mugam-dunyamiz.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/b-kerimoff-Mugam-dunyamiz.m3u8
+```
+
+### 📄 `catcast/b-kerimoff-masa-veayi.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/b-kerimoff-masa-veayi.m3u8
+```
+
+### 📄 `catcast/by-kerimoff-comedyxana.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/by-kerimoff-comedyxana.m3u8
+```
+
+### 📄 `catcast/by-kerimoff-keloglan.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/by-kerimoff-keloglan.m3u8
+```
+
+### 📄 `catcast/by-kerimoff-yesilcam.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/by-kerimoff-yesilcam.m3u8
+```
+
+### 📄 `catcast/horrorchannel.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/horrorchannel.m3u8
+```
+
+### 📄 `catcast/kanal-65.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/kanal-65.m3u8
+```
+
+### 📄 `catcast/ksunal.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/ksunal.m3u8
+```
+
+### 📄 `catcast/lv-`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/lv-
+```
+
+### 📄 `Nightgirl_t=info.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Nightgirl_t=info.m3u8
+```
+
+### 📄 `catcast/megatvaz.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/megatvaz.m3u8
+```
+
+### 📄 `catcast/relax-tvhd.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/relax-tvhd.m3u8
+```
+
+### 📄 `catcast/rihatmusic.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/rihatmusic.m3u8
+```
+
 ### 📄 `catcast/tomandjerry.m3u8`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/tomandjerry.m3u8
+```
+
+### 📄 `catcast/turkuzplay1.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/turkuzplay1.m3u8
+```
+
+### 📄 `catcast/vetendasa.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/vetendasa.m3u8
 ```
 
 ### 📄 `indirilen_playlist.m3u`
@@ -217,7 +297,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-04-13 03:34:41_
+_Son güncelleme: 2026-04-13 03:36:04_
 
 ---
 
