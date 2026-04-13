@@ -28,6 +28,11 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Promosyon-1.m3u
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Umitm0dRec.m3u
 ```
 
+### 📄 `catcast/tomandjerry.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/tomandjerry.m3u8
+```
+
 ### 📄 `indirilen_playlist.m3u`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/indirilen_playlist.m3u
@@ -188,6 +193,11 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/teleon.m3u8
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/streams/tvkayseri.m3u8
 ```
 
+### 📄 `umitginiko.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitginiko.m3u
+```
+
 ### 📄 `umitm0d.m3u`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitm0d.m3u
@@ -207,7 +217,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-04-10 01:48:29_
+_Son güncelleme: 2026-04-13 03:34:41_
 
 ---
 
