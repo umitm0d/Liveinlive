@@ -7,3 +7,4 @@ requests==2.31.0
 tqdm==4.66.2
 Unidecode==0.4.21
 urllib3==2.2.1
+python-slugify>=8.0.0
