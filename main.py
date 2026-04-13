@@ -1,110 +1,80 @@
+import re
 import requests
-import json
 import sys
+import json
+import os
+from urllib.parse import urljoin
+from slugify import slugify
+from tqdm import tqdm
 
-# --- BURAYA SADECE TOKEN'I YAPIŞTIR ---
-# Verdiğin token'ı buraya ekledim.
-# Eğer "401" hatası alırsan yeni token'ı buraya tırnak içine yapıştır.
-MY_TOKEN = "eyJhbGciOiJSUzI1NiIsImtpZCI6IkhPNnNLclR0OGNodHBhRWJMVThJdER3LUVtS2k3Vjk3QTdKY0JRUnYySVEiLCJ0eXAiOiJKV1QifQ.eyJlbWFpbCI6Im1yLmF5a3V0c2VuQGdtYWlsLmNvbSIsImV4cCI6MTc3MDA3ODIwNSwiaWF0IjoxNzcwMDU2NjA1LCJqdGkiOiI5MGUyMzM3OC0zMDQ0LTQ3M2EtODI4MS0yYzdhOTVmMmIzZWYiLCJraWRzIjpmYWxzZSwibWF0dXJpdHlMZXZlbCI6IjE4KyIsIm5hbWUiOiJBeWt1dCDFn2VuIiwicGFpckp0aSI6ImFlZjYxZDY1LWQ2NTMtNDMwZC05YTMxLTNkZDg3ZTA0NjFlZSIsInBpZCI6IjYwZjExMjgzLTliYzktNDlkNi1hMDA0LWVjZDc2NGRiM2MwNiIsInNpZCI6ImJiNTQwNmMyLWRjM2MtNGZmZS1iZjE5LTUwNTE1ZTAyODUwMSIsInN1YiI6ImMyNDA2NzFkLTc1NzgtNGZhNS04YmQzLTkzZjQ4Yjg1Mzc0ZCJ9.ZAUHjfMbLxSEXyv6TwQbJZwbfwtH7C7h83CZrd4rImDn0DdksC-oKxni5gYx6bRqUPV2cDwWIF8aMFN8khDB5hSMgK5WwWmtxbLGhm5JCWwxx3An3QkDCpiZiesDQj-wqxtb4cjl6ZjbeIeXN_7qPO-7QHTu8aDjYkmUUxpPFWL4jUNyezUULKV8YtEnnSq6Z4zgYg2gfDYWLRYGxPVj0ojcXaQnjp4pqKp9d-M23_vXFyFl8BclvUwcvvW_UbVRM4zgI28yShVJg2ozwafQWgc4gL7jdJfYfOSD0swPdAjCifVdgkXGJT1ZcFyAiymSVblMdfCb4BJGF8g5P5kPiA"
+def get_stream_url(url, pattern, method="GET", headers={}, body={}):
+    if method == "GET":
+        r = requests.get(url, headers=headers)
+    elif method == "POST":
+        r = requests.post(url, json=body, headers=headers)
+    else:
+        print(method, "is not supported or wrong.")
+        return None
+    results = re.findall(pattern, r.text)
+    if len(results) > 0:
+        return results[0]
+    else:
+        print("No result found in the response. \nCheck your regex pattern {} for {}".format(method, url))
+        return None
 
-# --- AYARLAR ---
-BASE_URL = "https://eu1.tabii.com/apigateway"
-TARGET_ID = "149106_149112"  # Diziler Listesi
+def playlist_text(url):
+    text = ""
+    r = requests.get(url)
+    if r.status_code == 200:
+        for line in r.iter_lines():
+            line = line.decode()
+            if not line:
+                continue
+            if line[0] != "#":
+                text = text + urljoin(url, str(line))
+            else:
+                text = str(text) + str(line)
+            text += "\n"
 
-# Android Taklidi Yapan Başlıklar
-HEADERS = {
-    "Authorization": f"Bearer {MY_TOKEN}",
-    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 10; SM-G960F Build/QP1A.190711.020)",
-    "Content-Type": "application/json",
-    "x-tenant-id": "TRT"
-}
+        return text
+    return ""
 
-def get_data_direct():
-    print(f"📡 Token ile {TARGET_ID} sayfasına erişim deneniyor...")
-    
-    url = f"{BASE_URL}/pbr/v1/pages/browse/{TARGET_ID}"
-    
-    try:
-        response = requests.get(url, headers=HEADERS)
-        
-        if response.status_code == 200:
-            print("✅ BAŞARILI! Sayfa verisi çekildi.")
-            return response.json()
-        elif response.status_code == 401:
-            print("❌ HATA: Token geçersiz veya süresi dolmuş (401 Unauthorized).")
-            print("👉 Lütfen güncel bir token alıp koddaki MY_TOKEN alanına yapıştır.")
-            sys.exit(1)
-        else:
-            print(f"❌ HATA: Sayfaya erişilemedi. Kod: {response.status_code}")
-            print(f"Cevap: {response.text}")
-            sys.exit(1)
-            
-    except Exception as e:
-        print(f"❌ Bağlantı hatası: {e}")
-        sys.exit(1)
 
-def generate_files(data):
-    if not data:
-        print("❌ Veri boş.")
-        return
 
-    m3u_content = "#EXTM3U\n"
-    json_list = []
-    
-    # İçerikleri Bul
-    elements = []
-    if "components" in data:
-        for comp in data["components"]:
-            if "elements" in comp:
-                elements.extend(comp["elements"])
+def main():
+    config_file = open(sys.argv[1], "r", encoding="utf-8")
+    config = json.load(config_file)
+    for site in config:
+        site_path = os.path.join(os.getcwd(), site["slug"])
+        os.makedirs(site_path, exist_ok=True)
+        for channel in tqdm(site["channels"]):
+            channel_file_path = os.path.join(site_path, slugify(channel["name"].lower()) + ".m3u8")
+            channel_url = site["url"]
+            for variable in channel["variables"]:
+                channel_url = channel_url.replace(variable["name"], variable["value"])
+            stream_url = get_stream_url(channel_url, site["pattern"])
+            if not stream_url:
+                if os.path.isfile(channel_file_path):
+                    os.remove(channel_file_path)
+                continue
+            if site["output_filter"] not in stream_url:
+                if os.path.isfile(channel_file_path):
+                    os.remove(channel_file_path)
+                continue
+            if site["mode"] == "variant":
+                text = playlist_text(stream_url)
+            elif site["mode"] == "master":
+                text = "#EXTM3U\n##EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH={}\n{}".format(site["bandwidth"], stream_url)
+            else:
+                print("Wrong or missing playlist mode argument")
+                text = ""
+            if text:
+                channel_file = open(channel_file_path, "w+")
+                channel_file.write(text)
+            else:
+                if os.path.isfile(channel_file_path):
+                    os.remove(channel_file_path)
+                
 
-    print(f"📂 Listede {len(elements)} öğe bulundu. Linkler oluşturuluyor...")
-
-    for item in elements:
-        try:
-            item_id = item.get("id")
-            title = item.get("title", "Bilinmeyen")
-            
-            # Görsel URL
-            img = ""
-            if "images" in item and item["images"]:
-                img = item["images"][0].get("url", "")
-                if img and not img.startswith("http"):
-                    img = f"https://cms-tabii-assets.tabii.com{img}"
-
-            # MPD Linki
-            stream_url = f"{BASE_URL}/pbr/v1/media/{item_id}/master.mpd"
-
-            # M3U Formatı
-            m3u_content += f'#EXTINF:-1 tvg-id="{item_id}" tvg-logo="{img}", {title}\n'
-            m3u_content += f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}\n'
-            m3u_content += f'#EXTVLCOPT:http-header-authorization=Bearer {MY_TOKEN}\n'
-            m3u_content += f'{stream_url}\n'
-
-            # JSON Formatı
-            json_list.append({
-                "id": item_id,
-                "title": title,
-                "thumbnail": img,
-                "stream_url": stream_url,
-                "headers": {
-                    "Authorization": f"Bearer {MY_TOKEN}",
-                    "User-Agent": HEADERS["User-Agent"]
-                }
-            })
-        except:
-            continue
-
-    # Dosyaları Kaydet
-    with open("playlist.m3u", "w", encoding="utf-8") as f:
-        f.write(m3u_content)
-    
-    with open("tabii_data.json", "w", encoding="utf-8") as f:
-        json.dump(json_list, f, ensure_ascii=False, indent=4)
-
-    print("✅ İşlem Tamam! playlist.m3u oluşturuldu.")
-
-if __name__ == "__main__":
-    # Token zaten yukarıda tanımlı
-    data = get_data_direct()
-    generate_files(data)
+if __name__=="__main__": 
+    main() 
