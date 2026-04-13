@@ -1,0 +1,39 @@
+name: Update Catcast Streams
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Run every 6 hours
+  workflow_dispatch:  # Allow manual trigger
+
+concurrency:
+  group: catcast-update
+  cancel-in-progress: false  # Wait for previous run to complete
+
+jobs:
+  update-streams:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+    
+    - name: Run update script
+      run: python catcast.py
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add catcast/
+        git add -u catcast/
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update Catcast streams [$(date +'%Y-%m-%d %H:%M:%S')]" && git push)
