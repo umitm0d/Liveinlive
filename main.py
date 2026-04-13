@@ -35,46 +35,67 @@ def playlist_text(url):
             else:
                 text = str(text) + str(line)
             text += "\n"
-
         return text
     return ""
 
-
-
 def main():
+    # Config dosyasını kontrol et
+    if len(sys.argv) < 2:
+        print("Hata: Lütfen config.json dosyasını argüman olarak verin!")
+        print("Kullanım: python main.py config.json")
+        sys.exit(1)
+    
     config_file = open(sys.argv[1], "r", encoding="utf-8")
     config = json.load(config_file)
+    
     for site in config:
+        print(f"\n📺 İşleniyor: {site['name']}")
         site_path = os.path.join(os.getcwd(), site["slug"])
         os.makedirs(site_path, exist_ok=True)
-        for channel in tqdm(site["channels"]):
+        
+        for channel in tqdm(site["channels"], desc=f"  Kanallar"):
             channel_file_path = os.path.join(site_path, slugify(channel["name"].lower()) + ".m3u8")
             channel_url = site["url"]
-            for variable in channel["variables"]:
+            
+            # Değişkenleri yerleştir
+            for variable in channel.get("variables", []):
                 channel_url = channel_url.replace(variable["name"], variable["value"])
-            stream_url = get_stream_url(channel_url, site["pattern"])
+            
+            # Stream URL'yi bul
+            headers = site.get("headers", {})
+            method = site.get("method", "GET")
+            stream_url = get_stream_url(channel_url, site["pattern"], method, headers)
+            
             if not stream_url:
                 if os.path.isfile(channel_file_path):
                     os.remove(channel_file_path)
                 continue
+            
+            # Output filter kontrolü
             if site["output_filter"] not in stream_url:
                 if os.path.isfile(channel_file_path):
                     os.remove(channel_file_path)
                 continue
+            
+            # Playlist moduna göre işlem
             if site["mode"] == "variant":
                 text = playlist_text(stream_url)
             elif site["mode"] == "master":
-                text = "#EXTM3U\n##EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH={}\n{}".format(site["bandwidth"], stream_url)
+                bandwidth = site.get("bandwidth", "8000000")
+                text = "#EXTM3U\n##EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH={}\n{}".format(bandwidth, stream_url)
             else:
                 print("Wrong or missing playlist mode argument")
                 text = ""
+            
+            # Dosyayı kaydet veya sil
             if text:
-                channel_file = open(channel_file_path, "w+")
-                channel_file.write(text)
+                with open(channel_file_path, "w+", encoding="utf-8") as channel_file:
+                    channel_file.write(text)
+                print(f"    ✅ {channel['name']} - kaydedildi")
             else:
                 if os.path.isfile(channel_file_path):
                     os.remove(channel_file_path)
-                
+                print(f"    ❌ {channel['name']} - akış bulunamadı")
 
-if __name__=="__main__": 
-    main() 
+if __name__ == "__main__": 
+    main()
