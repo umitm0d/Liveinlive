@@ -28,89 +28,69 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Promosyon-1.m3u
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Umitm0dRec.m3u
 ```
 
-### 📄 `catcast/alvin-music.m3u8`
+### 📄 `atom/aspor.m3u8`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/alvin-music.m3u8
-```
-
-### 📄 `catcast/b-kerimoff-Mugam-dunyamiz.m3u8`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/b-kerimoff-Mugam-dunyamiz.m3u8
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/aspor.m3u8
 ```
 
-### 📄 `catcast/b-kerimoff-masa-veayi.m3u8`
+### 📄 `atom/bein-sports-1.m3u8`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/b-kerimoff-masa-veayi.m3u8
-```
-
-### 📄 `catcast/by-kerimoff-comedyxana.m3u8`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/by-kerimoff-comedyxana.m3u8
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/bein-sports-1.m3u8
 ```
 
-### 📄 `catcast/by-kerimoff-keloglan.m3u8`
+### 📄 `atom/bein-sports-2.m3u8`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/by-kerimoff-keloglan.m3u8
-```
-
-### 📄 `catcast/by-kerimoff-yesilcam.m3u8`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/by-kerimoff-yesilcam.m3u8
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/bein-sports-2.m3u8
 ```
 
-### 📄 `catcast/horrorchannel.m3u8`
+### 📄 `atom/bein-sports-3.m3u8`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/horrorchannel.m3u8
-```
-
-### 📄 `catcast/kanal-65.m3u8`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/kanal-65.m3u8
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/bein-sports-3.m3u8
 ```
 
-### 📄 `catcast/ksunal.m3u8`
+### 📄 `atom/bein-sports-4.m3u8`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/ksunal.m3u8
-```
-
-### 📄 `catcast/lv-`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/lv-
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/bein-sports-4.m3u8
 ```
 
-### 📄 `Nightgirl_t=info.m3u8`
+### 📄 `atom/s-sport-2.m3u8`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Nightgirl_t=info.m3u8
-```
-
-### 📄 `catcast/megatvaz.m3u8`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/megatvaz.m3u8
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/s-sport-2.m3u8
 ```
 
-### 📄 `catcast/relax-tvhd.m3u8`
+### 📄 `atom/s-sport.m3u8`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/relax-tvhd.m3u8
-```
-
-### 📄 `catcast/rihatmusic.m3u8`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/rihatmusic.m3u8
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/s-sport.m3u8
 ```
 
-### 📄 `catcast/tomandjerry.m3u8`
+### 📄 `atom/tivibu-spor-1.m3u8`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/tomandjerry.m3u8
-```
-
-### 📄 `catcast/turkuzplay1.m3u8`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/turkuzplay1.m3u8
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/tivibu-spor-1.m3u8
 ```
 
-### 📄 `catcast/vetendasa.m3u8`
+### 📄 `atom/tivibu-spor-2.m3u8`
 ```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/vetendasa.m3u8
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/tivibu-spor-2.m3u8
+```
+
+### 📄 `atom/tivibu-spor-3.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/tivibu-spor-3.m3u8
+```
+
+### 📄 `atom/trt-spor.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/trt-spor.m3u8
+```
+
+### 📄 `atom/trt-yildiz.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/trt-yildiz.m3u8
+```
+
+### 📄 `atom/trt1.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/trt1.m3u8
 ```
 
 ### 📄 `indirilen_playlist.m3u`
@@ -121,6 +101,91 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/indirilen_playlist.m3u
 ### 📄 `iptv_list.m3u`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/iptv_list.m3u
+```
+
+### 📄 `myvideo-az/arb-24.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/arb-24.m3u8
+```
+
+### 📄 `myvideo-az/arb-gunes.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/arb-gunes.m3u8
+```
+
+### 📄 `myvideo-az/arb.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/arb.m3u8
+```
+
+### 📄 `myvideo-az/baku-tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/baku-tv.m3u8
+```
+
+### 📄 `myvideo-az/cbc.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/cbc.m3u8
+```
+
+### 📄 `myvideo-az/dunya-tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/dunya-tv.m3u8
+```
+
+### 📄 `myvideo-az/ictimai-tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/ictimai-tv.m3u8
+```
+
+### 📄 `myvideo-az/kanal-s.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/kanal-s.m3u8
+```
+
+### 📄 `myvideo-az/mcj-tv-shop.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/mcj-tv-shop.m3u8
+```
+
+### 📄 `myvideo-az/medeniyet-tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/medeniyet-tv.m3u8
+```
+
+### 📄 `myvideo-az/mtv-azerbaycan.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/mtv-azerbaycan.m3u8
+```
+
+### 📄 `myvideo-az/real-tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/real-tv.m3u8
+```
+
+### 📄 `myvideo-az/space-tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/space-tv.m3u8
+```
+
+### 📄 `myvideo-az/tmb-azerbaycan.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/tmb-azerbaycan.m3u8
+```
+
+### 📄 `myvideo-az/tmb-tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/tmb-tv.m3u8
+```
+
+### 📄 `myvideo-az/vip.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/vip.m3u8
+```
+
+### 📄 `myvideo-az/xezer-tv.m3u8`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/xezer-tv.m3u8
 ```
 
 ### 📄 `output/movies_all.m3u`
@@ -297,7 +362,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-04-13 03:36:04_
+_Son güncelleme: 2026-04-13 03:44:05_
 
 ---
 
