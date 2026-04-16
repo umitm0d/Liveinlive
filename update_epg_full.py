@@ -9,9 +9,9 @@ from datetime import datetime, timedelta
 # ================== AYARLAR ==================
 
 EPG_SOURCES = {
-    "epg1": "https://streams.uzunmuhalefet.com/epg/tr.xml",
+    "epg1": "https://raw.githubusercontent.com/tecobaba/tecom3u/refs/heads/main/tr-guide.xml",
     "epg2": "https://raw.githubusercontent.com/umitm0d/Liveinlive/main/epg.xml",
-    "epg3": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/epg/kabloepg.xml",
+    "epg3": "https://raw.githubusercontent.com/impresents/my-iptv-list/refs/heads/main/epg.xml",
     "epg4": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey2.xml",
     "epg5": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey3.xml",
     "epg6": "https://raw.githubusercontent.com/globetvapp/epg/refs/heads/main/Turkey/turkey4.xml",
