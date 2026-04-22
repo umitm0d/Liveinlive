@@ -1,5 +1,323 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="merged-epg-tr-final"><channel id="24hd"><display-name>24 HD.tr</display-name></channel>
+<tv generator-info-name="merged-epg-tr-final"><channel id="24tv">
+    <display-name lang="tr">24</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838386.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="360">
+    <display-name lang="tr">360</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838188.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ahaber">
+    <display-name lang="tr">A HABER</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838612.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="aspor">
+    <display-name lang="tr">A SPOR</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838287.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="a2tv">
+    <display-name lang="tr">A2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837289.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="akittv">
+    <display-name lang="tr">AKIT TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838546.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="atv">
+    <display-name lang="tr">ATV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838305.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="benguturktv">
+    <display-name lang="tr">BENGUTURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838732.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="beyaztv">
+    <display-name lang="tr">BEYAZ TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838801.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="bloomberght">
+    <display-name lang="tr">BLOOMBERG HT</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837595.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="cnnturk">
+    <display-name lang="tr">CNN TURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838363.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="dmax">
+    <display-name lang="tr">DMAX</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837556.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ekoturk">
+    <display-name lang="tr">EKOTURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838250.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="haberglobal">
+    <display-name lang="tr">HABER GLOBAL</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838040.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="haberturktv">
+    <display-name lang="tr">HABERTURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838714.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="halktv">
+    <display-name lang="tr">HALK TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838585.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="kanal7">
+    <display-name lang="tr">KANAL 7</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838695.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="kanald">
+    <display-name lang="tr">KANAL D</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838833.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="now">
+    <display-name lang="tr">NOW</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838440.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ntv">
+    <display-name lang="tr">NTV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838399.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="showtv">
+    <display-name lang="tr">SHOW TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839061.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="startv">
+    <display-name lang="tr">STAR TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838418.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trt1">
+    <display-name lang="tr">TRT 1</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839124.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trt2">
+    <display-name lang="tr">TRT 2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839153.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trt3spor">
+    <display-name lang="tr">TRT 3 SPOR</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839212.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtbelgesel">
+    <display-name lang="tr">TRT BELGESEL</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250328726039.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trthaber">
+    <display-name lang="tr">TRT HABER</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837609.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtspor">
+    <display-name lang="tr">TRT SPOR</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839291.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtsporyildiz">
+    <display-name lang="tr">TRT SPOR YILDIZ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838619.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtturk">
+    <display-name lang="tr">TRT TURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838728.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="natgeo">
+    <display-name lang="tr">NATIONAL GEOGRAPHIC</display-name>
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sozcutv">
+    <display-name lang="tr">SÖZCÜ TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230215906808.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtavaz">
+    <display-name lang="tr">TRT AVAZ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003410.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="dreamturk">
+    <display-name lang="tr">DREAM TÜRK TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003240.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="number1turk">
+    <display-name lang="tr">NUMBER1 TÜRK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240910523389.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="powerturk">
+    <display-name lang="tr">POWER TÜRK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211221328664.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="eurosport1">
+    <display-name lang="tr">EUROSPORT 1</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228335380.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="eurosport2">
+    <display-name lang="tr">EUROSPORT 2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228334730.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ssport">
+    <display-name lang="tr">S SPORT</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ssport2">
+    <display-name lang="tr">S SPORT 2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="natgeowild">
+    <display-name lang="tr">NATIONAL GEOGRAPHIC WILD</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003272.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinema1001">
+    <display-name lang="tr">SİNEMA 1001</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003348.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemaaile">
+    <display-name lang="tr">SİNEMA AİLE</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210907159369.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemaaksiyon">
+    <display-name lang="tr">SİNEMA AKSİYON</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210913164361.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemakomedi">
+    <display-name lang="tr">SİNEMA KOMEDİ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003485.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinematv">
+    <display-name lang="tr">SİNEMA TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003521.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemayerli">
+    <display-name lang="tr">SİNEMA YERLİ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003522.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="teve2">
+    <display-name lang="tr">TEVE2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003273.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="tlc">
+    <display-name lang="tr">TLC</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003404.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="tv4">
+    <display-name lang="tr">TV4</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20220107345852.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="tv8">
+    <display-name lang="tr">TV8</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240910523045.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="tvnet">
+    <display-name lang="tr">TVNET</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20220329421918.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ulusalkanal">
+    <display-name lang="tr">ULUSAL 1</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003468.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ulketv">
+    <display-name lang="tr">ÜLKE TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003467.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtdiyanetcocuk">
+    <display-name lang="tr">TRT DİYANET ÇOCUK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230518007126.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtmuzik">
+    <display-name lang="tr">TRT MÜZİK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210824122838.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="minikacocuk">
+    <display-name lang="tr">MİNİKA ÇOCUK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003307.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="minikago">
+    <display-name lang="tr">MİNİKA GO</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211124298353.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="nbatv">
+    <display-name lang="tr">NBA TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240611449307.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="beinsportshaber">
+    <display-name lang="tr">Bein Sports Haber</display-name>
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports1">
+    <display-name lang="tr">Beinsports</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports2">
+    <display-name lang="tr">Beinsports 2</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports3">
+    <display-name lang="tr">Beinsports 3</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports4">
+    <display-name lang="tr">Beinsports 4</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+<channel id="24hd"><display-name>24 HD.tr</display-name></channel>
 <channel id="360hd"><display-name>360 HD.tr</display-name></channel>
 <channel id="ahaberhd"><display-name>A HABER HD.tr</display-name></channel>
 <channel id="anewshd"><display-name>A NEWS HD.tr</display-name></channel>
@@ -52,7 +370,6 @@
 <channel id="gzttv"><display-name>GZT TV.tr</display-name></channel>
 <channel id="haberglobalhd"><display-name>HABER GLOBAL HD.tr</display-name></channel>
 <channel id="habertürkhd"><display-name>HABERTÜRK HD.tr</display-name></channel>
-<channel id="halktv"><display-name>HALK TV.tr</display-name></channel>
 <channel id="htspor"><display-name>HT SPOR.tr</display-name></channel>
 <channel id="kadirgatv"><display-name>KADIRGA TV.tr</display-name></channel>
 <channel id="kanal23"><display-name>KANAL 23.tr</display-name></channel>
@@ -78,7 +395,6 @@
 <channel id="nickjr"><display-name>Nick JR.tr</display-name></channel>
 <channel id="nickelodeon"><display-name>NICKELODEON.tr</display-name></channel>
 <channel id="nicktoons"><display-name>NICKTOONS.tr</display-name></channel>
-<channel id="now"><display-name>NOW.tr</display-name></channel>
 <channel id="nr1damarhd"><display-name>NR1 DAMAR HD.tr</display-name></channel>
 <channel id="ntvhd"><display-name>NTV HD.tr</display-name></channel>
 <channel id="number1turkhd"><display-name>NUMBER1 TURK HD.tr</display-name></channel>
@@ -86,8 +402,6 @@
 <channel id="on6"><display-name>ON6.tr</display-name></channel>
 <channel id="powerturkhd"><display-name>POWER TURK HD.tr</display-name></channel>
 <channel id="powertvhd"><display-name>POWER TV HD.tr</display-name></channel>
-<channel id="ssport2"><display-name>S SPORT 2.tr</display-name></channel>
-<channel id="ssport"><display-name>S SPORT.tr</display-name></channel>
 <channel id="semerkandhd"><display-name>SEMERKAND HD.tr</display-name></channel>
 <channel id="showtvhd"><display-name>SHOW TV HD.tr</display-name></channel>
 <channel id="si̇nema1002hd"><display-name>SİNEMA 1002 HD.tr</display-name></channel>
@@ -115,27 +429,22 @@
 <channel id="teve2hd"><display-name>TEVE2 HD.tr</display-name></channel>
 <channel id="tgrthaberhd"><display-name>TGRT HABER HD.tr</display-name></channel>
 <channel id="ti̇vi̇6"><display-name>TİVİ6.tr</display-name></channel>
-<channel id="tlc"><display-name>TLC.tr</display-name></channel>
 <channel id="tmbtv"><display-name>TMB TV.tr</display-name></channel>
 <channel id="trt2hd"><display-name>TRT 2 HD.tr</display-name></channel>
 <channel id="trt3"><display-name>TRT 3.tr</display-name></channel>
 <channel id="trtarabi"><display-name>TRT ARABI.tr</display-name></channel>
-<channel id="trtavaz"><display-name>TRT AVAZ.tr</display-name></channel>
 <channel id="trtbelgeselhd"><display-name>TRT BELGESEL HD.tr</display-name></channel>
 <channel id="trtçocukhd"><display-name>TRT ÇOCUK HD.tr</display-name></channel>
-<channel id="trtdiyanetcocuk"><display-name>TRT DIYANET COCUK.tr</display-name></channel>
 <channel id="trteba"><display-name>TRT EBA.tr</display-name></channel>
 <channel id="trthaberhd"><display-name>TRT HABER HD.tr</display-name></channel>
 <channel id="trtkurdi̇"><display-name>TRT KURDİ.tr</display-name></channel>
 <channel id="trtmüzi̇k"><display-name>TRT MÜZİK.tr</display-name></channel>
 <channel id="trtsporhd"><display-name>TRT SPOR HD.tr</display-name></channel>
-<channel id="trtsporyildiz"><display-name>TRT SPOR YILDIZ.tr</display-name></channel>
 <channel id="trttürk"><display-name>TRT TÜRK.tr</display-name></channel>
 <channel id="trtworldhd"><display-name>TRT World HD.tr</display-name></channel>
 <channel id="trt1hd"><display-name>TRT1 HD.tr</display-name></channel>
 <channel id="turkhaber"><display-name>TURKHABER.tr</display-name></channel>
 <channel id="tv2020"><display-name>TV 2020.tr</display-name></channel>
-<channel id="tv4"><display-name>TV 4.tr</display-name></channel>
 <channel id="tv+info"><display-name>TV+ Info.tr</display-name></channel>
 <channel id="tv100"><display-name>TV100.tr</display-name></channel>
 <channel id="tv5monde"><display-name>TV5 MONDE.tr</display-name></channel>
@@ -145,11 +454,174 @@
 <channel id="tvnethd"><display-name>TVNET HD.tr</display-name></channel>
 <channel id="tyttürk"><display-name>TYT TÜRK.tr</display-name></channel>
 <channel id="ülketvhd"><display-name>ÜLKE TV HD.tr</display-name></channel>
-<channel id="ulusalkanal"><display-name>ULUSAL KANAL.tr</display-name></channel>
 <channel id="vavtv"><display-name>VAV TV.tr</display-name></channel>
 <channel id="viasatexplore"><display-name>VIASAT EXPLORE.tr</display-name></channel>
 <channel id="viasathistoryhd"><display-name>VIASAT HISTORY HD.tr</display-name></channel>
-<programme start="20260420233000 +0300" stop="20260421011500 +0300" channel="24hd"><title>Arafta Sorular</title><desc>Guncel konuları, toplumsal meseleleri ve bireysel sorgulamaları derinlikli bir bakış açısıyla ele alan ozgun bir info-magazine programıdır. Kesin yargılar sunmak yerine, izleyiciyi sorularla baş başa bırakır; duşunmenin, durup sorgulamanın ve farklı bakış açıları geliştirmenin onemini hatırlatır.</desc></programme>
+<channel id="24"><display-name>24.tr</display-name></channel>
+<channel id="90’lar"><display-name>90’ LAR.tr</display-name></channel>
+<channel id="apara"><display-name>A PARA.tr</display-name></channel>
+<channel id="a2"><display-name>A2.tr</display-name></channel>
+<channel id="aki̇ttv"><display-name>AKİT TV.tr</display-name></channel>
+<channel id="akusti̇k"><display-name>AKUSTİK.tr</display-name></channel>
+<channel id="aljazeeraarabic"><display-name>AL JAZEERA ARABIC.tr</display-name></channel>
+<channel id="aljazeerainternational"><display-name>AL JAZEERA INTERNATIONAL.tr</display-name></channel>
+<channel id="alsunnah"><display-name>AL SUNNAH.tr</display-name></channel>
+<channel id="anews"><display-name>ANEWS.tr</display-name></channel>
+<channel id="arabesk"><display-name>ARABESK.tr</display-name></channel>
+<channel id="bbcearth"><display-name>BBC EARTH.tr</display-name></channel>
+<channel id="bbcfirst"><display-name>BBC FIRST.tr</display-name></channel>
+<channel id="blues"><display-name>BLUES.tr</display-name></channel>
+<channel id="çalişirken"><display-name>ÇALIŞIRKEN.tr</display-name></channel>
+<channel id="channelonerussia"><display-name>CHANNEL ONE RUSSIA.tr</display-name></channel>
+<channel id="cnbc"><display-name>CNBC.tr</display-name></channel>
+<channel id="cnntürk"><display-name>CNN TÜRK.tr</display-name></channel>
+<channel id="davinci"><display-name>DA VINCI.tr</display-name></channel>
+<channel id="deutschewelle"><display-name>DEUTSCHE WELLE.tr</display-name></channel>
+<channel id="di̇ni̇musi̇ki̇"><display-name>DİNİ MUSİKİ.tr</display-name></channel>
+<channel id="discoverychannel"><display-name>DISCOVERY CHANNEL.tr</display-name></channel>
+<channel id="dreamtürktv"><display-name>DREAM TÜRK TV.tr</display-name></channel>
+<channel id="ekolsports"><display-name>EKOL SPORTS.tr</display-name></channel>
+<channel id="ekotürk"><display-name>EKOTÜRK.tr</display-name></channel>
+<channel id="fightnetwork"><display-name>FIGHT NETWORK.tr</display-name></channel>
+<channel id="fi̇lmmüzi̇kleri̇"><display-name>FİLM MÜZİKLERİ.tr</display-name></channel>
+<channel id="flashhabertv"><display-name>FLASH HABER TV.tr</display-name></channel>
+<channel id="france24"><display-name>FRANCE 24.tr</display-name></channel>
+<channel id="fx"><display-name>FX.tr</display-name></channel>
+<channel id="habertürk"><display-name>HABERTÜRK.tr</display-name></channel>
+<channel id="habi̇tattv"><display-name>HABİTAT TV.tr</display-name></channel>
+<channel id="historychannel"><display-name>HISTORY CHANNEL.tr</display-name></channel>
+<channel id="htsporhd"><display-name>HT SPOR HD.tr</display-name></channel>
+<channel id="id"><display-name>ID.tr</display-name></channel>
+<channel id="jazz"><display-name>JAZZ.tr</display-name></channel>
+<channel id="klasi̇kmüzi̇k"><display-name>KLASİK MÜZİK.tr</display-name></channel>
+<channel id="kontv"><display-name>KON TV.tr</display-name></channel>
+<channel id="lalegül"><display-name>LALEGÜL.tr</display-name></channel>
+<channel id="lounge"><display-name>LOUNGE.tr</display-name></channel>
+<channel id="lovenature"><display-name>LOVE NATURE.tr</display-name></channel>
+<channel id="moonbug"><display-name>MOONBUG.tr</display-name></channel>
+<channel id="mutlu"><display-name>MUTLU.tr</display-name></channel>
+<channel id="nationalgeographicwild"><display-name>NATIONAL GEOGRAPHIC WILD.tr</display-name></channel>
+<channel id="nationalgeographic"><display-name>NATIONAL GEOGRAPHIC.tr</display-name></channel>
+<channel id="nhkworldjapan"><display-name>NHK WORLD JAPAN.tr</display-name></channel>
+<channel id="number1türk"><display-name>NUMBER1 TÜRK.tr</display-name></channel>
+<channel id="oldies"><display-name>OLDIES.tr</display-name></channel>
+<channel id="powertürk"><display-name>POWER TÜRK.tr</display-name></channel>
+<channel id="powertv"><display-name>POWER TV.tr</display-name></channel>
+<channel id="retro"><display-name>RETRO.tr</display-name></channel>
+<channel id="rtarabic"><display-name>RT ARABIC.tr</display-name></channel>
+<channel id="saudiquran"><display-name>SAUDI QURAN.tr</display-name></channel>
+<channel id="semerkandtv"><display-name>SEMERKAND TV.tr</display-name></channel>
+<channel id="si̇nema1001"><display-name>SİNEMA 1001.tr</display-name></channel>
+<channel id="si̇nema1002"><display-name>SİNEMA 1002.tr</display-name></channel>
+<channel id="si̇nema2"><display-name>SİNEMA 2.tr</display-name></channel>
+<channel id="si̇nemaai̇le2"><display-name>SİNEMA AİLE 2.tr</display-name></channel>
+<channel id="si̇nemaai̇le"><display-name>SİNEMA AİLE.tr</display-name></channel>
+<channel id="si̇nemaaksi̇yon2"><display-name>SİNEMA AKSİYON 2.tr</display-name></channel>
+<channel id="si̇nemaaksi̇yon"><display-name>SİNEMA AKSİYON.tr</display-name></channel>
+<channel id="si̇nemakomedi̇2"><display-name>SİNEMA KOMEDİ 2.tr</display-name></channel>
+<channel id="si̇nemakomedi̇"><display-name>SİNEMA KOMEDİ.tr</display-name></channel>
+<channel id="si̇nematv"><display-name>SİNEMA TV.tr</display-name></channel>
+<channel id="si̇nemayerli̇2"><display-name>SİNEMA YERLİ 2.tr</display-name></channel>
+<channel id="si̇nemayerli̇"><display-name>SİNEMA YERLİ.tr</display-name></channel>
+<channel id="szctv"><display-name>SZC TV.tr</display-name></channel>
+<channel id="tari̇htv"><display-name>TARİH TV.tr</display-name></channel>
+<channel id="taşplak"><display-name>TAŞ PLAK.tr</display-name></channel>
+<channel id="tgrthaber"><display-name>TGRT HABER.tr</display-name></channel>
+<channel id="ti̇vi̇buçocuk"><display-name>TİVİBU ÇOCUK.tr</display-name></channel>
+<channel id="ti̇vi̇buspor1"><display-name>TİVİBU SPOR 1.tr</display-name></channel>
+<channel id="ti̇vi̇buspor2"><display-name>TİVİBU SPOR 2.tr</display-name></channel>
+<channel id="ti̇vi̇buspor3"><display-name>TİVİBU SPOR 3.tr</display-name></channel>
+<channel id="ti̇vi̇buspor4"><display-name>TİVİBU SPOR 4.tr</display-name></channel>
+<channel id="ti̇vi̇buspor"><display-name>TİVİBU SPOR.tr</display-name></channel>
+<channel id="ti̇vi̇butanitim"><display-name>TİVİBU TANITIM.tr</display-name></channel>
+<channel id="ti̇vi̇life"><display-name>TİVİLIFE.tr</display-name></channel>
+<channel id="trtçocuk"><display-name>TRT ÇOCUK.tr</display-name></channel>
+<channel id="trtdi̇yanetçocuk"><display-name>TRT DİYANET ÇOCUK.tr</display-name></channel>
+<channel id="trtelarabia"><display-name>TRT EL ARABIA.tr</display-name></channel>
+<channel id="trtworld"><display-name>TRT WORLD.tr</display-name></channel>
+<channel id="türkhalkmüzi̇ği̇"><display-name>TÜRK HALK MÜZİĞİ.tr</display-name></channel>
+<channel id="türksanatmüzi̇ği̇"><display-name>TÜRK SANAT MÜZİĞİ.tr</display-name></channel>
+<channel id="türkçepop"><display-name>TÜRKÇE POP.tr</display-name></channel>
+<channel id="türkçeslow"><display-name>TÜRKÇE SLOW.tr</display-name></channel>
+<channel id="türkhabertv"><display-name>TÜRKHABER TV.tr</display-name></channel>
+<channel id="tv8,5"><display-name>TV 8,5.tr</display-name></channel>
+<channel id="ülketv"><display-name>ÜLKE TV.tr</display-name></channel>
+<channel id="ulusal1"><display-name>ULUSAL 1.tr</display-name></channel>
+<channel id="viasathistory"><display-name>VIASAT HISTORY.tr</display-name></channel>
+<channel id="wsport"><display-name>W SPORT.tr</display-name></channel>
+<channel id="yabancipop"><display-name>YABANCI POP.tr</display-name></channel>
+<channel id="yabancirock"><display-name>YABANCI ROCK.tr</display-name></channel>
+<channel id="yabancislow"><display-name>YABANCI SLOW.tr</display-name></channel>
+<channel id="akit"><display-name>Akit.tr</display-name></channel>
+<channel id="aljazeera(arapça)"><display-name>Al Jazeera (Arapça).tr</display-name></channel>
+<channel id="aljazeera(i̇ngilizce)"><display-name>Al Jazeera (İngilizce).tr</display-name></channel>
+<channel id="alquranalkareem"><display-name>Al Quran Al Kareem.tr</display-name></channel>
+<channel id="alsunnahalnabawiya"><display-name>Al Sunnah Al Nabawiya.tr</display-name></channel>
+<channel id="arirang"><display-name>Arirang.tr</display-name></channel>
+<channel id="as"><display-name>AS.tr</display-name></channel>
+<channel id="aztv"><display-name>Az TV.tr</display-name></channel>
+<channel id="azoomee"><display-name>Azoomee.tr</display-name></channel>
+<channel id="birtv"><display-name>Bir TV.tr</display-name></channel>
+<channel id="brt1"><display-name>Brt 1.tr</display-name></channel>
+<channel id="bursa,tvon6"><display-name>Bursa, TVON6.tr</display-name></channel>
+<channel id="cctv4"><display-name>Cctv 4.tr</display-name></channel>
+<channel id="cgtndocumentary"><display-name>CGTN Documentary.tr</display-name></channel>
+<channel id="cgtn"><display-name>CGTN.tr</display-name></channel>
+<channel id="classicalharmony"><display-name>Classical Harmony.tr</display-name></channel>
+<channel id="cosmosports"><display-name>CosmoSports.tr</display-name></channel>
+<channel id="diyanettv"><display-name>Diyanet TV.tr</display-name></channel>
+<channel id="docuscreen"><display-name>DocuSCREEN.tr</display-name></channel>
+<channel id="ducktv"><display-name>Duck TV.tr</display-name></channel>
+<channel id="dwtv(i̇ngilizce)"><display-name>Dw Tv (İngilizce).tr</display-name></channel>
+<channel id="filmscreen"><display-name>FILMSCREEN.tr</display-name></channel>
+<channel id="france24(fransızca)"><display-name>France 24 (Fransızca).tr</display-name></channel>
+<channel id="france24(i̇ngilizce)"><display-name>France 24 (İngilizce).tr</display-name></channel>
+<channel id="freedom"><display-name>Freedom.tr</display-name></channel>
+<channel id="gzt"><display-name>GZT.tr</display-name></channel>
+<channel id="habertürktv"><display-name>HABERTÜRK TV.tr</display-name></channel>
+<channel id="hayat2"><display-name>Hayat 2.tr</display-name></channel>
+<channel id="kabloinfo"><display-name>Kablo Info.tr</display-name></channel>
+<channel id="kanalb"><display-name>Kanal B.tr</display-name></channel>
+<channel id="kbsworld"><display-name>Kbs World.tr</display-name></channel>
+<channel id="kibrisgençtv"><display-name>Kibris Genç TV.tr</display-name></channel>
+<channel id="kitchentv"><display-name>Kitchen TV.tr</display-name></channel>
+<channel id="lâlegul"><display-name>Lâlegul.tr</display-name></channel>
+<channel id="langlab"><display-name>Langlab.tr</display-name></channel>
+<channel id="liderhaber"><display-name>Lider Haber.tr</display-name></channel>
+<channel id="lingotoons"><display-name>Lingotoons.tr</display-name></channel>
+<channel id="mezzo"><display-name>Mezzo.tr</display-name></channel>
+<channel id="minikaçocuk"><display-name>Minika Çocuk.tr</display-name></channel>
+<channel id="moonbugkids"><display-name>Moonbug Kids.tr</display-name></channel>
+<channel id="myzentv"><display-name>MyZEN TV.tr</display-name></channel>
+<channel id="nhkworld"><display-name>Nhk World.tr</display-name></channel>
+<channel id="olayturk"><display-name>OlayTurk.tr</display-name></channel>
+<channel id="planetartr"><display-name>Planeta RTR.tr</display-name></channel>
+<channel id="russia24"><display-name>Russia 24.tr</display-name></channel>
+<channel id="sauditv"><display-name>Saudi TV.tr</display-name></channel>
+<channel id="show"><display-name>Show.tr</display-name></channel>
+<channel id="sinema1002"><display-name>Sinema 1002.tr</display-name></channel>
+<channel id="sinema2"><display-name>Sinema 2.tr</display-name></channel>
+<channel id="sinemaaile2"><display-name>Sinema Aile 2.tr</display-name></channel>
+<channel id="sinemaaksiyon2"><display-name>Sinema Aksiyon 2.tr</display-name></channel>
+<channel id="sinemakomedi2"><display-name>Sinema Komedi 2.tr</display-name></channel>
+<channel id="sinemayerli2"><display-name>Sinema Yerli 2.tr</display-name></channel>
+<channel id="sportstv"><display-name>Sports Tv.tr</display-name></channel>
+<channel id="star"><display-name>Star.tr</display-name></channel>
+<channel id="szc"><display-name>SZC.tr</display-name></channel>
+<channel id="thturkhaber"><display-name>TH Turk Haber.tr</display-name></channel>
+<channel id="tinyteen"><display-name>Tinyteen.tr</display-name></channel>
+<channel id="tmb"><display-name>TMB.tr</display-name></channel>
+<channel id="tracesportstars"><display-name>Trace Sport Stars.tr</display-name></channel>
+<channel id="traceurban"><display-name>Trace Urban.tr</display-name></channel>
+<channel id="trtdiyanetçocuk"><display-name>TRT Diyanet Çocuk.tr</display-name></channel>
+<channel id="trtkurdî"><display-name>TRT Kurdî.tr</display-name></channel>
+<channel id="trtsporyıldız"><display-name>TRT Spor Yıldız.tr</display-name></channel>
+<channel id="turkmenelitv"><display-name>Turkmeneli TV.tr</display-name></channel>
+<channel id="tv42"><display-name>TV 42.tr</display-name></channel>
+<channel id="tv5mondeeurope"><display-name>Tv 5 Monde Europe.tr</display-name></channel>
+<channel id="tv1"><display-name>TV1.tr</display-name></channel>
+<channel id="tytturk"><display-name>TYT Turk.tr</display-name></channel>
+<channel id="b746ac274d6a4fcb8cb38d3feb059778"><display-name>Kablo Info</display-name></channel><channel id="5d0ed3249ad247b28dfeab7d54442399"><display-name>Sinema Tv</display-name></channel><channel id="7e1bb5d4415e4812bfcfc992fcdde355"><display-name>Sinema Aksiyon</display-name></channel><channel id="9dc59d86f1d84cc6ad2cd7a079d63e2f"><display-name>Sinema Yerli</display-name></channel><channel id="94d87a64efe245b2a5fba286268da9d8"><display-name>Sinema Aile</display-name></channel><channel id="4f7afa48aca34ac7992f865ecdbbbdb0"><display-name>Sinema 1001</display-name></channel><channel id="61a30c9321d746638c6b9340a4ac9075"><display-name>Sinema Komedi</display-name></channel><channel id="061332c2d69c4605a7600e2a8274697c"><display-name>TRT 1</display-name></channel><channel id="02abd1635c0a444aa035cb6f45b4700a"><display-name>Atv</display-name></channel><channel id="82bb74f309064efcb66dcefa72e659e6"><display-name>Show TV</display-name></channel><channel id="9433a6dba60149e8a298ce13b553e44b"><display-name>Kanal D</display-name></channel><channel id="89cfc09d93c848829fe339adbccbe67f"><display-name>Star</display-name></channel><channel id="aaf2f509e9d349e99880bd3da5daec8c"><display-name>Kanal 7</display-name></channel><channel id="3639c98ff79540cba4b38feb4de05d33"><display-name>NOW</display-name></channel><channel id="581accda4d5f4c3db5f11579b85a1e4b"><display-name>Tv 8</display-name></channel><channel id="aa8ffd34cd16477681ef1145a5d82122"><display-name>Beyaz Tv</display-name></channel><channel id="227207253a824419bf1de724176a4fb3"><display-name>a2</display-name></channel><channel id="c07b221f26d844d2a64a2fac362ae90e"><display-name>Tv 2</display-name></channel><channel id="f90b270dc791402981d9994c81721fe7"><display-name>360</display-name></channel><channel id="f762dcbbd9294202b84fd97ea3d3522a"><display-name>TLC</display-name></channel><channel id="afcb4b49f74c4cc191cafe9640bef0a7"><display-name>DMAX</display-name></channel><channel id="58e23e94b1fb4651bb130060dbf1dfe2"><display-name>Kon TV</display-name></channel><channel id="5610a254ef1d44a494fe74b38cc7cc2d"><display-name>tv 100</display-name></channel><channel id="e1040488b9634692b550444be934f35f"><display-name>Cnbc-e</display-name></channel><channel id="86ae1b57a0a8448ba476211f82718da8"><display-name>Ulusal Kanal</display-name></channel><channel id="1e73d8cbc8a1428e98c0314d59b18794"><display-name>GZT</display-name></channel><channel id="97bf4a3c68894270a0c90365016d8dca"><display-name>Tv 8,5</display-name></channel><channel id="696b856497c64b5a87abaa27f9dce11f"><display-name>Kanal B</display-name></channel><channel id="cf6df5dc12cc43d9999f9f800589beb0"><display-name>Genç TV</display-name></channel><channel id="776c301e35ad4563bc6959d39fc4f254"><display-name>Vav TV</display-name></channel><channel id="ece17e2ed6844be2b7a5ae7ca4c9606b"><display-name>TYT Türk</display-name></channel><channel id="0abeb25c319740f6b809e4d03710613b"><display-name>TMB</display-name></channel><channel id="cd3f6e3352ca469682857007f850e7c7"><display-name>TV 4</display-name></channel><channel id="a2c3c5d9ec9a4c4c98087311e0b8805a"><display-name>Bengü Türk TV</display-name></channel><channel id="a347cfc61fa44a6d95003742ce51fedf"><display-name>TRT 2</display-name></channel><channel id="aa2286ac92cc4c9291e05e21e5a7f500"><display-name>Tarih Tv</display-name></channel><channel id="4bf58707e44042348d80cdfdc5fa8465"><display-name>Mezzo</display-name></channel><channel id="e2545764d74c4678a0c23d7df61302a7"><display-name>Classical Harmony</display-name></channel><channel id="9fb8aa50e88d4fbab266bce20bed73d2"><display-name>TRT GENÇ</display-name></channel><channel id="b42386d37064493e8657181947c1a520"><display-name>TRT Haber</display-name></channel><channel id="34cf00c56bcd4fab807dfb0c38861dd1"><display-name>A Haber</display-name></channel><channel id="bbf5f67c0df9410ab6bf153e2ee78106"><display-name>NTV</display-name></channel><channel id="7d25511ea4634670acdc8b1dd58c09b3"><display-name>CNN Türk</display-name></channel><channel id="87c058b330554ebb8be9a4556d215543"><display-name>24</display-name></channel><channel id="4a9a6cdbcb3c44d98bdd2c21c51bdd47"><display-name>TGRT Haber</display-name></channel><channel id="8951e82bc7ba49778c00142c542f97f1"><display-name>HABERTÜRK TV</display-name></channel><channel id="02de9bf0cfbb4a68a8eddf9c9ba9cc18"><display-name>Bloomberg HT</display-name></channel><channel id="0b38d5bd5cc545958e2dbc7a8119bb57"><display-name>Ülke TV</display-name></channel><channel id="4a979b9c58c7444f95b9053b39a9f467"><display-name>Tvnet</display-name></channel><channel id="c2713840e44643ab85eb0215aa564d41"><display-name>Akit</display-name></channel><channel id="1a5c4077fc8e4733879e1e820955ca5d"><display-name>Brt 1</display-name></channel><channel id="30ce3b1ca7cf40498260c06710fd05a5"><display-name>TRT Türk</display-name></channel><channel id="39bd481fa65842df9c5bf5ea2e2106b5"><display-name>TRT Avaz</display-name></channel><channel id="bc33d295c18e4955b5ffd6d8ea5ff7f4"><display-name>TRT3 Spor - TBMM TV</display-name></channel><channel id="925ba8ee37f04b49820f9319cfc8fbcf"><display-name>TRT Kurdî</display-name></channel><channel id="247a84cdcdad4557ade7297f3e9ff1af"><display-name>Haber Global</display-name></channel><channel id="c683858c23d54a43b768e43a4d4e7df0"><display-name>Ekol TV</display-name></channel><channel id="68685a2d089b4b0ba4e999b4910fa1b8"><display-name>KRT TV</display-name></channel><channel id="3c0c47cd01694d1bb362817c2a304037"><display-name>Halk TV</display-name></channel><channel id="52d40e7f37fa49c8b5511fc03e3b8cc9"><display-name>TH Türk Haber</display-name></channel><channel id="d79ec5996c724addb5700463a621fd7c"><display-name>SZC</display-name></channel><channel id="b1ff092146964ff4ba2aa85d5427f3ad"><display-name>a Para</display-name></channel><channel id="3fcf2e0a59ea41aa99c4252d3ae8264d"><display-name>Ekotürk</display-name></channel><channel id="ed62767c6eff47a9b8d2e4301b8e3e03"><display-name>TV 42</display-name></channel><channel id="f484aa367c94463590bb7760469bd793"><display-name>TV 5</display-name></channel><channel id="4d2af840c99643d6a59a2c71c1971c00"><display-name>Lider Haber</display-name></channel><channel id="5630fb7b18e64ecc98fc2c5c542ee11a"><display-name>Tele 1</display-name></channel><channel id="df867b57060742d78e55f4f89b59eda6"><display-name>As Tv</display-name></channel><channel id="cae7678273464389b2216bd3b7f6eef6"><display-name>Flash Haber</display-name></channel><channel id="d96a2ddacc7143d9ac36fae7a8a16f05"><display-name>TRT World</display-name></channel><channel id="4195603992ab484aab0ccf3ac95556af"><display-name>A News</display-name></channel><channel id="64a4d22837f4472188507cf2989717a7"><display-name>CNN International</display-name></channel><channel id="9c00e9ed4f1b4b5aa49fe00189c8fea7"><display-name>Bloomberg</display-name></channel><channel id="f1bb6b1a859947b09b39981d4cf61d22"><display-name>Al Jazeera (Arapça)</display-name></channel><channel id="bce1db7eaae246d6a547910fef6825ee"><display-name>Al Jazeera (İngilizce)</display-name></channel><channel id="97bcb6dda36a43e88844e842126c4de2"><display-name>TRT Arabi</display-name></channel><channel id="1548aec659b64d68ab60d8b32a7fd8da"><display-name>Dw Tv (İngilizce)</display-name></channel><channel id="c46a01992415424fa40fa18375abf3a4"><display-name>France 24 (İngilizce)</display-name></channel><channel id="7d78acd1798145f3b32a8e237066f9b8"><display-name>France 24 (Fransızca)</display-name></channel><channel id="268b6d5e96544157b20d618c484923b8"><display-name>CGTN</display-name></channel><channel id="8ed870e46326470abb31d172fd424dd8"><display-name>Russia 24</display-name></channel><channel id="0747a0d5bf3c48e387f567d11235e612"><display-name>TRT Belgesel</display-name></channel><channel id="00313bec7e8e4ccaa5fd2817cddfcb97"><display-name>National Geographic</display-name></channel><channel id="e429eebf4a6a4fa2bcc6252060baae76"><display-name>National Geographic Wild</display-name></channel><channel id="879f09aa1a9149fa88fca721e31132c1"><display-name>Discovery Channel</display-name></channel><channel id="01e9e7c1516b490082e12abdd7d17d8d"><display-name>ID</display-name></channel><channel id="b99769a2bbb54d209a4754492d036226"><display-name>Viasat History</display-name></channel><channel id="604c1ee5f6344b2c8f11932e0c9983f8"><display-name>Love Nature</display-name></channel><channel id="4974c72720d4464c8db085107d67979e"><display-name>DocuSCREEN</display-name></channel><channel id="073996f5b7f3402697cd8204409f8678"><display-name>Viasat Explore</display-name></channel><channel id="8035b6557efb4d57bab3d21f52a8de83"><display-name>CGTN Documentary</display-name></channel><channel id="b452d7b5a3be42e2a398d5d531ca5e1e"><display-name>Az TV</display-name></channel><channel id="d98581ee8dc14975896ce705b563bed1"><display-name>Türkmeneli TV</display-name></channel><channel id="341a765d91ae4dc6ad5de2a006c94212"><display-name>Tv 5 Monde Europe</display-name></channel><channel id="d63fc58d6e334f3aa5ffa0e67dee910d"><display-name>Cctv 4</display-name></channel><channel id="881a05d1af9d492d86e75567a90677d7"><display-name>Saudi Tv</display-name></channel><channel id="05bf382beb184ae3b95940d558776d7b"><display-name>BİR TV</display-name></channel><channel id="528d0fe219104e8887f41c9e052a0171"><display-name>Hayat 2</display-name></channel><channel id="7647688774d94242a1f2b8c1060caad2"><display-name>Planeta RTR</display-name></channel><channel id="20fd5297efb746078b202f7aa09be0b8"><display-name>Kbs World</display-name></channel><channel id="8e8c1701838f40cc8eea0ba95031dc19"><display-name>Nhk World</display-name></channel><channel id="65509bbb8c8641f6b2d4ea7441aedf3c"><display-name>Arirang</display-name></channel><channel id="b32f4560d1264e9fb6bf4b638067705d"><display-name>Freedom</display-name></channel><channel id="089198b58ac148f58f97084251d4947e"><display-name>TRT Spor</display-name></channel><channel id="0bc43404ef5741368c1909388e202330"><display-name>beIN SPORTS HABER</display-name></channel><channel id="0a797b9fa6df4f5691ee40eb47f80bd9"><display-name>A Spor</display-name></channel><channel id="c9d84c8b574248afbbf1ac7d176b3c7a"><display-name>Eurosport 1</display-name></channel><channel id="f9f3488e105d42adb5f5a0cb3f082971"><display-name>Eurosport 2</display-name></channel><channel id="e3f5434322f245cf81c1eaf689c7d9fc"><display-name>HT Spor</display-name></channel><channel id="ca7ea4979fe34d6b9575a785cae52779"><display-name>Trace Sports Stars</display-name></channel><channel id="827fa5d3420c448fb99beff00bfd95f3"><display-name>CosmoSports</display-name></channel><channel id="d6903c206ede4404975f7c7f22f720d4"><display-name>Ekol Sports</display-name></channel><channel id="1607996d5c9e483cbe7b149c85989dc4"><display-name>TRT Spor Yıldız</display-name></channel><channel id="16265e63543240309906f4cd736fcb88"><display-name>Sports Tv</display-name></channel><channel id="66eaa140a6d1477ea5da729828889dd5"><display-name>FB TV</display-name></channel><channel id="740a67bb91174f18851aa532509d846c"><display-name>FX</display-name></channel><channel id="ebfba78a673140b3b75275795280ed58"><display-name>Epic Drama</display-name></channel><channel id="c5bca4bc25764e9aa583db7fe02d117a"><display-name>FILMSCREEN</display-name></channel><channel id="be988b55c77b456fb3bab43cf1d6ce50"><display-name>Kitchen TV</display-name></channel><channel id="5a3dda3fd1b44086ba8c13a502bad4f0"><display-name>MyZEN TV</display-name></channel><channel id="d2a54f6cc2264ea985e28ebc5c5eb44d"><display-name>TRT Çocuk</display-name></channel><channel id="ffc2f4f83a394dd9b5c73bd54a809b67"><display-name>Minika Çocuk</display-name></channel><channel id="c9cb24f962ab4084bd0e44165640fb22"><display-name>Minika Go</display-name></channel><channel id="578155c5e6984a8ab916ed65fb977c78"><display-name>TRT Diyanet Çocuk</display-name></channel><channel id="649bf91d85034de09f9e253b3b6fd2ee"><display-name>SpaceTOON</display-name></channel><channel id="57f882d4f9f14b8bb917be0f77b06bc9"><display-name>Azoomee</display-name></channel><channel id="6347e31baa14437a89025e8e2f57e6d1"><display-name>BabyTV</display-name></channel><channel id="75281c49bd49401ab93f319ad30c093e"><display-name>Disney Junior</display-name></channel><channel id="50f5f2ba4f17415a8c231659197c9034"><display-name>Cartoon Network</display-name></channel><channel id="5ca5c3adc6d64617aa748ebf6ac80e97"><display-name>Moonbug Kids</display-name></channel><channel id="22d3fad8a7b140edbe24dd7927186e57"><display-name>Duck TV</display-name></channel><channel id="5631c3f68a964a10a34d285e941e02a9"><display-name>English Club TV</display-name></channel><channel id="0456dff8e6ee4871b032f9e74d168ca5"><display-name>Da Vinci</display-name></channel><channel id="caa4ce65295e44168dc45e78dfbe2b1b"><display-name>LangLab</display-name></channel><channel id="637f01f5058c49edaf60cd9184895168"><display-name>LingoToons</display-name></channel><channel id="957ff396e3cc4d0a98afc03bc690ffe4"><display-name>TinyTeen</display-name></channel><channel id="832f7808c19c40e0b0373e755affd122"><display-name>TRT Eba TV</display-name></channel><channel id="224c9da4890f4cecaee9b790d145348c"><display-name>Diyanet Tv</display-name></channel><channel id="1f03ad77067b4376af7d2d3bd0a0e16c"><display-name>Al Quran Al Kareem</display-name></channel><channel id="23bf7efa822e41558ff516903eae670c"><display-name>Al Sunnah Al Nabawiya</display-name></channel><channel id="f9afb8fa561d4ea8a3334a43e22ab9e3"><display-name>Lâlegül</display-name></channel><channel id="c9e5fdd4c90e4b82a3ea7b6642ef4768"><display-name>TRT Müzik</display-name></channel><channel id="0ab0f933cd79436b866c5320e92da037"><display-name>Dream Türk</display-name></channel><channel id="dcd25489d13948a7ab90a6b80f2a160b"><display-name>Trace Urban</display-name></channel><programme start="20260420233000 +0300" stop="20260421011500 +0300" channel="24hd"><title>Arafta Sorular</title><desc>Guncel konuları, toplumsal meseleleri ve bireysel sorgulamaları derinlikli bir bakış açısıyla ele alan ozgun bir info-magazine programıdır. Kesin yargılar sunmak yerine, izleyiciyi sorularla baş başa bırakır; duşunmenin, durup sorgulamanın ve farklı bakış açıları geliştirmenin onemini hatırlatır.</desc></programme>
 <programme start="20260421011500 +0300" stop="20260421020000 +0300" channel="24hd"><title>Neler Oluyor Hayatta</title><desc>Program, Turkiye ve dunyadan kritik olayları detaylandırıyor ve izleyicilere kapsamlı bir bakış açısı sunuyor. Neler Oluyor Hayatta, uzman analizleri, roportajlar ve olayların perde arkasıyla gundemi takip etmeyi kolaylaştırıyor. İzleyiciler, olayların etkilerini ve sonuçlarını daha iyi anlama fırsatı buluyor.</desc></programme>
 <programme start="20260421020000 +0300" stop="20260421030000 +0300" channel="24hd"><title>Masada Ne Var ?</title><desc>Masada Ne Var?, guncel gundem konularını masaya yatıran, olayları anlaşılır ve tarafsız bir şekilde izleyiciye sunan bir news-info programıdır. Siyaset, ekonomi ve toplumdan one çıkan başlıklar detaylı bir şekilde ele alınır, izleyiciye gunu doğru anlaması için net bir çerçeve sunar.</desc></programme>
 <programme start="20260421030000 +0300" stop="20260421040000 +0300" channel="24hd"><title>Masada Ne Var ?</title><desc>Masada Ne Var?, guncel gundem konularını masaya yatıran, olayları anlaşılır ve tarafsız bir şekilde izleyiciye sunan bir news-info programıdır. Siyaset, ekonomi ve toplumdan one çıkan başlıklar detaylı bir şekilde ele alınır, izleyiciye gunu doğru anlaması için net bir çerçeve sunar.</desc></programme>
@@ -11235,340 +11707,4 @@
 <programme start="20260423002500 +0300" stop="20260423011500 +0300" channel="viasathistoryhd"><title>Antik Kıyametler</title><desc>Medeniyetler neden çoker? Dunyanın dort bir yanındaki harabeleri incelerken arkeologları takip edin ve tarihin en buyuk uygarlıklarından bazılarının yok olmasının nedenlerini ortaya çıkarın.</desc><episode-num system="xmltv_ns">0.5.</episode-num></programme>
 <programme start="20260423011500 +0300" stop="20260423020000 +0300" channel="viasathistoryhd"><title>Yasak Tarih</title><desc>Bu dizi, savaş zamanı sırlarının, kaybolan medeniyetlerin, tarihi roliklerin, uzun sure inanılmış olan komplo teorilerinin, muthiş hazineler hakkındaki tarihçelerin inanılmaz oykulerinden oluşuyor.</desc><episode-num system="xmltv_ns">6.0.</episode-num></programme>
 <programme start="20260423020000 +0300" stop="20260423034000 +0300" channel="viasathistoryhd"><title>Yasak Tarih</title><desc>Bu dizi, savaş zamanı sırlarının, kaybolan medeniyetlerin, tarihi roliklerin, uzun sure inanılmış olan komplo teorilerinin, muthiş hazineler hakkındaki tarihçelerin inanılmaz oykulerinden oluşuyor.</desc><episode-num system="xmltv_ns">6.7.</episode-num></programme>
-<channel id="24"><display-name>24.tr</display-name></channel>
-<channel id="360"><display-name>360.tr</display-name></channel>
-<channel id="90’lar"><display-name>90’ LAR.tr</display-name></channel>
-<channel id="ahaber"><display-name>A HABER.tr</display-name></channel>
-<channel id="apara"><display-name>A PARA.tr</display-name></channel>
-<channel id="aspor"><display-name>A SPOR.tr</display-name></channel>
-<channel id="a2"><display-name>A2.tr</display-name></channel>
-<channel id="aki̇ttv"><display-name>AKİT TV.tr</display-name></channel>
-<channel id="akusti̇k"><display-name>AKUSTİK.tr</display-name></channel>
-<channel id="aljazeeraarabic"><display-name>AL JAZEERA ARABIC.tr</display-name></channel>
-<channel id="aljazeerainternational"><display-name>AL JAZEERA INTERNATIONAL.tr</display-name></channel>
-<channel id="alsunnah"><display-name>AL SUNNAH.tr</display-name></channel>
-<channel id="anews"><display-name>ANEWS.tr</display-name></channel>
-<channel id="arabesk"><display-name>ARABESK.tr</display-name></channel>
-<channel id="atv"><display-name>ATV.tr</display-name></channel>
-<channel id="bbcearth"><display-name>BBC EARTH.tr</display-name></channel>
-<channel id="bbcfirst"><display-name>BBC FIRST.tr</display-name></channel>
-<channel id="beyaztv"><display-name>BEYAZ TV.tr</display-name></channel>
-<channel id="bloomberght"><display-name>BLOOMBERG HT.tr</display-name></channel>
-<channel id="blues"><display-name>BLUES.tr</display-name></channel>
-<channel id="çalişirken"><display-name>ÇALIŞIRKEN.tr</display-name></channel>
-<channel id="channelonerussia"><display-name>CHANNEL ONE RUSSIA.tr</display-name></channel>
-<channel id="cnbc"><display-name>CNBC.tr</display-name></channel>
-<channel id="cnntürk"><display-name>CNN TÜRK.tr</display-name></channel>
-<channel id="davinci"><display-name>DA VINCI.tr</display-name></channel>
-<channel id="deutschewelle"><display-name>DEUTSCHE WELLE.tr</display-name></channel>
-<channel id="di̇ni̇musi̇ki̇"><display-name>DİNİ MUSİKİ.tr</display-name></channel>
-<channel id="discoverychannel"><display-name>DISCOVERY CHANNEL.tr</display-name></channel>
-<channel id="dmax"><display-name>DMAX.tr</display-name></channel>
-<channel id="dreamtürktv"><display-name>DREAM TÜRK TV.tr</display-name></channel>
-<channel id="ekolsports"><display-name>EKOL SPORTS.tr</display-name></channel>
-<channel id="ekotürk"><display-name>EKOTÜRK.tr</display-name></channel>
-<channel id="eurosport1"><display-name>EUROSPORT 1.tr</display-name></channel>
-<channel id="eurosport2"><display-name>EUROSPORT 2.tr</display-name></channel>
-<channel id="fightnetwork"><display-name>FIGHT NETWORK.tr</display-name></channel>
-<channel id="fi̇lmmüzi̇kleri̇"><display-name>FİLM MÜZİKLERİ.tr</display-name></channel>
-<channel id="flashhabertv"><display-name>FLASH HABER TV.tr</display-name></channel>
-<channel id="france24"><display-name>FRANCE 24.tr</display-name></channel>
-<channel id="fx"><display-name>FX.tr</display-name></channel>
-<channel id="haberglobal"><display-name>HABER GLOBAL.tr</display-name></channel>
-<channel id="habertürk"><display-name>HABERTÜRK.tr</display-name></channel>
-<channel id="habi̇tattv"><display-name>HABİTAT TV.tr</display-name></channel>
-<channel id="historychannel"><display-name>HISTORY CHANNEL.tr</display-name></channel>
-<channel id="htsporhd"><display-name>HT SPOR HD.tr</display-name></channel>
-<channel id="id"><display-name>ID.tr</display-name></channel>
-<channel id="jazz"><display-name>JAZZ.tr</display-name></channel>
-<channel id="kanal7"><display-name>KANAL 7.tr</display-name></channel>
-<channel id="kanald"><display-name>KANAL D.tr</display-name></channel>
-<channel id="klasi̇kmüzi̇k"><display-name>KLASİK MÜZİK.tr</display-name></channel>
-<channel id="kontv"><display-name>KON TV.tr</display-name></channel>
-<channel id="lalegül"><display-name>LALEGÜL.tr</display-name></channel>
-<channel id="lounge"><display-name>LOUNGE.tr</display-name></channel>
-<channel id="lovenature"><display-name>LOVE NATURE.tr</display-name></channel>
-<channel id="moonbug"><display-name>MOONBUG.tr</display-name></channel>
-<channel id="mutlu"><display-name>MUTLU.tr</display-name></channel>
-<channel id="nationalgeographicwild"><display-name>NATIONAL GEOGRAPHIC WILD.tr</display-name></channel>
-<channel id="nationalgeographic"><display-name>NATIONAL GEOGRAPHIC.tr</display-name></channel>
-<channel id="nhkworldjapan"><display-name>NHK WORLD JAPAN.tr</display-name></channel>
-<channel id="ntv"><display-name>NTV.tr</display-name></channel>
-<channel id="number1türk"><display-name>NUMBER1 TÜRK.tr</display-name></channel>
-<channel id="oldies"><display-name>OLDIES.tr</display-name></channel>
-<channel id="powertürk"><display-name>POWER TÜRK.tr</display-name></channel>
-<channel id="powertv"><display-name>POWER TV.tr</display-name></channel>
-<channel id="retro"><display-name>RETRO.tr</display-name></channel>
-<channel id="rtarabic"><display-name>RT ARABIC.tr</display-name></channel>
-<channel id="saudiquran"><display-name>SAUDI QURAN.tr</display-name></channel>
-<channel id="semerkandtv"><display-name>SEMERKAND TV.tr</display-name></channel>
-<channel id="showtv"><display-name>SHOW TV.tr</display-name></channel>
-<channel id="si̇nema1001"><display-name>SİNEMA 1001.tr</display-name></channel>
-<channel id="si̇nema1002"><display-name>SİNEMA 1002.tr</display-name></channel>
-<channel id="si̇nema2"><display-name>SİNEMA 2.tr</display-name></channel>
-<channel id="si̇nemaai̇le2"><display-name>SİNEMA AİLE 2.tr</display-name></channel>
-<channel id="si̇nemaai̇le"><display-name>SİNEMA AİLE.tr</display-name></channel>
-<channel id="si̇nemaaksi̇yon2"><display-name>SİNEMA AKSİYON 2.tr</display-name></channel>
-<channel id="si̇nemaaksi̇yon"><display-name>SİNEMA AKSİYON.tr</display-name></channel>
-<channel id="si̇nemakomedi̇2"><display-name>SİNEMA KOMEDİ 2.tr</display-name></channel>
-<channel id="si̇nemakomedi̇"><display-name>SİNEMA KOMEDİ.tr</display-name></channel>
-<channel id="si̇nematv"><display-name>SİNEMA TV.tr</display-name></channel>
-<channel id="si̇nemayerli̇2"><display-name>SİNEMA YERLİ 2.tr</display-name></channel>
-<channel id="si̇nemayerli̇"><display-name>SİNEMA YERLİ.tr</display-name></channel>
-<channel id="startv"><display-name>STAR TV.tr</display-name></channel>
-<channel id="szctv"><display-name>SZC TV.tr</display-name></channel>
-<channel id="tari̇htv"><display-name>TARİH TV.tr</display-name></channel>
-<channel id="taşplak"><display-name>TAŞ PLAK.tr</display-name></channel>
-<channel id="teve2"><display-name>TEVE2.tr</display-name></channel>
-<channel id="tgrthaber"><display-name>TGRT HABER.tr</display-name></channel>
-<channel id="ti̇vi̇buçocuk"><display-name>TİVİBU ÇOCUK.tr</display-name></channel>
-<channel id="ti̇vi̇buspor1"><display-name>TİVİBU SPOR 1.tr</display-name></channel>
-<channel id="ti̇vi̇buspor2"><display-name>TİVİBU SPOR 2.tr</display-name></channel>
-<channel id="ti̇vi̇buspor3"><display-name>TİVİBU SPOR 3.tr</display-name></channel>
-<channel id="ti̇vi̇buspor4"><display-name>TİVİBU SPOR 4.tr</display-name></channel>
-<channel id="ti̇vi̇buspor"><display-name>TİVİBU SPOR.tr</display-name></channel>
-<channel id="ti̇vi̇butanitim"><display-name>TİVİBU TANITIM.tr</display-name></channel>
-<channel id="ti̇vi̇life"><display-name>TİVİLIFE.tr</display-name></channel>
-<channel id="trt1"><display-name>TRT 1.tr</display-name></channel>
-<channel id="trt2"><display-name>TRT 2.tr</display-name></channel>
-<channel id="trt3spor"><display-name>TRT 3 SPOR.tr</display-name></channel>
-<channel id="trtbelgesel"><display-name>TRT BELGESEL.tr</display-name></channel>
-<channel id="trtçocuk"><display-name>TRT ÇOCUK.tr</display-name></channel>
-<channel id="trtdi̇yanetçocuk"><display-name>TRT DİYANET ÇOCUK.tr</display-name></channel>
-<channel id="trtelarabia"><display-name>TRT EL ARABIA.tr</display-name></channel>
-<channel id="trthaber"><display-name>TRT HABER.tr</display-name></channel>
-<channel id="trtspor"><display-name>TRT SPOR.tr</display-name></channel>
-<channel id="trtworld"><display-name>TRT WORLD.tr</display-name></channel>
-<channel id="türkhalkmüzi̇ği̇"><display-name>TÜRK HALK MÜZİĞİ.tr</display-name></channel>
-<channel id="türksanatmüzi̇ği̇"><display-name>TÜRK SANAT MÜZİĞİ.tr</display-name></channel>
-<channel id="türkçepop"><display-name>TÜRKÇE POP.tr</display-name></channel>
-<channel id="türkçeslow"><display-name>TÜRKÇE SLOW.tr</display-name></channel>
-<channel id="türkhabertv"><display-name>TÜRKHABER TV.tr</display-name></channel>
-<channel id="tv8,5"><display-name>TV 8,5.tr</display-name></channel>
-<channel id="tv8"><display-name>TV8.tr</display-name></channel>
-<channel id="tvnet"><display-name>TVNET.tr</display-name></channel>
-<channel id="ülketv"><display-name>ÜLKE TV.tr</display-name></channel>
-<channel id="ulusal1"><display-name>ULUSAL 1.tr</display-name></channel>
-<channel id="viasathistory"><display-name>VIASAT HISTORY.tr</display-name></channel>
-<channel id="wsport"><display-name>W SPORT.tr</display-name></channel>
-<channel id="yabancipop"><display-name>YABANCI POP.tr</display-name></channel>
-<channel id="yabancirock"><display-name>YABANCI ROCK.tr</display-name></channel>
-<channel id="yabancislow"><display-name>YABANCI SLOW.tr</display-name></channel>
-<channel id="24tv">
-    <display-name lang="tr">24</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838386.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="a2tv">
-    <display-name lang="tr">A2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837289.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="akittv">
-    <display-name lang="tr">AKIT TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838546.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="benguturktv">
-    <display-name lang="tr">BENGUTURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838732.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="cnnturk">
-    <display-name lang="tr">CNN TURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838363.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ekoturk">
-    <display-name lang="tr">EKOTURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838250.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="haberturktv">
-    <display-name lang="tr">HABERTURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838714.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtturk">
-    <display-name lang="tr">TRT TURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838728.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="natgeo">
-    <display-name lang="tr">NATIONAL GEOGRAPHIC</display-name>
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sozcutv">
-    <display-name lang="tr">SÖZCÜ TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230215906808.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="dreamturk">
-    <display-name lang="tr">DREAM TÜRK TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003240.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="number1turk">
-    <display-name lang="tr">NUMBER1 TÜRK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240910523389.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="powerturk">
-    <display-name lang="tr">POWER TÜRK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211221328664.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="natgeowild">
-    <display-name lang="tr">NATIONAL GEOGRAPHIC WILD</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003272.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinema1001">
-    <display-name lang="tr">SİNEMA 1001</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003348.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemaaile">
-    <display-name lang="tr">SİNEMA AİLE</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210907159369.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemaaksiyon">
-    <display-name lang="tr">SİNEMA AKSİYON</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210913164361.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemakomedi">
-    <display-name lang="tr">SİNEMA KOMEDİ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003485.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinematv">
-    <display-name lang="tr">SİNEMA TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003521.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemayerli">
-    <display-name lang="tr">SİNEMA YERLİ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003522.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ulketv">
-    <display-name lang="tr">ÜLKE TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003467.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtmuzik">
-    <display-name lang="tr">TRT MÜZİK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210824122838.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="minikacocuk">
-    <display-name lang="tr">MİNİKA ÇOCUK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003307.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="minikago">
-    <display-name lang="tr">MİNİKA GO</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211124298353.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="nbatv">
-    <display-name lang="tr">NBA TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240611449307.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="beinsportshaber">
-    <display-name lang="tr">Bein Sports Haber</display-name>
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports1">
-    <display-name lang="tr">Beinsports</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports2">
-    <display-name lang="tr">Beinsports 2</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports3">
-    <display-name lang="tr">Beinsports 3</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports4">
-    <display-name lang="tr">Beinsports 4</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-<channel id="akit"><display-name>Akit.tr</display-name></channel>
-<channel id="aljazeera(arapça)"><display-name>Al Jazeera (Arapça).tr</display-name></channel>
-<channel id="aljazeera(i̇ngilizce)"><display-name>Al Jazeera (İngilizce).tr</display-name></channel>
-<channel id="alquranalkareem"><display-name>Al Quran Al Kareem.tr</display-name></channel>
-<channel id="alsunnahalnabawiya"><display-name>Al Sunnah Al Nabawiya.tr</display-name></channel>
-<channel id="arirang"><display-name>Arirang.tr</display-name></channel>
-<channel id="as"><display-name>AS.tr</display-name></channel>
-<channel id="aztv"><display-name>Az TV.tr</display-name></channel>
-<channel id="azoomee"><display-name>Azoomee.tr</display-name></channel>
-<channel id="birtv"><display-name>Bir TV.tr</display-name></channel>
-<channel id="brt1"><display-name>Brt 1.tr</display-name></channel>
-<channel id="bursa,tvon6"><display-name>Bursa, TVON6.tr</display-name></channel>
-<channel id="cctv4"><display-name>Cctv 4.tr</display-name></channel>
-<channel id="cgtndocumentary"><display-name>CGTN Documentary.tr</display-name></channel>
-<channel id="cgtn"><display-name>CGTN.tr</display-name></channel>
-<channel id="classicalharmony"><display-name>Classical Harmony.tr</display-name></channel>
-<channel id="cosmosports"><display-name>CosmoSports.tr</display-name></channel>
-<channel id="diyanettv"><display-name>Diyanet TV.tr</display-name></channel>
-<channel id="docuscreen"><display-name>DocuSCREEN.tr</display-name></channel>
-<channel id="ducktv"><display-name>Duck TV.tr</display-name></channel>
-<channel id="dwtv(i̇ngilizce)"><display-name>Dw Tv (İngilizce).tr</display-name></channel>
-<channel id="filmscreen"><display-name>FILMSCREEN.tr</display-name></channel>
-<channel id="france24(fransızca)"><display-name>France 24 (Fransızca).tr</display-name></channel>
-<channel id="france24(i̇ngilizce)"><display-name>France 24 (İngilizce).tr</display-name></channel>
-<channel id="freedom"><display-name>Freedom.tr</display-name></channel>
-<channel id="gzt"><display-name>GZT.tr</display-name></channel>
-<channel id="habertürktv"><display-name>HABERTÜRK TV.tr</display-name></channel>
-<channel id="hayat2"><display-name>Hayat 2.tr</display-name></channel>
-<channel id="kabloinfo"><display-name>Kablo Info.tr</display-name></channel>
-<channel id="kanalb"><display-name>Kanal B.tr</display-name></channel>
-<channel id="kbsworld"><display-name>Kbs World.tr</display-name></channel>
-<channel id="kibrisgençtv"><display-name>Kibris Genç TV.tr</display-name></channel>
-<channel id="kitchentv"><display-name>Kitchen TV.tr</display-name></channel>
-<channel id="lâlegul"><display-name>Lâlegul.tr</display-name></channel>
-<channel id="langlab"><display-name>Langlab.tr</display-name></channel>
-<channel id="liderhaber"><display-name>Lider Haber.tr</display-name></channel>
-<channel id="lingotoons"><display-name>Lingotoons.tr</display-name></channel>
-<channel id="mezzo"><display-name>Mezzo.tr</display-name></channel>
-<channel id="minikaçocuk"><display-name>Minika Çocuk.tr</display-name></channel>
-<channel id="moonbugkids"><display-name>Moonbug Kids.tr</display-name></channel>
-<channel id="myzentv"><display-name>MyZEN TV.tr</display-name></channel>
-<channel id="nhkworld"><display-name>Nhk World.tr</display-name></channel>
-<channel id="olayturk"><display-name>OlayTurk.tr</display-name></channel>
-<channel id="planetartr"><display-name>Planeta RTR.tr</display-name></channel>
-<channel id="russia24"><display-name>Russia 24.tr</display-name></channel>
-<channel id="sauditv"><display-name>Saudi TV.tr</display-name></channel>
-<channel id="show"><display-name>Show.tr</display-name></channel>
-<channel id="sinema1002"><display-name>Sinema 1002.tr</display-name></channel>
-<channel id="sinema2"><display-name>Sinema 2.tr</display-name></channel>
-<channel id="sinemaaile2"><display-name>Sinema Aile 2.tr</display-name></channel>
-<channel id="sinemaaksiyon2"><display-name>Sinema Aksiyon 2.tr</display-name></channel>
-<channel id="sinemakomedi2"><display-name>Sinema Komedi 2.tr</display-name></channel>
-<channel id="sinemayerli2"><display-name>Sinema Yerli 2.tr</display-name></channel>
-<channel id="sportstv"><display-name>Sports Tv.tr</display-name></channel>
-<channel id="star"><display-name>Star.tr</display-name></channel>
-<channel id="szc"><display-name>SZC.tr</display-name></channel>
-<channel id="thturkhaber"><display-name>TH Turk Haber.tr</display-name></channel>
-<channel id="tinyteen"><display-name>Tinyteen.tr</display-name></channel>
-<channel id="tmb"><display-name>TMB.tr</display-name></channel>
-<channel id="tracesportstars"><display-name>Trace Sport Stars.tr</display-name></channel>
-<channel id="traceurban"><display-name>Trace Urban.tr</display-name></channel>
-<channel id="trtdiyanetçocuk"><display-name>TRT Diyanet Çocuk.tr</display-name></channel>
-<channel id="trtkurdî"><display-name>TRT Kurdî.tr</display-name></channel>
-<channel id="trtsporyıldız"><display-name>TRT Spor Yıldız.tr</display-name></channel>
-<channel id="turkmenelitv"><display-name>Turkmeneli TV.tr</display-name></channel>
-<channel id="tv42"><display-name>TV 42.tr</display-name></channel>
-<channel id="tv5mondeeurope"><display-name>Tv 5 Monde Europe.tr</display-name></channel>
-<channel id="tv1"><display-name>TV1.tr</display-name></channel>
-<channel id="tytturk"><display-name>TYT Turk.tr</display-name></channel>
-<channel id="b746ac274d6a4fcb8cb38d3feb059778"><display-name>Kablo Info</display-name></channel><channel id="5d0ed3249ad247b28dfeab7d54442399"><display-name>Sinema Tv</display-name></channel><channel id="7e1bb5d4415e4812bfcfc992fcdde355"><display-name>Sinema Aksiyon</display-name></channel><channel id="9dc59d86f1d84cc6ad2cd7a079d63e2f"><display-name>Sinema Yerli</display-name></channel><channel id="94d87a64efe245b2a5fba286268da9d8"><display-name>Sinema Aile</display-name></channel><channel id="4f7afa48aca34ac7992f865ecdbbbdb0"><display-name>Sinema 1001</display-name></channel><channel id="61a30c9321d746638c6b9340a4ac9075"><display-name>Sinema Komedi</display-name></channel><channel id="061332c2d69c4605a7600e2a8274697c"><display-name>TRT 1</display-name></channel><channel id="02abd1635c0a444aa035cb6f45b4700a"><display-name>Atv</display-name></channel><channel id="82bb74f309064efcb66dcefa72e659e6"><display-name>Show TV</display-name></channel><channel id="9433a6dba60149e8a298ce13b553e44b"><display-name>Kanal D</display-name></channel><channel id="89cfc09d93c848829fe339adbccbe67f"><display-name>Star</display-name></channel><channel id="aaf2f509e9d349e99880bd3da5daec8c"><display-name>Kanal 7</display-name></channel><channel id="3639c98ff79540cba4b38feb4de05d33"><display-name>NOW</display-name></channel><channel id="581accda4d5f4c3db5f11579b85a1e4b"><display-name>Tv 8</display-name></channel><channel id="aa8ffd34cd16477681ef1145a5d82122"><display-name>Beyaz Tv</display-name></channel><channel id="227207253a824419bf1de724176a4fb3"><display-name>a2</display-name></channel><channel id="c07b221f26d844d2a64a2fac362ae90e"><display-name>Tv 2</display-name></channel><channel id="f90b270dc791402981d9994c81721fe7"><display-name>360</display-name></channel><channel id="f762dcbbd9294202b84fd97ea3d3522a"><display-name>TLC</display-name></channel><channel id="afcb4b49f74c4cc191cafe9640bef0a7"><display-name>DMAX</display-name></channel><channel id="58e23e94b1fb4651bb130060dbf1dfe2"><display-name>Kon TV</display-name></channel><channel id="5610a254ef1d44a494fe74b38cc7cc2d"><display-name>tv 100</display-name></channel><channel id="e1040488b9634692b550444be934f35f"><display-name>Cnbc-e</display-name></channel><channel id="86ae1b57a0a8448ba476211f82718da8"><display-name>Ulusal Kanal</display-name></channel><channel id="1e73d8cbc8a1428e98c0314d59b18794"><display-name>GZT</display-name></channel><channel id="97bf4a3c68894270a0c90365016d8dca"><display-name>Tv 8,5</display-name></channel><channel id="696b856497c64b5a87abaa27f9dce11f"><display-name>Kanal B</display-name></channel><channel id="cf6df5dc12cc43d9999f9f800589beb0"><display-name>Genç TV</display-name></channel><channel id="776c301e35ad4563bc6959d39fc4f254"><display-name>Vav TV</display-name></channel><channel id="ece17e2ed6844be2b7a5ae7ca4c9606b"><display-name>TYT Türk</display-name></channel><channel id="0abeb25c319740f6b809e4d03710613b"><display-name>TMB</display-name></channel><channel id="cd3f6e3352ca469682857007f850e7c7"><display-name>TV 4</display-name></channel><channel id="a2c3c5d9ec9a4c4c98087311e0b8805a"><display-name>Bengü Türk TV</display-name></channel><channel id="a347cfc61fa44a6d95003742ce51fedf"><display-name>TRT 2</display-name></channel><channel id="aa2286ac92cc4c9291e05e21e5a7f500"><display-name>Tarih Tv</display-name></channel><channel id="4bf58707e44042348d80cdfdc5fa8465"><display-name>Mezzo</display-name></channel><channel id="e2545764d74c4678a0c23d7df61302a7"><display-name>Classical Harmony</display-name></channel><channel id="9fb8aa50e88d4fbab266bce20bed73d2"><display-name>TRT GENÇ</display-name></channel><channel id="b42386d37064493e8657181947c1a520"><display-name>TRT Haber</display-name></channel><channel id="34cf00c56bcd4fab807dfb0c38861dd1"><display-name>A Haber</display-name></channel><channel id="bbf5f67c0df9410ab6bf153e2ee78106"><display-name>NTV</display-name></channel><channel id="7d25511ea4634670acdc8b1dd58c09b3"><display-name>CNN Türk</display-name></channel><channel id="87c058b330554ebb8be9a4556d215543"><display-name>24</display-name></channel><channel id="4a9a6cdbcb3c44d98bdd2c21c51bdd47"><display-name>TGRT Haber</display-name></channel><channel id="8951e82bc7ba49778c00142c542f97f1"><display-name>HABERTÜRK TV</display-name></channel><channel id="02de9bf0cfbb4a68a8eddf9c9ba9cc18"><display-name>Bloomberg HT</display-name></channel><channel id="0b38d5bd5cc545958e2dbc7a8119bb57"><display-name>Ülke TV</display-name></channel><channel id="4a979b9c58c7444f95b9053b39a9f467"><display-name>Tvnet</display-name></channel><channel id="c2713840e44643ab85eb0215aa564d41"><display-name>Akit</display-name></channel><channel id="1a5c4077fc8e4733879e1e820955ca5d"><display-name>Brt 1</display-name></channel><channel id="30ce3b1ca7cf40498260c06710fd05a5"><display-name>TRT Türk</display-name></channel><channel id="39bd481fa65842df9c5bf5ea2e2106b5"><display-name>TRT Avaz</display-name></channel><channel id="bc33d295c18e4955b5ffd6d8ea5ff7f4"><display-name>TRT3 Spor - TBMM TV</display-name></channel><channel id="925ba8ee37f04b49820f9319cfc8fbcf"><display-name>TRT Kurdî</display-name></channel><channel id="247a84cdcdad4557ade7297f3e9ff1af"><display-name>Haber Global</display-name></channel><channel id="c683858c23d54a43b768e43a4d4e7df0"><display-name>Ekol TV</display-name></channel><channel id="68685a2d089b4b0ba4e999b4910fa1b8"><display-name>KRT TV</display-name></channel><channel id="3c0c47cd01694d1bb362817c2a304037"><display-name>Halk TV</display-name></channel><channel id="52d40e7f37fa49c8b5511fc03e3b8cc9"><display-name>TH Türk Haber</display-name></channel><channel id="d79ec5996c724addb5700463a621fd7c"><display-name>SZC</display-name></channel><channel id="b1ff092146964ff4ba2aa85d5427f3ad"><display-name>a Para</display-name></channel><channel id="3fcf2e0a59ea41aa99c4252d3ae8264d"><display-name>Ekotürk</display-name></channel><channel id="ed62767c6eff47a9b8d2e4301b8e3e03"><display-name>TV 42</display-name></channel><channel id="f484aa367c94463590bb7760469bd793"><display-name>TV 5</display-name></channel><channel id="4d2af840c99643d6a59a2c71c1971c00"><display-name>Lider Haber</display-name></channel><channel id="5630fb7b18e64ecc98fc2c5c542ee11a"><display-name>Tele 1</display-name></channel><channel id="df867b57060742d78e55f4f89b59eda6"><display-name>As Tv</display-name></channel><channel id="cae7678273464389b2216bd3b7f6eef6"><display-name>Flash Haber</display-name></channel><channel id="d96a2ddacc7143d9ac36fae7a8a16f05"><display-name>TRT World</display-name></channel><channel id="4195603992ab484aab0ccf3ac95556af"><display-name>A News</display-name></channel><channel id="64a4d22837f4472188507cf2989717a7"><display-name>CNN International</display-name></channel><channel id="9c00e9ed4f1b4b5aa49fe00189c8fea7"><display-name>Bloomberg</display-name></channel><channel id="f1bb6b1a859947b09b39981d4cf61d22"><display-name>Al Jazeera (Arapça)</display-name></channel><channel id="bce1db7eaae246d6a547910fef6825ee"><display-name>Al Jazeera (İngilizce)</display-name></channel><channel id="97bcb6dda36a43e88844e842126c4de2"><display-name>TRT Arabi</display-name></channel><channel id="1548aec659b64d68ab60d8b32a7fd8da"><display-name>Dw Tv (İngilizce)</display-name></channel><channel id="c46a01992415424fa40fa18375abf3a4"><display-name>France 24 (İngilizce)</display-name></channel><channel id="7d78acd1798145f3b32a8e237066f9b8"><display-name>France 24 (Fransızca)</display-name></channel><channel id="268b6d5e96544157b20d618c484923b8"><display-name>CGTN</display-name></channel><channel id="8ed870e46326470abb31d172fd424dd8"><display-name>Russia 24</display-name></channel><channel id="0747a0d5bf3c48e387f567d11235e612"><display-name>TRT Belgesel</display-name></channel><channel id="00313bec7e8e4ccaa5fd2817cddfcb97"><display-name>National Geographic</display-name></channel><channel id="e429eebf4a6a4fa2bcc6252060baae76"><display-name>National Geographic Wild</display-name></channel><channel id="879f09aa1a9149fa88fca721e31132c1"><display-name>Discovery Channel</display-name></channel><channel id="01e9e7c1516b490082e12abdd7d17d8d"><display-name>ID</display-name></channel><channel id="b99769a2bbb54d209a4754492d036226"><display-name>Viasat History</display-name></channel><channel id="604c1ee5f6344b2c8f11932e0c9983f8"><display-name>Love Nature</display-name></channel><channel id="4974c72720d4464c8db085107d67979e"><display-name>DocuSCREEN</display-name></channel><channel id="073996f5b7f3402697cd8204409f8678"><display-name>Viasat Explore</display-name></channel><channel id="8035b6557efb4d57bab3d21f52a8de83"><display-name>CGTN Documentary</display-name></channel><channel id="b452d7b5a3be42e2a398d5d531ca5e1e"><display-name>Az TV</display-name></channel><channel id="d98581ee8dc14975896ce705b563bed1"><display-name>Türkmeneli TV</display-name></channel><channel id="341a765d91ae4dc6ad5de2a006c94212"><display-name>Tv 5 Monde Europe</display-name></channel><channel id="d63fc58d6e334f3aa5ffa0e67dee910d"><display-name>Cctv 4</display-name></channel><channel id="881a05d1af9d492d86e75567a90677d7"><display-name>Saudi Tv</display-name></channel><channel id="05bf382beb184ae3b95940d558776d7b"><display-name>BİR TV</display-name></channel><channel id="528d0fe219104e8887f41c9e052a0171"><display-name>Hayat 2</display-name></channel><channel id="7647688774d94242a1f2b8c1060caad2"><display-name>Planeta RTR</display-name></channel><channel id="20fd5297efb746078b202f7aa09be0b8"><display-name>Kbs World</display-name></channel><channel id="8e8c1701838f40cc8eea0ba95031dc19"><display-name>Nhk World</display-name></channel><channel id="65509bbb8c8641f6b2d4ea7441aedf3c"><display-name>Arirang</display-name></channel><channel id="b32f4560d1264e9fb6bf4b638067705d"><display-name>Freedom</display-name></channel><channel id="089198b58ac148f58f97084251d4947e"><display-name>TRT Spor</display-name></channel><channel id="0bc43404ef5741368c1909388e202330"><display-name>beIN SPORTS HABER</display-name></channel><channel id="0a797b9fa6df4f5691ee40eb47f80bd9"><display-name>A Spor</display-name></channel><channel id="c9d84c8b574248afbbf1ac7d176b3c7a"><display-name>Eurosport 1</display-name></channel><channel id="f9f3488e105d42adb5f5a0cb3f082971"><display-name>Eurosport 2</display-name></channel><channel id="e3f5434322f245cf81c1eaf689c7d9fc"><display-name>HT Spor</display-name></channel><channel id="ca7ea4979fe34d6b9575a785cae52779"><display-name>Trace Sports Stars</display-name></channel><channel id="827fa5d3420c448fb99beff00bfd95f3"><display-name>CosmoSports</display-name></channel><channel id="d6903c206ede4404975f7c7f22f720d4"><display-name>Ekol Sports</display-name></channel><channel id="1607996d5c9e483cbe7b149c85989dc4"><display-name>TRT Spor Yıldız</display-name></channel><channel id="16265e63543240309906f4cd736fcb88"><display-name>Sports Tv</display-name></channel><channel id="66eaa140a6d1477ea5da729828889dd5"><display-name>FB TV</display-name></channel><channel id="740a67bb91174f18851aa532509d846c"><display-name>FX</display-name></channel><channel id="ebfba78a673140b3b75275795280ed58"><display-name>Epic Drama</display-name></channel><channel id="c5bca4bc25764e9aa583db7fe02d117a"><display-name>FILMSCREEN</display-name></channel><channel id="be988b55c77b456fb3bab43cf1d6ce50"><display-name>Kitchen TV</display-name></channel><channel id="5a3dda3fd1b44086ba8c13a502bad4f0"><display-name>MyZEN TV</display-name></channel><channel id="d2a54f6cc2264ea985e28ebc5c5eb44d"><display-name>TRT Çocuk</display-name></channel><channel id="ffc2f4f83a394dd9b5c73bd54a809b67"><display-name>Minika Çocuk</display-name></channel><channel id="c9cb24f962ab4084bd0e44165640fb22"><display-name>Minika Go</display-name></channel><channel id="578155c5e6984a8ab916ed65fb977c78"><display-name>TRT Diyanet Çocuk</display-name></channel><channel id="649bf91d85034de09f9e253b3b6fd2ee"><display-name>SpaceTOON</display-name></channel><channel id="57f882d4f9f14b8bb917be0f77b06bc9"><display-name>Azoomee</display-name></channel><channel id="6347e31baa14437a89025e8e2f57e6d1"><display-name>BabyTV</display-name></channel><channel id="75281c49bd49401ab93f319ad30c093e"><display-name>Disney Junior</display-name></channel><channel id="50f5f2ba4f17415a8c231659197c9034"><display-name>Cartoon Network</display-name></channel><channel id="5ca5c3adc6d64617aa748ebf6ac80e97"><display-name>Moonbug Kids</display-name></channel><channel id="22d3fad8a7b140edbe24dd7927186e57"><display-name>Duck TV</display-name></channel><channel id="5631c3f68a964a10a34d285e941e02a9"><display-name>English Club TV</display-name></channel><channel id="0456dff8e6ee4871b032f9e74d168ca5"><display-name>Da Vinci</display-name></channel><channel id="caa4ce65295e44168dc45e78dfbe2b1b"><display-name>LangLab</display-name></channel><channel id="637f01f5058c49edaf60cd9184895168"><display-name>LingoToons</display-name></channel><channel id="957ff396e3cc4d0a98afc03bc690ffe4"><display-name>TinyTeen</display-name></channel><channel id="832f7808c19c40e0b0373e755affd122"><display-name>TRT Eba TV</display-name></channel><channel id="224c9da4890f4cecaee9b790d145348c"><display-name>Diyanet Tv</display-name></channel><channel id="1f03ad77067b4376af7d2d3bd0a0e16c"><display-name>Al Quran Al Kareem</display-name></channel><channel id="23bf7efa822e41558ff516903eae670c"><display-name>Al Sunnah Al Nabawiya</display-name></channel><channel id="f9afb8fa561d4ea8a3334a43e22ab9e3"><display-name>Lâlegül</display-name></channel><channel id="c9e5fdd4c90e4b82a3ea7b6642ef4768"><display-name>TRT Müzik</display-name></channel><channel id="0ab0f933cd79436b866c5320e92da037"><display-name>Dream Türk</display-name></channel><channel id="dcd25489d13948a7ab90a6b80f2a160b"><display-name>Trace Urban</display-name></channel></tv>
+</tv>
