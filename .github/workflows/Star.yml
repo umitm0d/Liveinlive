@@ -3,7 +3,7 @@ name: StarTV Otomatik Güncelleme
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 21 * * *'
 
 jobs:
   update_startv:
