@@ -699,3 +699,64 @@ _Son güncelleme: 2026-05-06 17:53:23_
 <h1 align="center">
   <img src="https://img.shields.io/badge/-%C3%9CM%C4%B0TM0d-000000?style=for-the-badge&logo=github&logoColor=00FF00" />
 </h1>
+<!-- M3U-LINK-START -->
+# 📺 M3U Linkleriniz
+
+## 🔗 jsDelivr CDN Linkleri
+
+### BYEBYEDPI_VAVOO ÜLKE BAZINDA KATEGORİLİ İPTV.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/BYEBYEDPI_VAVOO ÜLKE BAZINDA KATEGORİLİ İPTV.m3u
+```
+
+### Promosyon-1.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Promosyon-1.m3u
+```
+
+### Umitm0dRec.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Umitm0dRec.m3u
+```
+
+### indirilen_playlist.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/indirilen_playlist.m3u
+```
+
+### iptv_list.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/iptv_list.m3u
+```
+
+### playlist.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/playlist.m3u
+```
+
+### r2.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/r2.m3u
+```
+
+### startv.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/startv.m3u
+```
+
+### umitginiko.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitginiko.m3u
+```
+
+### umitm0d.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitm0d.m3u
+```
+
+### yeni.m3u
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
+```
+
+<!-- M3U-LINK-END -->
