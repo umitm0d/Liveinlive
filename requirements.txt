@@ -1,8 +1,5 @@
-certifi==2024.2.2
-charset-normalizer==3.3.2
-idna==3.6
-regex==2023.12.25
-requests==2.31.0
-tqdm==4.66.2
-urllib3==2.2.1
-python-slugify==8.0.1
+cloudscraper
+beautifulsoup4
+lxml
+httpx
+httpx[http2]
