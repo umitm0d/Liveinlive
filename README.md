@@ -233,6 +233,11 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/umitmod_solo_konsert
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/vetendasa.m3u8
 ```
 
+### 📄 `filmmakinesi_tum.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/filmmakinesi_tum.m3u
+```
+
 ### 📄 `indirilen_playlist.m3u`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/indirilen_playlist.m3u
@@ -702,7 +707,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-05-24 21:11:16_
+_Son güncelleme: 2026-05-24 21:11:37_
 
 ---
 
