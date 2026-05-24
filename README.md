@@ -243,6 +243,11 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/indirilen_playlist.m3u
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/iptv_list.m3u
 ```
 
+### 📄 `jetfilm_tum.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/jetfilm_tum.m3u
+```
+
 ### 📄 `myvideo-az/arb-gunes.m3u8`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/myvideo-az/arb-gunes.m3u8
@@ -697,7 +702,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-05-22 00:08:07_
+_Son güncelleme: 2026-05-24 21:11:16_
 
 ---
 
