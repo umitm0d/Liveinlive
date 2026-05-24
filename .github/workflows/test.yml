@@ -1,0 +1,34 @@
+name: Jetfilm Scraper
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: repoyu çek
+        uses: actions/checkout@v4
+
+      - name: py 3.13 kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: kütüphaneleri yükle
+        run: pip install -r requirements.txt
+
+      - name: scripti çalıştır
+        run: python jetfilm.py
+
+      - name: değişiklikleri repoya kaydet
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add jetfilm_tum.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Güncel m3u listesi: $(date +'%Y-%m-%d %H:%M')" && git pull --rebase origin main && git push origin main)
