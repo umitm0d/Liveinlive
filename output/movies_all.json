@@ -109149,5 +109149,40 @@
         "poster": "https://image.tmdb.org/t/p/w500/rNDPjAGvYRYTkiyjKMB5AmbNj2A.jpg",
         "link": "https://vidmody.com/vs/tt0066080",
         "category": "Filmler | Bilim Kurgu"
+    },
+    {
+        "id": 1368314,
+        "title": "Yolcu",
+        "poster": "https://image.tmdb.org/t/p/w500/mpLywMTh1laNL3QOKdMiWY9T6os.jpg",
+        "link": "https://vidmody.com/vs/tt33763941",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1315657,
+        "title": "Sarı Zarflar (2026)",
+        "poster": "https://image.tmdb.org/t/p/w500/taBK5pXtvKnSHY4XnlaO3jDv9FE.jpg",
+        "link": "https://vidmody.com/vs/tt32888226",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 552405,
+        "title": "Şeytan Tüyü (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/8b6HCNWMgZR9X3afN40dNR24Sd7.jpg",
+        "link": "https://vidmody.com/vs/tt5521970",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1265978,
+        "title": "Stalker (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/mYB7CApqPcjWpsOVYMDkcdVwMSy.jpg",
+        "link": "https://vidmody.com/vs/tt26898514",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 36668,
+        "title": "X-Men: Son Direniş (2006)",
+        "poster": "https://image.tmdb.org/t/p/w500/tltloMUJ3KZ7IByFwJrR4lvHZeK.jpg",
+        "link": "https://vidmody.com/vs/tt0376994",
+        "category": "Filmler | Bilim Kurgu"
     }
 ]
