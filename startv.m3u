@@ -8723,6 +8723,370 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30662&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Sırat 5.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a1bded1e411cace34013405e.jpg" group-title="STARTV Dizileri",TR: Sırat 5.Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30683&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 19.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/c8bb08ae4749b6c1925205e2.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 19.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a5111386fed5312c8bfcb&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 20. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/7a25f3854023b309a124c770.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 20. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30457_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 21. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/cf9386f44f43b54e5572272d.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 21. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30463_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 22. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/6c9c57bf486fae7566c0b4f5.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 22. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30479_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 23. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/665ffd0a4e17a29965cc4e7f.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 23. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30489_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 24. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0a96cc9946a687dd6315a019.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 24. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30507_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 25. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/79ba601b4d65b49caa9a13fb.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 25. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30523_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 26. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/1ae5b1424ec8b533d338000f.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 26. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30534_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 27. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/5c046f3e482080bbb92b2ef2.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 27. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30549_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 28.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/e9c56a2a4a69a7ffd35da05f.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 28.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30565_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 29. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/e5e6c5434577a78c09f5d0ef.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 29. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30578_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 30. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/41995aa64afeab7d563b96e3.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 30. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30587_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 31. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/e8f712254fc186549d262e50.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 31. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30609&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 32. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/ae5c18e24b34a8a848bef282.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 32. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30627_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 33. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/31196aff43fe9da7f65d7e5a.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 33. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30648&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 34. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/3bedc6454fad8058e65c5f4e.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 34. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30667&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 35. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/14668cdd4a17addc18508c9d.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 35. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30682&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 36. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/2e9a9deb47d9a78662159fcc.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 36. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30702&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 37. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/60b2f4a348029be9388e70ee.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 37. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30717&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 38. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b337bc4a411d929aa129988a.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 38. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30736&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 39.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/368ee06b45adbb461e316bd5.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 39.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30749&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 40.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/111d13f04269a86ef4256635.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 40.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30777&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 41. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/eac8bce4455ca752360b6940.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 41. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30798&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 42. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/2aeccfd14d9f9caba2c8d8df.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 42. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30814&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 43. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/ef6a929444cab21f7a35585a.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 43. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30828&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 44. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b6969c3c48fc82e2593e8e13.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 44. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30845&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 45. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/3383cae34383a1a5f3417ac9.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 45. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30857&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 46. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/3e2a3d9f4d9b8b6ab263c7e2.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 46. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30882&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 47. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/9395e064404ea6501e9e5c78.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 47. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30897&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 48. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a518679a415e8a826c96900a.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 48. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30905&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 49. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/27d19a064a5585469010c1ae.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 49. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30913&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 50. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/11c4a02d466f95e549cfeccb.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 50. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30918&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 51.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b4ada85a44eeb2a27bd55c7c.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 51.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30928&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 52. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/9a605dc5415ba97f2ec01e1d.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 52. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30934&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 53. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d75ba0c64b86865bf7e63d95.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 53. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30947&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 54.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/5b710c144e03a9ededf8b7bb.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 54.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30957&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Sırlar 55. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/4018c1614e77a5fe0f53ed28.jpg" group-title="STARTV Dizileri",TR: Küçük Sırlar 55. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30976&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 59. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/01a7a50740008d55671f916a.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 59. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30406&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 60. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/bcb01e8e4aa7a5ba4f35a69b.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 60. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30411&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 61. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/618829c2417883a21fb61730.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 61. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30417&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 62. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/afa8e4bd470eb50595c598ec.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 62. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30422&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 63. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/76c4926a46fb9deb8a9957d8.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 63. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30428&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 64. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/1eb145494d44b9a120102a2d.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 64. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30435&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 65. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a06f97194372a21999a531da.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 65. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30447&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 66. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/43095f4742f498ef3c407c74.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 66. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30455&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 67. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a4a4fcef4faaa3d7cc4e8cc5.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 67. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30460&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 68. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/79dffa264345bd7ec626f7ce.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 68. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30465&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 69. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/cb283849458694e6d06912e9.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 69. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30484&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 70. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/3c667f444917a0be959d26c7.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 70. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30494&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 71. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/105f35044a66a49c05fa1251.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 71. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30504&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 72. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/2fe1f4784f5cad27898de50e.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 72. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30514&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 73. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/bd02eb924d83902fe63fb62c.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 73. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30540&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 74. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/ee0ad1e841e4bc00a623f215.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 74. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30545&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 75. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a6b825ad4196863487b4f32e.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 75. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30557&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 76.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/c7bc7ba84e3f9ef4e70bec0a.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 76.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30574&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 77. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/468785f74fbfb7ecb48df5c3.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 77. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30590&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 78. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/3095930341b9883502c1fdd3.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 78. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30599&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 79. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/07947454471195e9421cfc6e.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 79. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30614&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 80. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/4205a85d4551b48daaa31db2.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 80. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30637&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 81.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/1f598e1744c8a6b00c3da250.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 81.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30657&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 82. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/ef36cd4d42229ff97e1756cd.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 82. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30675&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 83. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/2eeefc434514930a6cf99778.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 83. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30697&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 84. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/f721f19442da85a7785ef056.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 84. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30714&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 85. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/2e934f084b4882b366ac096d.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 85. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30732&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 86. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/c6e6683c47468a5ffef7ac32.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 86. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30748&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 87. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/dc517fd5475592f8bf91dc09.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 87. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30770&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 88. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/790a09f94ba99b7e4fe59375.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 88. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30791&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 89. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/e1e016144ec29906621cfd64.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 89. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30807&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 90. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/5fbba9ad4e2ab02cf40459c4.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 90. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30822&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 91. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/87e773684843a5432b8ff48d.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 91. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30839&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 92. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/aa0081694ceb89a0af2f0a14.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 92. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30851_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 93. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/89817a8c4d16b2a63b5ae0ea.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 93. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30867_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 94. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/488ecbdd4e6f977cc1b8b527.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 94. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30879_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 95. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/6cd17a9d4eb594dd4b5c19fd.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 95. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30891_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 96. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a575f7c54a08b4fc9c92c3e3.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 96. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30939_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 97.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/772843c14c2f94cc4b928bf8.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 97.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30951_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 98.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/7abb20484ef8b81495a02a74.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 98.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30961_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 99. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/3fdaa26b4ee2a722b949a37e.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 99. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30974_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 100. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/683443df40b494f7efcad4ec.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 100. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30987_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 101. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/dae4d063488bb70cf799ece2.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 101. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_31012_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 102. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b936a0494577aaace7c7883a.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 102. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_31041_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 103. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/146dc0c648a08d7557e5bb8d.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 103. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_31062_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 104. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/35e8bf774634b40824e4a51f.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 104. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_31087_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 105. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/45331b2f4f07a1b326a77b1a.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 105. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_31099_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 106. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/6cdee23848d6b9a9aa8a5ed3.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 106. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_31122_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 107. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/9aa9ad4640d39451f7511312.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 107. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_31131_p1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Geniş Aile 108.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/3f75c73a466daecb02325209.jpg" group-title="STARTV Dizileri",TR: Geniş Aile 108.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_31164&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/cc0b4c8c42d49a161a3ef6f0.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 1. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30376&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 89. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/6a2807534faba2e7e04a792d.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 89. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_41848&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/cd83be434d4286bbaa93f1a0.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 2. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30393&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 3. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/299745ed410e92b5ab8dde00.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 3. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30396&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 4. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/71796436415a866c3c4a2a26.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 4. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30403&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 5. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0a1428c24390a653e5d47a45.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 5. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30409&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 6. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/c49917f34853b63dac1e1d56.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 6. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30414&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 7. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/cde32bfc418dbf99dafd6d89.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 7. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30425&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 8. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/969bd13e4cf49dfea4dd173f.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 8. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30432&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 9. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/23c926c547b6b3ca43ddecb5.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 9. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30436&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 10. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b158126646559df179a525fc.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 10. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30453&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 11. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/16abe08849cea0022405b691.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 11. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30459&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 12. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/8636c1e946cc9dae34c28266.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 12. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30477&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 13. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/846304b54a0b986fb10c4079.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 13. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30483&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 14. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a91f93e7499ab778366da0ee.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 14. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30498&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 15. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/dd53f22247b9b7a0a75582dc.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 15. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30512&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 16. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/28557dfe452f83b5fe3bb27f.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 16. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30520&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 17. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/f0dd15eb4b5b9ae527dab388.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 17. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30535&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 18. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/15a825364f1b9f0da205427d.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 18. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30548&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 19. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/2d12c0f443cda830bb99d098.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 19. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30562&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 20. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/631a7e7f461789a81e203359.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 20. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30577&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 21. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/9333825e4a1baae91b68cbef.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 21. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30586&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 22. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/91c3b904419da11abf11a676.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 22. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30602&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 23. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d22ea7d64332ae0a187a5d73.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 23. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30618&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 24. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/9065e3ba448bb49efe355629.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 24. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30640&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 25. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/69190fc442f6b259b9ebbd96.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 25. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30659&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 26. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b731815f4d45810149667378.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 26. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30673&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 27. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/08c4030040a9bd79d5b1eeb1.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 27. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30692&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 28. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/c6739fb64b70a6b92af805b2.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 28. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30715&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 29. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/fbe998144008b4c61b94f4ee.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 29. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30730&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 30. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/cc3249974f6b9b7536cdc133.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 30. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30746&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 31. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/1b23b8a146e88a9df06a00c7.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 31. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30774&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 32. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d21807284cd7b99f40a0089b.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 32. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30796&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 33. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/6d1d404246cb8a073b575140.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 33. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30804&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 34. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/f0197ab94a5f91a0019800c4.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 34. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30823&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 35. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/f148bafd41a19a87d636cc86.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 35. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30838&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 36. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/ba3a4cb04f0da959a16edc3a.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 36. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30854&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 37. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/48ce494147fb80d3c3f5db5a.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 37. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30877&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 38. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/10df84264aa19844cecf5e31.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 38. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30889&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 39.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/397f505c47288f4eb99a8663.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 39.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da1bf7378a107c205fdf&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 40.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/7938d98e4d3a8a5390fd743c.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 40.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da1df7378a107c205fe1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 41.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a4b976714b76939199191508.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 41.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da1ef7378a107c205fe3&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 42.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0bd0b80f42929cbdc2a587d4.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 42.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da21f7378a107c205fe5&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 43. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/3735292d47cf91afbe151fc0.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 43. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da22f7378a107c205fe7&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 44. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/e244b5924d3caaee6e100743.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 44. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a5188386fed5312c8c064&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 45.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/836cf0ea456fbc43d594735f.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 45.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da23f7378a107c205fe9&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 46. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0435bc884e388048528b6181.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 46. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da25f7378a107c205feb&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 47.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/e070f6084734834e821ffad4.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 47.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da26f7378a107c205fed&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 48.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/2a19b20f43baa95c08c2e43e.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 48.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da27f7378a107c205fef&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 49. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/541e9d8e4c029089b65361ba.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 49. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da28f7378a107c205ff1&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 50.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/85d738494a65a77d22325b78.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 50.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da29f7378a107c205ff3&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 51.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/e60f7a2d46b2a7abf61fe2b7.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 51.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da2bf7378a107c205ff5&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 52.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/975349434909898da4a6060b.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 52.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da2cf7378a107c205ff7&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 53.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/6027909c4d2595a0de532736.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 53.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da2df7378a107c205ff9&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 54.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/e89ce7f5419a801871376d94.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 54.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da2ef7378a107c205ffb&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 55. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/5b8864724e19836a82cdc376.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 55. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da30f7378a107c205ffd&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 56.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/4c97a6ed484b91ae4769a9ae.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 56.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a518b386fed5312c8c066&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 57.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/35132fad470dbc89702c6b96.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 57.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da31f7378a107c205fff&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 58.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/4d26818f4e6caf529cfc889a.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 58.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da32f7378a107c206001&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 59.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/86be049c4994aeccbddc7054.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 59.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da34f7378a107c206003&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 60. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/6660f4db40f687520909858c.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 60. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da35f7378a107c206005&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 61.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b6d152b44118b6614b5c2c49.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 61.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da36f7378a107c206007&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 62.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/9cf67ec840108fb3cbd52d5f.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 62.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da38f7378a107c206009&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 63.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/08a8d058463a9da5329a7cd2.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 63.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da39f7378a107c20600b&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 64.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/f96db2214e0bb54f26e5c908.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 64.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da3af7378a107c20600d&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 65.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/70177db74054918df9c52798.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 65.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da42f7378a107c20600f&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 66. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/8bcc6d04409ebf39df7f1658.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 66. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_36059&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 67. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/9d38e98e4dfab36e2a7c875a.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 67. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da4af7378a107c206013&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 68. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/f0e242394557b547c4201946.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 68. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da4cf7378a107c206015&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 69.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/ddcf49bb4aa39f3a991df399.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 69.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da4df7378a107c206017&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 70.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/26fe63a04d028e4d3301f372.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 70.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da4ff7378a107c206019&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 71.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b9264be54f2592e6522223b1.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 71.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da50f7378a107c20601b&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 72.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b2c782dd4206849523bbd45d.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 72.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da53f7378a107c20601f&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 73.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/edad5df04de8a9d717ed98b8.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 73.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da55f7378a107c206023&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 74.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/600af1cd4e73aa55a2cdd6b8.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 74.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da57f7378a107c206027&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 76.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/900da56d49d3902b97c45b3f.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 76.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a518e386fed5312c8c06a&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 77.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/c41ef2714cc48edbfbf118c1.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 77.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da5cf7378a107c20602f&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 78. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/8be5126348848959907c9c00.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 78. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da5ff7378a107c206033&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 79. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/2f5ca1f04d2eab799839dd5f.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 79. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da63f7378a107c206039&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 80. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/c49089c549fe823adae3c54f.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 80. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da65f7378a107c20603d&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 81.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/8058466c4e1fb5701b335ab0.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 81.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da67f7378a107c20603f&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 82.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d3875f4d41f68fefd3a03119.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 82.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a5191386fed5312c8c06c&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 83. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/4f44f6dd4d0882b06dc1b18f.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 83. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da6cf7378a107c206047&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 84. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/33f5c2334c6195d34a092f51.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 84. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da6ef7378a107c206049&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 85.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/ddde6a0642169f1e59093469.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 85.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da72f7378a107c20604f&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 86. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/050cb4fb468db9393438b3ca.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 86. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da73f7378a107c206051&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 87. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/be525a8d427e98ba77d9e99b.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 87. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da76f7378a107c206055&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 88. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d848e4aa4fff8c1838ca1291.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 88. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da78f7378a107c206059&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 90. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/7ebc873f49f8b28aa633e7bb.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 90. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da7df7378a107c206061&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 91.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0836df244db18dc95503affc.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 91.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da81f7378a107c206065&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 92.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/5b96ce7a4b75b6ef84121045.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 92.Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a5193386fed5312c8c06e&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 93. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/15d697bd4019908029909ebf.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 93. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da85f7378a107c20606b&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 94. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/399b57d34d4abd5a6a7a766b.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 94. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a5194386fed5312c8c070&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 95. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/718c1f994d02bf1c51088321.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 95. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da88f7378a107c206071&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Behzat Ç. 96. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/136b09e540fd99164aa5abf9.jpg" group-title="STARTV Dizileri",TR: Behzat Ç. 96. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6538da8ef7378a107c206075&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Dürüye'nin Güğümleri 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/154e87ea4f2e86832fc9e0c6.jpg" group-title="STARTV Dizileri",TR: Dürüye'nin Güğümleri 1. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30363&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Dürüye'nin Güğümleri 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d7e04a7d497fa10b6ef55e48.jpg" group-title="STARTV Dizileri",TR: Dürüye'nin Güğümleri 2. Bölüm
