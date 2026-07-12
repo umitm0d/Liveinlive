@@ -109513,5 +109513,131 @@
         "poster": "https://image.tmdb.org/t/p/w500/giqQFAdwf16IEqMk48QbzdoRlzD.jpg",
         "link": "https://vidmody.com/vs/tt2182115",
         "category": "Filmler | Macera"
+    },
+    {
+        "id": 1081003,
+        "title": "Supergirl",
+        "poster": "https://image.tmdb.org/t/p/w500/qXrV3K4aCENHlp7zbrDnGqci7wj.jpg",
+        "link": "https://vidmody.com/vs/tt8814476",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1484913,
+        "title": "Ikka",
+        "poster": "https://image.tmdb.org/t/p/w500/fp5EAKE8nTx402n1fWz55QsuYY9.jpg",
+        "link": "https://vidmody.com/vs/tt39632269",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1381202,
+        "title": "The Outer Threat",
+        "poster": "https://image.tmdb.org/t/p/w500/3ZaO8yZwGo4PJSgwLwSowD4EBbN.jpg",
+        "link": "https://vidmody.com/vs/tt33372918",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1628071,
+        "title": "宗师叶问2",
+        "poster": "https://image.tmdb.org/t/p/w500/QcHi4NdJi6FoXeU8DDmJAT71K0.jpg",
+        "link": "https://vidmody.com/vs/tt38682795",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1715492,
+        "title": "Shipwrecked: Nightmare at Sea",
+        "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
+        "link": "https://vidmody.com/vs/tt43595399",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1320660,
+        "title": "पति पत्नी और वो दो",
+        "poster": "https://image.tmdb.org/t/p/w500/x0RUPvba4JlCCkyyEZGlQFIFVuF.jpg",
+        "link": "https://vidmody.com/vs/tt33054858",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 682012,
+        "title": "Küçük Amélie",
+        "poster": "https://image.tmdb.org/t/p/w500/As1MI46u7yWuBhZ5AI41GdB867G.jpg",
+        "link": "https://vidmody.com/vs/tt29313285",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1003162,
+        "title": "Ama (2022)",
+        "poster": "https://image.tmdb.org/t/p/w500/BoO7DLwDQm0c9QAcy5uzOiZ5Rl.jpg",
+        "link": "https://vidmody.com/vs/tt21352482",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1493871,
+        "title": "Sahibinden Rahmet (2025)",
+        "poster": "https://image.tmdb.org/t/p/w500/kx8sJ8B4LRadw4rVhpZoNFTLf72.jpg",
+        "link": "https://vidmody.com/vs/tt37186212",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1221785,
+        "title": "Beni Sev (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/raPe8QGsaxaxI2CiPxcsrnY7wyL.jpg",
+        "link": "https://vidmody.com/vs/tt27417185",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1190449,
+        "title": "Ormanın Süper Kahramanı (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/73sR7NieI7znb3HBipvlC5naqPn.jpg",
+        "link": "https://vidmody.com/vs/tt28513569",
+        "category": "Filmler | Animasyon"
+    },
+    {
+        "id": 1102935,
+        "title": "الخاطبة (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/53h5Z8ll4ahF08CQcZvDeRVGyvw.jpg",
+        "link": "https://vidmody.com/vs/tt22497824",
+        "category": "Filmler | Gizem"
+    },
+    {
+        "id": 789578,
+        "title": "Les Héroïques (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/nmFJoDFzXf5D0j3E8dLXiFB1UgI.jpg",
+        "link": "https://vidmody.com/vs/tt7661518",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 766060,
+        "title": "Deathwell (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/96op1T4SA4csoa7NbHFzJNDBMXN.jpg",
+        "link": "https://vidmody.com/vs/tt10476718",
+        "category": "Filmler | Suç"
+    },
+    {
+        "id": 771408,
+        "title": "Büyük Bozkır Ağıtı (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/eukBV9bCkCC4S85h9mtmYgSiGCF.jpg",
+        "link": "https://vidmody.com/vs/tt11434772",
+        "category": "Filmler | Tarih"
+    },
+    {
+        "id": 584439,
+        "title": "Yalan Dolan (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/zY0t9VecvhpAHxWYuVDDB9XvapR.jpg",
+        "link": "https://vidmody.com/vs/tt8822348",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 361417,
+        "title": "Çilek (2014)",
+        "poster": "https://image.tmdb.org/t/p/w500/qOFQLiYXco7cTuVnQcXoUxti2W9.jpg",
+        "link": "https://vidmody.com/vs/tt4689898",
+        "category": "Filmler | Macera"
+    },
+    {
+        "id": 326968,
+        "title": "Azazil: Düğüm (2014)",
+        "poster": "https://image.tmdb.org/t/p/w500/sTQScN7tdTKZAN6CtqwCX6vetpB.jpg",
+        "link": "https://vidmody.com/vs/tt4558370",
+        "category": "Filmler | Korku"
     }
 ]
