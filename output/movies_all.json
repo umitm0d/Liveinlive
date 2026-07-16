@@ -109723,5 +109723,131 @@
         "poster": "https://image.tmdb.org/t/p/w500/rxZd1AC3OAMWAxwouKO5P136GQ3.jpg",
         "link": "https://vidmody.com/vs/tt5522416",
         "category": "Filmler | Aile"
+    },
+    {
+        "id": 1397201,
+        "title": "Golden Kamuy 3 -The Abashiri Prison Raid-",
+        "poster": "https://image.tmdb.org/t/p/w500/lcBrjK1mnPrrpLk6VtlVMMCfsLS.jpg",
+        "link": "https://vidmody.com/vs/tt38109660",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1440050,
+        "title": "Babam Evde Kaldı",
+        "poster": "https://image.tmdb.org/t/p/w500/bPrcHIQx5GVCJ7OZvri5u00lsuz.jpg",
+        "link": "https://vidmody.com/vs/tt34459219",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1380316,
+        "title": "Is God Is",
+        "poster": "https://image.tmdb.org/t/p/w500/rCYQGHdoz7qwYsb6wXETJfUfDLX.jpg",
+        "link": "https://vidmody.com/vs/tt34379307",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1541560,
+        "title": "Stop! That! Train!",
+        "poster": "https://image.tmdb.org/t/p/w500/w90dGS6D2lVO4aO5rdQ8QECrUGY.jpg",
+        "link": "https://vidmody.com/vs/tt38128726",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1580803,
+        "title": "Susana y Elvira: Sin plan B",
+        "poster": "https://image.tmdb.org/t/p/w500/amqNq4a3cugpf48nfpZFJwnFzbb.jpg",
+        "link": "https://vidmody.com/vs/tt37762750",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1631208,
+        "title": "Sunset Strip Killers",
+        "poster": "https://image.tmdb.org/t/p/w500/1ocGuTdAg9xPT5XIZHGR8rg1KiX.jpg",
+        "link": "https://vidmody.com/vs/tt37371014",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1147610,
+        "title": "Gangland",
+        "poster": "https://image.tmdb.org/t/p/w500/aH31UkJsXNV5ChFMg7vJMA4O5b1.jpg",
+        "link": "https://vidmody.com/vs/tt28263483",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1396608,
+        "title": "The Non-Actor",
+        "poster": "https://image.tmdb.org/t/p/w500/uvNDUZZFnIymTMwo5dJHkKjoQxV.jpg",
+        "link": "https://vidmody.com/vs/tt34798924",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 649951,
+        "title": "Dilsiz (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/x28r3vwPiVVPfvGpTKr9RnQN62n.jpg",
+        "link": "https://vidmody.com/vs/tt10763914",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 417333,
+        "title": "Yola Geldik (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/4pX6yP6rVsrPomMDjU9PZR8L611.jpg",
+        "link": "https://vidmody.com/vs/tt5649762",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 34420,
+        "title": "Uzak İhtimal (2009)",
+        "poster": "https://image.tmdb.org/t/p/w500/6t4G7p36HwFknbJRfmuxfpNeBcQ.jpg",
+        "link": "https://vidmody.com/vs/tt1366981",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 138725,
+        "title": "SüperTürk (2012)",
+        "poster": "https://image.tmdb.org/t/p/w500/cAqzWi0jD4RNCl1pCPCZPKRylxb.jpg",
+        "link": "https://vidmody.com/vs/tt2262183",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 597859,
+        "title": "Лётчик (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/6dw1PE6CiexFkpGc0ZjXKwVucpJ.jpg",
+        "link": "https://vidmody.com/vs/tt14303882",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 605808,
+        "title": "Mesih Yol Gösterir (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/t13ZvZrp7ELk8uqq7zpWtplJA3L.jpg",
+        "link": "https://vidmody.com/vs/tt8550514",
+        "category": "Filmler | Aksiyon"
+    },
+    {
+        "id": 604768,
+        "title": "The Very Excellent Mr. Dundee (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/xcsy4HxILSzkxwqKnljk1PYbbEK.jpg",
+        "link": "https://vidmody.com/vs/tt8560172",
+        "category": "Filmler | Komedi"
+    },
+    {
+        "id": 790231,
+        "title": "Bagajı Asla Açma (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/8fpVtk1Q8qu1t66WHA8cdd9ngYB.jpg",
+        "link": "https://vidmody.com/vs/tt9072746",
+        "category": "Filmler | Suç"
+    },
+    {
+        "id": 737802,
+        "title": "Se busca papá (2020)",
+        "poster": "https://image.tmdb.org/t/p/w500/pkGH2TfJpK9CnOB3qS8uVqAqdp9.jpg",
+        "link": "https://vidmody.com/vs/tt12721188",
+        "category": "Filmler | Dram"
+    },
+    {
+        "id": 437220,
+        "title": "İyi Günler (2018)",
+        "poster": "https://image.tmdb.org/t/p/w500/zFiOvJ6S3n0Fg29DwwK48aGQkW.jpg",
+        "link": "https://vidmody.com/vs/tt6451304",
+        "category": "Filmler | Animasyon"
     }
 ]
