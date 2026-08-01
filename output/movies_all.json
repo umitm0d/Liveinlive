@@ -110843,5 +110843,180 @@
         "poster": "https://image.tmdb.org/t/p/w500/aOYHPnjGaOENXoz3g0khiqN8E3r.jpg",
         "link": "https://vidmody.com/vs/tt29008112",
         "category": "Filmler | Suç"
+    },
+    {
+        "id": 1275779,
+        "title": "İfşa Günü",
+        "poster": "https://image.tmdb.org/t/p/w500/1nzGfDErOkwsWfArtnVRaEVrkKa.jpg",
+        "link": "https://vidmody.com/vs/tt15047880",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1481343,
+        "title": "Şeytanın Ağzı",
+        "poster": "https://image.tmdb.org/t/p/w500/5YCvr05L7DavEUSp527uqwLEaMn.jpg",
+        "link": "https://vidmody.com/vs/tt36958312",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1564614,
+        "title": "Leviticus",
+        "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+        "link": "https://vidmody.com/vs/tt39143902",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1458215,
+        "title": "The Gentleman Thief",
+        "poster": "https://image.tmdb.org/t/p/w500/oMutDMODnbCZf46w0dK4wncQmDB.jpg",
+        "link": "https://vidmody.com/vs/tt36415524",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1698575,
+        "title": "Snoopy Presents: There's No Place Like Home, Snoopy",
+        "poster": "https://image.tmdb.org/t/p/w500/YbC4SlzE030BgxWdKDdlatMh5W.jpg",
+        "link": "https://vidmody.com/vs/tt42839367",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1422562,
+        "title": "The Moment",
+        "poster": "https://image.tmdb.org/t/p/w500/dYgCgTqqMnWdsnP2XirdcFB28ch.jpg",
+        "link": "https://vidmody.com/vs/tt35524793",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1311031,
+        "title": "Demon Slayer: Sonsuzluk Kalesi",
+        "poster": "https://image.tmdb.org/t/p/w500/eIM28fkVIhPKkjOjfS01UAZXPM8.jpg",
+        "link": "https://vidmody.com/vs/tt32820897",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1425122,
+        "title": "Jonas Kardeşler ile Bir Yılbaşı Hikayesi",
+        "poster": "https://image.tmdb.org/t/p/w500/vYSgzCMAhJCXr9LcaSKotDVrZWM.jpg",
+        "link": "https://vidmody.com/vs/tt35600079",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1606889,
+        "title": "Shadow Death",
+        "poster": "https://image.tmdb.org/t/p/w500/lRnnmQ4X6UfIu0uQ3UpaxJ9ZIry.jpg",
+        "link": "https://vidmody.com/vs/tt36392296",
+        "category": "Son Eklenenler"
+    },
+    {
+        "id": 1296733,
+        "title": "Zeccac (2025)",
+        "poster": "https://image.tmdb.org/t/p/w500/fiF4IPcf30nIxIQaY0Y4jX6HrtX.jpg",
+        "link": "https://vidmody.com/vs/tt32359746",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 587483,
+        "title": "Hüddam 2 (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/4JgokgX1ouFwfMlBRW8TXMVLuzL.jpg",
+        "link": "https://vidmody.com/vs/tt9442146",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1412862,
+        "title": "Zugzwang (2025)",
+        "poster": "https://image.tmdb.org/t/p/w500/2jslP3zA10EbDq0DKylsvU8ZXdB.jpg",
+        "link": "https://vidmody.com/vs/tt33088059",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 511074,
+        "title": "Çam Yarması (2017)",
+        "poster": "https://image.tmdb.org/t/p/w500/tAh6pVF3ak56Fv98wfowDQjLNp.jpg",
+        "link": "https://vidmody.com/vs/tt8555446",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 602915,
+        "title": "Saftirikler (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/aVcpAQZ7NvHeRYGTKSmDheFrZZ.jpg",
+        "link": "https://vidmody.com/vs/tt6010936",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1276922,
+        "title": "Para Nerede? (2024)",
+        "poster": "https://image.tmdb.org/t/p/w500/rmaPrTnYAZjWz6Vdpf7faK6CcXJ.jpg",
+        "link": "https://vidmody.com/vs/tt32154050",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1099392,
+        "title": "Bayram Şekeri (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/8XBIdYtWiyBPZ4p5BtpzHac2LJy.jpg",
+        "link": "https://vidmody.com/vs/tt14810744",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 672269,
+        "title": "Kuşatma Yedi Uyuyanlar (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/fydqtyIPnN95KQQ0vUP1sYj7S0V.jpg",
+        "link": "https://vidmody.com/vs/tt10825934",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 1225297,
+        "title": "Öt Bakalım (2023)",
+        "poster": "https://image.tmdb.org/t/p/w500/tds5pZ11a25ahfNIsrBFVoFxEGG.jpg",
+        "link": "https://vidmody.com/vs/tt27349112",
+        "category": "Filmler | Yerli"
+    },
+    {
+        "id": 619758,
+        "title": "Köpek Kasabası (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/hVWCw3RKHGd9SiFuhFLegnTndNy.jpg",
+        "link": "https://vidmody.com/vs/tt10187766",
+        "category": "Filmler | Animasyon"
+    },
+    {
+        "id": 879377,
+        "title": "Edis Starlight (2021)",
+        "poster": "https://image.tmdb.org/t/p/w500/ynXGPap6DxLyc8RLQmZQrDUUAMO.jpg",
+        "link": "https://vidmody.com/vs/tt15422466",
+        "category": "Filmler | Müzik"
+    },
+    {
+        "id": 633285,
+        "title": "Kin (2019)",
+        "poster": "https://image.tmdb.org/t/p/w500/6rOzOOfiMsH3iIiKfAy7fTpy8Ao.jpg",
+        "link": "https://vidmody.com/vs/tt11488800",
+        "category": "Filmler | Korku"
+    },
+    {
+        "id": 389116,
+        "title": "Rauf (2016)",
+        "poster": "https://image.tmdb.org/t/p/w500/zlbvl0X605gBI3fTB49eAOJfFuf.jpg",
+        "link": "https://vidmody.com/vs/tt5280652",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 650329,
+        "title": "Çılgın Kamp (2015)",
+        "poster": "https://image.tmdb.org/t/p/w500/upfqA6OIcpp3SLoxAFXkr5mokni.jpg",
+        "link": "https://vidmody.com/vs/tt4419244",
+        "category": "Filmler | Aile"
+    },
+    {
+        "id": 290646,
+        "title": "Bekçi Köpeği (2014)",
+        "poster": "https://image.tmdb.org/t/p/w500/7w8ykvip8U12T13wTtpogmjWdc7.jpg",
+        "link": "https://vidmody.com/vs/tt3887312",
+        "category": "Filmler | Gerilim"
+    },
+    {
+        "id": 25167,
+        "title": "Bye Bye Birdie (1963)",
+        "poster": "https://image.tmdb.org/t/p/w500/u3m2kU5aFj6V6cNYOd9a22Iia7O.jpg",
+        "link": "https://vidmody.com/vs/tt0056891",
+        "category": "Filmler | Komedi"
     }
 ]
