@@ -11,6 +11,7 @@ permissions:
 jobs:
   epg-update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Repo klonla
