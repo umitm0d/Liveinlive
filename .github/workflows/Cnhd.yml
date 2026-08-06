@@ -1,8 +1,8 @@
 name: Generate and Upload Playlist
 
 on:
-  push:
-    branches: [ main ]
+  # push tetikleyicisi kaldırıldı: bkz. Ads.yml içindeki açıklama — aynı
+  # sebepten, main'e yapılan her push'ta gereksiz yere tekrar tetikleniyordu.
   schedule:
     # Her 4 saatte bir çalıştır
     - cron: '0 */4 * * *'
