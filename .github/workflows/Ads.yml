@@ -1,8 +1,12 @@
 name: Generate Adult Playlist
 
 on:
-  push:
-    branches: [ main ]
+  # push tetikleyicisi kaldırıldı: bu workflow'un zaten kendi cron zamanlaması
+  # var, "push: branches: [main]" ile birlikte main'e atılan HER commit'te
+  # (bu commit bu repodaki başka bir workflow'un otomatik push'u bile olsa)
+  # tekrar tetikleniyordu. main'e gece yarısı yapılan bir push, bu ve benzer
+  # push-tetiklemeli birkaç workflow'u aynı anda ateşleyip GitHub Actions
+  # eşzamanlılık kotasını dolduruyordu ("waiting for a hosted runner").
   schedule:
     # Her 6 saatte bir çalıştır
     - cron: '0 */6 * * *'
