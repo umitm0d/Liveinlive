@@ -11,6 +11,7 @@ permissions:
 jobs:
   scrape_selenium:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Depoyu Çek
