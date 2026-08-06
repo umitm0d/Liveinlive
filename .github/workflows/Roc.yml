@@ -8,6 +8,7 @@ on:
 jobs:
   scrape-and-upload:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     
     steps:
     - name: Checkout repository
