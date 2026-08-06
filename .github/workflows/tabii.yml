@@ -11,6 +11,7 @@ permissions:
 jobs:
   scrape_and_update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Depoyu Kontrol Et
