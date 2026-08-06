@@ -11,6 +11,7 @@ permissions:
 jobs:
   scrape-epg:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Repoyu indir
