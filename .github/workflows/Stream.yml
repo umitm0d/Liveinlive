@@ -1,8 +1,8 @@
 name: Generate and Upload to Dropbox
 
 on:
-  push:
-    branches: [ main ]
+  # push tetikleyicisi kaldırıldı: bkz. Ads.yml içindeki açıklama — aynı
+  # sebepten, main'e yapılan her push'ta gereksiz yere tekrar tetikleniyordu.
   schedule:
     - cron: '0 * * * *'  # Her saat başı
   workflow_dispatch:  # Manuel çalıştırma
