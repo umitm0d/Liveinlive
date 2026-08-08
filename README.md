@@ -779,11 +779,6 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitginiko.m3u
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitm0d.m3u
 ```
 
-### vavoo_proxy.m3u
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/vavoo_proxy.m3u
-```
-
 ### yeni.m3u
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
