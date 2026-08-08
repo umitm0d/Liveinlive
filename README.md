@@ -128,16 +128,6 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/trt-yildiz.m3u8
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/trt1.m3u8
 ```
 
-### 📄 `catcast/HitsMusicTv?t=info.m3u8`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/HitsMusicTv?t=info.m3u8
-```
-
-### 📄 `catcast/HitsMusicTv_t=info.m3u8`
-```
-https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/HitsMusicTv_t=info.m3u8
-```
-
 ### 📄 `catcast/HitsMusicTv_t=info.m3u8`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/catcast/HitsMusicTv_t=info.m3u8
@@ -678,6 +668,11 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitmodstream/androstreamliv
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitmodstream/androstreamlivets4.m3u8
 ```
 
+### 📄 `vavoo_proxy.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/vavoo_proxy.m3u
+```
+
 ### 📄 `yeni.m3u`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
@@ -692,7 +687,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-08-07 00:18:36_
+_Son güncelleme: 2026-08-08 15:28:39_
 
 ---
 
