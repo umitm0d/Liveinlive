@@ -1,0 +1,40 @@
+name: Vavoo M3U Güncelle
+
+on:
+  schedule:
+    # Her 6 saatte bir çalışır (UTC). İstersen değiştir.
+    - cron: '0 */6 * * *'
+  workflow_dispatch: {}  # Manuel tetikleme için (Actions sekmesinden "Run workflow")
+
+permissions:
+  contents: write
+
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'yu çek
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Bağımlılıkları kur
+        run: pip install requests
+
+      - name: M3U listesini oluştur
+        run: python vavoo_generator.py
+
+      - name: Değişiklik varsa commit ve push yap
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add vavoo.m3u
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok, commit atlanıyor."
+          else
+            git commit -m "Vavoo M3U listesi güncellendi ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
