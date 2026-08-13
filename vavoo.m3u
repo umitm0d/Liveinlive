@@ -89,6 +89,8 @@
  https://vavoo.to/play3/258968235.m3u8
 #EXTINF:-1 tvg-id="beinsportsmax2(7).Türkçe" tvg-name="BEIN SPORTS MAX 2 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS MAX 2 (7)
  https://vavoo.to/play3/4017295127.m3u8
+#EXTINF:-1 tvg-id="beinsportsmax2fhd(1).Türkçe" tvg-name="BEIN SPORTS MAX 2 FHD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS MAX 2 FHD (1)
+ https://vavoo.to/play3/3407936242.m3u8
 #EXTINF:-1 tvg-id="beinsportsmax2hd(1).Türkçe" tvg-name="BEIN SPORTS MAX 2 HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SPORTS MAX 2 HD (1)
  https://vavoo.to/play3/2212659820.m3u8
 #EXTINF:-1 tvg-id="4ktr:asporhd(1).Türkçe" tvg-name="4K TR: A SPOR HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: A SPOR HD (1)
@@ -157,10 +159,16 @@
  https://vavoo.to/play3/1624937917.m3u8
 #EXTINF:-1 tvg-id="exxentvspor1(1).Türkçe" tvg-name="EXXEN TV SPOR 1 (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", EXXEN TV SPOR 1 (1)
  https://vavoo.to/play3/1208369995.m3u8
+#EXTINF:-1 tvg-id="exxentvspor1720p(1).Türkçe" tvg-name="EXXEN TV SPOR 1 720P (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", EXXEN TV SPOR 1 720P (1)
+ https://vavoo.to/play3/3333902867.m3u8
 #EXTINF:-1 tvg-id="exxentvspor1feed(1).Türkçe" tvg-name="EXXEN TV SPOR 1 FEED (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", EXXEN TV SPOR 1 FEED (1)
  https://vavoo.to/play3/1091403912.m3u8
+#EXTINF:-1 tvg-id="exxentvspor1hd(1).Türkçe" tvg-name="EXXEN TV SPOR 1 HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", EXXEN TV SPOR 1 HD (1)
+ https://vavoo.to/play3/1204200801.m3u8
 #EXTINF:-1 tvg-id="exxentvspor1uhd(1).Türkçe" tvg-name="EXXEN TV SPOR 1 UHD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", EXXEN TV SPOR 1 UHD (1)
  https://vavoo.to/play3/3814925371.m3u8
+#EXTINF:-1 tvg-id="exxentvspor2hd(1).Türkçe" tvg-name="EXXEN TV SPOR 2 HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", EXXEN TV SPOR 2 HD (1)
+ https://vavoo.to/play3/3377046146.m3u8
 #EXTINF:-1 tvg-id="exxentvspor2uhd(1).Türkçe" tvg-name="EXXEN TV SPOR 2 UHD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", EXXEN TV SPOR 2 UHD (1)
  https://vavoo.to/play3/3673037054.m3u8
 #EXTINF:-1 tvg-id="exxentvspor3(1).Türkçe" tvg-name="EXXEN TV SPOR 3 (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", EXXEN TV SPOR 3 (1)
@@ -187,8 +195,12 @@
  https://vavoo.to/play3/1313768516.m3u8
 #EXTINF:-1 tvg-id="ssport2(7).Türkçe" tvg-name="S SPORT 2 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", S SPORT 2 (7)
  https://vavoo.to/play3/1234604880.m3u8
+#EXTINF:-1 tvg-id="ssport+3macsaati(1).Türkçe" tvg-name="S SPORT+3 MAC SAATI (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", S SPORT+3 MAC SAATI (1)
+ https://vavoo.to/play3/3269372326.m3u8
 #EXTINF:-1 tvg-id="ssport+4macsaati(1).Türkçe" tvg-name="S SPORT+4 MAC SAATI (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", S SPORT+4 MAC SAATI (1)
  https://vavoo.to/play3/1507829436.m3u8
+#EXTINF:-1 tvg-id="ssport+5macsaati(1).Türkçe" tvg-name="S SPORT+5 MAC SAATI (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", S SPORT+5 MAC SAATI (1)
+ https://vavoo.to/play3/3760487764.m3u8
 #EXTINF:-1 tvg-id="s-sport1uhd(1).Türkçe" tvg-name="S-SPORT 1 UHD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", S-SPORT 1 UHD (1)
  https://vavoo.to/play3/3531762195.m3u8
 #EXTINF:-1 tvg-id="s-sport2hd(1).Türkçe" tvg-name="S-SPORT 2 HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", S-SPORT 2 HD (1)
@@ -217,6 +229,8 @@
  https://vavoo.to/play3/2643999032.m3u8
 #EXTINF:-1 tvg-id="saransport1(7).Türkçe" tvg-name="SARAN SPORT 1 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SARAN SPORT 1 (7)
  https://vavoo.to/play3/3962972352.m3u8
+#EXTINF:-1 tvg-id="saransport2(7).Türkçe" tvg-name="SARAN SPORT 2 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SARAN SPORT 2 (7)
+ https://vavoo.to/play3/2878755344.m3u8
 #EXTINF:-1 tvg-id="smartspor1(7).Türkçe" tvg-name="SMART SPOR 1 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SMART SPOR 1 (7)
  https://vavoo.to/play3/4137962062.m3u8
 #EXTINF:-1 tvg-id="sporsmart(6).Türkçe" tvg-name="SPOR SMART (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SPOR SMART (6)
@@ -245,8 +259,6 @@
  https://vavoo.to/play3/1097795141.m3u8
 #EXTINF:-1 tvg-id="tabiispor14k(1).Türkçe" tvg-name="TABII SPOR 1 4K (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TABII SPOR 1 4K (1)
  https://vavoo.to/play3/3830691316.m3u8
-#EXTINF:-1 tvg-id="tabiispor1720p(1).Türkçe" tvg-name="TABII SPOR 1 720P (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TABII SPOR 1 720P (1)
- https://vavoo.to/play3/3665914763.m3u8
 #EXTINF:-1 tvg-id="tabiispor1uhd(1).Türkçe" tvg-name="TABII SPOR 1 UHD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TABII SPOR 1 UHD (1)
  https://vavoo.to/play3/3107708522.m3u8
 #EXTINF:-1 tvg-id="tabiispor2(6).Türkçe" tvg-name="TABII SPOR 2 (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TABII SPOR 2 (6)
@@ -277,6 +289,8 @@
  https://vavoo.to/play3/2259480087.m3u8
 #EXTINF:-1 tvg-id="tabiisporsd(1).Türkçe" tvg-name="TABII SPOR SD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TABII SPOR SD (1)
  https://vavoo.to/play3/4022148175.m3u8
+#EXTINF:-1 tvg-id="tivibuspor(6).Türkçe" tvg-name="TIVIBU SPOR (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TIVIBU SPOR (6)
+ https://vavoo.to/play3/1159899920.m3u8
 #EXTINF:-1 tvg-id="tivibuspor1(6).Türkçe" tvg-name="TIVIBU SPOR 1 (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TIVIBU SPOR 1 (6)
  https://vavoo.to/play3/2565972338.m3u8
 #EXTINF:-1 tvg-id="tivibuspor1hd(7).Türkçe" tvg-name="TIVIBU SPOR 1 HD (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TIVIBU SPOR 1 HD (7)
@@ -361,8 +375,6 @@
  https://vavoo.to/play3/1064954896.m3u8
 #EXTINF:-1 tvg-id="4ktr:a2hd(1).Türkçe" tvg-name="4K TR: A2 HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: A2 HD (1)
  https://vavoo.to/play3/2019055277.m3u8
-#EXTINF:-1 tvg-id="4ktr:akttvhd(1).Türkçe" tvg-name="4K TR: AK T TV HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: AK T TV HD (1)
- https://vavoo.to/play3/3445585687.m3u8
 #EXTINF:-1 tvg-id="4ktr:atvhd(1).Türkçe" tvg-name="4K TR: ATV HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: ATV HD (1)
  https://vavoo.to/play3/2325261286.m3u8
 #EXTINF:-1 tvg-id="4ktr:babytv(1).Türkçe" tvg-name="4K TR: BABYTV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: BABYTV (1)
@@ -379,8 +391,6 @@
  https://vavoo.to/play3/2056768647.m3u8
 #EXTINF:-1 tvg-id="4ktr:davinci(1).Türkçe" tvg-name="4K TR: DA VINCI (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: DA VINCI (1)
  https://vavoo.to/play3/410345406.m3u8
-#EXTINF:-1 tvg-id="4ktr:discoverychannelhd(1).Türkçe" tvg-name="4K TR: DISCOVERY CHANNEL HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: DISCOVERY CHANNEL HD (1)
- https://vavoo.to/play3/4017734592.m3u8
 #EXTINF:-1 tvg-id="4ktr:disneyjunior(1).Türkçe" tvg-name="4K TR: DISNEY JUNIOR (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: DISNEY JUNIOR (1)
  https://vavoo.to/play3/649228722.m3u8
 #EXTINF:-1 tvg-id="4ktr:dmaxhd(1).Türkçe" tvg-name="4K TR: DMAX HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", 4K TR: DMAX HD (1)
@@ -517,8 +527,6 @@
  https://vavoo.to/play3/3842003262.m3u8
 #EXTINF:-1 tvg-id="ahaber(6).Türkçe" tvg-name="A HABER (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", A HABER (6)
  https://vavoo.to/play3/1596095882.m3u8
-#EXTINF:-1 tvg-id="ahaber(7).Türkçe" tvg-name="A HABER (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", A HABER (7)
- https://vavoo.to/play3/1174108535.m3u8
 #EXTINF:-1 tvg-id="ahaberhd(1).Türkçe" tvg-name="A HABER HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", A HABER HD (1)
  https://vavoo.to/play3/535272601.m3u8
 #EXTINF:-1 tvg-id="ahaberhevc(1).Türkçe" tvg-name="A HABER HEVC (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", A HABER HEVC (1)
@@ -665,10 +673,6 @@
  https://vavoo.to/play3/645431530.m3u8
 #EXTINF:-1 tvg-id="automoto(fr)(7).Türkçe" tvg-name="AUTOMOTO (FR) (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", AUTOMOTO (FR) (7)
  https://vavoo.to/play3/3033512963.m3u8
-#EXTINF:-1 tvg-id="avtv(1).Türkçe" tvg-name="AV TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", AV TV (1)
- https://vavoo.to/play3/154080342.m3u8
-#EXTINF:-1 tvg-id="avtv(7).Türkçe" tvg-name="AV TV (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", AV TV (7)
- https://vavoo.to/play3/3343230691.m3u8
 #EXTINF:-1 tvg-id="babaradyoarabesk(1).Türkçe" tvg-name="BABA RADYO ARABESK (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BABA RADYO ARABESK (1)
  https://vavoo.to/play3/4096569454.m3u8
 #EXTINF:-1 tvg-id="babytv(6).Türkçe" tvg-name="BABY TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BABY TV (6)
@@ -715,6 +719,8 @@
  https://vavoo.to/play3/950394656.m3u8
 #EXTINF:-1 tvg-id="beiniz(6).Türkçe" tvg-name="BEIN IZ (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN IZ (6)
  https://vavoo.to/play3/1691223078.m3u8
+#EXTINF:-1 tvg-id="beiniztv(7).Türkçe" tvg-name="BEIN IZ TV (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN IZ TV (7)
+ https://vavoo.to/play3/3156178359.m3u8
 #EXTINF:-1 tvg-id="beinmoviesaction(6).Türkçe" tvg-name="BEIN MOVIES ACTION (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN MOVIES ACTION (6)
  https://vavoo.to/play3/1873478131.m3u8
 #EXTINF:-1 tvg-id="beinmoviesaction(7).Türkçe" tvg-name="BEIN MOVIES ACTION (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN MOVIES ACTION (7)
@@ -735,8 +741,6 @@
  https://vavoo.to/play3/2120218356.m3u8
 #EXTINF:-1 tvg-id="beinmoviesstars(6).Türkçe" tvg-name="BEIN MOVIES STARS (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN MOVIES STARS (6)
  https://vavoo.to/play3/2500913164.m3u8
-#EXTINF:-1 tvg-id="beinmoviesstars(7).Türkçe" tvg-name="BEIN MOVIES STARS (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN MOVIES STARS (7)
- https://vavoo.to/play3/1963748784.m3u8
 #EXTINF:-1 tvg-id="beinmoviesturk(6).Türkçe" tvg-name="BEIN MOVIES TURK (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN MOVIES TURK (6)
  https://vavoo.to/play3/3390575948.m3u8
 #EXTINF:-1 tvg-id="beinmoviesturk(7).Türkçe" tvg-name="BEIN MOVIES TURK (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN MOVIES TURK (7)
@@ -749,6 +753,8 @@
  https://vavoo.to/play3/4166418778.m3u8
 #EXTINF:-1 tvg-id="beinseries4(6).Türkçe" tvg-name="BEIN SERIES 4 (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SERIES 4 (6)
  https://vavoo.to/play3/1249271114.m3u8
+#EXTINF:-1 tvg-id="beinseriescomedy(7).Türkçe" tvg-name="BEIN SERIES COMEDY (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SERIES COMEDY (7)
+ https://vavoo.to/play3/1668144911.m3u8
 #EXTINF:-1 tvg-id="beinseriesdrama(6).Türkçe" tvg-name="BEIN SERIES DRAMA (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SERIES DRAMA (6)
  https://vavoo.to/play3/3413672103.m3u8
 #EXTINF:-1 tvg-id="beinseriesdrama(7).Türkçe" tvg-name="BEIN SERIES DRAMA (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BEIN SERIES DRAMA (7)
@@ -827,6 +833,10 @@
  https://vavoo.to/play3/223866535.m3u8
 #EXTINF:-1 tvg-id="bloomberghthd(1).Türkçe" tvg-name="BLOOMBERG HT HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BLOOMBERG HT HD (1)
  https://vavoo.to/play3/236989031.m3u8
+#EXTINF:-1 tvg-id="bloomberghthd(1).Türkçe" tvg-name="BLOOMBERGHT HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BLOOMBERGHT HD (1)
+ https://vavoo.to/play3/858568307.m3u8
+#EXTINF:-1 tvg-id="bonusmasaldiyari(1).Türkçe" tvg-name="BONUS MASAL DIYARI (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BONUS MASAL DIYARI (1)
+ https://vavoo.to/play3/1753590086.m3u8
 #EXTINF:-1 tvg-id="boobatv(1).Türkçe" tvg-name="BOOBA TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BOOBA TV (1)
  https://vavoo.to/play3/2703864948.m3u8
 #EXTINF:-1 tvg-id="boomerang(7).Türkçe" tvg-name="BOOMERANG (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BOOMERANG (7)
@@ -843,8 +853,6 @@
  https://vavoo.to/play3/3789412220.m3u8
 #EXTINF:-1 tvg-id="brt2(7).Türkçe" tvg-name="BRT 2 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BRT 2 (7)
  https://vavoo.to/play3/2661613246.m3u8
-#EXTINF:-1 tvg-id="brt2raw(1).Türkçe" tvg-name="BRT 2 RAW (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BRT 2 RAW (1)
- https://vavoo.to/play3/2794224703.m3u8
 #EXTINF:-1 tvg-id="brtv(6).Türkçe" tvg-name="BRTV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BRTV (6)
  https://vavoo.to/play3/134086061.m3u8
 #EXTINF:-1 tvg-id="bulmacakulesi(1).Türkçe" tvg-name="BULMACA KULESI (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", BULMACA KULESI (1)
@@ -855,6 +863,10 @@
  https://vavoo.to/play3/2462838705.m3u8
 #EXTINF:-1 tvg-id="cailloutv(7).Türkçe" tvg-name="CAILLOU TV (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", CAILLOU TV (7)
  https://vavoo.to/play3/3626289230.m3u8
+#EXTINF:-1 tvg-id="cantv(1).Türkçe" tvg-name="CAN TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", CAN TV (1)
+ https://vavoo.to/play3/1822525741.m3u8
+#EXTINF:-1 tvg-id="cantv(6).Türkçe" tvg-name="CAN TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", CAN TV (6)
+ https://vavoo.to/play3/3900702315.m3u8
 #EXTINF:-1 tvg-id="canimkardesimtv(1).Türkçe" tvg-name="CANIM KARDESIM TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", CANIM KARDESIM TV (1)
  https://vavoo.to/play3/3737037158.m3u8
 #EXTINF:-1 tvg-id="cartoonito(6).Türkçe" tvg-name="CARTOONITO (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", CARTOONITO (6)
@@ -865,8 +877,6 @@
  https://vavoo.to/play3/4090316698.m3u8
 #EXTINF:-1 tvg-id="cbeebieshd(1).Türkçe" tvg-name="CBEEBIES HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", CBEEBIES HD (1)
  https://vavoo.to/play3/2672851185.m3u8
-#EXTINF:-1 tvg-id="cemtv(7).Türkçe" tvg-name="CEM TV (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", CEM TV (7)
- https://vavoo.to/play3/1456482631.m3u8
 #EXTINF:-1 tvg-id="cengizkurtoglu(1).Türkçe" tvg-name="CENGIZ KURTOGLU (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", CENGIZ KURTOGLU (1)
  https://vavoo.to/play3/1871521087.m3u8
 #EXTINF:-1 tvg-id="chasseetpeche(7).Türkçe" tvg-name="CHASSE ET PECHE (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", CHASSE ET PECHE (7)
@@ -907,6 +917,10 @@
  https://vavoo.to/play3/1832075215.m3u8
 #EXTINF:-1 tvg-id="dha(6).Türkçe" tvg-name="DHA (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DHA (6)
  https://vavoo.to/play3/4022359276.m3u8
+#EXTINF:-1 tvg-id="digimax(7).Türkçe" tvg-name="DIGI MAX (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DIGI MAX (7)
+ https://vavoo.to/play3/1278447576.m3u8
+#EXTINF:-1 tvg-id="digimax2(7).Türkçe" tvg-name="DIGI MAX 2 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DIGI MAX 2 (7)
+ https://vavoo.to/play3/1104559360.m3u8
 #EXTINF:-1 tvg-id="dimtv(6).Türkçe" tvg-name="DIM TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DIM TV (6)
  https://vavoo.to/play3/1072972009.m3u8
 #EXTINF:-1 tvg-id="dinamikaksiyon(1).Türkçe" tvg-name="DINAMIK AKSIYON (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DINAMIK AKSIYON (1)
@@ -937,8 +951,6 @@
  https://vavoo.to/play3/695705778.m3u8
 #EXTINF:-1 tvg-id="discoveryid(1).Türkçe" tvg-name="DISCOVERY ID (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DISCOVERY ID (1)
  https://vavoo.to/play3/2095404060.m3u8
-#EXTINF:-1 tvg-id="discoveryid(7).Türkçe" tvg-name="DISCOVERY ID (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DISCOVERY ID (7)
- https://vavoo.to/play3/972730032.m3u8
 #EXTINF:-1 tvg-id="discoveryidxhd(1).Türkçe" tvg-name="DISCOVERY IDX HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DISCOVERY IDX HD (1)
  https://vavoo.to/play3/970098662.m3u8
 #EXTINF:-1 tvg-id="discoveryscience(6).Türkçe" tvg-name="DISCOVERY SCIENCE (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DISCOVERY SCIENCE (6)
@@ -965,8 +977,12 @@
  https://vavoo.to/play3/939027674.m3u8
 #EXTINF:-1 tvg-id="diyanettv(6).Türkçe" tvg-name="DIYANET TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DIYANET TV (6)
  https://vavoo.to/play3/2131958841.m3u8
+#EXTINF:-1 tvg-id="diyartv(6).Türkçe" tvg-name="DIYAR TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DIYAR TV (6)
+ https://vavoo.to/play3/4252763849.m3u8
 #EXTINF:-1 tvg-id="dizismartmax(7).Türkçe" tvg-name="DIZI SMART MAX (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DIZI SMART MAX (7)
  https://vavoo.to/play3/4079530614.m3u8
+#EXTINF:-1 tvg-id="dizismartpremium(7).Türkçe" tvg-name="DIZI SMART PREMIUM (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DIZI SMART PREMIUM (7)
+ https://vavoo.to/play3/791616758.m3u8
 #EXTINF:-1 tvg-id="dizismartmax(6).Türkçe" tvg-name="DIZISMART MAX (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DIZISMART MAX (6)
  https://vavoo.to/play3/1165201807.m3u8
 #EXTINF:-1 tvg-id="dizismartpremium(6).Türkçe" tvg-name="DIZISMART PREMIUM (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", DIZISMART PREMIUM (6)
@@ -1097,6 +1113,8 @@
  https://vavoo.to/play3/3991081632.m3u8
 #EXTINF:-1 tvg-id="enoaksiyon1(7).Türkçe" tvg-name="ENO AKSIYON 1 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ENO AKSIYON 1 (7)
  https://vavoo.to/play3/633768195.m3u8
+#EXTINF:-1 tvg-id="enovizyon1(7).Türkçe" tvg-name="ENO VIZYON 1 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ENO VIZYON 1 (7)
+ https://vavoo.to/play3/1949742603.m3u8
 #EXTINF:-1 tvg-id="enovizyon10(7).Türkçe" tvg-name="ENO VIZYON 10 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ENO VIZYON 10 (7)
  https://vavoo.to/play3/1635384352.m3u8
 #EXTINF:-1 tvg-id="enovizyon11(7).Türkçe" tvg-name="ENO VIZYON 11 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ENO VIZYON 11 (7)
@@ -1119,6 +1137,8 @@
  https://vavoo.to/play3/1145503178.m3u8
 #EXTINF:-1 tvg-id="enowestern(6).Türkçe" tvg-name="ENO WESTERN (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ENO WESTERN (6)
  https://vavoo.to/play3/1329952795.m3u8
+#EXTINF:-1 tvg-id="enowestern(7).Türkçe" tvg-name="ENO WESTERN (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ENO WESTERN (7)
+ https://vavoo.to/play3/1134525301.m3u8
 #EXTINF:-1 tvg-id="ertv(1).Türkçe" tvg-name="ER TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ER TV (1)
  https://vavoo.to/play3/3498658720.m3u8
 #EXTINF:-1 tvg-id="ercistv(6).Türkçe" tvg-name="ERCIS TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ERCIS TV (6)
@@ -1167,6 +1187,8 @@
  https://vavoo.to/play3/2089556265.m3u8
 #EXTINF:-1 tvg-id="filmboxfantastic(7).Türkçe" tvg-name="FILMBOX FANTASTIC (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", FILMBOX FANTASTIC (7)
  https://vavoo.to/play3/2267707661.m3u8
+#EXTINF:-1 tvg-id="filmboxkadirinanir(7).Türkçe" tvg-name="FILMBOX KADIR INANIR (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", FILMBOX KADIR INANIR (7)
+ https://vavoo.to/play3/3268085547.m3u8
 #EXTINF:-1 tvg-id="filmbox+(7).Türkçe" tvg-name="FILMBOX+ (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", FILMBOX+ (7)
  https://vavoo.to/play3/2600387615.m3u8
 #EXTINF:-1 tvg-id="finesttv(6).Türkçe" tvg-name="FINEST TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", FINEST TV (6)
@@ -1243,6 +1265,8 @@
  https://vavoo.to/play3/3241393177.m3u8
 #EXTINF:-1 tvg-id="grttv(6).Türkçe" tvg-name="GRT TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", GRT TV (6)
  https://vavoo.to/play3/2577534278.m3u8
+#EXTINF:-1 tvg-id="gstv(7).Türkçe" tvg-name="GS TV (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", GS TV (7)
+ https://vavoo.to/play3/4240429325.m3u8
 #EXTINF:-1 tvg-id="guneydogu(7).Türkçe" tvg-name="GUNEYDOGU (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", GUNEYDOGU (7)
  https://vavoo.to/play3/454047044.m3u8
 #EXTINF:-1 tvg-id="guneydogutv(6).Türkçe" tvg-name="GUNEYDOGU TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", GUNEYDOGU TV (6)
@@ -1259,12 +1283,12 @@
  https://vavoo.to/play3/4069774068.m3u8
 #EXTINF:-1 tvg-id="haberglobalhd+sd(1).Türkçe" tvg-name="HABER GLOBAL HD+ SD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HABER GLOBAL HD+ SD (1)
  https://vavoo.to/play3/4144668031.m3u8
+#EXTINF:-1 tvg-id="habertrkhd+sd(1).Türkçe" tvg-name="HABER T RK HD+ SD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HABER T RK HD+ SD (1)
+ https://vavoo.to/play3/3225335454.m3u8
 #EXTINF:-1 tvg-id="haberturk(7).Türkçe" tvg-name="HABER TURK (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HABER TURK (7)
  https://vavoo.to/play3/464378170.m3u8
 #EXTINF:-1 tvg-id="haberturkhd(1).Türkçe" tvg-name="HABER TURK HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HABER TURK HD (1)
  https://vavoo.to/play3/2360854158.m3u8
-#EXTINF:-1 tvg-id="haberturkhevc(1).Türkçe" tvg-name="HABER TURK HEVC (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HABER TURK HEVC (1)
- https://vavoo.to/play3/1857563183.m3u8
 #EXTINF:-1 tvg-id="haberturk(6).Türkçe" tvg-name="HABERTURK (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HABERTURK (6)
  https://vavoo.to/play3/2402772380.m3u8
 #EXTINF:-1 tvg-id="haberturkhd(1).Türkçe" tvg-name="HABERTURK HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HABERTURK HD (1)
@@ -1301,6 +1325,8 @@
  https://vavoo.to/play3/1392529514.m3u8
 #EXTINF:-1 tvg-id="hrt(1).Türkçe" tvg-name="HRT (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HRT (1)
  https://vavoo.to/play3/2826493312.m3u8
+#EXTINF:-1 tvg-id="hrtakdeniz(7).Türkçe" tvg-name="HRT AKDENIZ (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HRT AKDENIZ (7)
+ https://vavoo.to/play3/2119436951.m3u8
 #EXTINF:-1 tvg-id="hunattv(6).Türkçe" tvg-name="HUNAT TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HUNAT TV (6)
  https://vavoo.to/play3/1602719314.m3u8
 #EXTINF:-1 tvg-id="hzmeryem(1).Türkçe" tvg-name="HZ MERYEM (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", HZ MERYEM (1)
@@ -1373,6 +1399,8 @@
  https://vavoo.to/play3/3488532244.m3u8
 #EXTINF:-1 tvg-id="kanal42konya(7).Türkçe" tvg-name="KANAL 42 KONYA (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KANAL 42 KONYA (7)
  https://vavoo.to/play3/1518232397.m3u8
+#EXTINF:-1 tvg-id="kanal58(6).Türkçe" tvg-name="KANAL 58 (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KANAL 58 (6)
+ https://vavoo.to/play3/2093143206.m3u8
 #EXTINF:-1 tvg-id="kanal58(7).Türkçe" tvg-name="KANAL 58 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KANAL 58 (7)
  https://vavoo.to/play3/2802702453.m3u8
 #EXTINF:-1 tvg-id="kanal68(7).Türkçe" tvg-name="KANAL 68 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KANAL 68 (7)
@@ -1437,6 +1465,8 @@
  https://vavoo.to/play3/1198414561.m3u8
 #EXTINF:-1 tvg-id="karetv(1).Türkçe" tvg-name="KARE TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KARE TV (1)
  https://vavoo.to/play3/3390708983.m3u8
+#EXTINF:-1 tvg-id="kaytv(6).Türkçe" tvg-name="KAY TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KAY TV (6)
+ https://vavoo.to/play3/2379646637.m3u8
 #EXTINF:-1 tvg-id="kayserikaytv(1).Türkçe" tvg-name="KAYSERI KAY TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KAYSERI KAY TV (1)
  https://vavoo.to/play3/168048388.m3u8
 #EXTINF:-1 tvg-id="kayserikenttv(1).Türkçe" tvg-name="KAYSERI KENT TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KAYSERI KENT TV (1)
@@ -1471,6 +1501,8 @@
  https://vavoo.to/play3/3638911954.m3u8
 #EXTINF:-1 tvg-id="konyakontv(1).Türkçe" tvg-name="KONYA KON TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KONYA KON TV (1)
  https://vavoo.to/play3/3759364273.m3u8
+#EXTINF:-1 tvg-id="konyaolaytv(6).Türkçe" tvg-name="KONYA OLAY TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KONYA OLAY TV (6)
+ https://vavoo.to/play3/578380861.m3u8
 #EXTINF:-1 tvg-id="kostebekgillertv(1).Türkçe" tvg-name="KOSTEBEKGILLER TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KOSTEBEKGILLER TV (1)
  https://vavoo.to/play3/2778781297.m3u8
 #EXTINF:-1 tvg-id="koytv(7).Türkçe" tvg-name="KOY TV (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KOY TV (7)
@@ -1483,6 +1515,8 @@
  https://vavoo.to/play3/2220807783.m3u8
 #EXTINF:-1 tvg-id="kralpop(7).Türkçe" tvg-name="KRAL POP (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KRAL POP (7)
  https://vavoo.to/play3/4169838993.m3u8
+#EXTINF:-1 tvg-id="kralpophd+(1).Türkçe" tvg-name="KRAL POP HD+ (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KRAL POP HD+ (1)
+ https://vavoo.to/play3/4012432749.m3u8
 #EXTINF:-1 tvg-id="kralpopradyotrkepop(1).Türkçe" tvg-name="KRAL POP RADYO T RK E POP (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KRAL POP RADYO T RK E POP (1)
  https://vavoo.to/play3/3295096268.m3u8
 #EXTINF:-1 tvg-id="kralsakir(7).Türkçe" tvg-name="KRAL SAKIR (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", KRAL SAKIR (7)
@@ -1623,14 +1657,16 @@
  https://vavoo.to/play3/2073766557.m3u8
 #EXTINF:-1 tvg-id="mgctv(1).Türkçe" tvg-name="MGC TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MGC TV (1)
  https://vavoo.to/play3/2591544773.m3u8
+#EXTINF:-1 tvg-id="milyon(7).Türkçe" tvg-name="MILYON (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MILYON (7)
+ https://vavoo.to/play3/586568093.m3u8
 #EXTINF:-1 tvg-id="mimocantv(1).Türkçe" tvg-name="MIMOCAN TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MIMOCAN TV (1)
  https://vavoo.to/play3/2175768896.m3u8
-#EXTINF:-1 tvg-id="montag&freitagbulli(1).Türkçe" tvg-name="MONTAG & FREITAG BULLI (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MONTAG & FREITAG BULLI (1)
- https://vavoo.to/play3/2862980701.m3u8
 #EXTINF:-1 tvg-id="moviesmartaction(7).Türkçe" tvg-name="MOVIE SMART ACTION (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MOVIE SMART ACTION (7)
  https://vavoo.to/play3/1237460948.m3u8
 #EXTINF:-1 tvg-id="moviesmartclassic(7).Türkçe" tvg-name="MOVIE SMART CLASSIC (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MOVIE SMART CLASSIC (7)
  https://vavoo.to/play3/3597292408.m3u8
+#EXTINF:-1 tvg-id="moviesmartplatin2(7).Türkçe" tvg-name="MOVIE SMART PLATIN 2 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MOVIE SMART PLATIN 2 (7)
+ https://vavoo.to/play3/1800204159.m3u8
 #EXTINF:-1 tvg-id="moviesmartpremium(7).Türkçe" tvg-name="MOVIE SMART PREMIUM (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MOVIE SMART PREMIUM (7)
  https://vavoo.to/play3/3830353405.m3u8
 #EXTINF:-1 tvg-id="moviesmartpremium2(7).Türkçe" tvg-name="MOVIE SMART PREMIUM 2 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MOVIE SMART PREMIUM 2 (7)
@@ -1647,6 +1683,8 @@
  https://vavoo.to/play3/3719397522.m3u8
 #EXTINF:-1 tvg-id="mtvlive(1).Türkçe" tvg-name="MTV LIVE (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MTV LIVE (1)
  https://vavoo.to/play3/417807156.m3u8
+#EXTINF:-1 tvg-id="muffetisgadget(1).Türkçe" tvg-name="MUFFETIS GADGET (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MUFFETIS GADGET (1)
+ https://vavoo.to/play3/2140655971.m3u8
 #EXTINF:-1 tvg-id="muslumgurses(1).Türkçe" tvg-name="MUSLUM GURSES (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", MUSLUM GURSES (1)
  https://vavoo.to/play3/195374549.m3u8
 #EXTINF:-1 tvg-id="nasreddinhoca(1).Türkçe" tvg-name="NASREDDIN HOCA (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", NASREDDIN HOCA (1)
@@ -1797,8 +1835,12 @@
  https://vavoo.to/play3/2366790408.m3u8
 #EXTINF:-1 tvg-id="powerlove(6).Türkçe" tvg-name="POWER LOVE (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", POWER LOVE (6)
  https://vavoo.to/play3/1783508809.m3u8
+#EXTINF:-1 tvg-id="powertrktrkepop(1).Türkçe" tvg-name="POWER T RK T RK E POP (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", POWER T RK T RK E POP (1)
+ https://vavoo.to/play3/2703806315.m3u8
 #EXTINF:-1 tvg-id="powerturk(7).Türkçe" tvg-name="POWER TURK (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", POWER TURK (7)
  https://vavoo.to/play3/538668348.m3u8
+#EXTINF:-1 tvg-id="powerturkhd(1).Türkçe" tvg-name="POWER TURK HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", POWER TURK HD (1)
+ https://vavoo.to/play3/714196738.m3u8
 #EXTINF:-1 tvg-id="powerturktv(6).Türkçe" tvg-name="POWER TURK TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", POWER TURK TV (6)
  https://vavoo.to/play3/176662368.m3u8
 #EXTINF:-1 tvg-id="powertv(6).Türkçe" tvg-name="POWER TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", POWER TV (6)
@@ -1839,6 +1881,8 @@
  https://vavoo.to/play3/3972923359.m3u8
 #EXTINF:-1 tvg-id="proturkyeşilçam(6).Türkçe" tvg-name="PROTURK YEŞILÇAM (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", PROTURK YEŞILÇAM (6)
  https://vavoo.to/play3/3433248093.m3u8
+#EXTINF:-1 tvg-id="radiorock(1).Türkçe" tvg-name="RADIO ROCK (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", RADIO ROCK (1)
+ https://vavoo.to/play3/536559220.m3u8
 #EXTINF:-1 tvg-id="rafadantayfa(1).Türkçe" tvg-name="RAFADAN TAYFA (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", RAFADAN TAYFA (1)
  https://vavoo.to/play3/2834759579.m3u8
 #EXTINF:-1 tvg-id="realboxaction(6).Türkçe" tvg-name="REAL BOX ACTION (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", REAL BOX ACTION (6)
@@ -1855,6 +1899,8 @@
  https://vavoo.to/play3/1959665596.m3u8
 #EXTINF:-1 tvg-id="rehbertv(6).Türkçe" tvg-name="REHBER TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", REHBER TV (6)
  https://vavoo.to/play3/4239242367.m3u8
+#EXTINF:-1 tvg-id="retrotrktrkeklasik(1).Türkçe" tvg-name="RETRO T RK T RK E KLASIK (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", RETRO T RK T RK E KLASIK (1)
+ https://vavoo.to/play3/3415299258.m3u8
 #EXTINF:-1 tvg-id="ruyatreni(1).Türkçe" tvg-name="RUYA TRENI (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", RUYA TRENI (1)
  https://vavoo.to/play3/2898013627.m3u8
 #EXTINF:-1 tvg-id="sperfmtrkepop(1).Türkçe" tvg-name="S PER FM T RK E POP (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", S PER FM T RK E POP (1)
@@ -1905,6 +1951,8 @@
  https://vavoo.to/play3/3435723325.m3u8
 #EXTINF:-1 tvg-id="salon6hd(1).Türkçe" tvg-name="SALON 6 HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SALON 6 HD (1)
  https://vavoo.to/play3/1112014302.m3u8
+#EXTINF:-1 tvg-id="salon7hd(1).Türkçe" tvg-name="SALON 7 HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SALON 7 HD (1)
+ https://vavoo.to/play3/2397961536.m3u8
 #EXTINF:-1 tvg-id="salon8hd(1).Türkçe" tvg-name="SALON 8 HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SALON 8 HD (1)
  https://vavoo.to/play3/1473114092.m3u8
 #EXTINF:-1 tvg-id="salon9hd(1).Türkçe" tvg-name="SALON 9 HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SALON 9 HD (1)
@@ -2035,6 +2083,8 @@
  https://vavoo.to/play3/1556019396.m3u8
 #EXTINF:-1 tvg-id="sivas(1).Türkçe" tvg-name="SIVAS (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SIVAS (1)
  https://vavoo.to/play3/985769071.m3u8
+#EXTINF:-1 tvg-id="sivasvizyon58tv(1).Türkçe" tvg-name="SIVAS VIZYON 58 TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SIVAS VIZYON 58 TV (1)
+ https://vavoo.to/play3/716793106.m3u8
 #EXTINF:-1 tvg-id="slniloya(6).Türkçe" tvg-name="SL NILOYA (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SL NILOYA (6)
  https://vavoo.to/play3/3491525845.m3u8
 #EXTINF:-1 tvg-id="slowkaradeniz(1).Türkçe" tvg-name="SLOW KARADENIZ (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", SLOW KARADENIZ (1)
@@ -2081,8 +2131,6 @@
  https://vavoo.to/play3/2786853104.m3u8
 #EXTINF:-1 tvg-id="taytv(1).Türkçe" tvg-name="T.A.Y TV (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", T.A.Y TV (1)
  https://vavoo.to/play3/3633765645.m3u8
-#EXTINF:-1 tvg-id="tarihtv(6).Türkçe" tvg-name="TARIH TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TARIH TV (6)
- https://vavoo.to/play3/3856957052.m3u8
 #EXTINF:-1 tvg-id="tarimtv(7).Türkçe" tvg-name="TARIM TV (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TARIM TV (7)
  https://vavoo.to/play3/1993047243.m3u8
 #EXTINF:-1 tvg-id="tarkan(1).Türkçe" tvg-name="TARKAN (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TARKAN (1)
@@ -2161,6 +2209,8 @@
  https://vavoo.to/play3/4100185659.m3u8
 #EXTINF:-1 tvg-id="tontv(6).Türkçe" tvg-name="TON TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TON TV (6)
  https://vavoo.to/play3/3855597416.m3u8
+#EXTINF:-1 tvg-id="trabzonhaber61tvhd(1).Türkçe" tvg-name="TRABZON HABER 61 TV HD (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TRABZON HABER 61 TV HD (1)
+ https://vavoo.to/play3/1840643644.m3u8
 #EXTINF:-1 tvg-id="transformers(1).Türkçe" tvg-name="TRANSFORMERS (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TRANSFORMERS (1)
  https://vavoo.to/play3/3939293866.m3u8
 #EXTINF:-1 tvg-id="trolavcilari(1).Türkçe" tvg-name="TROL AVCILARI (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TROL AVCILARI (1)
@@ -2207,8 +2257,6 @@
  https://vavoo.to/play3/685794830.m3u8
 #EXTINF:-1 tvg-id="trtcocuk(7).Türkçe" tvg-name="TRT COCUK (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TRT COCUK (7)
  https://vavoo.to/play3/792228122.m3u8
-#EXTINF:-1 tvg-id="trtcocukraw(1).Türkçe" tvg-name="TRT COCUK RAW (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TRT COCUK RAW (1)
- https://vavoo.to/play3/3979837190.m3u8
 #EXTINF:-1 tvg-id="trtdiyanet(7).Türkçe" tvg-name="TRT DIYANET (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TRT DIYANET (7)
  https://vavoo.to/play3/458659205.m3u8
 #EXTINF:-1 tvg-id="trtdiyanetcocuk(6).Türkçe" tvg-name="TRT DIYANET COCUK (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TRT DIYANET COCUK (6)
@@ -2289,6 +2337,8 @@
  https://vavoo.to/play3/122135384.m3u8
 #EXTINF:-1 tvg-id="tv5(7).Türkçe" tvg-name="TV 5 (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TV 5 (7)
  https://vavoo.to/play3/2055199683.m3u8
+#EXTINF:-1 tvg-id="tv52(1).Türkçe" tvg-name="TV 52 (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TV 52 (1)
+ https://vavoo.to/play3/1080172058.m3u8
 #EXTINF:-1 tvg-id="tv52(6).Türkçe" tvg-name="TV 52 (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TV 52 (6)
  https://vavoo.to/play3/4050748781.m3u8
 #EXTINF:-1 tvg-id="tv52ordu(7).Türkçe" tvg-name="TV 52 ORDU (7)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", TV 52 ORDU (7)
@@ -2457,8 +2507,6 @@
  https://vavoo.to/play3/861645232.m3u8
 #EXTINF:-1 tvg-id="zerrinozer(1).Türkçe" tvg-name="ZERRIN OZER (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ZERRIN OZER (1)
  https://vavoo.to/play3/2655157451.m3u8
-#EXTINF:-1 tvg-id="zonguldakkanalz(1).Türkçe" tvg-name="ZONGULDAK KANAL Z (1)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ZONGULDAK KANAL Z (1)
- https://vavoo.to/play3/1467834090.m3u8
 #EXTINF:-1 tvg-id="çocuksmart(6).Türkçe" tvg-name="ÇOCUK SMART (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ÇOCUK SMART (6)
  https://vavoo.to/play3/1884291733.m3u8
 #EXTINF:-1 tvg-id="ülketv(6).Türkçe" tvg-name="ÜLKE TV (6)" tvg-logo="https://raw.githubusercontent.com/umitm0d/Alakart/refs/heads/main/umitm0d.png" group-title="Vavoo Tv" tvg-country="TR" tvg-language="Türkçe", ÜLKE TV (6)
