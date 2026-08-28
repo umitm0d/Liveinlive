@@ -1,0 +1,42 @@
+name: Film & Dizi Listesi Güncelle
+
+on:
+  # Manuel tetikleme: Actions sekmesinden "Run workflow" ile elle başlat
+  workflow_dispatch: {}
+  # İstersen otomatik zamanlama da ekleyebilirsin (örnek: her gün 03:00 UTC)
+  # schedule:
+  #   - cron: "0 3 * * *"
+
+# films.m3u'yu commit edebilmek için yazma izni gerekir
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'yu çek
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bağımlılıkları kur
+        run: pip install requests
+
+      - name: Scraper'ı çalıştır
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          MOVIE_GENRES_JSON: ${{ secrets.MOVIE_GENRES_JSON }}
+          TV_GENRES_JSON: ${{ secrets.TV_GENRES_JSON }}
+        run: python scraper.py
+
+      - name: films.m3u'yu commit et
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add filmler/films.m3u
+          git diff --staged --quiet && echo "Değişiklik yok, commit atlanıyor." || git commit -m "films.m3u güncellendi ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git push
