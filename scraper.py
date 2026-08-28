@@ -289,21 +289,101 @@ def scrape_movies():
 # Dizi tarama
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Dizi URL format keşfi
+# ---------------------------------------------------------------------------
+#
+# vidmody.com'un dizi/bölüm linkleri için kesin URL yapısı elle doğrulanamadı.
+# Bu yüzden program başında, var olduğu kesin olan bir referans dizi/bölüm
+# üzerinden (Breaking Bad, tt0903747, 1. sezon 1. bölüm) birkaç yaygın kalıp
+# denenir. HEAD isteği 200 dönen İLK kalıp "doğru format" kabul edilir.
+#
+# Hiçbir kalıp çalışmazsa dizi taraması atlanır (yanlış/kırık link üretmemek
+# için) ve script bunu açıkça konsola yazar.
+
+REFERENCE_IMDB_ID = "tt0903747"  # Breaking Bad
+REFERENCE_SEASON = 1
+REFERENCE_EPISODE = 1
+
+# Denenecek kalıplar: {imdb} / {s} / {e} yer tutucuları kullanılır.
+# İlk kalıp (SERIES_PATTERN_VERIFIED) kullanıcı tarafından doğrulanmıştır:
+#   https://vidmody.com/vs/tt0903747/s1/e01
+# Not: sezon tek haneli "s{sezon}", bölüm İKİ HANELİ sıfır-dolgulu "e{bölüm:02d}".
+SERIES_PATTERN_VERIFIED = "{base}/{imdb}/s{s}/e{e:02d}"
+
+SERIES_URL_PATTERNS = [
+    SERIES_PATTERN_VERIFIED,
+    "{base}/{imdb}-{s}-{e}",
+    "{base}/{imdb}/{s}/{e}",
+    "{base}/{imdb}-{s}x{e}",
+    "{base}/tv/{imdb}-{s}-{e}",
+    "{base}/series/{imdb}-{s}-{e}",
+    "{base}/{imdb}",  # bölüm bazlı değil, tek sayfa ihtimali
+]
+
+
+def discover_series_url_pattern():
+    """Referans dizi/bölüm üzerinden çalışan URL kalıbını bulur.
+
+    Dönüş: (pattern_string, sonuc_kullanacagi_mi_bolum_bazli) ya da None.
+    """
+    print("\n🔍 Dizi linki formatı tespit ediliyor (referans: Breaking Bad S1E1)...")
+    for pattern in SERIES_URL_PATTERNS:
+        test_url = pattern.format(
+            base=VIDMODY_URL,
+            imdb=REFERENCE_IMDB_ID,
+            s=REFERENCE_SEASON,
+            e=REFERENCE_EPISODE,
+        )
+        if check_link(test_url):
+            print(f"   ✓ Çalışan format bulundu: {pattern}")
+            print(f"     Test edilen URL: {test_url}")
+            return pattern
+        else:
+            print(f"   ✗ Denendi, çalışmadı: {test_url}")
+    print("   ⚠️  Hiçbir bilinen format çalışmadı. Dizi taraması ATLANACAK.")
+    print("   ⚠️  vidmody.com'da çalışan bir dizi linkini manuel bulup")
+    print("       SERIES_URL_PATTERNS listesine eklemeniz gerekiyor.")
+    return None
+
+
+def build_series_link(pattern, imdb_id, season=None, episode=None):
+    """Bulunan kalıba göre bir dizi/bölüm linki üretir."""
+    needs_season_episode = "{s" in pattern and "{e" in pattern  # {s} veya {s:...} gibi format-spec'li hallerini de yakalar
+    if needs_season_episode and (season is None or episode is None):
+        return None
+    return pattern.format(base=VIDMODY_URL, imdb=imdb_id, s=season, e=episode)
+
+
+# ---------------------------------------------------------------------------
+# Dizi tarama
+# ---------------------------------------------------------------------------
+
 def scrape_series():
     """
     Dizileri tarar ve iki gruba ayırır:
       - Türk dizileri: original_language == 'tr'
       - Yabancı dublaj diziler: original_language != 'tr'
 
-    NOT: vidmody.com'un dizi/bölüm URL yapısı doğrulanamadı. Bu fonksiyon
-    her dizi için TEK BİR link üretir (dizinin ana IMDb id'sine dayalı,
-    filmlerle aynı /vs/{imdb_id} formatında). Eğer vidmody dizilerde
-    sezon/bölüm bazlı farklı bir URL yapısı kullanıyorsa (örn.
-    /vs/{imdb_id}-{sezon}-{bolum}), bu linkler check_link() kontrolünden
-    geçemeyecek ve otomatik olarak elenecektir. Doğru format elde
-    edildiğinde bu fonksiyon kolayca güncellenebilir.
+    Program başında discover_series_url_pattern() ile çalışan URL formatı
+    tespit edilir. Format bulunamazsa dizi taraması tamamen atlanır (boş
+    listeler döner) — bu, kırık linklerle dolu bir çıktı üretmekten daha
+    güvenlidir.
+
+    NOT: Format tespiti yalnızca dizinin 1. sezon 1. bölümünü test eder.
+    Her dizi için burada TEK BİR link üretilir (1. sezon 1. bölüm baz
+    alınarak, ya da kalıp bölüm bazlı değilse dizinin ana sayfası).
+    Dizinin TÜM bölümlerini tek tek taramak istiyorsanız (her sezon/bölüm
+    için ayrı link), bu ayrı bir geliştirme gerektirir — TMDB'den her dizi
+    için season/episode listesi çekmek gerekir, bu da API çağrı sayısını
+    ciddi oranda artırır.
     """
     print("\n📺 DİZİLER TARANIYOR (Türk + Yabancı Dublaj)...\n")
+
+    pattern = discover_series_url_pattern()
+    if pattern is None:
+        print("\n⏭️  Dizi taraması atlandı (çalışan URL formatı bulunamadı).\n")
+        return [], []
 
     turkish_series = []
     foreign_series = []
@@ -323,8 +403,8 @@ def scrape_series():
         imdb_id = get_imdb_id("tv", tmdb_id)
         if not imdb_id:
             return
-        link = f"{VIDMODY_URL}/{imdb_id}"
-        if not check_link(link):
+        link = build_series_link(pattern, imdb_id, season=1, episode=1)
+        if not link or not check_link(link):
             return
 
         genre_info = get_genres("tv", tmdb_id)
