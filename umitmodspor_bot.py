@@ -221,7 +221,7 @@ def get_trgoals_content():
 # ============================================
 
 def get_andro_content():
-    print("--- 4. Mahsunsport ---")
+    print("--- 4. Andro Panel ---")
     results = []
     base_pattern = "https://mahsunsports{}.xyz"
     headers = HEADERS.copy()
@@ -307,7 +307,7 @@ def get_andro_content():
         for cid, cname in channels:
             final_url = f"{server}/{cid}.m3u8" if "checklist" in server else f"{server}/checklist/{cid}.m3u8"
             final_url = final_url.replace("checklist//", "checklist/")
-            entry = f'#EXTINF:-1 tvg-logo="{STATIC_LOGO}" group-title="Mahsunsports-🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲", {cname}\n#EXTVLCOPT:http-referrer={active_site}/\n{final_url}'
+            entry = f'#EXTINF:-1 tvg-logo="{STATIC_LOGO}" group-title="Andro-🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲", {cname}\n#EXTVLCOPT:http-referrer={active_site}/\n{final_url}'
             results.append(entry)
 
     return results
