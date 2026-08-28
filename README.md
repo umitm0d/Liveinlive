@@ -473,6 +473,11 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitginiko.m3u
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitm0d.m3u
 ```
 
+### 📄 `umitmodkarisik.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitmodkarisik.m3u
+```
+
 ### 📄 `umitmodstream/androstreamlivebiraz1.m3u8`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/umitmodstream/androstreamlivebiraz1.m3u8
@@ -702,7 +707,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-08-28 05:32:59_
+_Son güncelleme: 2026-08-28 05:51:30_
 
 ---
 
