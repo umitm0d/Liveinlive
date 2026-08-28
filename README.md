@@ -63,6 +63,11 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Promosyon-1.m3u
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Umitm0dRec.m3u
 ```
 
+### 📄 `Umitmodspor.m3u`
+```
+https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/Umitmodspor.m3u
+```
+
 ### 📄 `atom/aspor.m3u8`
 ```
 https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/atom/aspor.m3u8
@@ -697,7 +702,7 @@ https://cdn.jsdelivr.net/gh/umitm0d/Liveinlive@main/yeni.m3u
 
 ---
 
-_Son güncelleme: 2026-08-28 04:35:41_
+_Son güncelleme: 2026-08-28 05:32:59_
 
 ---
 
