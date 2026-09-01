@@ -2819,19 +2819,3 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_74
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_74223&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Fazilet Hanım ve Kızları 50. Bölüm 'Final'" tvg-logo="https://media.startv.com.tr/star-tv/images/232fef814065bb79a697dacc.jpg" group-title="STARTV Dizileri",TR: Fazilet Hanım ve Kızları 50. Bölüm 'Final'
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_74382&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Ateşe Yürümek 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/42c711444b54a98de1d741db.jpg" group-title="STARTV Dizileri",TR: Ateşe Yürümek 1. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a524e386fed5312c8c0d3&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Ateşe Yürümek 2.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/2a2617d24b9793659e743871.jpg" group-title="STARTV Dizileri",TR: Ateşe Yürümek 2.Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a5250386fed5312c8c0d6&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Ateşe Yürümek 3.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/7eee480347d393122cfa5d91.jpg" group-title="STARTV Dizileri",TR: Ateşe Yürümek 3.Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a5252386fed5312c8c0d8&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Ateşe Yürümek 4. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/c79aa7d74214b37abd9b1fb8.jpg" group-title="STARTV Dizileri",TR: Ateşe Yürümek 4. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_655a5253386fed5312c8c0da&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Maskeli Balo 1.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/6bf827d84ce291677abe8b76.jpg" group-title="STARTV Dizileri",TR: Maskeli Balo 1.Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30210&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Maskeli Balo 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/18fc88fc41009272ac8a7631.jpg" group-title="STARTV Dizileri",TR: Maskeli Balo 2. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30231&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Maskeli Balo 3. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/055e3ed94b5785126643fc28.jpg" group-title="STARTV Dizileri",TR: Maskeli Balo 3. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30234&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Maskeli Balo 4. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/5ce707c74a65b517cc15cc68.jpg" group-title="STARTV Dizileri",TR: Maskeli Balo 4. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30241&SecretKey=NtvApiSecret2014*&.m3u8
