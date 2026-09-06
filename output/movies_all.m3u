@@ -147,7 +147,7 @@ https://vidmody.com/vs/tt4154756
 https://vidmody.com/vs/tt12300742
 #EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg", London Calling
 https://vidmody.com/vs/tt30425872
-#EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/vUSpLo317QH7uIsxpqSHZpc8Fav.jpg", John Wick Dünyasından Ballerina
+#EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/vUSpLo317QH7uIsxpqSHZpc8Fav.jpg", Ballerina
 https://vidmody.com/vs/tt7181546
 #EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/7Pd6ChSQjSXy4snJiorSdzg2cG3.jpg", Pillion
 https://vidmody.com/vs/tt32321317
@@ -249,7 +249,7 @@ https://vidmody.com/vs/tt3402138
 https://vidmody.com/vs/tt5311514
 #EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/xo04W0XBJRRERjATgmDm1QsJUTP.jpg", Kirpi Sonic 3
 https://vidmody.com/vs/tt18259086
-#EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/o1BB6Cimho6R72QzJDwcwnCkp2a.jpg", Barbie
+#EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/iPtla6hJOerwsgw0zMxyEI6pR3Q.jpg", Barbie
 https://vidmody.com/vs/tt1517268
 #EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/1AlZ25eQsA36dMzVmUuorTjwgAy.jpg", Süper Mario Kardeşler Filmi
 https://vidmody.com/vs/tt6718170
@@ -1783,6 +1783,14 @@ https://vidmody.com/vs/tt33070884
 https://vidmody.com/vs/tt35060353
 #EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/x3HEvYXWOW6WHqsHmg2MUVy3SLm.jpg", LEGO Star Wars: The Mandalorian
 https://vidmody.com/vs/tt43679852
+#EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/b0I8c8XkCMurFrajk7JzKTqMNEt.jpg", Düşüş
+https://vidmody.com/vs/tt15325794
+#EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/8dnfEnLpLJh7dRHnkN8AfIo4mpq.jpg", Köstebek
+https://vidmody.com/vs/tt0407887
+#EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/7tlkTHxcTSlrPYURo0VuglaLPXv.jpg", Mayday
+https://vidmody.com/vs/tt28014327
+#EXTINF:-1 group-title="Yeni Eklenenler" tvg-logo="https://image.tmdb.org/t/p/w500/hCHei97aPYCCsh4vicz9X0wmdFV.jpg", Gandhari
+https://vidmody.com/vs/tt33354945
 #EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/z9GinPUm7cxu1Fud4fxDmIhoCpj.jpg", Freddy'nin Pizza Dükkanında Beş Gece
 https://vidmody.com/vs/tt4589218
 #EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/kBnNDABP0rIkXdxJV3OcyOlTLT3.jpg", On Falling
@@ -2123,8 +2131,6 @@ https://vidmody.com/vs/tt11365186
 https://vidmody.com/vs/tt0800175
 #EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/gLD17LxB5QsEU5EsA7JwD8ZWPuk.jpg", Senden Nefret Etmemin 10 Sebebi
 https://vidmody.com/vs/tt0147800
-#EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/b0I8c8XkCMurFrajk7JzKTqMNEt.jpg", Düşüş
-https://vidmody.com/vs/tt15325794
 #EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/6II0jEB4Tw1vYjpaFUj6zN4CSKf.jpg", Cehennem Silahı 2
 https://vidmody.com/vs/tt0097733
 #EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg", Jurassic World
@@ -2221,8 +2227,6 @@ https://vidmody.com/vs/tt1446714
 https://vidmody.com/vs/tt23149780
 #EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/pRPUta8LOBuJHtdBbe6KWbbIIvG.jpg", Siyah Telefon
 https://vidmody.com/vs/tt7144666
-#EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/8dnfEnLpLJh7dRHnkN8AfIo4mpq.jpg", Köstebek
-https://vidmody.com/vs/tt0407887
 #EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/jAbexAtB0aSfP5Ay4TpWHARyVnG.jpg", Mulan
 https://vidmody.com/vs/tt0120762
 #EXTINF:-1 group-title="Filmler" tvg-logo="https://image.tmdb.org/t/p/w500/86TVUGHynXbnrhZl0XXyhl0VfQP.jpg", Düğün Çiçeği
