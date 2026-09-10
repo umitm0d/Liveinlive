@@ -3485,9 +3485,21 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <title lang="tr">Yayınıma Hoş Geldiniz</title>
     <desc lang="tr">Yayınıma Hoş Geldiniz, TRT Genç'te izleyicileri güncel konular ve eğlenceli içeriklerle buluşturan, keyifli ve samimi bir magazine programıdır.</desc>
   </programme>
-  <programme start="20260910065500 +0300" stop="20260910074500 +0300" channel="3cd1de84f3094055b60feb837b805a88">
+  <programme start="20260910065500 +0300" stop="20260910070000 +0300" channel="3cd1de84f3094055b60feb837b805a88">
     <title lang="tr">Doğada 1 Dakika</title>
     <desc lang="tr">Vahşi doğa 60 saniyede ne anlatır? İşte karşınızda tıpkı bir pamuğu andıran tüyleriyle beyaz bıldırcın. Vahşi yaşam hiç bu kadar yakın olmamıştı!</desc>
+  </programme>
+  <programme start="20260910070000 +0300" stop="20260910070300 +0300" channel="3cd1de84f3094055b60feb837b805a88">
+    <title lang="tr">İstiklal Marşı</title>
+    <desc lang="tr">Türkiye Cumhuriyeti'nin milli marşı İstiklal Marşı, önemli yayın anlarında saygı ve birlik duygusu eşliğinde ekranda yer alıyor.</desc>
+  </programme>
+  <programme start="20260910070300 +0300" stop="20260910073000 +0300" channel="3cd1de84f3094055b60feb837b805a88">
+    <title lang="tr">Sanat Ninjası "Art Ninja"</title>
+    <desc lang="tr">Sanat Ninjası çocuklara hayal güçlerini de kullanacakları geri dönüşüm projeleri yapımıyla ilgili anlatımlarda bulunarak zihin gelişimlerine katkı sağlıyor.</desc>
+  </programme>
+  <programme start="20260910073000 +0300" stop="20260910074500 +0300" channel="3cd1de84f3094055b60feb837b805a88">
+    <title lang="tr">Hayaller Oteli</title>
+    <desc lang="tr">Hayaller Oteli, genç izleyiciyi hayallerin peşine düşmeye teşvik eden eğlenceli ve bilgi dolu magazin‑infotainment programıdır.</desc>
   </programme>
   <programme start="20260910074500 +0300" stop="20260910080000 +0300" channel="3cd1de84f3094055b60feb837b805a88">
     <title lang="tr">Bilim Avcıları</title>
@@ -5725,13 +5737,9 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <title lang="tr">Kur'an Öğreniyorum (Quranê Hîn Dibim)</title>
     <desc lang="tr">Kuran Öğreniyorum, uzman hocalar eşliğinde Kuran-ı Kerim'i doğru okumayı, harflerin telaffuzunu ve tecvid kurallarını öğretmeyi amaçlayan eğitici bir programdır.</desc>
   </programme>
-  <programme start="20260910060000 +0300" stop="20260910070000 +0300" channel="90483f5565d245648782df1935075a85">
+  <programme start="20260910060000 +0300" stop="20260910073000 +0300" channel="90483f5565d245648782df1935075a85">
     <title lang="tr">Hatim (Xitma Qurane)</title>
     <desc lang="tr">Kuran-ı Kerim'in baştan sona okunduğu, hafızların güzel kıraatleriyle manevi bir huzur sunan özel bir programdır. İzleyicilere hatim geleneğinin ruhunu yaşatan bir yolculuk sunar.</desc>
-  </programme>
-  <programme start="20260910070000 +0300" stop="20260910073000 +0300" channel="90483f5565d245648782df1935075a85">
-    <title lang="tr">Kürtçe Dersleri (Kürdi Hin Dıbım)</title>
-    <desc lang="tr">Kürtçe Dersleri, izleyicilere temel Kürtçe bilgilerini ve günlük kullanım dilini öğreten bir televizyon programıdır. Her bölümde dilin pratik ve anlaşılır şekilde aktarımı hedeflenir.</desc>
   </programme>
   <programme start="20260910073000 +0300" stop="20260910090000 +0300" channel="90483f5565d245648782df1935075a85">
     <title lang="tr">Sabah Haberleri (Nüçeyen Sibe)</title>
@@ -5761,17 +5769,21 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <title lang="tr">Ben Bilirim (Ez Zanım)</title>
     <desc lang="tr">Ben Bilirim (Ez Zanım), TRT Kürdî ekranlarında yayınlanan bilgi yarışması programıdır. Yarışmacılar genel kültür, tarih, coğrafya ve güncel bilgilerle ilgili soruları yanıtlayarak en yüksek puanı elde etmeye çalışırlar.</desc>
   </programme>
-  <programme start="20260910160000 +0300" stop="20260910163000 +0300" channel="90483f5565d245648782df1935075a85">
+  <programme start="20260910160000 +0300" stop="20260910162000 +0300" channel="90483f5565d245648782df1935075a85">
     <title lang="tr">Şifacı (Şifadar)</title>
     <desc lang="tr">Sağlıklı yaşam, doğal yöntemler ve iyi yaşam önerilerini uzman görüşleriyle ekrana taşıyan bilgilendirici program.</desc>
   </programme>
-  <programme start="20260910163000 +0300" stop="20260910164500 +0300" channel="90483f5565d245648782df1935075a85">
+  <programme start="20260910162000 +0300" stop="20260910163500 +0300" channel="90483f5565d245648782df1935075a85">
     <title lang="tr">İbi</title>
     <desc lang="tr">Meraklı bir karakterin sorularla dolu dünyasında öğrenme, düşünme ve keşfetme süreci çocuklara eğlenceli bir dille sunuluyor.</desc>
   </programme>
-  <programme start="20260910164500 +0300" stop="20260910170000 +0300" channel="90483f5565d245648782df1935075a85">
+  <programme start="20260910163500 +0300" stop="20260910165000 +0300" channel="90483f5565d245648782df1935075a85">
     <title lang="tr">Rafadan Tayfa</title>
     <desc lang="tr">Rafadan Tayfa, eğlenceli maceraları ve arkadaşlık hikâyeleriyle çocuklara keyifli ve öğretici bir animasyon dünyası sunuyor.</desc>
+  </programme>
+  <programme start="20260910165000 +0300" stop="20260910170000 +0300" channel="90483f5565d245648782df1935075a85">
+    <title lang="tr">Olaylar Ve Öncüler (Serbori Ve Serzer)</title>
+    <desc lang="tr">Tarihe yön veren önemli olaylar ve bu olaylarda iz bırakan öncü kişilerin yaşamları, etkileri ve bıraktıkları miras ele alınıyor.</desc>
   </programme>
   <programme start="20260910170000 +0300" stop="20260910172500 +0300" channel="90483f5565d245648782df1935075a85">
     <title lang="tr">Haber (Xeberi Zazaki)</title>
@@ -16187,13 +16199,9 @@ Gezegendeki her avcı, güçlükler....</desc>
     <title lang="tr">Meraklı Hafiye</title>
     <desc lang="tr">Meraklı Hafiye, Ali ve köpeği Rıkkıbız'ın Arif Baba'nın bulmacalarını çözdüğü, çocuklara merak ve problem çözme becerisi kazandıran bir programdır.</desc>
   </programme>
-  <programme start="20260910064500 +0300" stop="20260910070000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910064500 +0300" stop="20260910070500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Küçük Hafız Emin</title>
     <desc lang="tr">Küçük Hafız Emin, hafızlık yolunda olan Emin'in, arkadaşlarıyla birlikte yaşadığı eğlenceli ve öğretici maceraları anlatır.</desc>
-  </programme>
-  <programme start="20260910070000 +0300" stop="20260910070500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
-    <title lang="tr">Ayrı Telden</title>
-    <desc lang="tr">Ayrı Telden, farklı karakterlerin kendi bakış açılarıyla yaşadığı eğlenceli ve öğretici maceraları anlatan animasyon dizisidir.</desc>
   </programme>
   <programme start="20260910070500 +0300" stop="20260910071500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Sevimli Sabahlar</title>
@@ -16351,73 +16359,173 @@ Gezegendeki her avcı, güçlükler....</desc>
     <title lang="tr">Oyun Dolu</title>
     <desc lang="tr">Oyun dolu anlarla neşe ve heyecan bir arada; eğlence hiç bitmiyor, mutluluk her yere yayılıyor.</desc>
   </programme>
-  <programme start="20260910151500 +0300" stop="20260910152500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910151500 +0300" stop="20260910153000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Bilgili Naci</title>
     <desc lang="tr">Bilgili Naci, meraklı çocuklara eğlenceli ve öğretici bilgiler sunan bir animasyon dizisidir.</desc>
   </programme>
-  <programme start="20260910152500 +0300" stop="20260910153500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910153000 +0300" stop="20260910154000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Duyarlı Tilki</title>
     <desc lang="tr">Duyarlı Tilki ve dostları, çocuklara doğa sevgisi, çevre bilinci, arkadaşlık ve yardımseverliği eğlenceli ve öğretici maceralarla öğretiyor.</desc>
   </programme>
-  <programme start="20260910153500 +0300" stop="20260910155000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910154000 +0300" stop="20260910155500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Şef Lina</title>
     <desc lang="tr">Lina'nın Mutfağı, Lina ve annesi Tuba'nın sağlıklı tarifler ve eğlenceli animasyonlarla öğrettikleri mutfak maceralarını sunar.</desc>
   </programme>
-  <programme start="20260910155000 +0300" stop="20260910160000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910155500 +0300" stop="20260910160500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Benim Adım Mucize</title>
     <desc lang="tr">Benim Adım Mucize, çocuklara sevgi ve değerleri eğlenceli hikayelerle anlatan eğitici bir programdır.</desc>
   </programme>
-  <programme start="20260910160000 +0300" stop="20260910161500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910160500 +0300" stop="20260910162000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Geri Dön Çufi</title>
     <desc lang="tr">Çocuklara çevre bilinci kazandıran, eğlenceli ve öğretici bir animasyon programıdır.</desc>
   </programme>
-  <programme start="20260910161500 +0300" stop="20260910162500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910162000 +0300" stop="20260910163000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Kara İle Keçe</title>
     <desc lang="tr">Kara İle Keçe, dostluk ve öğrenme temalarıyla çocuklara eğlenceli ve öğretici hikayeler sunan bir programdır.</desc>
   </programme>
-  <programme start="20260910162500 +0300" stop="20260910164000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910163000 +0300" stop="20260910164500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">7 Kıtadan İyilik Habercileri</title>
     <desc lang="tr">7 Kıtadan İyilik Habercileri, dünya genelinden iyilik ve dayanışma hikayelerini paylaşan ilham verici bir programdır.</desc>
   </programme>
-  <programme start="20260910164000 +0300" stop="20260910165000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910164500 +0300" stop="20260910165500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Galip Mülayim</title>
     <desc lang="tr">Galip Mülayim, çocuklara dini ve ahlaki değerleri eğlenceli animasyonlarla öğreten TRT Diyanet Çocuk TV programıdır.</desc>
   </programme>
-  <programme start="20260910165000 +0300" stop="20260910170500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910165500 +0300" stop="20260910171000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Yıldızlar Gibi</title>
     <desc lang="tr">Yıldızlar Gibi, hayal gücü yüksek karakterlerin dostluk ve keşif dolu animasyon maceralarını anlatır.</desc>
   </programme>
-  <programme start="20260910170500 +0300" stop="20260910172000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910171000 +0300" stop="20260910172500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Dikkat Balonu</title>
     <desc lang="tr">Dikkat Balonu, çocukların dikkat ve konsantrasyon becerilerini geliştiren, eğlenceli ve öğretici bölümler sunan renkli bir programdır.</desc>
   </programme>
-  <programme start="20260910172000 +0300" stop="20260910172500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910172500 +0300" stop="20260910173000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Temel'den Öğreniyorum</title>
     <desc lang="tr">Temel'den Öğreniyorum, çocuklara temel bilgileri eğlenceli hikayelerle öğreten öğretici bir programdır.</desc>
   </programme>
-  <programme start="20260910172500 +0300" stop="20260910173500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910173000 +0300" stop="20260910174000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Gugular</title>
     <desc lang="tr">Gugular, çocukların sosyal ve duygusal gelişimini destekleyen eğlenceli ve öğretici bir çocuk programıdır.</desc>
   </programme>
-  <programme start="20260910173500 +0300" stop="20260910175000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910174000 +0300" stop="20260910175500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Cümbür Cemaat (Kamptayız)</title>
     <desc lang="tr">Yılmaz Ailesi'nin Kamp Maceraları, çocuklara doğa sevgisi, paylaşma ve dostluk değerlerini eğlenceli ve öğretici hikâyelerle anlatan bir programdır.</desc>
   </programme>
-  <programme start="20260910175000 +0300" stop="20260910180500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910175500 +0300" stop="20260910181000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Heybeli Tiyatro</title>
     <desc lang="tr">Yılmaz ailesinin tiyatro gösterileriyle çocuklara paylaşmak, dürüstlük ve merhamet gibi değerleri eğlenceli şekilde öğreten bir programdır.</desc>
   </programme>
-  <programme start="20260910180500 +0300" stop="20260910181500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910181000 +0300" stop="20260910182000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Zekice İşler</title>
     <desc lang="tr">Zeki ve yeğenlerinin basit icatlarla günlük sorunları çözdüğü, çocukların yaratıcılığını ve problem çözme becerilerini geliştiren bir animasyon serisidir.</desc>
   </programme>
-  <programme start="20260910181500 +0300" stop="20260910183000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910182000 +0300" stop="20260910183500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Fülfül Hac Yolunda</title>
     <desc lang="tr">Murat ve motosikleti Fülfül'ün maceralarıyla çocuklara sabır, yardımlaşma ve inanç gibi değerleri eğlenceli şekilde anlatan bir animasyondur.</desc>
   </programme>
-  <programme start="20260910183000 +0300" stop="20260910184500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+  <programme start="20260910183500 +0300" stop="20260910185000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
     <title lang="tr">Gezgin Çelebi</title>
     <desc lang="tr">Semavi'nin Sırrı macerasında karavanıyla yolculuğa çıkar; farklı yerleri keşfederken kültürel mirası, doğayı ve manevi değerleri çocuklara eğlenceli bir dille tanıtır.</desc>
+  </programme>
+  <programme start="20260910185000 +0300" stop="20260910190500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Meraklı Hafiye</title>
+    <desc lang="tr">Meraklı Hafiye, Ali ve köpeği Rıkkıbız'ın Arif Baba'nın bulmacalarını çözdüğü, çocuklara merak ve problem çözme becerisi kazandıran bir programdır.</desc>
+  </programme>
+  <programme start="20260910190500 +0300" stop="20260910192000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Küçük Hafız Emin</title>
+    <desc lang="tr">Küçük Hafız Emin, hafızlık yolunda olan Emin'in, arkadaşlarıyla birlikte yaşadığı eğlenceli ve öğretici maceraları anlatır.</desc>
+  </programme>
+  <programme start="20260910192000 +0300" stop="20260910192500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Ayrı Telden</title>
+    <desc lang="tr">Ayrı Telden, farklı karakterlerin kendi bakış açılarıyla yaşadığı eğlenceli ve öğretici maceraları anlatan animasyon dizisidir.</desc>
+  </programme>
+  <programme start="20260910192500 +0300" stop="20260910194000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Mercanya</title>
+    <desc lang="tr">Mercanya, çocuklara trafik, çevre, arkadaşlık ve sorumluluk gibi değerleri eğlenceli ve öğretici bir şekilde sunan eğlenceli bir programdır.</desc>
+  </programme>
+  <programme start="20260910194000 +0300" stop="20260910195500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Aylabera</title>
+    <desc lang="tr">Aylabera, çocuklara empati, paylaşma, dostluk ve dayanışma değerlerini eğlenceli hikâyeler ve renkli karakterlerle öğreten eğitici bir programdır.</desc>
+  </programme>
+  <programme start="20260910195500 +0300" stop="20260910201000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Hay Hak</title>
+    <desc lang="tr">Geleneksel gölge oyununun modern animasyonla buluştuğu yapımda; eğlenceli maceralarla dostluk, ahlak ve hoşgörü değerlerini çocuklara aktarır,</desc>
+  </programme>
+  <programme start="20260910201000 +0300" stop="20260910202500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Yumurcalı</title>
+    <desc lang="tr">Yumurcalı, çocuklara empati, paylaşma ve arkadaşlık gibi değerleri eğlenceli hikâyeler ve diyaloglarla öğreten eğitici bir programdır.</desc>
+  </programme>
+  <programme start="20260910202500 +0300" stop="20260910203500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Miş Mış</title>
+    <desc lang="tr">Kısa animasyon bölümleriyle çocuklara merak, öğrenme ve deneme isteği kazandıran eğitici bir programdır.</desc>
+  </programme>
+  <programme start="20260910203500 +0300" stop="20260910204500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Şeker Hoca</title>
+    <desc lang="tr">Şeker Hoca, çocuklara eğlenceli ve öğretici içerikler sunar, değerler eğitimi verir, hayal güçlerini geliştirir ve bilinçli bireyler olmalarına katkı sağlar.</desc>
+  </programme>
+  <programme start="20260910204500 +0300" stop="20260910205500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Mimikolar</title>
+    <desc lang="tr">Gago, Beno ve Filo, sadece mimik ve beden diliyle öyküler anlatan bir programdır. Çocuklar, bu sayede empati, duygu okuma becerilerini geliştirir.</desc>
+  </programme>
+  <programme start="20260910205500 +0300" stop="20260910211000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Oyun Dolu</title>
+    <desc lang="tr">Oyun dolu anlarla neşe ve heyecan bir arada; eğlence hiç bitmiyor, mutluluk her yere yayılıyor.</desc>
+  </programme>
+  <programme start="20260910211000 +0300" stop="20260910212500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Bilgili Naci</title>
+    <desc lang="tr">Bilgili Naci, meraklı çocuklara eğlenceli ve öğretici bilgiler sunan bir animasyon dizisidir.</desc>
+  </programme>
+  <programme start="20260910212500 +0300" stop="20260910213500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Düş Fırçası</title>
+    <desc lang="tr">Düş Fırçası, çocukların hayal gücünü geliştiren renkli ve eğlenceli bir sanat programıdır. Çocukları sanatla buluşturur.</desc>
+  </programme>
+  <programme start="20260910213500 +0300" stop="20260910214500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Duyarlı Tilki</title>
+    <desc lang="tr">Duyarlı Tilki ve dostları, çocuklara doğa sevgisi, çevre bilinci, arkadaşlık ve yardımseverliği eğlenceli ve öğretici maceralarla öğretiyor.</desc>
+  </programme>
+  <programme start="20260910214500 +0300" stop="20260910220000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Şef Lina</title>
+    <desc lang="tr">Lina'nın Mutfağı, Lina ve annesi Tuba'nın sağlıklı tarifler ve eğlenceli animasyonlarla öğrettikleri mutfak maceralarını sunar.</desc>
+  </programme>
+  <programme start="20260910220000 +0300" stop="20260910221000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Benim Adım Mucize</title>
+    <desc lang="tr">Benim Adım Mucize, çocuklara sevgi ve değerleri eğlenceli hikayelerle anlatan eğitici bir programdır.</desc>
+  </programme>
+  <programme start="20260910221000 +0300" stop="20260910222500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Geri Dön Çufi</title>
+    <desc lang="tr">Çocuklara çevre bilinci kazandıran, eğlenceli ve öğretici bir animasyon programıdır.</desc>
+  </programme>
+  <programme start="20260910222500 +0300" stop="20260910223500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Kara İle Keçe</title>
+    <desc lang="tr">Kara İle Keçe, dostluk ve öğrenme temalarıyla çocuklara eğlenceli ve öğretici hikayeler sunan bir programdır.</desc>
+  </programme>
+  <programme start="20260910223500 +0300" stop="20260910224500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Galip Mülayim</title>
+    <desc lang="tr">Galip Mülayim, çocuklara dini ve ahlaki değerleri eğlenceli animasyonlarla öğreten TRT Diyanet Çocuk TV programıdır.</desc>
+  </programme>
+  <programme start="20260910224500 +0300" stop="20260910230000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">7 Kıtadan İyilik Habercileri</title>
+    <desc lang="tr">7 Kıtadan İyilik Habercileri, dünya genelinden iyilik ve dayanışma hikayelerini paylaşan ilham verici bir programdır.</desc>
+  </programme>
+  <programme start="20260910230000 +0300" stop="20260910231500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Yıldızlar Gibi</title>
+    <desc lang="tr">Yıldızlar Gibi, hayal gücü yüksek karakterlerin dostluk ve keşif dolu animasyon maceralarını anlatır.</desc>
+  </programme>
+  <programme start="20260910231500 +0300" stop="20260910233000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Dikkat Balonu</title>
+    <desc lang="tr">Dikkat Balonu, çocukların dikkat ve konsantrasyon becerilerini geliştiren, eğlenceli ve öğretici bölümler sunan renkli bir programdır.</desc>
+  </programme>
+  <programme start="20260910233000 +0300" stop="20260910234000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Gugular</title>
+    <desc lang="tr">Gugular, çocukların sosyal ve duygusal gelişimini destekleyen eğlenceli ve öğretici bir çocuk programıdır.</desc>
+  </programme>
+  <programme start="20260910234000 +0300" stop="20260910234500 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Temel'den Öğreniyorum</title>
+    <desc lang="tr">Temel'den Öğreniyorum, çocuklara temel bilgileri eğlenceli hikayelerle öğreten öğretici bir programdır.</desc>
+  </programme>
+  <programme start="20260910234500 +0300" stop="20260911000000 +0300" channel="f1863b2addb1469a888ed1af5a0e5638">
+    <title lang="tr">Cümbür Cemaat (Kamptayız)</title>
+    <desc lang="tr">Yılmaz Ailesi'nin Kamp Maceraları, çocuklara doğa sevgisi, paylaşma ve dostluk değerlerini eğlenceli ve öğretici hikâyelerle anlatan bir programdır.</desc>
   </programme>
   <channel id="e792a5cd155840399de3a5e67ff1478f">
     <display-name>SpaceTOON</display-name>
