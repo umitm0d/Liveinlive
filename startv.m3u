@@ -35,6 +35,8 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6a
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6a2117c6f101adbc6e2a5979&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Sevdiğim Sensin 16. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/b246l252m(6).jpg" group-title="STARTV Dizileri",TR: Sevdiğim Sensin 16. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aa2f1a8755f87153f61dd5a&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Sevdiğim Sensin 17. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/sevdi-1920.jpg" group-title="STARTV Dizileri",TR: Sevdiğim Sensin 17. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aabd6fe604b4ef9bac6f918&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çirkin 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/kapak(47).jpg" group-title="STARTV Dizileri",TR: Çirkin 1. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_69c7edd6c51e175df4aee164&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çirkin 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/cirkin1920.jpg" group-title="STARTV Dizileri",TR: Çirkin 2. Bölüm
@@ -2825,49 +2827,3 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_74
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_74223&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Fazilet Hanım ve Kızları 50. Bölüm 'Final'" tvg-logo="https://media.startv.com.tr/star-tv/images/232fef814065bb79a697dacc.jpg" group-title="STARTV Dizileri",TR: Fazilet Hanım ve Kızları 50. Bölüm 'Final'
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_74382&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0c57648a48b68142db007053.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 1. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30601&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a9db919b4e50b4ae07ec278c.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 2. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30617&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 3. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/a1ba846f4fb9924d15401f99.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 3. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30639&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 4. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/10884ce5449fa49bfccc62b7.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 4. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30658&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 5.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0f05ab264e16b99d799ae0c4.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 5.Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30679&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 6.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d05496fb41a397e0a07901bf.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 6.Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30687&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 7. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/fcd83163440093a4c5026153.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 7. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30709&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 8.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0e4676fb4b379ce4d3af3a6b.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 8.Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30731&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 9.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d26292af41cc94cfeafe48fe.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 9.Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30747&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 10. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/c45afd334f7999ed1aef7fc1.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 10. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30773&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 11. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0d1bb3cc4f6880fe2df301cd.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 11. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30794&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 12. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/24f4d224488683e439ad0059.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 12. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30810&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 13. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/242cd35f4529a3d339abc6e4.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 13. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30821&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 14.Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/219240e74b95b4834255c509.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 14.Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30843&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 15 Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/bf566ec0410f865c0b02735a.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 15 Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30856&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İzmir Çetesi 16. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/82714d704d2da1388638836d.jpg" group-title="STARTV Dizileri",TR: İzmir Çetesi 16. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30865&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İhanet 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/ecac32934d4098ab12d16706.jpg" group-title="STARTV Dizileri",TR: İhanet 1. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30239&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İhanet 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/f260d16d47c0b600435fce6d.jpg" group-title="STARTV Dizileri",TR: İhanet 2. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30251&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İhanet 3. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/4556a87f43d9aded7c6fce00.jpg" group-title="STARTV Dizileri",TR: İhanet 3. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30255&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İhanet 4. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/afdd095b474295aa474b5d12.jpg" group-title="STARTV Dizileri",TR: İhanet 4. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30259&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İhanet 5. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/0c85242e47d3ac91efd4ff8d.jpg" group-title="STARTV Dizileri",TR: İhanet 5. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30262&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İhanet 6. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/f5f118d14539989bfdc8358f.jpg" group-title="STARTV Dizileri",TR: İhanet 6. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30266&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: İhanet 7. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/7cb88461431da964f7882ec6.jpg" group-title="STARTV Dizileri",TR: İhanet 7. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_30274&SecretKey=NtvApiSecret2014*&.m3u8
