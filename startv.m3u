@@ -67,6 +67,8 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6a
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aad19aa3b7c898dfad933b1&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çirkin 10. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/asd(7).jpg" group-title="STARTV Dizileri",TR: Çirkin 10. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ab60867d3270c47b7873bd9&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çirkin 11. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/231iko-b246l252.jpg" group-title="STARTV Dizileri",TR: Çirkin 11. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abf918fd3270c47b7874197&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çarpıntı 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/231arpinti-1-b246l252m.jpg" group-title="STARTV Dizileri",TR: Çarpıntı 1. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_68ba7a5af938f782d36506c6&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çarpıntı 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/1080(14).jpg" group-title="STARTV Dizileri",TR: Çarpıntı 2. Bölüm
