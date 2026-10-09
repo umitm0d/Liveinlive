@@ -1170,9 +1170,13 @@
     <title lang="tr">Akdeniz Rüyası</title>
     <desc lang="tr">Potansiyel ev sahipleri, Akdeniz sahil şeridi boyunca hayal ettikleri evleri ararlar. İspanya'daki tatil villalarından Yunanistan'da ömür boyu yaşayacakları evlere kadar.</desc>
   </programme>
-  <programme start="20261009060000 +0300" stop="20261009063000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
+  <programme start="20261009060000 +0300" stop="20261009061500 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
     <title lang="tr">Emlak Avcıları Amerika</title>
     <desc lang="tr">İş kurmak için iki yıl boyunca ailesiyle yaşayan bir çift sonunda ev almaya hazırlanır. Partnerlerden biri kapalı garajı olan büyük bir ev ister.</desc>
+  </programme>
+  <programme start="20261009061500 +0300" stop="20261009063000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
+    <title lang="tr">Emlak Avcıları Amerika</title>
+    <desc lang="tr">Nişanlı bir çift Teksas'ta ilk evini almaya hazırlanır. Partnerlerden biri dev kertenkele koleksiyonu için yeterince büyük bir ev bulmaya öncelik verir.</desc>
   </programme>
   <programme start="20261009063000 +0300" stop="20261009070000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
     <title lang="tr">Emlak Avcıları Amerika</title>
@@ -1190,9 +1194,13 @@
     <title lang="tr">Rüya Gibi Evler</title>
     <desc lang="tr">Tarek ve Christina Kaliforniya, Palos Verdes bölgesinde bir ev bulur. Yamaçtaki bu korkunç yeri, lüks bir eve dönüştürebilirler mi?</desc>
   </programme>
-  <programme start="20261009083000 +0300" stop="20261009090000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
+  <programme start="20261009083000 +0300" stop="20261009084500 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
     <title lang="tr">Rüya Gibi Evler</title>
     <desc lang="tr">Tarek ve Christina, Kaliforniya, El Monte'deki bir evin haberini alır. Ancak, teklifte bulunmadan önce içini göremezler.</desc>
+  </programme>
+  <programme start="20261009084500 +0300" stop="20261009090000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
+    <title lang="tr">Rüya Gibi Evler</title>
+    <desc lang="tr">Tarek ve Christina, Anaheim'da kısmen yenilenmiş bir ev satın alır. Bu ev bir yap-satçının hayali mi yoksa evdeki yapısal sorunlar, problemlerin bir başlangıcı mı?</desc>
   </programme>
   <programme start="20261009090000 +0300" stop="20261009093000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
     <title lang="tr">Rüya Gibi Evler</title>
@@ -1266,15 +1274,15 @@
     <title lang="tr">Komşu Evler Yarışıyor</title>
     <desc lang="tr">Lüks detaylar eşsiz tasarıma sahip üç evin her köşesine dokunur. Bunlar jüriyi etkilemeye yetecek mi?</desc>
   </programme>
-  <programme start="20261009193000 +0300" stop="20261009215500 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
+  <programme start="20261009193000 +0300" stop="20261009220000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
     <title lang="tr">Devlet Düşmanı</title>
     <desc lang="tr">Sıradan bir adam, eline geçen gizli bir kayıtla kendisini devletin hedefinde bulur ve hayatta kalmak için kaçmaya başlar.</desc>
   </programme>
-  <programme start="20261009215500 +0300" stop="20261009235500 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
+  <programme start="20261009220000 +0300" stop="20261009235500 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
     <title lang="tr">Katil</title>
     <desc lang="tr">Akıl hastası bir seri katili yakalamak isteyen bir dedektif katilin DNA'sından üretilen ve psikopatla telepatik bağı olan bir klonla birlikte çalışır.</desc>
   </programme>
-  <programme start="20261009235500 +0300" stop="20261010021500 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
+  <programme start="20261009235500 +0300" stop="20261010022000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
     <title lang="tr">Devlet Düşmanı</title>
     <desc lang="tr">Sıradan bir adam, eline geçen gizli bir kayıtla kendisini devletin hedefinde bulur ve hayatta kalmak için kaçmaya başlar.</desc>
   </programme>
@@ -1459,8 +1467,8 @@
     <desc lang="tr">Günün ilk ışıklarıyla gündeme hızlı bir bakış… Sabah Gündemi, gelişmeler, hava durumu ve canlı bağlantılarla güne sizi hazırlıyor!</desc>
   </programme>
   <programme start="20261009093000 +0300" stop="20261009100000 +0300" channel="931a551c56e447929389aa1029cde406">
-    <title lang="tr">Velivizyon</title>
-    <desc lang="tr">Günlük yaşamdan renkli kesitler, ilginç konular ve keyifli anlatım eşliğinde bilgiyle eğlence bir arada sunuluyor.</desc>
+    <title lang="tr">Bir de Bana Sor</title>
+    <desc lang="tr">Bir de Bana Sor, merak edilen konuları uzman görüşleriyle ele alan bilgilendirici bir programdır.</desc>
   </programme>
   <programme start="20261009100000 +0300" stop="20261009110000 +0300" channel="931a551c56e447929389aa1029cde406">
     <title lang="tr">Alın Teri</title>
@@ -4702,17 +4710,9 @@
     <title lang="tr">Leyla ile Mecnun</title>
     <desc lang="tr">Aynı gün dünyaya gelen Leylâ ve Mecnun, yan yana büyür; 25 yıl sonra aileler, gençlerin evlenmesi için harekete geçer.</desc>
   </programme>
-  <programme start="20261009055500 +0300" stop="20261009062500 +0300" channel="cec39de857b342d08166923153d0abef">
+  <programme start="20261009055500 +0300" stop="20261009065500 +0300" channel="cec39de857b342d08166923153d0abef">
     <title lang="tr">Misafir Kapıda</title>
     <desc lang="tr">Anadolu'nun misafirperver sofralarına konuk olun. Köy evlerinden şehir mutfaklarına uzanan davetler, el emeği yemekler, sohbetler, gelenekler anlatılıyor.</desc>
-  </programme>
-  <programme start="20261009062500 +0300" stop="20261009064000 +0300" channel="cec39de857b342d08166923153d0abef">
-    <title lang="tr">Gönül Misafiri</title>
-    <desc lang="tr">Farklı coğrafyalardaki insan hikayelerini, köklü kültürleri ve samimi yaşam öykülerini ekrana taşıyan yapım.</desc>
-  </programme>
-  <programme start="20261009064000 +0300" stop="20261009065500 +0300" channel="cec39de857b342d08166923153d0abef">
-    <title lang="tr">Zuhurat</title>
-    <desc lang="tr">Zuhurat programında İslam tarihindeki ilginç zuhuratları keşfedin. Peygamberler dönemi, sahabe hikayeleri, mucizevi olaylar, manevi işaretler anlatılıyor.</desc>
   </programme>
   <programme start="20261009065500 +0300" stop="20261009070000 +0300" channel="cec39de857b342d08166923153d0abef">
     <title lang="tr">İstiklal Marşı Çocuk</title>
@@ -4782,13 +4782,9 @@
     <title lang="tr">Acemi Anneler</title>
     <desc lang="tr">Dört yakın arkadaşın annelik serüvenleri...</desc>
   </programme>
-  <programme start="20261009140000 +0300" stop="20261009145000 +0300" channel="cec39de857b342d08166923153d0abef">
+  <programme start="20261009140000 +0300" stop="20261009150000 +0300" channel="cec39de857b342d08166923153d0abef">
     <title lang="tr">Öğle Ana Haber</title>
     <desc lang="tr">Gün ortasında Türkiye ve dünya gündemine tarafsız bir bakış Öğle Ana Haber'de...</desc>
-  </programme>
-  <programme start="20261009145000 +0300" stop="20261009150000 +0300" channel="cec39de857b342d08166923153d0abef">
-    <title lang="tr">Mikrofon Senin</title>
-    <desc lang="tr">Mikrofon Senin Norveç programında Norveç'in kültürel zenginliklerini keşfedin. Fiyortlar, kuzey ışıkları, Viking mirası, modern yaşam, geleneksel müzik, halk hikayeleri anlatılıyor. Soğuk ama sıcak bir coğrafyanın sesi sizleri bekliyor.</desc>
   </programme>
   <programme start="20261009150000 +0300" stop="20261009153000 +0300" channel="cec39de857b342d08166923153d0abef">
     <title lang="tr">Gönül Verenler</title>
@@ -4814,17 +4810,17 @@
     <title lang="tr">Rumeli Saati</title>
     <desc lang="tr">Rumeli Saati, Türk ve Balkan toplumları arasında yüzyıllardır süregelen ortak kültürel mirası ve bu mirasın günümüzdeki zenginliklerini keşfetmeyi amaçlayan bir yolculuğa izleyicileri davet ediyor.</desc>
   </programme>
-  <programme start="20261009193000 +0300" stop="20261009210000 +0300" channel="cec39de857b342d08166923153d0abef">
-    <title lang="tr">Seksenler</title>
-    <desc lang="tr">Seksenli yıllarda İstanbul'un küçük bir mahallesinde yaşayan insanların hikâyesi. Her sahnesiyle tam bir dönem dizisi... Hem nostaljik, hem enerjik, hem de çok komik.</desc>
-  </programme>
-  <programme start="20261009210000 +0300" stop="20261009220000 +0300" channel="cec39de857b342d08166923153d0abef">
+  <programme start="20261009193000 +0300" stop="20261009203000 +0300" channel="cec39de857b342d08166923153d0abef">
     <title lang="tr">Temelli Misafir</title>
     <desc lang="tr">Temelli Misafir dizisinde beklenmedik bir misafirin eve yerleşmesiyle başlayan hikayeye tanık olun.</desc>
   </programme>
+  <programme start="20261009203000 +0300" stop="20261009220000 +0300" channel="cec39de857b342d08166923153d0abef">
+    <title lang="tr">Seksenler</title>
+    <desc lang="tr">Seksenli yıllarda İstanbul'un küçük bir mahallesinde yaşayan insanların hikâyesi. Her sahnesiyle tam bir dönem dizisi... Hem nostaljik, hem enerjik, hem de çok komik.</desc>
+  </programme>
   <programme start="20261009220000 +0300" stop="20261009233000 +0300" channel="cec39de857b342d08166923153d0abef">
     <title lang="tr">Beni Böyle Sev</title>
-    <desc lang="tr">Beni Böyle Sev, ilk görüşte birbirlerine aşık olan üniversite öğrencisi bir çiftin hikâyesini konu ediyor.</desc>
+    <desc lang="tr">Babasının annesi ile barışmak için Ayşem'den ayrılmasını şart koşması, Ömer'in sinirlerini alt üst eder. Eda, Nail'in ılımlı kişiliğinden, Ömer ve Ayşem'e kol kanat geren babacan tavrından etkilenir.</desc>
   </programme>
   <programme start="20261009233000 +0300" stop="20261010000000 +0300" channel="cec39de857b342d08166923153d0abef">
     <title lang="tr">Gönül Verenler</title>
@@ -11063,7 +11059,7 @@
     <desc lang="tr">Soframıza gelen yiyeceklerin üretim yolculuğu adım adım inceleniyor. Doğadan mutfağa uzanan süreç izleyiciye aktarılıyor.</desc>
   </programme>
   <programme start="20261009090000 +0300" stop="20261009100000 +0300" channel="3c779e73b326426f8e9665fd67cbf6a8">
-    <title lang="tr">Mutlu Oyuncak Dükkânı – Kardeşim Ozi</title>
+    <title lang="tr">Çizgi Film</title>
     <desc lang="tr">Çizgi Film, eğlenceli ve renkli içeriğiyle çocuklara neşeli anlar yaşatıyor. Sevimli karakterlerin maceraları, dostluk, paylaşma, dayanışma ve hayal gücünü geliştiren hikayelerle bir araya geliyor.</desc>
   </programme>
   <programme start="20261009100000 +0300" stop="20261009113000 +0300" channel="3c779e73b326426f8e9665fd67cbf6a8">
@@ -13114,31 +13110,31 @@
     <title lang="tr">Bisiklet: Gran Piemonte</title>
     <desc lang="tr">İtalya'nın zorlu tepelerinde gerçekleşen tarihi tek günlük bisiklet yarışı, yüksek tempo ve taktik mücadeleleriyle ekrana geliyor.</desc>
   </programme>
-  <programme start="20261009063000 +0300" stop="20261009083000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
+  <programme start="20261009063000 +0300" stop="20261009083400 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
     <title lang="tr">Britanya Açık</title>
     <desc lang="tr">British Open, 1985'ten beri sıralama turnuvası olarak düzenlenen profesyonel bir snooker turnuvasıdır; ancak 2004'ten itibaren 17 yıl süreyle ara verilmiştir.</desc>
   </programme>
-  <programme start="20261009083000 +0300" stop="20261009093000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
+  <programme start="20261009083400 +0300" stop="20261009093400 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
     <title lang="tr">Tırmanış Dünya Kupası: Chongqing</title>
     <desc lang="tr">Tırmanışın yıldızları, zorlu rotalarda güç, denge ve dayanıklılıklarını sergileyerek zirveye ulaşmak için mücadele ediyor.</desc>
   </programme>
-  <programme start="20261009093000 +0300" stop="20261009101500 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
+  <programme start="20261009093400 +0300" stop="20261009101300 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
     <title lang="tr">UCI Dağ Bisikleti Dünya Serisi: Soldier Hollow</title>
     <desc lang="tr">Zorlu parkurda mücadele eden sporcular, teknik inişler ve sert tırmanışlarla dolu etaplarda sınırlarını zorluyor.</desc>
   </programme>
-  <programme start="20261009101500 +0300" stop="20261009110000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
+  <programme start="20261009101300 +0300" stop="20261009110100 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
     <title lang="tr">UCI Dağ Bisikleti Dünya Serisi: Soldier Hollow</title>
     <desc lang="tr">Zorlu parkurda mücadele eden sporcular, teknik inişler ve sert tırmanışlarla dolu etaplarda sınırlarını zorluyor.</desc>
   </programme>
-  <programme start="20261009110000 +0300" stop="20261009130000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
+  <programme start="20261009110100 +0300" stop="20261009130000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
     <title lang="tr">Snooker: Shenzhen Açık</title>
     <desc lang="tr">Snooker heyecanı Shenzhen Açık ile devam ediyor. Keskin vuruşlar, kritik seriler ve yüksek tempolu mücadele ekranlara geliyor.</desc>
   </programme>
-  <programme start="20261009130000 +0300" stop="20261009140000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
+  <programme start="20261009130000 +0300" stop="20261009140100 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
     <title lang="tr">Bisiklet: Gran Piemonte</title>
     <desc lang="tr">İtalya'nın zorlu tepelerinde gerçekleşen tarihi tek günlük bisiklet yarışı, yüksek tempo ve taktik mücadeleleriyle ekrana geliyor.</desc>
   </programme>
-  <programme start="20261009140000 +0300" stop="20261009173000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
+  <programme start="20261009140100 +0300" stop="20261009173000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
     <title lang="tr">Bisiklet: Lombardiya Turu</title>
     <desc lang="tr">Bisiklet sezonunun en prestijli klasiklerinden biri olan Lombardiya Turu'nda, zorlu parkur ve kıyasıya mücadele ekranlara geliyor.</desc>
   </programme>
@@ -13634,14 +13630,6 @@
     <display-name>Ekol Sports</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570156734-logo.png" />
   </channel>
-  <programme start="20261009000000 +0300" stop="20261009060000 +0300" channel="f8a1f33332e54f709afbd71bf691f593">
-    <title lang="tr">Ekol Sport</title>
-    <desc lang="tr">Günün öne çıkan spor haberleri, maç analizleri ve uzman yorumları bu programda. Futboldan basketbola tüm branşlarda gündem masaya yatırılıyor.</desc>
-  </programme>
-  <programme start="20261009060000 +0300" stop="20261009100000 +0300" channel="f8a1f33332e54f709afbd71bf691f593">
-    <title lang="tr">Ekol Sport</title>
-    <desc lang="tr">Günün öne çıkan spor haberleri, maç analizleri ve uzman yorumları bu programda. Futboldan basketbola tüm branşlarda gündem masaya yatırılıyor.</desc>
-  </programme>
   <programme start="20261009100000 +0300" stop="20261009160000 +0300" channel="f8a1f33332e54f709afbd71bf691f593">
     <title lang="tr">Ekol Sport</title>
     <desc lang="tr">Günün öne çıkan spor haberleri, maç analizleri ve uzman yorumları bu programda. Futboldan basketbola tüm branşlarda gündem masaya yatırılıyor.</desc>
@@ -13902,41 +13890,37 @@
     <title lang="tr">Tarihte Bugün</title>
     <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
   </programme>
-  <programme start="20261009094500 +0300" stop="20261009101500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Yarının Yıldızları</title>
-    <desc lang="tr">Sarı-lacivertli altyapının parlayan genç yetenekleri, sahadaki performansları ve gelecek vaat eden hikâyeleriyle izleyiciyle buluşuyor.</desc>
+  <programme start="20261009094500 +0300" stop="20261009100000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Onun 10 Golü</title>
+    <desc lang="tr">Futbol tarihine damga vuran yıldızın en unutulmaz 10 golü bu programda bir araya geliyor. FB TV ekranlarında</desc>
   </programme>
-  <programme start="20261009101500 +0300" stop="20261009120000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Hazırlık Maçları</title>
-    <desc lang="tr">Sezon öncesi hazırlık maçlarıyla takımlar formda kalıyor; yeni oyuncuların performansı ve taktik denemeler ekranlarda izleyiciyle buluşuyor.</desc>
+  <programme start="20261009100000 +0300" stop="20261009113000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Basketbol: Euroleague</title>
+    <desc lang="tr">EuroLeague, Avrupa'nın en iyi basketbol takımlarını üst düzey rekabetle parkede buluşturuyor.</desc>
   </programme>
-  <programme start="20261009120000 +0300" stop="20261009121500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Haber</title>
-    <desc lang="tr">Haber, günün öne çıkan gelişmelerini hızlı ve doğru şekilde ekrana taşıyor. FB TV ekranlarında sizlerle</desc>
+  <programme start="20261009113000 +0300" stop="20261009120000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Euroleague Özel</title>
+    <desc lang="tr">EuroLeague maçlarını, analizleri ve yıldız performanslarını ekrana taşıyan özel basketbol programı.</desc>
   </programme>
-  <programme start="20261009121500 +0300" stop="20261009123000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Söz Taraftarda</title>
-    <desc lang="tr">Fenerbahçe'mizin ve Türk Futbolunun gündemini, yapacağımız maçların skorlarını Büyük Fenerbahçe Taraftarına sorduğumuz Söz Taraftarda programı FB TV ekranlarında</desc>
+  <programme start="20261009120000 +0300" stop="20261009130000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Fenerbahçe Günlüğü</title>
+    <desc lang="tr">Fenerbahçe'nin maçları, antrenmanları ve kulüp gündemi, gün gün özel içeriklerle ekrana geliyor.</desc>
   </programme>
-  <programme start="20261009123000 +0300" stop="20261009133000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Maçın Ardından</title>
-    <desc lang="tr">Maçın Ardından, futbol karşılaşmalarının ardından maçın kritik anları, oyuncu performansları ve teknik detaylar ele alınıyor</desc>
-  </programme>
-  <programme start="20261009133000 +0300" stop="20261009140000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Evladıma Miras Bu Sevda</title>
-    <desc lang="tr">Nesilden nesile aktarılan Fenerbahçe sevgisinin en içten hikâyeleri. Sarı lacivert bir mirasın izinde duygusal bir yolculuk.</desc>
+  <programme start="20261009130000 +0300" stop="20261009140000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Stüdyo Futbol</title>
+    <desc lang="tr">Futbolun gündemi, maçların perde arkası, kritik gelişmeler ve öne çıkan detaylar; tempolu ve anlaşılır bir anlatımla ekrana geliyor.</desc>
   </programme>
   <programme start="20261009140000 +0300" stop="20261009141500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Haber</title>
     <desc lang="tr">Haber, günün öne çıkan gelişmelerini hızlı ve doğru şekilde ekrana taşıyor. FB TV ekranlarında sizlerle</desc>
   </programme>
   <programme start="20261009141500 +0300" stop="20261009143000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Fenerium Saati</title>
-    <desc lang="tr">Fenerium Saati, Fenerbahçe'nin lisanslı ürünlerini, yeni sezon koleksiyonlarını ve özel tasarımlarını izleyiciyle buluşturuyor.</desc>
+    <title lang="tr">Söz Taraftarda</title>
+    <desc lang="tr">Fenerbahçe'mizin ve Türk Futbolunun gündemini, yapacağımız maçların skorlarını Büyük Fenerbahçe Taraftarına sorduğumuz Söz Taraftarda programı FB TV ekranlarında</desc>
   </programme>
   <programme start="20261009143000 +0300" stop="20261009160000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Basketbol: Kadınlar Süper Ligi</title>
-    <desc lang="tr">Türkiye Basketbol Federasyonu tarafından düzenlenen Türk kadın basketbolunun en üst seviye ligi.</desc>
+    <title lang="tr">FIBA Kadınlar Süper Kupası</title>
+    <desc lang="tr">Avrupa kadın basketbolunun önemli organizasyonlarından Süper Kupa'da, güçlü takımlar kupa için mücadele ediyor. Heyecan dolu anlar sahaya yansıyor.</desc>
   </programme>
   <programme start="20261009160000 +0300" stop="20261009161500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Haber</title>
@@ -13946,41 +13930,57 @@
     <title lang="tr">Tarihte Bugün</title>
     <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
   </programme>
-  <programme start="20261009163000 +0300" stop="20261009180000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Türkiye Sigorta Basketbol Süper Ligi</title>
-    <desc lang="tr">Profesyonel Türk basketbolunun en güçlü sıralaması olan Türkiye Basketbol Süper Ligi, kuşkusuz eski kıtanın en güçlü liglerinden biridir.</desc>
+  <programme start="20261009163000 +0300" stop="20261009164500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Analiz Fenerbahçe</title>
+    <desc lang="tr">Analiz Fenerbahçe, sarı-lacivertli takımın maçlarını ve performansını detaylı biçimde değerlendiriyor.</desc>
   </programme>
-  <programme start="20261009180000 +0300" stop="20261009183000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Sportif</title>
-    <desc lang="tr">Sporun tüm renkleri, öne çıkan mücadeleler ve kritik anlar bu özel içerikte bir araya geliyor; izleyiciye heyecan dolu dakikalar sunuyor.</desc>
+  <programme start="20261009164500 +0300" stop="20261009171500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Kupa'nın Öyküsü</title>
+    <desc lang="tr">Kupaların ardındaki hikâyeler, unutulmaz zaferler ve futbol tarihine damga vuran anlar özel bir bakışla ekrana geliyor.</desc>
   </programme>
-  <programme start="20261009183000 +0300" stop="20261009185500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Yarının Yıldızları</title>
-    <desc lang="tr">Sarı-lacivertli altyapının parlayan genç yetenekleri, sahadaki performansları ve gelecek vaat eden hikâyeleriyle izleyiciyle buluşuyor.</desc>
+  <programme start="20261009171500 +0300" stop="20261009184500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Basketbol: Euroleague</title>
+    <desc lang="tr">EuroLeague, Avrupa'nın en iyi basketbol takımlarını üst düzey rekabetle parkede buluşturuyor.</desc>
+  </programme>
+  <programme start="20261009184500 +0300" stop="20261009185500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Euroleague Yolculuğu</title>
+    <desc lang="tr">Programda röportajlar, oyuncu profillerinin sunumları, özel raporlar analizleri yer alıyor...</desc>
   </programme>
   <programme start="20261009185500 +0300" stop="20261009190700 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Fenerium Saati</title>
-    <desc lang="tr">Fenerium Saati, Fenerbahçe'nin lisanslı ürünlerini, yeni sezon koleksiyonlarını ve özel tasarımlarını izleyiciyle buluşturuyor.</desc>
+    <title lang="tr">Sosyal Medya Günlüğü</title>
+    <desc lang="tr">Fenerbahçe'nin sosyal medya gündemi, taraftar paylaşımları ve dijital platformlarda öne çıkan içerikler ekrana geliyor.</desc>
   </programme>
   <programme start="20261009190700 +0300" stop="20261009193000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Ana Haber</title>
     <desc lang="tr">Ana Haber, gün boyunca yaşanan gelişmeleri doğru ve hızlı biçimde izleyiciye aktarıyor. FB TV ekranlarında sizlerle</desc>
   </programme>
   <programme start="20261009193000 +0300" stop="20261009200000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Sportif</title>
-    <desc lang="tr">Sporun tüm renkleri, öne çıkan mücadeleler ve kritik anlar bu özel içerikte bir araya geliyor; izleyiciye heyecan dolu dakikalar sunuyor.</desc>
+    <title lang="tr">Kanaryalar Soruyor</title>
+    <desc lang="tr">Güncel konuların tartışıldığı, fikirlerin paylaşıldığı ve izleyicinin dahil olduğu bir sohbet programı.</desc>
   </programme>
-  <programme start="20261009200000 +0300" stop="20261009220000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Hazırlık Maçları</title>
-    <desc lang="tr">Sezon öncesi hazırlık maçlarıyla takımlar formda kalıyor; yeni oyuncuların performansı ve taktik denemeler ekranlarda izleyiciyle buluşuyor.</desc>
+  <programme start="20261009200000 +0300" stop="20261009204500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Kalbim Hep Sende</title>
+    <desc lang="tr">Fenerbahçe'ye gönül veren taraftarların sarı-lacivertli renklere duyduğu sevgi, bağlılık ve aidiyet duygusu ön plana çıkarılıyor.</desc>
   </programme>
-  <programme start="20261009220000 +0300" stop="20261009221500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261009204500 +0300" stop="20261009210000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Söz Taraftarda</title>
     <desc lang="tr">Fenerbahçe'mizin ve Türk Futbolunun gündemini, yapacağımız maçların skorlarını Büyük Fenerbahçe Taraftarına sorduğumuz Söz Taraftarda programı FB TV ekranlarında</desc>
   </programme>
-  <programme start="20261009221500 +0300" stop="20261009234500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Basketbol: Euroleague</title>
-    <desc lang="tr">EuroLeague, Avrupa'nın en iyi basketbol takımlarını üst düzey rekabetle parkede buluşturuyor.</desc>
+  <programme start="20261009210000 +0300" stop="20261009220000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Stüdyo Futbol</title>
+    <desc lang="tr">Futbolun gündemi, maçların perde arkası, kritik gelişmeler ve öne çıkan detaylar; tempolu ve anlaşılır bir anlatımla ekrana geliyor.</desc>
+  </programme>
+  <programme start="20261009220000 +0300" stop="20261009230000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Head To Head</title>
+    <desc lang="tr">Futbol uzmanları tarafından dünyanın en iyi futbolcularının sanat ve becerilerini keşfeden ve ortaya çıkaran bir program.</desc>
+  </programme>
+  <programme start="20261009230000 +0300" stop="20261009231500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Analiz Fenerbahçe</title>
+    <desc lang="tr">Analiz Fenerbahçe, sarı-lacivertli takımın maçlarını ve performansını detaylı biçimde değerlendiriyor.</desc>
+  </programme>
+  <programme start="20261009231500 +0300" stop="20261009234500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Rakamlarla Rakipler</title>
+    <desc lang="tr">Rakamlarla Rakipler, takımların istatistiklerle karşılaştırıldığı analizleri ekrana taşıyor..</desc>
   </programme>
   <programme start="20261009234500 +0300" stop="20261010000000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Gece Haberi</title>
@@ -14050,13 +14050,21 @@
     <title lang="tr">Kare</title>
     <desc lang="tr">Merak uyandıran hikâyelerle keşfetme, düşünme ve problem çözme becerileri çocuklara eğlenceli bir dille aktarılıyor.</desc>
   </programme>
-  <programme start="20261009055000 +0300" stop="20261009060500 +0300" channel="a4b49165fe0c4070beaf66819bd56bf3">
+  <programme start="20261009055000 +0300" stop="20261009062700 +0300" channel="a4b49165fe0c4070beaf66819bd56bf3">
     <title lang="tr">Kaptan Pengu Ve Arkadaşları</title>
     <desc lang="tr">Soğuk diyarlarda geçen neşeli maceralarda arkadaşlık, paylaşma ve birlikte hareket etmenin önemi çocuklara eğlenceli bir dille aktarılıyor.</desc>
   </programme>
-  <programme start="20261009060500 +0300" stop="20261009072000 +0300" channel="a4b49165fe0c4070beaf66819bd56bf3">
-    <title lang="tr">İbi</title>
-    <desc lang="tr">Meraklı bir karakterin sorularla dolu dünyasında öğrenme, düşünme ve keşfetme süreci çocuklara eğlenceli bir dille sunuluyor.</desc>
+  <programme start="20261009062700 +0300" stop="20261009063000 +0300" channel="a4b49165fe0c4070beaf66819bd56bf3">
+    <title lang="tr">İstiklal Marşı</title>
+    <desc lang="tr">Türkiye Cumhuriyeti'nin milli marşı İstiklal Marşı, önemli yayın anlarında saygı ve birlik duygusu eşliğinde ekranda yer alıyor.</desc>
+  </programme>
+  <programme start="20261009063000 +0300" stop="20261009065500 +0300" channel="a4b49165fe0c4070beaf66819bd56bf3">
+    <title lang="tr">Eymen İle Çimen</title>
+    <desc lang="tr">Eğlenmeyi ve öğrenmeyi çok seven Eymen ve oyun arkadaşı Çimen'in, odalarından hayal dünyasına uzanan maceralarına sen de katılmak ister misin? Eymen ve Çimen senin kanalın TRT Çocukta…</desc>
+  </programme>
+  <programme start="20261009065500 +0300" stop="20261009072000 +0300" channel="a4b49165fe0c4070beaf66819bd56bf3">
+    <title lang="tr">Ege ile Gaga</title>
+    <desc lang="tr">Gizemlerin peşini bırakmayan bir çocuk ve maceracı bir karga. Doğa dedektifleri işbaşında. Bu meraklı ikilinin heyecan dolu serüvenine katılmaya hazır olun!</desc>
   </programme>
   <programme start="20261009072000 +0300" stop="20261009073000 +0300" channel="a4b49165fe0c4070beaf66819bd56bf3">
     <title lang="tr">El Feneri</title>
