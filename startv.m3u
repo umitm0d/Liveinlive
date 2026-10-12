@@ -3,6 +3,8 @@
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ab60ccad3270c47b7873be4&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Başkalarının Hayatı 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/baska-b246lom.jpg" group-title="STARTV Dizileri",TR: Başkalarının Hayatı 2. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abf8eebd3270c47b7874193&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Başkalarının Hayatı 3. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/bas-push.jpg" group-title="STARTV Dizileri",TR: Başkalarının Hayatı 3. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8a9dc147366462aad1563&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Tuzlu Kahve 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/bugra.jpg" group-title="STARTV Dizileri",TR: Tuzlu Kahve 1. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6a97c234a46e38b3a3925061&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Tuzlu Kahve 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/fd.png" group-title="STARTV Dizileri",TR: Tuzlu Kahve 2. Bölüm
@@ -3463,15 +3465,3 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_58
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_58236&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çilek Kokusu 23. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/58d335214f68a414e5af6b76.jpg" group-title="STARTV Dizileri",TR: Çilek Kokusu 23. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_58387&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Hesaplar 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d02c14864ef1b533e69e7342.jpg" group-title="STARTV Dizileri",TR: Küçük Hesaplar 1. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_36716_p1&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Hesaplar 1. Bölüm 2. Fragmanı" tvg-logo="https://media.startv.com.tr/star-tv/images/5bb202254f0489b96ebcf5ab.jpg" group-title="STARTV Dizileri",TR: Küçük Hesaplar 1. Bölüm 2. Fragmanı
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_36699&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Hesaplar 7. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d5e024cb4eb9a480a64a15ec.jpg" group-title="STARTV Dizileri",TR: Küçük Hesaplar 7. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_37395_p1&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Hesaplar 8. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/375b7fcc448d8cb0cf47bef1.jpg" group-title="STARTV Dizileri",TR: Küçük Hesaplar 8. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_37616_p1&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Hesaplar 9. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/d2a6e43f4e89ae1837b26600.jpg" group-title="STARTV Dizileri",TR: Küçük Hesaplar 9. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_37678_p1&SecretKey=NtvApiSecret2014*&.m3u8
-#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Küçük Hesaplar 10. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/4261c0434fb4ba74c1db0a81.jpg" group-title="STARTV Dizileri",TR: Küçük Hesaplar 10. Bölüm
-https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_37773_p1&SecretKey=NtvApiSecret2014*&.m3u8
