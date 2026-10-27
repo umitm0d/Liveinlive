@@ -278,10 +278,6 @@
     <display-name>Sinema Aile</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570163460-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026030000 +0300" channel="445b116c1f604040a2b9db73d43de7a6">
-    <title lang="tr">Ufaklık</title>
-    <desc lang="tr">Babasını savaştan geri getirebilmek için inancı ve umuduyla mücadele eden küçük Pepper'ın duygusal ve ilham verici hikâyesini anlatan etkileyici bir filmdir.</desc>
-  </programme>
   <programme start="20261026030000 +0300" stop="20261026043000 +0300" channel="445b116c1f604040a2b9db73d43de7a6">
     <title lang="tr">Acemi Kâşifler: Görevimiz Kocaayak</title>
     <desc lang="tr">Genç dedektif Nelly ve araştırmacı Simon, Himalayalar'da Yeti'nin izini sürerken tehlikeli bir maceraya atılır. cesaret, dostluk ve keşif dolu bir aile animasyonu.</desc>
@@ -334,10 +330,6 @@
     <display-name>Sinema 1001</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570158989-logo.png" />
   </channel>
-  <programme start="20261025220000 +0300" stop="20261026001500 +0300" channel="830860341e6d4f03963c45493af3984f">
-    <title lang="tr">Çaylak</title>
-    <desc lang="tr">Kıdemli bir CIA ajanı, yetiştirdiği çaylağı teşkilattaki bir köstebeği deşifre etmekle görevlendirir; ancak casuslar dünyasında hiçbir şey göründüğü gibi değildir.</desc>
-  </programme>
   <programme start="20261026001500 +0300" stop="20261026020000 +0300" channel="830860341e6d4f03963c45493af3984f">
     <title lang="tr">Miles Ahead</title>
     <desc lang="tr">Efsane cazcı Miles Davis'in kayıp kayıtlarını ararken gazeteci Dave Braden'la yaşadığı kaotik macerayı ve Frances Taylor'la ilişkisini anlatan enerjik bir biyografik filmidir.</desc>
@@ -390,10 +382,6 @@
     <display-name>Sinema Komedi</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570160334-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026013000 +0300" channel="ec8039984ba146feb474f6f76611cb97">
-    <title lang="tr">Katil Kim?</title>
-    <desc lang="tr">Bir grup yabancı, gizemli bir cinayet oyunu için bir malikanede buluşur. Ancak oyun kısa sürede gerçeğe dönüşür.</desc>
-  </programme>
   <programme start="20261026013000 +0300" stop="20261026033000 +0300" channel="ec8039984ba146feb474f6f76611cb97">
     <title lang="tr">Sürüsüne Bereket</title>
     <desc lang="tr">Kalabalık Baker ailesi, 12 kişiyle yaygara dolu günlük hayatı ve aile işini yönetirken eğlenceli kaoslar yaşar — kahkaha ve sevgi dolu anlar bir arada!</desc>
@@ -446,10 +434,6 @@
     <display-name>TRT 1</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570087306-logo.png" />
   </channel>
-  <programme start="20261025235500 +0300" stop="20261026011000 +0300" channel="bc3051503c0946e18471352367c823d7">
-    <title lang="tr">3'te 3</title>
-    <desc lang="tr">Türkiye'nin yerli bilgi yarışması "3'TE 3"te tarih, sinema, coğrafya, edebiyat, spor ve fen bilimleri sorularıyla yarışıp kazanabilir, katılmak için www.3te3.tv adresinden başvurabilirsiniz.</desc>
-  </programme>
   <programme start="20261026011000 +0300" stop="20261026035000 +0300" channel="bc3051503c0946e18471352367c823d7">
     <title lang="tr">Taşacak Bu Deniz</title>
     <desc lang="tr">Taşacak Bu Deniz, Karadeniz'in hırçın doğasında, aşk ile nefretin, geçmiş ile kaderin iç içe geçtiği tutkulu bir hikâyeyi anlatıyor.</desc>
@@ -506,10 +490,6 @@
     <display-name>ATV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570088144-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026024000 +0300" channel="f4ca064faede45ca85675c84449a0a01">
-    <title lang="tr">Altı Üstü Istanbul</title>
-    <desc lang="tr">Şehrin kenar mahallelerinde filizlenen büyük hayaller ve zorlu mücadeleler ekrana geliyor. Güç, para ve ihanetin gölgesinde kalan gençlerin dostlukları büyük bir sınavdan geçiyor.</desc>
-  </programme>
   <programme start="20261026024000 +0300" stop="20261026053000 +0300" channel="f4ca064faede45ca85675c84449a0a01">
     <title lang="tr">A.B.İ.</title>
     <desc lang="tr">Ailesinin karanlık geçmişinden kaçarken bambaşka bir hayata adım atan Doğan'ın, yıllar sonra yüzleşmek zorunda kaldığı sırlarla dolu hikâyesini anlatır.</desc>
@@ -550,10 +530,6 @@
     <display-name>Show TV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570088889-logo.png" />
   </channel>
-  <programme start="20261025223000 +0300" stop="20261026001500 +0300" channel="01630810aa214e70a55b1712e1c4d407">
-    <title lang="tr">Denizde Dehşet</title>
-    <desc lang="tr">Meksika'da kafes dalışı yapan iki kardeş, tekneden kopan kafesle denizin dibinde mahsur kalır. Köpek balıkları arasında nefes kesen bir yaşam mücadelesi!</desc>
-  </programme>
   <programme start="20261026001500 +0300" stop="20261026021500 +0300" channel="01630810aa214e70a55b1712e1c4d407">
     <title lang="tr">İntikam Vakti</title>
     <desc lang="tr">Oğlunun ölümünün sorumlularını bulmak için zırhlı araç şirketine giren gizemli H'nin, adalet ve intikam arasındaki mücadelesini anlatır.</desc>
@@ -594,10 +570,6 @@
     <display-name>Kanal D</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570089719-logo.png" />
   </channel>
-  <programme start="20261025200000 +0300" stop="20261026001500 +0300" channel="94c5e9579d5c41dc8fc1b110dc6eb12c">
-    <title lang="tr">Daha 17</title>
-    <desc lang="tr">17 yaşındaki bir grup gencin lise yıllarında yaşadığı dostluklar, ilk aşklar ve hayal kırıklıkları etrafında şekillenen bir dizi.</desc>
-  </programme>
   <programme start="20261026001500 +0300" stop="20261026040000 +0300" channel="94c5e9579d5c41dc8fc1b110dc6eb12c">
     <title lang="tr">Yerli Dizi</title>
     <desc lang="tr">Yerli Dizi dramatik olay örgüsü ve güçlü karakterleriyle izleyiciyi ekran başına bağlıyor. Sırlar, aşk ve entrika her bölümde artıyor.</desc>
@@ -638,10 +610,6 @@
     <display-name>Star</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570090476-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026020000 +0300" channel="54f666cd8d104693bb92381f0f6e91b3">
-    <title lang="tr">Tuzlu Kahve</title>
-    <desc lang="tr">Ailesinin baskısıyla evlenmek isteyen Derin ile Türkiye'ye dönen Mehmet'in yolları kesişir. Gelenekler, sırlar ve sürprizlerle dolu eğlenceli bir aşk hikâyesi başlar.</desc>
-  </programme>
   <programme start="20261026020000 +0300" stop="20261026033000 +0300" channel="54f666cd8d104693bb92381f0f6e91b3">
     <title lang="tr">Başkalarının Hayatı</title>
     <desc lang="tr">Başkalarının yaşamlarına imrenen genç bir kadının hayallerinin peşinden giderken sürüklendiği aşk, hırs ve entrika dolu tehlikeli yolculuk ekrana taşınıyor.</desc>
@@ -694,10 +662,6 @@
     <display-name>Kanal 7</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570091223-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026003000 +0300" channel="efe9ab7341fc4751b8c7fa4b9b719d97">
-    <title lang="tr">Bizim Gız Duygu</title>
-    <desc lang="tr">Anadolu'nun şehirlerini, yöresel lezzetlerini ve kültürel zenginliklerini tanıtan gezi ve yaşam programıdır.</desc>
-  </programme>
   <programme start="20261026003000 +0300" stop="20261026020000 +0300" channel="efe9ab7341fc4751b8c7fa4b9b719d97">
     <title lang="tr">Sana Her Baktığımda</title>
     <desc lang="tr">Festival kazasıyla ayrılan Prem ve Leela yıllar sonra düşman olarak karşılaşır. Sırlar açığa çıkarken nefret aşka dönüşebilecek mi?</desc>
@@ -802,10 +766,6 @@
     <display-name>TV 8</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570085414-logo.png" />
   </channel>
-  <programme start="20261025200000 +0300" stop="20261026001500 +0300" channel="b279d47ac37c46c5974335e402a3044c">
-    <title lang="tr">MasterChef Türkiye</title>
-    <desc lang="tr">Ünlü şefler eşliğinde yetenekli yarışmacılar, MasterChef Türkiye'de birinci olmak için mücadele ediyor.</desc>
-  </programme>
   <programme start="20261026001500 +0300" stop="20261026040000 +0300" channel="b279d47ac37c46c5974335e402a3044c">
     <title lang="tr">Gazete Magazin</title>
     <desc lang="tr">En sıcak magazin haberleri, aşklar, kaçamaklar, açılışlar, davetler, özel röportajlar ve magazin dünyasından en özel haberler bu ekranda.</desc>
@@ -846,10 +806,6 @@
     <display-name>Beyaz Tv</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570092289-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026010000 +0300" channel="dbf9220e69c547dd8e30727d6103b9fd">
-    <title lang="tr">Beyaz Futbol</title>
-    <desc lang="tr">Futbol Gündemi, haftanın maç özetleri, teknik analizler ve futbol dünyasının önemli yorumlarıyla izleyiciyi ekrana bağlıyor.</desc>
-  </programme>
   <programme start="20261026010000 +0300" stop="20261026030000 +0300" channel="dbf9220e69c547dd8e30727d6103b9fd">
     <title lang="tr">İntikam</title>
     <desc lang="tr">Kızını bir terör saldırısında kaybeden restoran sahibi Quan için hayat bir anda değişir. Yetkililerden sonuç alamayınca gerçeği ortaya çıkarmak ve sorumluları bulmak için kendi mücadelesini başlatır.</desc>
@@ -910,10 +866,6 @@
     <display-name>A2</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570093085-logo.png" />
   </channel>
-  <programme start="20261025223000 +0300" stop="20261026010000 +0300" channel="b8b865e42ad748b787bae30725bd45a4">
-    <title lang="tr">Kuruluş Osman</title>
-    <desc lang="tr">Tarih, cesaret ve bağımsızlık mücadelesinin iç içe geçtiği destansı bir yolculukta, büyük idealler uğruna savaş veriliyor.</desc>
-  </programme>
   <programme start="20261026010000 +0300" stop="20261026030000 +0300" channel="b8b865e42ad748b787bae30725bd45a4">
     <title lang="tr">Yahşi Cazibe</title>
     <desc lang="tr">Çalışma izni almak isteyen Cazibe ile borç içindeki Kemal, kâğıt üzerinde evlenmek zorunda kalır. Ancak bu anlaşma, beklenmedik çatışmalar ve duygularla dolu bir süreci başlatır.</desc>
@@ -962,10 +914,6 @@
     <display-name>TV 2</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570094020-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026013000 +0300" channel="b80f446cb9614d6680a4787ec8ed8b11">
-    <title lang="tr">Kanıt</title>
-    <desc lang="tr">Her davada gizem ve ipuçları izleyiciyi ekrana bağlıyor. Kanıt, suçları çözmek için zekâ, cesaret ve dikkat gerektiren sürükleyici bir dizi sunuyor.</desc>
-  </programme>
   <programme start="20261026013000 +0300" stop="20261026024500 +0300" channel="b80f446cb9614d6680a4787ec8ed8b11">
     <title lang="tr">Çok Gezenti</title>
     <desc lang="tr">Magazin dünyasından en sıcak gelişmeler, ünlülerin hayatları ve eğlenceli haberler Çok Gezenti'de izleyiciyle buluşuyor, ekran başında keyifli anlar sunuyor.</desc>
@@ -1026,10 +974,6 @@
     <display-name>360</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570094918-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026011500 +0300" channel="47e7174a3a21426d8afed3ec89f5a057">
-    <title lang="tr">Seksenler</title>
-    <desc lang="tr">Seksenler nostaljik hikayesi ve sıcak aile sahneleriyle izleyiciyi ekrana bağlıyor. Komik ve duygusal anlar her bölümde öne çıkıyor.</desc>
-  </programme>
   <programme start="20261026011500 +0300" stop="20261026014500 +0300" channel="47e7174a3a21426d8afed3ec89f5a057">
     <title lang="tr">Yeniden Mümkün</title>
     <desc lang="tr">Değişimin mümkün olduğunu gösteren ilham verici hikâyeler, yeni başlangıçlar ve umut veren yaşam deneyimleri ekrana geliyor.</desc>
@@ -1106,10 +1050,6 @@
     <display-name>TLC</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570095657-logo.png" />
   </channel>
-  <programme start="20261025235000 +0300" stop="20261026005000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
-    <title lang="tr">Bir Katilin Alametleri</title>
-    <desc lang="tr">Dedektifler, ortadan kaybolan bir kadının manipülatif kocasının soğukkanlı bir psikopat olduğunu ortaya çıkarır.</desc>
-  </programme>
   <programme start="20261026005000 +0300" stop="20261026012000 +0300" channel="8790ce92a7ff4982a0cf8ef2e84e4e04">
     <title lang="tr">Bir Katilin Alametleri</title>
     <desc lang="tr">Genç bir kız kaybolur. Dedektifler, en yakın arkadaşlarından birinin zengin olma umuduyla onu öldürdüğünü ortaya çıkarır.</desc>
@@ -1254,10 +1194,6 @@
     <display-name>DMAX</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570096426-logo.png" />
   </channel>
-  <programme start="20261025222500 +0300" stop="20261026012000 +0300" channel="81b2fac99eaf4957bae9624de388e2f8">
-    <title lang="tr">Spectre</title>
-    <desc lang="tr">Geçmişinden gelen gizemli bir mesajın izini süren James Bond, lideriyle arasında kişisel bir bağ bulunan küresel ve karanlık bir suç örgütü olan Spectre'yi ifşa etmek için harekete geçer.</desc>
-  </programme>
   <programme start="20261026012000 +0300" stop="20261026021000 +0300" channel="81b2fac99eaf4957bae9624de388e2f8">
     <title lang="tr">Büyük Kedi Hikayeleri</title>
     <desc lang="tr">Chongo, bufaloları sürünğn geri kalanıyla paylaşmaya isteksizdir ve Fig, yavruya hayati dersler vermeye devam ederken bir çita ile bir sırtlan çarpışır.</desc>
@@ -1474,10 +1410,6 @@
     <display-name>TV 100</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570098175-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026010000 +0300" channel="2c6af070ae0041d5a8162318213db8f9">
-    <title lang="tr">Mesut Yar İle İki Arada</title>
-    <desc lang="tr">Mesut Yar ve Ozan Zeybek Her Hafta Değerli Konuklarını tv100'de Ağırlıyor…</desc>
-  </programme>
   <programme start="20261026010000 +0300" stop="20261026040000 +0300" channel="2c6af070ae0041d5a8162318213db8f9">
     <title lang="tr">Başak Şengül Ile Doğru Yorum</title>
     <desc lang="tr">Güncel konuları doğru ve tarafsız analizlerle ekranlara taşıyor, izleyiciye güvenilir bilgi sunuyor.</desc>
@@ -1702,10 +1634,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>GZT</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570100310-logo.png" />
   </channel>
-  <programme start="20261025233100 +0300" stop="20261026000900 +0300" channel="5ee3136199da452092a804a0ef605d7c">
-    <title lang="tr">Muratca</title>
-    <desc lang="tr">Günlük hayata dair konuları sıcak bir dille ele alan bu program, samimi sohbetleri ve içten anlatımıyla izleyiciye keyifli anlar yaşatır.</desc>
-  </programme>
   <programme start="20261026000900 +0300" stop="20261026002700 +0300" channel="5ee3136199da452092a804a0ef605d7c">
     <title lang="tr">Ev Taşıyan Tırlar</title>
     <desc lang="tr">Ev taşıma süreçlerini, lojistik operasyonları ve nakliye sektörünün zorluklarını konu alan belgesel seri.</desc>
@@ -1898,10 +1826,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Tv 8,5</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570115496-logo.png" />
   </channel>
-  <programme start="20261025214500 +0300" stop="20261026001500 +0300" channel="9c2c7e9fef0841fb91d70d31e13418ad">
-    <title lang="tr">Beraber yaşayalım</title>
-    <desc lang="tr">Amerikan İç Savaşı sırasında Birdwell ailesi, inançları ile sevdiklerini koruma sorumluluğu arasında kalır.</desc>
-  </programme>
   <programme start="20261026001500 +0300" stop="20261026031500 +0300" channel="9c2c7e9fef0841fb91d70d31e13418ad">
     <title lang="tr">Bizimkiler</title>
     <desc lang="tr">Bizimkiler, apartman yaşamını ve komşuluk ilişkilerini mizahi bir dille anlatır.</desc>
@@ -1954,10 +1878,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Cosmo EN</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570335649-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026003000 +0300" channel="38e127e59d24440cb7a3d76e2e3ce1af">
-    <title lang="tr">Sessiz Tanık</title>
-    <desc lang="tr">Nikki, David Cannon hakkındaki şüpheleri, arabasının bagajında kan bulmasıyla daha da artar.</desc>
-  </programme>
   <programme start="20261026003000 +0300" stop="20261026013000 +0300" channel="38e127e59d24440cb7a3d76e2e3ce1af">
     <title lang="tr">Karındeşen Sokağı</title>
     <desc lang="tr">Ekibi kopma noktasına gelen Reid, Rose'un kaçırılması soruşturmasını üstlenirken gittikçe artan bir obsesyon yaşamaya başlar.</desc>
@@ -2446,10 +2366,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TYT Türk</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570218890-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026013000 +0300" channel="682e9b090a3943fdb158fa451458d086">
-    <title lang="tr">Yabancı Sinema</title>
-    <desc lang="tr">Farklı ülkelerden seçilmiş etkileyici ve sürükleyici hikâyeleri izleyicilerle buluşturuyor.</desc>
-  </programme>
   <programme start="20261026013000 +0300" stop="20261026023000 +0300" channel="682e9b090a3943fdb158fa451458d086">
     <title lang="tr">Meltem Gürsoy ile TYT Hafta Sonu Ana Haber</title>
     <desc lang="tr">Meltem Gürsoy'un sunumuyla Türkiye ve dünya gündeminden en sıcak başlıklar, doğru ve tarafsız yorumlarla izleyiciyle buluşuyor.</desc>
@@ -2606,10 +2522,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TV 4</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570114630-logo.png" />
   </channel>
-  <programme start="20261025234500 +0300" stop="20261026013000 +0300" channel="93ebd4fbb6f0419d946e506aa9b356ae">
-    <title lang="tr">Davetsiz Misafir</title>
-    <desc lang="tr">Komedi ve sürpriz dolu film, Zeki Alasya yönetiminde ve başrolünde Zeki Alasya'ın eğlenceli performansıyla beklenmedik misafirleri ekrana taşıyor.</desc>
-  </programme>
   <programme start="20261026013000 +0300" stop="20261026030000 +0300" channel="93ebd4fbb6f0419d946e506aa9b356ae">
     <title lang="tr">Benim Yemeğim</title>
     <desc lang="tr">Benim Yemeğim, mutfakta hünerlerini sergileyen yarışmacıların en lezzetli yemekleri hazırlamak için yarıştığı keyifli bir programdır.</desc>
@@ -2722,10 +2634,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT 2</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570101286-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026003000 +0300" channel="81efd91e3992450283928170da32003f">
-    <title lang="tr">Kahraman şerif</title>
-    <desc lang="tr">Öfkeli bir kasaba halkına karşı adaleti tek başına savunmaya çalışan bir federal şerifin hikayesi...</desc>
-  </programme>
   <programme start="20261026003000 +0300" stop="20261026020000 +0300" channel="81efd91e3992450283928170da32003f">
     <title lang="tr">Çocuklar</title>
     <desc lang="tr">Bosna Savaşı'nın ardından yetim kalan iki kardeşin hayatta kalma mücadelesi...</desc>
@@ -2874,10 +2782,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT GENÇ</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570210861-logo.png" />
   </channel>
-  <programme start="20261025234000 +0300" stop="20261026001000 +0300" channel="3cd1de84f3094055b60feb837b805a88">
-    <title lang="tr">Kafanı Takma</title>
-    <desc lang="tr">Hayatta her şey hallolur!Bu bölümde, gençlerin hayatında arkadaşlıkların yeri ve önemini konuşuyoruz. Kafanı takma! Hayatın zorluklarını birlikte aşmak için çözümlerle dolu bir yolculuğa çıkıyoruz.</desc>
-  </programme>
   <programme start="20261026051500 +0300" stop="20261026053500 +0300" channel="3cd1de84f3094055b60feb837b805a88">
     <title lang="tr">Yırtıcının İzinde</title>
     <desc lang="tr">Yırtıcının İzinde, doğanın en etkileyici yırtıcı canlılarının avlanma ve hayatta kalma stratejilerini gerçek görüntüler ve bilimsel bakışla ele alan belgesel programdır.</desc>
@@ -3274,10 +3178,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>A Haber</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570110196-logo.png" />
   </channel>
-  <programme start="20261025235000 +0300" stop="20261026020000 +0300" channel="7ff39b3f1daf40839eb084b210f621e8">
-    <title lang="tr">Gece Ajansı</title>
-    <desc lang="tr">Günün öne çıkan gelişmelerini, son dakika haberlerini ve dikkat çeken başlıkları izleyiciye hızlı ve kapsamlı şekilde aktaran güçlü bir haber programı.</desc>
-  </programme>
   <programme start="20261026020000 +0300" stop="20261026030000 +0300" channel="7ff39b3f1daf40839eb084b210f621e8">
     <title lang="tr">A Haber Gece</title>
     <desc lang="tr">A Haber Gece gece saatlerinde Türkiye ve dünyada gün boyunca yaşanan önemli gelişmeleri toparlayarak izleyiciye net ve çarpıcı haber başlıklarıyla aktarıyor.</desc>
@@ -3694,10 +3594,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>CNN Türk</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570113139-logo.png" />
   </channel>
-  <programme start="20261025204500 +0300" stop="20261026010000 +0300" channel="58151a85298540fbba34060a8299982f">
-    <title lang="tr">Ne Oluyor?</title>
-    <desc lang="tr">Ne Oluyor?, günün öne çıkan gelişmelerini hızlı, net ve anlaşılır biçimde aktaran; izleyicinin gündemi anında kavramasını sağlayan dinamik bir haber programıdır.</desc>
-  </programme>
   <programme start="20261026010000 +0300" stop="20261026021500 +0300" channel="58151a85298540fbba34060a8299982f">
     <title lang="tr">Gece Haberleri</title>
     <desc lang="tr">Gece Haberleri, CNN Türk'te gece saatlerinde Türkiye ve dünyada gün boyunca yaşanan önemli haberleri kapsamlı bir şekilde toparlayarak izleyiciye net ve çarpıcı başlıklarla aktarıyor.</desc>
@@ -3738,10 +3634,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>24</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570118622-logo.png" />
   </channel>
-  <programme start="20261025231500 +0300" stop="20261026010000 +0300" channel="5537fc709abd42dfa325fdf17a9bd2a4">
-    <title lang="tr">Arafta Sorular</title>
-    <desc lang="tr">Arafta Sorular, gündemin yüzeyinde kalmayan, insanı düşünmeye davet eden bir info-magazine programıdır. Cevaplardan çok soruların peşine düşer, izleyiciyi kendi arafında düşünmeye çağırır.</desc>
-  </programme>
   <programme start="20261026010000 +0300" stop="20261026023000 +0300" channel="5537fc709abd42dfa325fdf17a9bd2a4">
     <title lang="tr">Küresel Oyun</title>
     <desc lang="tr">Küresel Oyun, dünya gündemindeki önemli gelişmeleri izleyiciye anlaşılır ve eğlenceli bir şekilde aktaran info-magazine programıdır.</desc>
@@ -3946,10 +3838,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>HABERTÜRK TV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570107871-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026011500 +0300" channel="dc20b35eae4c47349afcc17dc58e3a71">
-    <title lang="tr">Haber Bülteni</title>
-    <desc lang="tr">Habertürk Haber Bülteni, günün en önemli gelişmelerini tarafsız, hızlı ve güvenilir bir anlayışla ekrana taşır.</desc>
-  </programme>
   <programme start="20261026011500 +0300" stop="20261026030000 +0300" channel="dc20b35eae4c47349afcc17dc58e3a71">
     <title lang="tr">Karşıt Görüş</title>
     <desc lang="tr">Gündemin öne çıkan konuları, farklı görüşler ve dikkat çeken değerlendirmelerle olaylara çok yönlü bir bakış sunuluyor.</desc>
@@ -4030,10 +3918,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Bloomberg HT</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570172173-logo.png" />
   </channel>
-  <programme start="20261025232000 +0300" stop="20261026002000 +0300" channel="52b841c272d74e549c169d087200e737">
-    <title lang="tr">İşin Zirvesinde</title>
-    <desc lang="tr">İş dünyasının nabzını tutan, ekonomi, girişimcilik ve sektörlerin geleceğine ışık tutan özel içerikler.</desc>
-  </programme>
   <programme start="20261026002000 +0300" stop="20261026010000 +0300" channel="52b841c272d74e549c169d087200e737">
     <title lang="tr">Macerasever</title>
     <desc lang="tr">Macerasever, keşif ve adrenalin dolu yolculukları izleyiciye sunuyor. Doğa ve sıra dışı deneyimler ekrana taşınıyor.</desc>
@@ -4162,10 +4046,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Ülke TV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1781192206388-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026010000 +0300" channel="a0fe6ca3367f49f08d513a52ca306be3">
-    <title lang="tr">Haftanın Raporu</title>
-    <desc lang="tr">Türkiye'de ve dünyada son bir hafta içerisinde yaşanan siyasal, ekonomik ve sosyal olayların masaya yatırıldığı Haftanın Raporu her pazar Ülke TV'de.</desc>
-  </programme>
   <programme start="20261026010000 +0300" stop="20261026020000 +0300" channel="a0fe6ca3367f49f08d513a52ca306be3">
     <title lang="tr">Ülkede Bu Gece</title>
     <desc lang="tr">Ülke'de Bu Gece, Türkiye ve dünyadaki sıcak gelişmeleri, siyaset, ekonomi ve sağlık başlıklarını doğru ve tarafsız şekilde izleyiciye aktarıyor.</desc>
@@ -4390,10 +4270,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Akit</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570120184-logo.png" />
   </channel>
-  <programme start="20261025223000 +0300" stop="20261026070000 +0300" channel="da648d69bdfc44ccacd65e4353facec1">
-    <title lang="tr">Orta Saha</title>
-    <desc lang="tr">Futbolun kalbi orta sahada atıyor! Orta saha oyuncularının yetenekleri ve maç içi kritik hamleler ekrana geliyor.</desc>
-  </programme>
   <programme start="20261026070000 +0300" stop="20261026103000 +0300" channel="da648d69bdfc44ccacd65e4353facec1">
     <title lang="tr">Gün Başlıyor</title>
     <desc lang="tr">Güne güncel ve enerjik bir başlangıç sunan programda günün öne çıkan haberleri aktarılır.</desc>
@@ -4450,10 +4326,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Brt 1</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570139747-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026070000 +0300" channel="9d1a90d0dbae4278beffed9299f4f4ae">
-    <title lang="tr">Sahne Arkadaşım</title>
-    <desc lang="tr">Sahne Arkadaşım, sanatçıların sahne yaşamını ve sanat yolculuklarını izleyiciyle buluşturur.</desc>
-  </programme>
   <programme start="20261026070000 +0300" stop="20261026084000 +0300" channel="9d1a90d0dbae4278beffed9299f4f4ae">
     <title lang="tr">Sabah Haber</title>
     <desc lang="tr">Güne dair öne çıkan gelişmeler, ekonomi, siyaset ve toplumsal başlıklar sade bir anlatımla izleyiciye aktarılıyor güvenilir biçimde.</desc>
@@ -4566,10 +4438,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT Türk</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570122830-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026003000 +0300" channel="cec39de857b342d08166923153d0abef">
-    <title lang="tr">Gönlümdeki Köln</title>
-    <desc lang="tr">Köln'ün sokaklarında geçen hayatlar, iki ülke arasında sıkışan kalpler, aşk acıları, aile mücadeleleri, kültürel çatışmalar detaylıca işleniyor.</desc>
-  </programme>
   <programme start="20261026003000 +0300" stop="20261026010000 +0300" channel="cec39de857b342d08166923153d0abef">
     <title lang="tr">Arabam Yerli</title>
     <desc lang="tr">Otomobil dünyasından gündelik yaşama uzanan sohbetler, farklı bakış açıları ve keyifli konuklarla samimi bir ortamda buluşuyor.</desc>
@@ -4706,10 +4574,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT Avaz</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570125870-logo.png" />
   </channel>
-  <programme start="20261025234500 +0300" stop="20261026003000 +0300" channel="599dc6f96550459d97dae532247e7323">
-    <title lang="tr">Sence Bilir Mi?</title>
-    <desc lang="tr">İzleyicinin kendisini gözden geçirme, bildiklerini sınama, bilmediklerini öğrenme imkanı sağlayan hafta içi beş gün izleyicisine keyifli, öğretici, eğlenceli bir deneyim sunan yarışma programıdır.</desc>
-  </programme>
   <programme start="20261026003000 +0300" stop="20261026010000 +0300" channel="599dc6f96550459d97dae532247e7323">
     <title lang="tr">Avaz Gündem</title>
     <desc lang="tr">Hedef Coğrafyamız ağırlıklı haber bülteni programı</desc>
@@ -5046,10 +4910,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT Kurdî</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570125045-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026013000 +0300" channel="90483f5565d245648782df1935075a85">
-    <title lang="tr">Dilden Gönüle (Hevdeng)</title>
-    <desc lang="tr">Zengin bir orkestra, güzel sanatçılar ve en güzel şarkılar. Hepsi bu programda mevcut.</desc>
-  </programme>
   <programme start="20261026013000 +0300" stop="20261026023000 +0300" channel="90483f5565d245648782df1935075a85">
     <title lang="tr">Gezelim Görelim</title>
     <desc lang="tr">Yeni yerler, farklı kültürler ve keşfedilmeyi bekleyen güzelliklerle dolu keyifli bir gezi yolculuğuna çıkın.</desc>
@@ -5158,10 +5018,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Haber Global</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570145113-logo.png" />
   </channel>
-  <programme start="20261025200000 +0300" stop="20261026020000 +0300" channel="ef546f6ba4004656a26cb0a76e6f7cb5">
-    <title lang="tr">Müzakere</title>
-    <desc lang="tr">Türkiye ve dünyadaki gündem başlıkları, Ankara kulisleri ve farklı görüşler uzman konuklarla Müzakere programında tartışılıyor.</desc>
-  </programme>
   <programme start="20261026020000 +0300" stop="20261026060000 +0300" channel="ef546f6ba4004656a26cb0a76e6f7cb5">
     <title lang="tr">Haber Bülteni</title>
     <desc lang="tr">Gece kuşağında Türkiye ve dünyada yaşanan önemli gelişmeler derlenerek izleyiciye sade ve anlaşılır bir dille aktarılıyor.</desc>
@@ -5214,10 +5070,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Ekol TV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570117968-logo.png" />
   </channel>
-  <programme start="20261025220000 +0300" stop="20261026060000 +0300" channel="3671bbe097434b7d93bf165f99123e2e">
-    <title lang="tr">Ekol Tv</title>
-    <desc lang="tr">EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır.</desc>
-  </programme>
   <programme start="20261026060000 +0300" stop="20261026100000 +0300" channel="3671bbe097434b7d93bf165f99123e2e">
     <title lang="tr">Ekol Tv</title>
     <desc lang="tr">EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır.</desc>
@@ -5242,10 +5094,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>KRT TV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1789457541548-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026003000 +0300" channel="558a4d1181684fc98e43e75eb782d997">
-    <title lang="tr">Krt Ana Haber</title>
-    <desc lang="tr">Günün en önemli gelişmeleri, son dakika haberleri ve gündemin öne çıkan başlıkları ana haber bülteninde ekrana geliyor.</desc>
-  </programme>
   <programme start="20261026003000 +0300" stop="20261026033000 +0300" channel="558a4d1181684fc98e43e75eb782d997">
     <title lang="tr">Eksen</title>
     <desc lang="tr">Gündemin öne çıkan başlıkları, güncel gelişmeler ve toplumu ilgilendiren konular farklı yönleriyle değerlendiriliyor.</desc>
@@ -5514,10 +5362,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>a Para</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570119360-logo.png" />
   </channel>
-  <programme start="20261025231500 +0300" stop="20261026012500 +0300" channel="1f52e6c074444037a1d37c7bf999983c">
-    <title lang="tr">İnsan Hali</title>
-    <desc lang="tr">İnsan Hali, günlük yaşamdan insan hikâyelerini, duyguları ve toplumsal konuları sade bir anlatımla ekrana taşıyan magazin programıdır.</desc>
-  </programme>
   <programme start="20261026012500 +0300" stop="20261026023000 +0300" channel="1f52e6c074444037a1d37c7bf999983c">
     <title lang="tr">Sır Küpü</title>
     <desc lang="tr">Sır Küpü, gündemin öne çıkan başlıklarını, ilgi çekici konuları ve merak uyandıran detayları ekranlara taşıyan bir magazin programıdır.</desc>
@@ -6478,10 +6322,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>As Tv</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570183703-logo.png" />
   </channel>
-  <programme start="20261025220000 +0300" stop="20261026060000 +0300" channel="3287584afde84452bbbb3ddc122737c3">
-    <title lang="tr">AS TV</title>
-    <desc lang="tr">"Hayatın içinden, sizin için, sizinle birlikte"</desc>
-  </programme>
   <programme start="20261026060000 +0300" stop="20261026100000 +0300" channel="3287584afde84452bbbb3ddc122737c3">
     <title lang="tr">AS TV</title>
     <desc lang="tr">"Hayatın içinden, sizin için, sizinle birlikte"</desc>
@@ -9742,10 +9582,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT Belgesel</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570104255-logo.png" />
   </channel>
-  <programme start="20261025232000 +0300" stop="20261026001000 +0300" channel="01bc70f573d748bebc0b4e6ddfbea410">
-    <title lang="tr">Efsaneler Diyarı</title>
-    <desc lang="tr">Efsaneler Diyarı'nda dünyanın dört bir yanından gelen mitler ve efsaneler inceleniyor tanrılar kahramanlar yaratıklar ve gizemli olaylar gün ışığına çıkıyor.</desc>
-  </programme>
   <programme start="20261026001000 +0300" stop="20261026004000 +0300" channel="01bc70f573d748bebc0b4e6ddfbea410">
     <title lang="tr">Hasat Vakti</title>
     <desc lang="tr">Farklı bölgelerde gerçekleştirilen hasat süreçleri, çiftçilerin emekleri ve tarımsal gelenekler belgesel anlatımıyla izleyiciye aktarılıyor.</desc>
@@ -10014,10 +9850,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>National Geographic Wild</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570141235-logo.png" />
   </channel>
-  <programme start="20261025234500 +0300" stop="20261026003500 +0300" channel="8574f4d4b3424e4dad7f3d0cda7681cc">
-    <title lang="tr">Yetenekli Dr. Pol</title>
-    <desc lang="tr">Kırsal Michigan'da binlerce hayvanı tedavi eden deneyimli veteriner Dr. Pol ve ekibinin yoğun ve sürprizlerle dolu mesaisi.</desc>
-  </programme>
   <programme start="20261026003500 +0300" stop="20261026012500 +0300" channel="8574f4d4b3424e4dad7f3d0cda7681cc">
     <title lang="tr">Yetenekli Dr. Pol</title>
     <desc lang="tr">Kırsal Michigan'da binlerce hayvanı tedavi eden deneyimli veteriner Dr. Pol ve ekibinin yoğun ve sürprizlerle dolu mesaisi.</desc>
@@ -10138,10 +9970,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Discovery Channel</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570164844-logo.png" />
   </channel>
-  <programme start="20261025235800 +0300" stop="20261026002000 +0300" channel="0537dc3fcf08420e8afab6a057dbf7a4">
-    <title lang="tr">Gümrük Kontrol: İspanya</title>
-    <desc lang="tr">Bu programda kaçakçılığın engellenmesi amacıyla gümrük kontrol ekiplerinin verdiği mücadeleleri izliyoruz.</desc>
-  </programme>
   <programme start="20261026002000 +0300" stop="20261026015000 +0300" channel="0537dc3fcf08420e8afab6a057dbf7a4">
     <title lang="tr">Altın Peşinde: Alaska</title>
     <desc lang="tr">Rick, sezonun son altınını Vegas Valley'de çıkarır. Parker, kış bastırmadan hedefini tutturmak için yeni bir kazıya girişir.</desc>
@@ -10394,10 +10222,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Viasat Explore</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1779307458757-logo.png" />
   </channel>
-  <programme start="20261025234500 +0300" stop="20261026003000 +0300" channel="e458cf00140242a797b3d24b3aa80fe8">
-    <title lang="tr">Ölü Adamın Laneti: Kayıp İspanyol Altını</title>
-    <desc lang="tr">Walter Jackson'ın altın haritasına ait olabilecek bir çizim ekibi yeniden Pitt'e yönlendirir. Tekrar tekrar beliren bir imge Slumach efsanesine dair yeni bir teoriye işaret eder.</desc>
-  </programme>
   <programme start="20261026003000 +0300" stop="20261026011500 +0300" channel="e458cf00140242a797b3d24b3aa80fe8">
     <title lang="tr">Ölü Adamın Laneti: Kayıp İspanyol Altını</title>
     <desc lang="tr">Pitt Gölü'ndeki altın arayışının gizli hikâyesi Slumach'ın altınını arayan İspanyollara işaret eder.</desc>
@@ -10674,10 +10498,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Az TV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570122204-logo.png" />
   </channel>
-  <programme start="20261025190000 +0300" stop="20261026020000 +0300" channel="d087405fb0cb4ea0bf423c255e7f97b2">
-    <title lang="tr">Sultan Həsən Bahadur</title>
-    <desc lang="tr">Explore captivating stories, unforgettable moments, and powerful emotions brought to life through film and television.</desc>
-  </programme>
   <programme start="20261026020000 +0300" stop="20261026070000 +0300" channel="d087405fb0cb4ea0bf423c255e7f97b2">
     <title lang="tr">Week</title>
     <desc lang="tr">Week is a weekly current affairs program reviewing key political, social and economic developments that shaped events over the past days.</desc>
@@ -10842,10 +10662,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Tv 5 Monde Europe</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570173173-logo.png" />
   </channel>
-  <programme start="20261025225900 +0300" stop="20261026002200 +0300" channel="d9b0e1af7e044007858dcebb082aeaa2">
-    <title lang="tr">Une famille</title>
-    <desc lang="tr">De passage à Strasbourg, où elle avait été violée par son père pour la première fois, l'écrivaine Christine Angot décide de rendre visite à la famille de ce dernier.</desc>
-  </programme>
   <programme start="20261026002200 +0300" stop="20261026013900 +0300" channel="d9b0e1af7e044007858dcebb082aeaa2">
     <title lang="tr">La reine Soleil</title>
     <desc lang="tr">En Egypte, la fille du pharaon Akhenaton se rebelle contre son père car elle refuse de vivre confinée dans le palais royal. Elle décide de s'évader.</desc>
@@ -11242,10 +11058,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Saudi Tv</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570200170-logo.png" />
   </channel>
-  <programme start="20261025220000 +0300" stop="20261026060000 +0300" channel="6fba7546122a48f69906d2db5e7fbf92">
-    <title lang="tr">Saudi TV</title>
-    <desc lang="tr">Saudi TV offers news, culture, sports and entertainment from state‑run channels that reflect life, traditions and regional stories across the Kingdom.</desc>
-  </programme>
   <programme start="20261026060000 +0300" stop="20261026100000 +0300" channel="6fba7546122a48f69906d2db5e7fbf92">
     <title lang="tr">Saudi TV</title>
     <desc lang="tr">Saudi TV offers news, culture, sports and entertainment from state‑run channels that reflect life, traditions and regional stories across the Kingdom.</desc>
@@ -11602,10 +11414,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Planeta RTR</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570201449-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026014000 +0300" channel="86c69ecc91bc422d80c8b3d58a24ebe2">
-    <title lang="tr">Sunday evening with Vladimir Solovyov</title>
-    <desc lang="tr">A prime-time political talk show hosted by Vladimir Solovyov, featuring debates, interviews, and analysis of Russian and global affairs.</desc>
-  </programme>
   <programme start="20261026014000 +0300" stop="20261026025500 +0300" channel="86c69ecc91bc422d80c8b3d58a24ebe2">
     <title lang="tr">Stories from Russian history</title>
     <desc lang="tr">An engaging journey through pivotal events, remarkable figures, and defining moments that shaped a nation's rich historical legacy.</desc>
@@ -12334,10 +12142,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Freedom</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570202158-logo.png" />
   </channel>
-  <programme start="20261025234000 +0300" stop="20261026004000 +0300" channel="6484b8d7399548f4af333511103a86d3">
-    <title lang="tr">Form of Fire</title>
-    <desc lang="tr">The film tells about the first days after the liberation of the city from the invaders, focusing on the work of rescuers, who in conditions of chaos and danger became the main hope for local residents. In addition to the hard daily work of clearing th....</desc>
-  </programme>
   <programme start="20261026004000 +0300" stop="20261026015000 +0300" channel="6484b8d7399548f4af333511103a86d3">
     <title lang="tr">News reports</title>
     <desc lang="tr">News Reports delivers key stories with clear and impartial coverage. Politics, business, and world news are brought together in one trusted daily update.</desc>
@@ -12722,10 +12526,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>A Spor</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570111151-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026020000 +0300" channel="f7d370cb19a842b88ac220e17e964b9a">
-    <title lang="tr">Son Sayfa</title>
-    <desc lang="tr">Son dakika spor haberleri, transfer haberleri, puan durumu, fikstür, canlı skor hepsi bu programda.</desc>
-  </programme>
   <programme start="20261026020000 +0300" stop="20261026040000 +0300" channel="f7d370cb19a842b88ac220e17e964b9a">
     <title lang="tr">Takım Oyunu</title>
     <desc lang="tr">Son dakika spor haberleri, transfer haberleri, puan durumu, fikstür, canlı skor hepsi bu programda.</desc>
@@ -12790,10 +12590,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Eurosport 1</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570202985-logo.png" />
   </channel>
-  <programme start="20261025220000 +0300" stop="20261026010000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
-    <title lang="tr">Snooker: Kuzey İrlanda Açık</title>
-    <desc lang="tr">Kuzey İrlanda Açık'ta dünyanın önde gelen snooker oyuncuları, Alex Higgins Kupası için kıyasıya mücadele ediyor.</desc>
-  </programme>
   <programme start="20261026010000 +0300" stop="20261026013000 +0300" channel="9bc691e193e0495fa6b6421385b81c72">
     <title lang="tr">Alp Disiplini</title>
     <desc lang="tr">Courchevel'de düzenlenen Erkekler Super-G yarışında nefes kesen anlar ekrana geliyor. Pistteki mücadele ve hızlı inişler izleyiciyi ekrana kilitliyor.</desc>
@@ -13358,10 +13154,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT Spor Yıldız</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570123542-logo.png" />
   </channel>
-  <programme start="20261025221500 +0300" stop="20261026001500 +0300" channel="6e79e022db3a4e0ca3735f5fd9e1f708">
-    <title lang="tr">Voleybol: Efeler Ligi</title>
-    <desc lang="tr">Türkiye'nin en iyileri sahada! Efeler Ligi'nde zirve mücadelesi, büyük çekişme ve nefes kesen setler voleybol tutkunlarını bekliyor.</desc>
-  </programme>
   <programme start="20261026001500 +0300" stop="20261026003000 +0300" channel="6e79e022db3a4e0ca3735f5fd9e1f708">
     <title lang="tr">Özel Dosya</title>
     <desc lang="tr">Özel Dosya, spor dünyasının belirli etkinlik, konu ve gelişim alanlarına odaklanan özel içeriklerin derlendiği, seçilmiş başlıkların aktarıldığı program kuşağıdır.</desc>
@@ -13746,10 +13538,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT Çocuk</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570105118-logo.png" />
   </channel>
-  <programme start="20261025235000 +0300" stop="20261026001500 +0300" channel="a4b49165fe0c4070beaf66819bd56bf3">
-    <title lang="tr">Sagun</title>
-    <desc lang="tr">Sagun, Umay, Ateş ve Ayaz Amca ile tanışmaya hazır mısınız? Ailesini arayan Sagun, bir yandan zorluklarla mücadele ederken bir yandan da arkadaşlarıyla maceradan maceraya atılıyor.</desc>
-  </programme>
   <programme start="20261026001500 +0300" stop="20261026003500 +0300" channel="a4b49165fe0c4070beaf66819bd56bf3">
     <title lang="tr">Maysa ve Bulut</title>
     <desc lang="tr">Maysa ve Bulut'un gözünden obada yaşayan beş ailenin kültürünü, masallarını, yaşantılarını, geleneklerini öğrenirken, oyunlar, türküler ve hikayelerle keyifli vakit geçiriyoruz.</desc>
@@ -15042,10 +14830,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>BabyTV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570153127-logo.png" />
   </channel>
-  <programme start="20261025235800 +0300" stop="20261026000300 +0300" channel="d5863ac2b29943238a454dbf6b1d8e51">
-    <title lang="tr">Sevimliler</title>
-    <desc lang="tr">Sevimli dostlar, renkli dünyalarında oyunlar oynar, keşfeder ve arkadaşlıkla dolu güzel anılar biriktirir.</desc>
-  </programme>
   <programme start="20261026000300 +0300" stop="20261026000700 +0300" channel="d5863ac2b29943238a454dbf6b1d8e51">
     <title lang="tr">Gözlerini Kapat</title>
     <desc lang="tr">Gözlerini kapat, arkana yaslan ve rahatla. Yatağa gitme vakti.</desc>
@@ -16366,10 +16150,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Disney Junior</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570147251-logo.png" />
   </channel>
-  <programme start="20261025234900 +0300" stop="20261026001300 +0300" channel="eb7052dca7c04a71b65730c943ee816a">
-    <title lang="tr">Mickey'nin Kulüp Evi+</title>
-    <desc lang="tr">Mickey ve arkadaşları Donald'ın kayıp oyuncak aslanını arar.</desc>
-  </programme>
   <programme start="20261026001300 +0300" stop="20261026003600 +0300" channel="eb7052dca7c04a71b65730c943ee816a">
     <title lang="tr">Süper Kediler</title>
     <desc lang="tr">Laboratuvar Faresi sıçanları dışarı atar. Ja-Ja bir sprey kullanır.</desc>
@@ -16774,10 +16554,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Cartoon Network</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570184411-logo.png" />
   </channel>
-  <programme start="20261025235500 +0300" stop="20261026001000 +0300" channel="6a3806b2092a4208a3810b59b16c66c2">
-    <title lang="tr">Adventure Time: Yan Görevler</title>
-    <desc lang="tr">Finn ve köpeği Jake'in kardeşlik bağlarının ilk günlerine uzanan bu macerada, ikili birlikte destansı görevlere atılıyor ve yol boyunca tanıdık dostlarla vakit geçiriyorlar.</desc>
-  </programme>
   <programme start="20261026001000 +0300" stop="20261026002000 +0300" channel="6a3806b2092a4208a3810b59b16c66c2">
     <title lang="tr">Adventure Time: Yan Görevler</title>
     <desc lang="tr">Finn ve köpeği Jake'in kardeşlik bağlarının ilk günlerine uzanan bu macerada, ikili birlikte destansı görevlere atılıyor ve yol boyunca tanıdık dostlarla vakit geçiriyorlar.</desc>
@@ -17258,10 +17034,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Moonbug Kids</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570180963-logo.png" />
   </channel>
-  <programme start="20261025235900 +0300" stop="20261026004200 +0300" channel="8eada4b013af42479187878de6998680">
-    <title lang="tr">Cico ile Moco</title>
-    <desc lang="tr">Cico ve Moco, her gün yeni şeyler keşfeden iki sevimli dosttur. Eğlenceli oyunlar, küçük sürprizler ve neşeli maceralarla öğrenmeyi keyifli hale getirirler.</desc>
-  </programme>
   <programme start="20261026004200 +0300" stop="20261026012100 +0300" channel="8eada4b013af42479187878de6998680">
     <title lang="tr">Cico ile Moco</title>
     <desc lang="tr">Cico ve Moco, her gün yeni şeyler keşfeden iki sevimli dosttur. Eğlenceli oyunlar, küçük sürprizler ve neşeli maceralarla öğrenmeyi keyifli hale getirirler.</desc>
@@ -17446,10 +17218,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Duck TV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570130413-logo.png" />
   </channel>
-  <programme start="20261025235800 +0300" stop="20261026000200 +0300" channel="4580a51f539746f6baaa18a33a326ef2">
-    <title lang="tr">Dotty, the Kitty</title>
-    <desc lang="tr">Help Dotty the Kitty to paint a masterpiece by connecting the dots that the pencil draws. Encouraging creativity and unlocking the imagination of the show's young viewers.</desc>
-  </programme>
   <programme start="20261026000200 +0300" stop="20261026000400 +0300" channel="4580a51f539746f6baaa18a33a326ef2">
     <title lang="tr">Color Clara</title>
     <desc lang="tr">Join Clara the chameleon as she explores her jungle home in search of creatures that need her help. Follow her on her travels as she tries her best to magically restore their original colours.</desc>
@@ -19642,10 +19410,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Da Vinci</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570176523-logo.png" />
   </channel>
-  <programme start="20261025235800 +0300" stop="20261026001100 +0300" channel="6ca72d685afe4366928f99d6aa4528ce">
-    <title lang="tr">Tek Durak Bilim Dükkanı</title>
-    <desc lang="tr">Coğrafyayı bir marangoz seviyesinde bilmek için Kore'nin ilk kez detaylı bir haritasını çizen haritacı Kim Jeong-Ho ile tanışıyoruz.</desc>
-  </programme>
   <programme start="20261026001100 +0300" stop="20261026001600 +0300" channel="6ca72d685afe4366928f99d6aa4528ce">
     <title lang="tr">Futuris</title>
     <desc lang="tr">Bilim insanları, alüminyum üretiminden çıkan bir atık olan "Kırmızı Çamur"u inşaat malzemesine dönüştürmenin yollarını araştırıyorlar.</desc>
@@ -20090,10 +19854,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT Eba TV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570117108-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026003000 +0300" channel="6d7c40d5d7094819bdac146848e3232c">
-    <title lang="tr">YKS'ye Doğru</title>
-    <desc lang="tr">Hafta içi tekrarları ile soru ve çözümlerle öğrencilere destek veriliyor</desc>
-  </programme>
   <programme start="20261026003000 +0300" stop="20261026004500 +0300" channel="6d7c40d5d7094819bdac146848e3232c">
     <title lang="tr">Milli Parklar</title>
     <desc lang="tr">Dört mevsimin yaşandığı Anadolu'da doğa güzellikleriyle ön plana çıkan ve korumaya alınmış milli parklarımızı ekranınıza getiriyoruz.</desc>
@@ -20278,10 +20038,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Diyanet Tv</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570168487-logo.png" />
   </channel>
-  <programme start="20261025233000 +0300" stop="20261026060000 +0300" channel="65a6d71c62f040c88b5d94ffce37ac41">
-    <title lang="tr">Eve Dair</title>
-    <desc lang="tr">Ev yaşamına dair pratik bilgiler, dekorasyon fikirleri ve günlük hayatı kolaylaştıran öneriler sade ve akıcı bir anlatımla sunuluyor.</desc>
-  </programme>
   <programme start="20261026060000 +0300" stop="20261026063000 +0300" channel="65a6d71c62f040c88b5d94ffce37ac41">
     <title lang="tr">Şehir Ve...</title>
     <desc lang="tr">Şehir Ve…, farklı şehirlerin kültürel, sosyal ve tarihi dokusunu ekrana taşıyan kısa bir belgesel ve röportaj programıdır.</desc>
@@ -20358,10 +20114,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Al Quran Al Kareem</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570146542-logo.png" />
   </channel>
-  <programme start="20261025220000 +0300" stop="20261026020000 +0300" channel="834646de6ec542d58b8693a1c66cb77d">
-    <title lang="tr">Kabe'den Canlı Yayın</title>
-    <desc lang="tr">Kabe'den canlı yayınla ibadet ve hac ritüellerine tanıklık edin. Müslümanların kalbine dokunan kutsal atmosferi, tavaf ve duaları anbean ekrana taşıyoruz. Bu özel yayınla manevi yolculuğunuzu evinizden deneyimleyin.</desc>
-  </programme>
   <programme start="20261026020000 +0300" stop="20261026060000 +0300" channel="834646de6ec542d58b8693a1c66cb77d">
     <title lang="tr">Kabe'den Canlı Yayın</title>
     <desc lang="tr">Kabe'den canlı yayınla ibadet ve hac ritüellerine tanıklık edin. Müslümanların kalbine dokunan kutsal atmosferi, tavaf ve duaları anbean ekrana taşıyoruz. Bu özel yayınla manevi yolculuğunuzu evinizden deneyimleyin.</desc>
@@ -20390,10 +20142,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Al Sunnah Al Nabawiya</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570139075-logo.png" />
   </channel>
-  <programme start="20261025220000 +0300" stop="20261026020000 +0300" channel="b8709b434b184f1799ff69489b1d0afe">
-    <title lang="tr">Mescid-i Nebevi'den Canlı Yayın</title>
-    <desc lang="tr">Yeryüzündeki mescitlerin en faziletlilerinden biri olarak kabul edilen Mescid-i Nebevi'den yapılan yayın.</desc>
-  </programme>
   <programme start="20261026020000 +0300" stop="20261026060000 +0300" channel="b8709b434b184f1799ff69489b1d0afe">
     <title lang="tr">Mescid-i Nebevi'den Canlı Yayın</title>
     <desc lang="tr">Yeryüzündeki mescitlerin en faziletlilerinden biri olarak kabul edilen Mescid-i Nebevi'den yapılan yayın.</desc>
@@ -20498,10 +20246,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>TRT Müzik</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570124238-logo.png" />
   </channel>
-  <programme start="20261025234500 +0300" stop="20261026004500 +0300" channel="629ca00d24f74ba3afaf002bf152f9f6">
-    <title lang="tr">Aşk Masalı</title>
-    <desc lang="tr">Aşkın en güzel melodileri, romantik şarkılar ve unutulmaz eserlerle müzik dolu bir yolculuk başlıyor.</desc>
-  </programme>
   <programme start="20261026004500 +0300" stop="20261026014500 +0300" channel="629ca00d24f74ba3afaf002bf152f9f6">
     <title lang="tr">Dilhan Akustik</title>
     <desc lang="tr">Akustik ezgilerin sıcaklığı ve samimi yorumlarla müziğin en yalın, en duygulu hâli dinleyicilerle buluşuyor.</desc>
@@ -20622,10 +20366,6 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <display-name>Dream Türk</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570113835-logo.png" />
   </channel>
-  <programme start="20261025230000 +0300" stop="20261026070000 +0300" channel="d5337bfc73374a8aa5dd23a5867897f6">
-    <title lang="tr">Dream Türk En İyiler</title>
-    <desc lang="tr">Listelerde zirveye çıkan, dönemine damga vuran ve dinleyicilerin favorisi olan Türkçe pop şarkıları, klipleriyle bu programda buluşuyor.</desc>
-  </programme>
   <programme start="20261026070000 +0300" stop="20261026120000 +0300" channel="d5337bfc73374a8aa5dd23a5867897f6">
     <title lang="tr">Dream Türk En İyiler</title>
     <desc lang="tr">Listelerde zirveye çıkan, dönemine damga vuran ve dinleyicilerin favorisi olan Türkçe pop şarkıları, klipleriyle bu programda buluşuyor.</desc>
