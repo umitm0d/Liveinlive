@@ -2248,18 +2248,18 @@
     <desc lang="tr">Kıbrıs ve bölgeden en güncel reklam kampanyaları, tanıtımlar ve marka hikayeleri bu programda! Reklam dünyasının renkli yüzü ekranlarda.</desc>
   </programme>
   <programme start="20261108080000 +0300" stop="20261108085000 +0300" channel="5db7f92ba15741b19ca51337c8466ccc">
-    <title lang="tr">Sinema</title>
-    <desc lang="tr">Çeşitli film türleri komedi, aksiyon aracılığıyla önümüzdeki dakikalarda eğlenecek ve keyifli vakit geçireceksiniz.</desc>
+    <title lang="tr">Çizgi Film</title>
+    <desc lang="tr">Çizgi Film, eğlenceli ve renkli içeriğiyle çocuklara neşeli anlar yaşatıyor. Sevimli karakterlerin maceraları, dostluk, paylaşma, dayanışma ve hayal gücünü geliştiren hikayelerle bir araya geliyor.</desc>
   </programme>
   <programme start="20261108085000 +0300" stop="20261108100000 +0300" channel="5db7f92ba15741b19ca51337c8466ccc">
     <title lang="tr">Reklam</title>
     <desc lang="tr">Kıbrıs ve bölgeden en güncel reklam kampanyaları, tanıtımlar ve marka hikayeleri bu programda! Reklam dünyasının renkli yüzü ekranlarda.</desc>
   </programme>
-  <programme start="20261108100000 +0300" stop="20261108105000 +0300" channel="5db7f92ba15741b19ca51337c8466ccc">
+  <programme start="20261108100000 +0300" stop="20261108103800 +0300" channel="5db7f92ba15741b19ca51337c8466ccc">
     <title lang="tr">Yaşamdan Yansımalar</title>
     <desc lang="tr">Günlük yaşamdan ilham veren hikâyeleri, kültürel değerleri ve toplumsal gelişmeleri ekrana taşıyan yaşam programı.</desc>
   </programme>
-  <programme start="20261108105000 +0300" stop="20261108110000 +0300" channel="5db7f92ba15741b19ca51337c8466ccc">
+  <programme start="20261108103800 +0300" stop="20261108110000 +0300" channel="5db7f92ba15741b19ca51337c8466ccc">
     <title lang="tr">Reklam</title>
     <desc lang="tr">Kıbrıs ve bölgeden en güncel reklam kampanyaları, tanıtımlar ve marka hikayeleri bu programda! Reklam dünyasının renkli yüzü ekranlarda.</desc>
   </programme>
@@ -2687,9 +2687,13 @@
     <title lang="tr">Gece Haberleri</title>
     <desc lang="tr">Günün öne çıkan haberleri ve detaylı analizler Gece Haberleri'nde! Güvenilir ve tarafsız haberlerle geceyi tamamlayın.</desc>
   </programme>
-  <programme start="20261108004000 +0300" stop="20261108100000 +0300" channel="a46de77b15ab4ed485941f401698a9f2">
+  <programme start="20261108004000 +0300" stop="20261108090000 +0300" channel="a46de77b15ab4ed485941f401698a9f2">
     <title lang="tr">Spor Haberleri</title>
     <desc lang="tr">Bengütürk ekranında günün en önemli spor gelişmeleri kısa ve net şekilde izleyiciyle buluşuyor. Süper Ligden uluslararası karşılaşmalara kadar spora dair son haberler aktarılıyor.</desc>
+  </programme>
+  <programme start="20261108090000 +0300" stop="20261108100000 +0300" channel="a46de77b15ab4ed485941f401698a9f2">
+    <title lang="tr">Adalet Terazisi</title>
+    <desc lang="tr">Hukuk ve adalet gündemindeki önemli başlıklar, güncel gelişmeler ve toplumsal yansımalarıyla kapsamlı şekilde ele alınıyor.</desc>
   </programme>
   <programme start="20261108100000 +0300" stop="20261108104000 +0300" channel="a46de77b15ab4ed485941f401698a9f2">
     <title lang="tr">Hafta Sonu Yeni Gün</title>
@@ -4624,8 +4628,8 @@
     <desc lang="tr">Güne Özel programı, güncel konuları, konukları ve yaşamdan renkli başlıkları izleyiciyle buluşturur.</desc>
   </programme>
   <programme start="20261108080000 +0300" stop="20261108085500 +0300" channel="9d1a90d0dbae4278beffed9299f4f4ae">
-    <title lang="tr">Sabah Haber</title>
-    <desc lang="tr">Güne dair öne çıkan gelişmeler, ekonomi, siyaset ve toplumsal başlıklar sade bir anlatımla izleyiciye aktarılıyor güvenilir biçimde.</desc>
+    <title lang="tr">Yaşamdan Konuklar</title>
+    <desc lang="tr">Farklı yaşam hikâyelerine sahip konukları ağırlayan, ilham verici ve samimi bir sohbet programı.</desc>
   </programme>
   <programme start="20261108085500 +0300" stop="20261108090000 +0300" channel="9d1a90d0dbae4278beffed9299f4f4ae">
     <title lang="tr">Hava Durumu</title>
@@ -14107,81 +14111,77 @@
     <title lang="tr">Futbol: U17 Ligi</title>
     <desc lang="tr">Genç yeteneklerin sahaya çıktığı U17 Ligi'nde mücadele, heyecan ve futbol tutkusu bir araya geliyor.</desc>
   </programme>
-  <programme start="20261108074500 +0300" stop="20261108093000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261108074500 +0300" stop="20261108080000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Söz Taraftarda</title>
     <desc lang="tr">Fenerbahçe'mizin ve Türk Futbolunun gündemini, yapacağımız maçların skorlarını Büyük Fenerbahçe Taraftarına sorduğumuz Söz Taraftarda programı FB TV ekranlarında</desc>
   </programme>
-  <programme start="20261108093000 +0300" stop="20261108094500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Tarihte Bugün</title>
-    <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
+  <programme start="20261108080000 +0300" stop="20261108094500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Futbol: UEFA Şampiyonlar Ligi</title>
+    <desc lang="tr">Avrupa futbolunun en prestijli mücadelesinde yaşanan gelişmeler, kritik karşılaşmalar ve unutulmaz anlar mercek altına alınıyor.</desc>
   </programme>
   <programme start="20261108094500 +0300" stop="20261108100000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Fenerium Saati</title>
-    <desc lang="tr">Fenerium Saati, Fenerbahçe'nin lisanslı ürünlerini, yeni sezon koleksiyonlarını ve özel tasarımlarını izleyiciyle buluşturuyor.</desc>
+    <title lang="tr">Analiz Fenerbahçe</title>
+    <desc lang="tr">Analiz Fenerbahçe, sarı-lacivertli takımın maçlarını ve performansını detaylı biçimde değerlendiriyor.</desc>
   </programme>
-  <programme start="20261108100000 +0300" stop="20261108110000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261108100000 +0300" stop="20261108104500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Tarih Ve Fenerbahçe</title>
     <desc lang="tr">Fenerbahçe tarihinin dönüm noktaları, efsaneler ve kulübün mirasını anlatan özel belgesel serisi.</desc>
   </programme>
-  <programme start="20261108110000 +0300" stop="20261108113000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Spor Okulları</title>
-    <desc lang="tr">Fenerbahçe'nin Türkiye genelindeki spor okullarında yürütülen çalışmaları bu ekranda sizlerle.</desc>
+  <programme start="20261108104500 +0300" stop="20261108110000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Söz Taraftarda</title>
+    <desc lang="tr">Fenerbahçe'mizin ve Türk Futbolunun gündemini, yapacağımız maçların skorlarını Büyük Fenerbahçe Taraftarına sorduğumuz Söz Taraftarda programı FB TV ekranlarında</desc>
   </programme>
-  <programme start="20261108113000 +0300" stop="20261108114500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Tarihte Bugün</title>
-    <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
+  <programme start="20261108110000 +0300" stop="20261108120000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Fenerium On Air</title>
+    <desc lang="tr">Sporun gündeminden özel dosyalara, dikkat çeken gelişmelerden perde arkasına uzanan dopdolu bir içerik.</desc>
   </programme>
-  <programme start="20261108114500 +0300" stop="20261108120000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Maç Başlıyor</title>
-    <desc lang="tr">Maç Başlıyor, futbol maçları öncesinde son gelişmeleri ve heyecanı FB TV ekranlarına taşıyor.</desc>
-  </programme>
-  <programme start="20261108120000 +0300" stop="20261108134500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261108120000 +0300" stop="20261108124500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Basketbol: Tekerlekli Sandalye Süper Ligi</title>
     <desc lang="tr">Tekerlekli Sandalye Basketbol Süper Ligi, Türkiye Bedensel Engelliler Spor Federasyonu ( TBESF ) tarafından düzenlenen ve tekerlekli sandalye basketbolu'nda, Türkiye'de en üst ligdir.</desc>
   </programme>
-  <programme start="20261108134500 +0300" stop="20261108140000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261108124500 +0300" stop="20261108130000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Haber</title>
     <desc lang="tr">Futbol, basketbol ve diğer branşlardan günün öne çıkan spor haberleri ve son gelişmeler ekrana geliyor.</desc>
   </programme>
-  <programme start="20261108140000 +0300" stop="20261108160000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Kadın Futbol Süper Ligi</title>
-    <desc lang="tr">Kadınlar Süper Ligi, Türkiye'nin en üst düzey kadın futbol organizasyonudur. Ülkenin dört bir yanından takımlar, şampiyonluk için sahaya çıkar.</desc>
-  </programme>
-  <programme start="20261108160000 +0300" stop="20261108161500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Haber</title>
-    <desc lang="tr">Futbol, basketbol ve diğer branşlardan günün öne çıkan spor haberleri ve son gelişmeler ekrana geliyor.</desc>
-  </programme>
-  <programme start="20261108161500 +0300" stop="20261108171500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Tarih Ve Fenerbahçe</title>
-    <desc lang="tr">Fenerbahçe tarihinin dönüm noktaları, efsaneler ve kulübün mirasını anlatan özel belgesel serisi.</desc>
-  </programme>
-  <programme start="20261108171500 +0300" stop="20261108184500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261108130000 +0300" stop="20261108140000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Basketbol: Tekerlekli Sandalye Süper Ligi</title>
     <desc lang="tr">Tekerlekli Sandalye Basketbol Süper Ligi, Türkiye Bedensel Engelliler Spor Federasyonu ( TBESF ) tarafından düzenlenen ve tekerlekli sandalye basketbolu'nda, Türkiye'de en üst ligdir.</desc>
   </programme>
-  <programme start="20261108184500 +0300" stop="20261108190000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261108140000 +0300" stop="20261108144500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Fenerin Maçı Var</title>
+    <desc lang="tr">Fenerin Maçı Var, Fenerbahçe'nin maç gününe özel hazırlanan, karşılaşma öncesi ve maç esnasındaki tüm gelişmeleri ekrana taşıyan bir programdır</desc>
+  </programme>
+  <programme start="20261108144500 +0300" stop="20261108150000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Analiz Fenerbahçe</title>
+    <desc lang="tr">Analiz Fenerbahçe, sarı-lacivertli takımın maçlarını ve performansını detaylı biçimde değerlendiriyor.</desc>
+  </programme>
+  <programme start="20261108150000 +0300" stop="20261108160000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Maç Başlıyor</title>
     <desc lang="tr">Maç Başlıyor, futbol maçları öncesinde son gelişmeleri ve heyecanı FB TV ekranlarına taşıyor.</desc>
   </programme>
-  <programme start="20261108190000 +0300" stop="20261108210000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261108160000 +0300" stop="20261108180000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Basketbol: Euroleague Maç Havası</title>
     <desc lang="tr">Maç Havası, Fenerbahçe maçları öncesinde stadyum coşkusunu ve taraftar heyecanını ekrana taşıyor.</desc>
   </programme>
-  <programme start="20261108210000 +0300" stop="20261108211500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261108180000 +0300" stop="20261108193000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Maçın Ardından</title>
     <desc lang="tr">Maçın Ardından, futbol karşılaşmalarının ardından maçın kritik anları, oyuncu performansları ve teknik detaylar ele alınıyor</desc>
   </programme>
-  <programme start="20261108211500 +0300" stop="20261108213000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Fenerium Saati</title>
-    <desc lang="tr">Fenerium Saati, Fenerbahçe'nin lisanslı ürünlerini, yeni sezon koleksiyonlarını ve özel tasarımlarını izleyiciyle buluşturuyor.</desc>
+  <programme start="20261108193000 +0300" stop="20261108200000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Ana Haber</title>
+    <desc lang="tr">Ana Haber, gün boyunca yaşanan gelişmeleri doğru ve hızlı biçimde izleyiciye aktarıyor. FB TV ekranlarında sizlerle</desc>
   </programme>
-  <programme start="20261108213000 +0300" stop="20261108233000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+  <programme start="20261108200000 +0300" stop="20261108213000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Maçın Ardından</title>
+    <desc lang="tr">Maçın Ardından, futbol karşılaşmalarının ardından maçın kritik anları, oyuncu performansları ve teknik detaylar ele alınıyor</desc>
+  </programme>
+  <programme start="20261108213000 +0300" stop="20261108231500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Kadın Futbol Süper Ligi</title>
     <desc lang="tr">Kadınlar Süper Ligi, Türkiye'nin en üst düzey kadın futbol organizasyonudur. Ülkenin dört bir yanından takımlar, şampiyonluk için sahaya çıkar.</desc>
   </programme>
-  <programme start="20261108233000 +0300" stop="20261108234500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
-    <title lang="tr">Tarihte Bugün</title>
-    <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
+  <programme start="20261108231500 +0300" stop="20261108234500 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
+    <title lang="tr">Kanaryalar Soruyor</title>
+    <desc lang="tr">Güncel konuların tartışıldığı, fikirlerin paylaşıldığı ve izleyicinin dahil olduğu bir sohbet programı.</desc>
   </programme>
   <programme start="20261108234500 +0300" stop="20261109000000 +0300" channel="64f4c29c5bc249a79eb877eb5c7d140c">
     <title lang="tr">Gece Haberi</title>
@@ -24667,9 +24667,13 @@
     <title lang="tr">Delailü'l Hayrat</title>
     <desc lang="tr">Güne salavatlarla huzurla başlamak isteyenler için Delâilü'l-Hayrât, her sabah Lalegül TV'de. Peygamber Efendimiz'e salât ve selamla başlayan gün bereketle devam eder.</desc>
   </programme>
-  <programme start="20261108060000 +0300" stop="20261108100000 +0300" channel="a4af252cfc94422abdcce577ab5593f4">
+  <programme start="20261108060000 +0300" stop="20261108080000 +0300" channel="a4af252cfc94422abdcce577ab5593f4">
     <title lang="tr">Hatm-i Şerif</title>
     <desc lang="tr">Cübbeli Ahmet Hoca Efendi'nin kıraati ile Hatm-i Şerif Lalegül TV'de!</desc>
+  </programme>
+  <programme start="20261108080000 +0300" stop="20261108100000 +0300" channel="a4af252cfc94422abdcce577ab5593f4">
+    <title lang="tr">İtikad Dersleri</title>
+    <desc lang="tr">İtikad dersleri, doğru inancın temel esaslarını sade ve anlaşılır bir dille ele alarak manevi bilgimizi güçlendirir.</desc>
   </programme>
   <programme start="20261108100000 +0300" stop="20261108110000 +0300" channel="a4af252cfc94422abdcce577ab5593f4">
     <title lang="tr">Yesevi Yolu</title>
@@ -31014,12 +31018,6 @@
   </programme>
   
 
-  <programme start="20261106220000 +0300" stop="20261107060000 +0300" channel="ekoltv">
-    <title>Ekol Tv</title>
-    <desc>EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır. Gündemi belirleyen olaylar, anlık bilgiler ve sıcak gelişmeler gün boyunca EKOL TV ekranlarında takip edilir.</desc>
-  </programme>
-  
-
   <programme start="20261107060000 +0300" stop="20261107100000 +0300" channel="ekoltv">
     <title>Ekol Tv</title>
     <desc>EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır. Gündemi belirleyen olaylar, anlık bilgiler ve sıcak gelişmeler gün boyunca EKOL TV ekranlarında takip edilir.</desc>
@@ -31083,12 +31081,6 @@
   <programme start="20261109060000 +0300" stop="20261109100000 +0300" channel="ekoltv">
     <title>Ekol Tv</title>
     <desc>EKOL TV, Türkiye ve dünyadan son dakika gelişmelerini hızlı ve güvenilir yayın anlayışıyla izleyiciye ulaştırır. Gündemi belirleyen olaylar, anlık bilgiler ve sıcak gelişmeler gün boyunca EKOL TV ekranlarında takip edilir.</desc>
-  </programme>
-  
-
-  <programme start="20261106230000 +0300" stop="20261107063000 +0300" channel="ekotürk">
-    <title>Ve İbrahim Sadri</title>
-    <desc>Şiirden edebiyata, kültürden günlük hayata uzanan samimi sohbetler ve anlamlı hikâyeler ele alınıyor. Geçmişten günümüze uzanan anılar, sanatın ve edebiyatın insan hayatındaki yeri, duygu ve düşünceler sıcak bir anlatımla paylaşılırken izleyiciye keyifli bir kültür yolculuğu sunuluyor.</desc>
   </programme>
   
 
@@ -36029,12 +36021,6 @@
   <programme start="20261109030000 +0300" stop="20261109070000 +0300" channel="sözcütv">
     <title>Ayşegül Çoruhlu ile Longevity</title>
     <desc>Uzun ve sağlıklı yaşamın bilimsel temellerini ve günlük hayatta uygulanabilecek öneriler izleyicilere aktarılıyor.</desc>
-  </programme>
-  
-
-  <programme start="20261106230000 +0300" stop="20261107060000 +0300" channel="sportstv">
-    <title>U18 Buz Hokeyi</title>
-    <desc>Uluslararası arenada genç yeteneklerin mücadelesi başlıyor. U18 Dünya Şampiyonası kapsamında Türkiye ile İzlanda, buz üzerinde kritik bir karşılaşmada kozlarını paylaşıyor. Hızlı hücumlar, güçlü savunmalar ve tempolu oyun bu önemli maçta belirleyici oluyor.</desc>
   </programme>
   
 
@@ -44593,12 +44579,6 @@
   <programme start="20261109050000 +0300" stop="20261109070000 +0300" channel="tvnet">
     <title>Kur'an'ın İzinde</title>
     <desc>Kur'an'ın İzinde programı, Kur'an ayetlerini ve mesajlarını izleyicilere açıklayan bir programdır. Ayetlerin tarihî ve güncel bağlamları, toplumsal ve bireysel hayata etkileri üzerinde durularak izleyicilere rehberlik edilir.</desc>
-  </programme>
-  
-
-  <programme start="20261106230000 +0300" stop="20261107080000 +0300" channel="tyttürk">
-    <title>Gündeme Bakış</title>
-    <desc>Günün önemli olayları ve gelişmeleri tüm detaylarıyla ele alınıyor.</desc>
   </programme>
   
 
