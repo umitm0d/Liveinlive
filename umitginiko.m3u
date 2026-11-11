@@ -1,233 +1,233 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="117" tvg-name="S SPORT+" tvg-logo="http://ginikoturkish.com/channels/logo/ssport-1.jpg" group-title="Türk Kanalları",S SPORT+
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ssport-plus/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ssport-plus/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="365" tvg-name="Ilke TV" tvg-logo="http://ginikoturkish.com/channels/logo/ilke-tv.jpg" group-title="Türk Kanalları",Ilke TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ilketv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ilketv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="389" tvg-name="Kanal Avrupa" tvg-logo="http://ginikoturkish.com/channels/logo/kanal-avrupa.png" group-title="Türk Kanalları",Kanal Avrupa
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanalavrupa/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanalavrupa/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="718" tvg-name="NOW TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/now-tv-epg-.gif" group-title="Türk Kanalları",NOW TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-nowtv-live/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-nowtv-live/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="723" tvg-name="Star TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/star-tv-epg-.png" group-title="Türk Kanalları",Star TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-star-tv1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-star-tv1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="724" tvg-name="TV8 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/tv8-epg-.png" group-title="Türk Kanalları",TV8 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv8-tvs/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv8-tvs/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="733" tvg-name="TV8.5 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/tv8-5-epg-.jpg" group-title="Türk Kanalları",TV8.5 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv8_5/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv8_5/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="734" tvg-name="Kanal D (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/kanal-d-epg-.jpg" group-title="Türk Kanalları",Kanal D (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanald-1tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanald-1tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="735" tvg-name="Show TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/show-tv-epg-.png" group-title="Türk Kanalları",Show TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-shows-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-shows-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="736" tvg-name="Show Max" tvg-logo="http://ginikoturkish.com/channels/logo/show-max-epg-.png" group-title="Türk Kanalları",Show Max
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-showmax/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-showmax/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="739" tvg-name="Beyaz TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/beyaz-tv-epg-.png" group-title="Türk Kanalları",Beyaz TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-beyaztv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-beyaztv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="740" tvg-name="Kanal 7 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/kanal-7-epg-.jpg" group-title="Türk Kanalları",Kanal 7 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanal7/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanal7/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="743" tvg-name="TRT Turk (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-turk-epg-.png" group-title="Türk Kanalları",TRT Turk (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtturk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtturk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="745" tvg-name="TLC Turkiye (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/tlc-turkiye-epg-.png" group-title="Türk Kanalları",TLC Turkiye (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tlc-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tlc-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="746" tvg-name="DMAX Turkiye" tvg-logo="http://ginikoturkish.com/channels/logo/dmax-turkiye-epg-.png" group-title="Türk Kanalları",DMAX Turkiye
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-dmax-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-dmax-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="747" tvg-name="TRT Avaz (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-avaz-epg-.jpg" group-title="Türk Kanalları",TRT Avaz (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtavaz/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtavaz/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="749" tvg-name="TRT Spor Yildiz (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-spor-yildiz-epg-.png" group-title="Türk Kanalları",TRT Spor Yildiz (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-spor2/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-spor2/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="751" tvg-name="beIN Sports Haber (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/bein-sports-haber-epg-.jpg" group-title="Türk Kanalları",beIN Sports Haber (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-beinsportshaber/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-beinsportshaber/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="753" tvg-name="Ekol TV" tvg-logo="http://ginikoturkish.com/channels/logo/ekol-tv.jpg" group-title="Türk Kanalları",Ekol TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ekoltv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ekoltv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="754" tvg-name="Sports TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/sports-tv-epg-.png" group-title="Türk Kanalları",Sports TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sporttv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sporttv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="755" tvg-name="beIN Sports Lig Tv1" tvg-logo="http://ginikoturkish.com/channels/logo/bein-sports-lig-tv1.png" group-title="Türk Kanalları",beIN Sports Lig Tv1
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-lig-tv-1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-lig-tv-1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="756" tvg-name="beIN Sports Lig Tv2" tvg-logo="http://ginikoturkish.com/channels/logo/bein-sports-lig-tv2.png" group-title="Türk Kanalları",beIN Sports Lig Tv2
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-lig-tv2/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-lig-tv2/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="757" tvg-name="beIN Sports Lig Tv3" tvg-logo="http://ginikoturkish.com/channels/logo/bein-sports-lig-tv3.png" group-title="Türk Kanalları",beIN Sports Lig Tv3
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-lig-tv3/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-lig-tv3/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="758" tvg-name="TRT Muzik (EPG)." tvg-logo="http://ginikoturkish.com/channels/logo/trt-muzik-epg-.jpg" group-title="Türk Kanalları",TRT Muzik (EPG).
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtmusic/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtmusic/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="760" tvg-name="Diyanet TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/diyanet-tv-epg-.png" group-title="Türk Kanalları",Diyanet TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtdiyanet/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtdiyanet/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="762" tvg-name="TRT Belgesel (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-belgesel-epg-.png" group-title="Türk Kanalları",TRT Belgesel (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtbelgesel/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtbelgesel/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="764" tvg-name="TRT Cocuk (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-cocuk-epg-.png" group-title="Türk Kanalları",TRT Cocuk (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtcocuk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtcocuk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="765" tvg-name="minika Cocuk (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/minika-cocuk.png" group-title="Türk Kanalları",minika Cocuk (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-minikacocuk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-minikacocuk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="766" tvg-name="minika GO (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/minika-go-epg-.png" group-title="Türk Kanalları",minika GO (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-minikago/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-minikago/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="769" tvg-name="NTV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/ntv-epg-.png" group-title="Türk Kanalları",NTV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ntv-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ntv-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="770" tvg-name="CNN Turk (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/cnn-turk-epg-.png" group-title="Türk Kanalları",CNN Turk (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="771" tvg-name="Haber Turk (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/haber-turk-epg-.png" group-title="Türk Kanalları",Haber Turk (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-haberturktv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-haberturktv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="772" tvg-name="Haber Global (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/haber-global-epg-.jpg" group-title="Türk Kanalları",Haber Global (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-haber-globaltv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-haber-globaltv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="773" tvg-name="KRT Kultur TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/krt-kultur-tv-epg-.jpg" group-title="Türk Kanalları",KRT Kultur TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-krt--tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-krt--tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="774" tvg-name="Ulusal TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/ulusal-tv-epg-.png" group-title="Türk Kanalları",Ulusal TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ulusal-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ulusal-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="775" tvg-name="A Haber - (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/a-haber.png" group-title="Türk Kanalları",A Haber - (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ahabertv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ahabertv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="777" tvg-name="Kanal 24 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/kanal-24-epg-.png" group-title="Türk Kanalları",Kanal 24 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanal24/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanal24/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="778" tvg-name="TRT Haber (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-haber-epg-.png" group-title="Türk Kanalları",TRT Haber (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trthaber/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trthaber/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="779" tvg-name="TRT World (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-world-epg-.png" group-title="Türk Kanalları",TRT World (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtworld/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtworld/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="781" tvg-name="Idman TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/idman-tv-epg-.png" group-title="Türk Kanalları",Idman TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-idmantv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-idmantv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="782" tvg-name="CBC Sport Azerbaijan (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/cbs-sport-epg-.png" group-title="Türk Kanalları",CBC Sport Azerbaijan (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-cbcsport/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-cbcsport/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="785" tvg-name="TRT Spor (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-spor-epg-.png" group-title="Türk Kanalları",TRT Spor (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-sportv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-sportv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="786" tvg-name="TRT 4K" tvg-logo="http://ginikoturkish.com/channels/logo/trt-4k.jpg" group-title="Türk Kanalları",TRT 4K
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-4k/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-4k/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="787" tvg-name="TRT 1 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-1-epg-.gif" group-title="Türk Kanalları",TRT 1 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt_1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt_1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="790" tvg-name="Spor Smart HD" tvg-logo="http://ginikoturkish.com/channels/logo/spor-smart-hd-epg-.jpg" group-title="Türk Kanalları",Spor Smart HD
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sporsmarthd/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sporsmarthd/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="791" tvg-name="S SPORT" tvg-logo="http://ginikoturkish.com/channels/logo/s-sport.jpg" group-title="Türk Kanalları",S SPORT
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ssport-1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ssport-1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="793" tvg-name="Spor Smart 2 HD" tvg-logo="http://ginikoturkish.com/channels/logo/spor-smart-2-hd.jpg" group-title="Türk Kanalları",Spor Smart 2 HD
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sporsmarthd2/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sporsmarthd2/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="797" tvg-name="Tivibu Spor" tvg-logo="http://ginikoturkish.com/channels/logo/tivibu-spor-1.png" group-title="Türk Kanalları",Tivibu Spor
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tivibuspor1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tivibuspor1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="802" tvg-name="Halk TV - (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/halk-tv-youtube-epg-.png" group-title="Türk Kanalları",Halk TV - (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-halk-tvs/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-halk-tvs/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="805" tvg-name="ATV Avrupa (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/atv-avrupa.png" group-title="Türk Kanalları",ATV Avrupa (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-atv-avrupa-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-atv-avrupa-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="806" tvg-name="TV8  Int (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/tv8-int-epg-.jpg" group-title="Türk Kanalları",TV8  Int (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv8international/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv8international/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="807" tvg-name="TRT 1 TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-1-tv-epg-.png" group-title="Türk Kanalları",TRT 1 TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt1-tveu/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt1-tveu/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="808" tvg-name="TRT Turk (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-turk.png" group-title="Türk Kanalları",TRT Turk (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtturk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtturk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="809" tvg-name="TRT Spor HD (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-spor-hd-epg-.png" group-title="Türk Kanalları",TRT Spor HD (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-spor1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-spor1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="811" tvg-name="TRT Muzik (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-muzik.jpg" group-title="Türk Kanalları",TRT Muzik (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtmusic/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtmusic/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="812" tvg-name="TRT Cocuk (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-cocuk-epg-.jpg" group-title="Türk Kanalları",TRT Cocuk (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtcocuk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trtcocuk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="813" tvg-name="NTV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/ntv-epg-.png" group-title="Türk Kanalları",NTV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ntvtv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ntvtv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="814" tvg-name="Kanal 7 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/kanal-7-epg-.jpg" group-title="Türk Kanalları",Kanal 7 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanal7/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kanal7/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="816" tvg-name="ATV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/atv-epg-.jpg" group-title="Türk Kanalları",ATV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-atv-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-atv-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="817" tvg-name="Star TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/star-tv-epg-.png" group-title="Türk Kanalları",Star TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-star-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-star-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="818" tvg-name="TV8 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/tv8-epg-.png" group-title="Türk Kanalları",TV8 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/tv8-hd-tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/tv8-hd-tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="819" tvg-name="TRT Haber (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-haber.png" group-title="Türk Kanalları",TRT Haber (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trthaber/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trthaber/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="822" tvg-name="A Spor (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/a-spor-epg-.jpg" group-title="Türk Kanalları",A Spor (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-asportv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-asportv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="825" tvg-name="TV8" tvg-logo="http://ginikoturkish.com/channels/logo/tv8.jpg" group-title="Türk Kanalları",TV8
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/tv8-hdtv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/tv8-hdtv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="826" tvg-name="StarTV" tvg-logo="http://ginikoturkish.com/channels/logo/star-tv-.png" group-title="Türk Kanalları",StarTV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-startv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-startv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="828" tvg-name="Bein Sports Xtra" tvg-logo="http://ginikoturkish.com/channels/logo/bein-sports-xtra.jpg" group-title="Türk Kanalları",Bein Sports Xtra
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/BeinSportsXtra/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/BeinSportsXtra/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="830" tvg-name="TRT Spor HD" tvg-logo="http://ginikoturkish.com/channels/logo/trt-spor-hd-.png" group-title="Türk Kanalları",TRT Spor HD
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-spor1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt-spor1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="831" tvg-name="TRT 1" tvg-logo="http://ginikoturkish.com/channels/logo/trt-1-.png" group-title="Türk Kanalları",TRT 1
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt1-tveu/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt1-tveu/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="881" tvg-name="1TV Armenia H1" tvg-logo="http://ginikoturkish.com/channels/logo/1tv-armenia-h1.gif" group-title="Türk Kanalları",1TV Armenia H1
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-1tvar/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-1tvar/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="891" tvg-name="TRT 2 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/trt-2-epg-.gif" group-title="Türk Kanalları",TRT 2 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt2/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-trt2/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="904" tvg-name="ARB 24 TV" tvg-logo="http://ginikoturkish.com/channels/logo/arb-24-tv.gif" group-title="Türk Kanalları",ARB 24 TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-arb24-tv1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-arb24-tv1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="906" tvg-name="Ictimai TV" tvg-logo="http://ginikoturkish.com/channels/logo/ictimai-tv.gif" group-title="Türk Kanalları",Ictimai TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ictimaitv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ictimaitv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="907" tvg-name="Medeniyyet TV" tvg-logo="http://ginikoturkish.com/channels/logo/medeniyyet-tv.gif" group-title="Türk Kanalları",Medeniyyet TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-medeniyyet/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-medeniyyet/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="913" tvg-name="Start TV" tvg-logo="http://ginikoturkish.com/channels/logo/start-tv.png" group-title="Türk Kanalları",Start TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-startv-azer/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-startv-azer/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="915" tvg-name="Kibris BRT1" tvg-logo="http://ginikoturkish.com/channels/logo/kibris-brt1-.png" group-title="Türk Kanalları",Kibris BRT1
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-brt1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-brt1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="916" tvg-name="TIVI6" tvg-logo="http://ginikoturkish.com/channels/logo/tivi6.jpg" group-title="Türk Kanalları",TIVI6
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tivi6/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tivi6/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="920" tvg-name="Kibris BRT2" tvg-logo="http://ginikoturkish.com/channels/logo/kibris-brt2.jpg" group-title="Türk Kanalları",Kibris BRT2
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-brt2/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-brt2/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="922" tvg-name="Bloomberg Haber Turk" tvg-logo="http://ginikoturkish.com/channels/logo/bloomberg-haber-turk.gif" group-title="Türk Kanalları",Bloomberg Haber Turk
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-bloomberght/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-bloomberght/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="924" tvg-name="Bosnia Hayat" tvg-logo="http://ginikoturkish.com/channels/logo/bosnia-hayat-1.png" group-title="Türk Kanalları",Bosnia Hayat
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-BosniaHayat1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-BosniaHayat1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="925" tvg-name="Bosnia BHT1" tvg-logo="http://ginikoturkish.com/channels/logo/bosnia-bht1.gif" group-title="Türk Kanalları",Bosnia BHT1
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-BosniaBHT1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-BosniaBHT1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="926" tvg-name="Bosnia Arena Sport1" tvg-logo="http://ginikoturkish.com/channels/logo/bosnia-arena-sport1.gif" group-title="Türk Kanalları",Bosnia Arena Sport1
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-BosniaArenaSport1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-BosniaArenaSport1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="945" tvg-name="EuroStar" tvg-logo="http://ginikoturkish.com/channels/logo/eurostar.png" group-title="Türk Kanalları",EuroStar
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-eurostar/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-eurostar/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="954" tvg-name="HT Spor" tvg-logo="http://ginikoturkish.com/channels/logo/ht-spor.jpg" group-title="Türk Kanalları",HT Spor
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-htspor/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-htspor/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="975" tvg-name="New Amazon FireTV App" tvg-logo="http://ginikoturkish.com/channels/logo/new-amazon-firetv-app.png" group-title="Türk Kanalları",New Amazon FireTV App
 https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/vod/gt-amazon-firetv-promo.mp4/index.m3u8
 #EXTINF:-1 tvg-id="985" tvg-name="CNN International" tvg-logo="http://ginikoturkish.com/channels/logo/cnn-international.jpg" group-title="Türk Kanalları",CNN International
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/CNN-International/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/CNN-International/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="994" tvg-name="Announcing New Android TV App" tvg-logo="http://ginikoturkish.com/channels/logo/announcing-new-android-tv-app.png" group-title="Türk Kanalları",Announcing New Android TV App
 https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/vod/gt-android-tv-promo.mp4/index.m3u8
 #EXTINF:-1 tvg-id="1418" tvg-name="Radio Ukraine" tvg-logo="https://www.giniko.com/logos/190x110/1418.png" group-title="Türk Kanalları",Radio Ukraine
 https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/guda-ukraineradio/index.m3u8
 #EXTINF:-1 tvg-id="623" tvg-name="Meltem TV" tvg-logo="http://ginikoturkish.com/channels/logo/meltem-tv.jpg" group-title="Yabancı Kanallar",Meltem TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-meltemtv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-meltemtv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="732" tvg-name="TYTTURK" tvg-logo="http://ginikoturkish.com/channels/logo/tytturk.jpg" group-title="Yabancı Kanallar",TYTTURK
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tytturk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tytturk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="738" tvg-name="TV100 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/tv100-epg-.jpg" group-title="Yabancı Kanallar",TV100 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv100/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv100/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="741" tvg-name="Ulke TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/ulke-tv-epg-.png" group-title="Yabancı Kanallar",Ulke TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ulketv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ulketv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="742" tvg-name="Sky 360 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/sky-360-epg-.png" group-title="Yabancı Kanallar",Sky 360 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sky360/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sky360/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="744" tvg-name="A2 (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/a2-epg-.png" group-title="Yabancı Kanallar",A2 (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-atv-a2tv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-atv-a2tv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="750" tvg-name="A News" tvg-logo="http://ginikoturkish.com/channels/logo/a-news.jpg" group-title="Yabancı Kanallar",A News
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-anews/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-anews/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="752" tvg-name="Fenerbahce TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/fenerbahce-tv.png" group-title="Yabancı Kanallar",Fenerbahce TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-fbtv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-fbtv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="761" tvg-name="Yaban TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/yaban-tv-epg-.png" group-title="Yabancı Kanallar",Yaban TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-yaban/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-yaban/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="768" tvg-name="Cartoon Network TR (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/cartoon-network-tr-epg-.png" group-title="Yabancı Kanallar",Cartoon Network TR (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-cartoontr/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-cartoontr/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="776" tvg-name="EkoTurk(EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/ekot-rk-epg-.png" group-title="Yabancı Kanallar",EkoTurk(EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ekoturk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ekoturk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="780" tvg-name="TVNET (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/tvnet-epg-.png" group-title="Yabancı Kanallar",TVNET (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tvnettv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tvnettv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="800" tvg-name="Power Turk" tvg-logo="http://ginikoturkish.com/channels/logo/power-turk.gif" group-title="Yabancı Kanallar",Power Turk
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-powerturk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-powerturk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="801" tvg-name="Exxen 1" tvg-logo="http://ginikoturkish.com/channels/logo/exxen-1.png" group-title="Yabancı Kanallar",Exxen 1
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-exxen--1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-exxen--1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="815" tvg-name="Ulke TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/ulke-tv.png" group-title="Yabancı Kanallar",Ulke TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ulketv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-ulketv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="872" tvg-name="Sozcu TV (EPG)" tvg-logo="http://ginikoturkish.com/channels/logo/sozcu-tv-epg-.png" group-title="Yabancı Kanallar",Sozcu TV (EPG)
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sozcu-livetv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sozcu-livetv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="876" tvg-name="Sat7 Turk" tvg-logo="http://ginikoturkish.com/channels/logo/sat7-turk.gif" group-title="Yabancı Kanallar",Sat7 Turk
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sat7turk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-sat7turk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="880" tvg-name="Kentron TV" tvg-logo="http://ginikoturkish.com/channels/logo/kentron-tv.gif" group-title="Yabancı Kanallar",Kentron TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kentron/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kentron/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="905" tvg-name="ARB TV" tvg-logo="http://ginikoturkish.com/channels/logo/arb-tv.gif" group-title="Yabancı Kanallar",ARB TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-arb-tv1/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-arb-tv1/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="908" tvg-name="Real TV" tvg-logo="http://ginikoturkish.com/channels/logo/real-tv.png" group-title="Yabancı Kanallar",Real TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-realtv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-realtv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="909" tvg-name="Zexer Xeber" tvg-logo="http://ginikoturkish.com/channels/logo/zexer-xeber.png" group-title="Yabancı Kanallar",Zexer Xeber
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-zexer-xeber/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-zexer-xeber/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="911" tvg-name="Kepez TV" tvg-logo="http://ginikoturkish.com/channels/logo/kepez-tv.png" group-title="Yabancı Kanallar",Kepez TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kepez-tv-azeri/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kepez-tv-azeri/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="912" tvg-name="Space TV" tvg-logo="http://ginikoturkish.com/channels/logo/space-tv.jpg" group-title="Yabancı Kanallar",Space TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-spacetv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-spacetv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="917" tvg-name="TV4" tvg-logo="http://ginikoturkish.com/channels/logo/tv4.jpg" group-title="Yabancı Kanallar",TV4
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv4/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-tv4/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="918" tvg-name="Dream Turk" tvg-logo="http://ginikoturkish.com/channels/logo/dream-turk.jpg" group-title="Yabancı Kanallar",Dream Turk
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-dreamturk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-dreamturk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="919" tvg-name="Bengu Turk" tvg-logo="http://ginikoturkish.com/channels/logo/bengu-turk.gif" group-title="Yabancı Kanallar",Bengu Turk
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-benguturk/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-benguturk/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="921" tvg-name="A Para" tvg-logo="http://ginikoturkish.com/channels/logo/a-para.jpg" group-title="Yabancı Kanallar",A Para
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-apara/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-apara/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="955" tvg-name="CNBC-E Turk" tvg-logo="http://ginikoturkish.com/channels/logo/cnbc-e-turk.gif" group-title="Yabancı Kanallar",CNBC-E Turk
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-cnbce/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-cnbce/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
 #EXTINF:-1 tvg-id="992" tvg-name="Koza TV" tvg-logo="http://ginikoturkish.com/channels/logo/koza-tv.png" group-title="Yabancı Kanallar",Koza TV
-https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kozatv/index.m3u8?token=1cc7ce58a0659aa8529ca7ad1ed0bfd9
+https://proxy.umittv.workers.dev/?url=https://trn03.tulix.tv/gt-kozatv/index.m3u8?token=0e6cf97883c312522136be32cc71d25e
