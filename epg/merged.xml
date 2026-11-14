@@ -1,324 +1,573 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="merged-epg-tr-final"><channel id="24tv">
-    <display-name lang="tr">24</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838386.png" />
-    <url>http://www.tivibu.com.tr</url>
+<tv generator-info-name="merged-epg-tr-final"><channel id="c96462af22e446af9de2b4b3074d6dcd">
+    <display-name>Sinema Tv</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570167524-logo.png" />
   </channel>
-  <channel id="360">
-    <display-name lang="tr">360</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838188.png" />
-    <url>http://www.tivibu.com.tr</url>
+  <channel id="c7be8b031f3445b8b00d5f04c56e92b1">
+    <display-name>Sinema Aksiyon</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570170738-logo.png" />
+  </channel>
+  <channel id="8ae0db77acaf477a828a8725e3897c44">
+    <display-name>Sinema Yerli</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570171420-logo.png" />
+  </channel>
+  <channel id="445b116c1f604040a2b9db73d43de7a6">
+    <display-name>Sinema Aile</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570163460-logo.png" />
+  </channel>
+  <channel id="830860341e6d4f03963c45493af3984f">
+    <display-name>Sinema 1001</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570158989-logo.png" />
+  </channel>
+  <channel id="ec8039984ba146feb474f6f76611cb97">
+    <display-name>Sinema Komedi</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570160334-logo.png" />
+  </channel>
+  <channel id="bc3051503c0946e18471352367c823d7">
+    <display-name>TRT 1</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570087306-logo.png" />
+  </channel>
+  <channel id="f4ca064faede45ca85675c84449a0a01">
+    <display-name>ATV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570088144-logo.png" />
+  </channel>
+  <channel id="01630810aa214e70a55b1712e1c4d407">
+    <display-name>Show TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570088889-logo.png" />
+  </channel>
+  <channel id="94c5e9579d5c41dc8fc1b110dc6eb12c">
+    <display-name>Kanal D</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570089719-logo.png" />
+  </channel>
+  <channel id="54f666cd8d104693bb92381f0f6e91b3">
+    <display-name>Star</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570090476-logo.png" />
+  </channel>
+  <channel id="efe9ab7341fc4751b8c7fa4b9b719d97">
+    <display-name>Kanal 7</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570091223-logo.png" />
+  </channel>
+  <channel id="829af9c9a3ae47618f7f3bce4a4c1381">
+    <display-name>NOW</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570086383-logo.png" />
+  </channel>
+  <channel id="b279d47ac37c46c5974335e402a3044c">
+    <display-name>TV 8</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570085414-logo.png" />
+  </channel>
+  <channel id="dbf9220e69c547dd8e30727d6103b9fd">
+    <display-name>Beyaz Tv</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570092289-logo.png" />
+  </channel>
+  <channel id="b8b865e42ad748b787bae30725bd45a4">
+    <display-name>A2</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570093085-logo.png" />
+  </channel>
+  <channel id="b80f446cb9614d6680a4787ec8ed8b11">
+    <display-name>TV 2</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570094020-logo.png" />
+  </channel>
+  <channel id="47e7174a3a21426d8afed3ec89f5a057">
+    <display-name>360</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570094918-logo.png" />
+  </channel>
+  <channel id="8790ce92a7ff4982a0cf8ef2e84e4e04">
+    <display-name>TLC</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570095657-logo.png" />
+  </channel>
+  <channel id="81b2fac99eaf4957bae9624de388e2f8">
+    <display-name>DMAX</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570096426-logo.png" />
+  </channel>
+  <channel id="931a551c56e447929389aa1029cde406">
+    <display-name>Kon TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570097263-logo.png" />
+  </channel>
+  <channel id="2c6af070ae0041d5a8162318213db8f9">
+    <display-name>TV 100</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570098175-logo.png" />
+  </channel>
+  <channel id="8973a6f2d61b4883827c9e197f6696de">
+    <display-name>Cnbc-e</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570098860-logo.png" />
+  </channel>
+  <channel id="9c6567d8af894a0f9cf4626e9909bd24">
+    <display-name>Ulusal Kanal</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570099600-logo.png" />
+  </channel>
+  <channel id="5ee3136199da452092a804a0ef605d7c">
+    <display-name>GZT</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570100310-logo.png" />
+  </channel>
+  <channel id="9c2c7e9fef0841fb91d70d31e13418ad">
+    <display-name>Tv 8,5</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570115496-logo.png" />
+  </channel>
+  <channel id="38e127e59d24440cb7a3d76e2e3ce1af">
+    <display-name>Cosmo EN</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570335649-logo.png" />
+  </channel>
+  <channel id="89858488b8bc45bc937a8aea7e36ac6b">
+    <display-name>Kanal B</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570166645-logo.png" />
+  </channel>
+  <channel id="5db7f92ba15741b19ca51337c8466ccc">
+    <display-name>Genç TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570203657-logo.png" />
+  </channel>
+  <channel id="52d08e78a5954c7e8288708377589aee">
+    <display-name>Vav TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570150173-logo.png" />
+  </channel>
+  <channel id="682e9b090a3943fdb158fa451458d086">
+    <display-name>TYT Türk</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570218890-logo.png" />
+  </channel>
+  <channel id="507c4fafdb324a50a59fd886d6da5ead">
+    <display-name>TMB</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570174151-logo.png" />
+  </channel>
+  <channel id="93ebd4fbb6f0419d946e506aa9b356ae">
+    <display-name>TV 4</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570114630-logo.png" />
+  </channel>
+  <channel id="a46de77b15ab4ed485941f401698a9f2">
+    <display-name>Bengü Türk TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570154886-logo.png" />
+  </channel>
+  <channel id="81efd91e3992450283928170da32003f">
+    <display-name>TRT 2</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570101286-logo.png" />
+  </channel>
+  <channel id="3751f58c73d749e68aef8f3e3659dc8d">
+    <display-name>Tarih Tv</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570150918-logo.png" />
+  </channel>
+  <channel id="c5428240b2694303bb73ea900e69e9c4">
+    <display-name>Classical Harmony</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570208103-logo.png" />
+  </channel>
+  <channel id="3cd1de84f3094055b60feb837b805a88">
+    <display-name>TRT GENÇ</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570210861-logo.png" />
+  </channel>
+  <channel id="c611c30621a64cddb3d4caa8da8d71df">
+    <display-name>TRT Haber</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570106249-logo.png" />
+  </channel>
+  <channel id="7ff39b3f1daf40839eb084b210f621e8">
+    <display-name>A Haber</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570110196-logo.png" />
+  </channel>
+  <channel id="47ee5b8f5d9b47bfafc5f5f2078a0b43">
+    <display-name>NTV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1782846980365-logo.png" />
+  </channel>
+  <channel id="58151a85298540fbba34060a8299982f">
+    <display-name>CNN Türk</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570113139-logo.png" />
+  </channel>
+  <channel id="5537fc709abd42dfa325fdf17a9bd2a4">
+    <display-name>24</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570118622-logo.png" />
+  </channel>
+  <channel id="4deeda09725945ee9d7790e6d576c60e">
+    <display-name>TGRT Haber</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570109389-logo.png" />
+  </channel>
+  <channel id="dc20b35eae4c47349afcc17dc58e3a71">
+    <display-name>HABERTÜRK TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570107871-logo.png" />
+  </channel>
+  <channel id="52b841c272d74e549c169d087200e737">
+    <display-name>Bloomberg HT</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570172173-logo.png" />
+  </channel>
+  <channel id="a0fe6ca3367f49f08d513a52ca306be3">
+    <display-name>Ülke TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1781192206388-logo.png" />
+  </channel>
+  <channel id="091d3c6a2e7241fb95d4a80c95ef2728">
+    <display-name>Tvnet</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570134909-logo.png" />
+  </channel>
+  <channel id="da648d69bdfc44ccacd65e4353facec1">
+    <display-name>Akit</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570120184-logo.png" />
+  </channel>
+  <channel id="9d1a90d0dbae4278beffed9299f4f4ae">
+    <display-name>Brt 1</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570139747-logo.png" />
+  </channel>
+  <channel id="cec39de857b342d08166923153d0abef">
+    <display-name>TRT Türk</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570122830-logo.png" />
+  </channel>
+  <channel id="599dc6f96550459d97dae532247e7323">
+    <display-name>TRT Avaz</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570125870-logo.png" />
+  </channel>
+  <channel id="c45dcc0b733a4c89960582eefc5d7429">
+    <display-name>TRT3 Spor - TBMM TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570102272-logo.png" />
+  </channel>
+  <channel id="90483f5565d245648782df1935075a85">
+    <display-name>TRT Kurdî</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570125045-logo.png" />
+  </channel>
+  <channel id="ef546f6ba4004656a26cb0a76e6f7cb5">
+    <display-name>Haber Global</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570145113-logo.png" />
+  </channel>
+  <channel id="3671bbe097434b7d93bf165f99123e2e">
+    <display-name>Ekol TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570117968-logo.png" />
+  </channel>
+  <channel id="558a4d1181684fc98e43e75eb782d997">
+    <display-name>KRT TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1789457541548-logo.png" />
+  </channel>
+  <channel id="419fefa4c21444fba1f08778b4348359">
+    <display-name>Halk TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570108614-logo.png" />
+  </channel>
+  <channel id="80db2aee76604d2ab1e9934405a5afbc">
+    <display-name>TH Türk Haber</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570140529-logo.png" />
+  </channel>
+  <channel id="0f3b049de64541f7b931ca54f4eebde6">
+    <display-name>SZC</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570135750-logo.png" />
+  </channel>
+  <channel id="1f52e6c074444037a1d37c7bf999983c">
+    <display-name>a Para</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570119360-logo.png" />
+  </channel>
+  <channel id="db299b669fe744d285745884e770e2a7">
+    <display-name>Ekotürk</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570142047-logo.png" />
+  </channel>
+  <channel id="a464cced1fd14e23a2df15c8ec5a87dc">
+    <display-name>TV 42</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570204511-logo.png" />
+  </channel>
+  <channel id="1648f3b140d04d46896b355db93b830e">
+    <display-name>TV 5</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570155560-logo.png" />
+  </channel>
+  <channel id="c99d906bd96245e29d56f231d96dbe5c">
+    <display-name>Lider Haber</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570196962-logo.png" />
+  </channel>
+  <channel id="46779f0d315d41498387d211b96ff053">
+    <display-name>Tele 1</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570209441-logo.png" />
+  </channel>
+  <channel id="3287584afde84452bbbb3ddc122737c3">
+    <display-name>As Tv</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570183703-logo.png" />
+  </channel>
+  <channel id="848ca57ee4ea4a879baffe683491eadb">
+    <display-name>Flash TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1789626361587-logo.png" />
+  </channel>
+  <channel id="3095c7c6b03446ebbc95a07f613d4505">
+    <display-name>TRT World</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778581948542-logo.png" />
+  </channel>
+  <channel id="c73417c0045f43549b2d1060e1dfeca6">
+    <display-name>A News</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570111917-logo.png" />
+  </channel>
+  <channel id="ade3a474231348a78ac581f171b6153d">
+    <display-name>CNN International</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570185673-logo.png" />
+  </channel>
+  <channel id="2b917f76a78f426d92b9d0faf9a66efe">
+    <display-name>Bloomberg</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570120960-logo.png" />
+  </channel>
+  <channel id="429f7d3e6b0e40448bc99bbac074d204">
+    <display-name>Al Jazeera (Arapça)</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570196157-logo.png" />
+  </channel>
+  <channel id="5583c74a60ff43a6b3912bb89d146ab7">
+    <display-name>Al Jazeera (İngilizce)</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570195442-logo.png" />
+  </channel>
+  <channel id="a86691d75fd24e85b25c6cbe3f363275">
+    <display-name>TRT Arabi</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570103248-logo.png" />
+  </channel>
+  <channel id="6cb09ffc3afd4c9b891f95ccd3a8955d">
+    <display-name>Dw Tv (İngilizce)</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570178676-logo.png" />
+  </channel>
+  <channel id="fdd2d6e0b30c4ef084945372e5401563">
+    <display-name>France 24 (İngilizce)</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570162002-logo.png" />
+  </channel>
+  <channel id="5764725588f145d791aa46a39bc7520e">
+    <display-name>France 24 (Fransızca)</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570193348-logo.png" />
+  </channel>
+  <channel id="01166c6badbf43b0901e0854dcb3d8fd">
+    <display-name>CGTN</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570192525-logo.png" />
+  </channel>
+  <channel id="d47df7df8be54b71b5184e4820874c29">
+    <display-name>Russia 24</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570197630-logo.png" />
+  </channel>
+  <channel id="01bc70f573d748bebc0b4e6ddfbea410">
+    <display-name>TRT Belgesel</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570104255-logo.png" />
+  </channel>
+  <channel id="4ccd9d456bad48c2bae1f9034e8e8bd7">
+    <display-name>National Geographic</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570142784-logo.png" />
+  </channel>
+  <channel id="8574f4d4b3424e4dad7f3d0cda7681cc">
+    <display-name>National Geographic Wild</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570141235-logo.png" />
+  </channel>
+  <channel id="0537dc3fcf08420e8afab6a057dbf7a4">
+    <display-name>Discovery Channel</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570164844-logo.png" />
+  </channel>
+  <channel id="3fe28127bd4041db95e41255f62c8629">
+    <display-name>ID</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570145835-logo.png" />
+  </channel>
+  <channel id="3172ff658b394c05b79d89120e7cdaeb">
+    <display-name>Viasat History</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1779307256033-logo.png" />
+  </channel>
+  <channel id="5d2360a47c7d4d299bf16cd6baf9247b">
+    <display-name>Love Nature</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570177841-logo.png" />
+  </channel>
+  <channel id="e2d80065743844e68d78ebdfc9f20938">
+    <display-name>DocuSCREEN</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570158246-logo.png" />
+  </channel>
+  <channel id="e458cf00140242a797b3d24b3aa80fe8">
+    <display-name>Viasat Explore</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1779307458757-logo.png" />
+  </channel>
+  <channel id="fc3973a5ff4f4d0c802016dda6a6d653">
+    <display-name>CGTN Documentary</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570191788-logo.png" />
+  </channel>
+  <channel id="d087405fb0cb4ea0bf423c255e7f97b2">
+    <display-name>Az TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570122204-logo.png" />
+  </channel>
+  <channel id="3c779e73b326426f8e9665fd67cbf6a8">
+    <display-name>Türkmeneli TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570175030-logo.png" />
+  </channel>
+  <channel id="d9b0e1af7e044007858dcebb082aeaa2">
+    <display-name>Tv 5 Monde Europe</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570173173-logo.png" />
+  </channel>
+  <channel id="1f714edf52c1492f9e6365e61504afc0">
+    <display-name>Cctv 4</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570190829-logo.png" />
+  </channel>
+  <channel id="6fba7546122a48f69906d2db5e7fbf92">
+    <display-name>Saudi Tv</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570200170-logo.png" />
+  </channel>
+  <channel id="3e0f10e666d6409eb355beb60dec718a">
+    <display-name>BİR TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570194567-logo.png" />
+  </channel>
+  <channel id="796669440bbd41b7a449f6e2f7c32fad">
+    <display-name>Hayat 2</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570200742-logo.png" />
+  </channel>
+  <channel id="86c69ecc91bc422d80c8b3d58a24ebe2">
+    <display-name>Planeta RTR</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570201449-logo.png" />
+  </channel>
+  <channel id="1cef0910ad4d4564b0ed2c38e47321a8">
+    <display-name>Kbs World</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778582142834-logo.png" />
+  </channel>
+  <channel id="45121765b09a4d30b1d3999826eed4a6">
+    <display-name>Nhk World</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570188986-logo.png" />
+  </channel>
+  <channel id="9cea1b4c91bf4eb8af3cc40a8bcf0b60">
+    <display-name>Arirang</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570187195-logo.png" />
+  </channel>
+  <channel id="6484b8d7399548f4af333511103a86d3">
+    <display-name>Freedom</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570202158-logo.png" />
+  </channel>
+  <channel id="bb09f3b79f464904bc9ffb3c8148c14a">
+    <display-name>TRT Spor</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1782738482607-logo.png" />
+  </channel>
+  <channel id="ab1b7d14560d41b7811d82ae1fb878a8">
+    <display-name>beIN SPORTS HABER</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570136525-logo.png" />
+  </channel>
+  <channel id="f7d370cb19a842b88ac220e17e964b9a">
+    <display-name>A Spor</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570111151-logo.png" />
+  </channel>
+  <channel id="9bc691e193e0495fa6b6421385b81c72">
+    <display-name>Eurosport 1</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570202985-logo.png" />
+  </channel>
+  <channel id="1f3fc9de44a14d09bff073ab1f3aca38">
+    <display-name>Eurosport 2</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570186524-logo.png" />
+  </channel>
+  <channel id="0ebb4b6cf8164b97b69200ba215196d8">
+    <display-name>HT Spor</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570207392-logo.png" />
+  </channel>
+  <channel id="4a45c4df746546948a62328b528d4aef">
+    <display-name>Trace Sports Stars</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570165691-logo.png" />
+  </channel>
+  <channel id="a1baa4479d9c4091a2d82740c14bba7f">
+    <display-name>CosmoSports</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570175788-logo.png" />
+  </channel>
+  <channel id="6e79e022db3a4e0ca3735f5fd9e1f708">
+    <display-name>TRT Spor Yıldız</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570123542-logo.png" />
+  </channel>
+  <channel id="16437a6c130d4dfda2cd9250c399e2d9">
+    <display-name>Sports Tv</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570188162-logo.png" />
+  </channel>
+  <channel id="64f4c29c5bc249a79eb877eb5c7d140c">
+    <display-name>FB TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570154009-logo.png" />
+  </channel>
+  <channel id="d11802f20a524088bfd0cc2acaa4eb11">
+    <display-name>FX</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570129607-logo.png" />
+  </channel>
+  <channel id="0d4e9348ed4144ff87e9fc34e77e8ba3">
+    <display-name>Epic Drama</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1779262589286-logo.png" />
+  </channel>
+  <channel id="79ac56dcb271408c8dfda77569e7d894">
+    <display-name>Film Screen International</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570179676-logo.png" />
+  </channel>
+  <channel id="42ef646f31ac4792a16e44757961f840">
+    <display-name>MyZEN TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570137500-logo.png" />
+  </channel>
+  <channel id="a4b49165fe0c4070beaf66819bd56bf3">
+    <display-name>TRT Çocuk</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570105118-logo.png" />
+  </channel>
+  <channel id="10d73f4dccff4d92bf2a37fcbd27d709">
+    <display-name>Minika Çocuk</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570128713-logo.png" />
+  </channel>
+  <channel id="66da3b9c3a2740c197419ae7b9119c98">
+    <display-name>Minika Go</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570127856-logo.png" />
+  </channel>
+  <channel id="f1863b2addb1469a888ed1af5a0e5638">
+    <display-name>TRT Diyanet Çocuk</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570182399-logo.png" />
+  </channel>
+  <channel id="e792a5cd155840399de3a5e67ff1478f">
+    <display-name>SpaceTOON</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570206644-logo.png" />
+  </channel>
+  <channel id="ad472f78aa4544b198c84113c286b093">
+    <display-name>Azoomee</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570169390-logo.png" />
+  </channel>
+  <channel id="d5863ac2b29943238a454dbf6b1d8e51">
+    <display-name>BabyTV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570153127-logo.png" />
+  </channel>
+  <channel id="eb7052dca7c04a71b65730c943ee816a">
+    <display-name>Disney Junior</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570147251-logo.png" />
+  </channel>
+  <channel id="6a3806b2092a4208a3810b59b16c66c2">
+    <display-name>Cartoon Network</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570184411-logo.png" />
+  </channel>
+  <channel id="8eada4b013af42479187878de6998680">
+    <display-name>Moonbug Kids</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570180963-logo.png" />
+  </channel>
+  <channel id="4580a51f539746f6baaa18a33a326ef2">
+    <display-name>Duck TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570130413-logo.png" />
+  </channel>
+  <channel id="91690f3e79de427c92f8738488037604">
+    <display-name>English Club TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570143739-logo.png" />
+  </channel>
+  <channel id="6ca72d685afe4366928f99d6aa4528ce">
+    <display-name>Da Vinci</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570176523-logo.png" />
+  </channel>
+  <channel id="188cb56fa2114708ae991ead7b7982e5">
+    <display-name>LangLab</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570151794-logo.png" />
+  </channel>
+  <channel id="ae0f9a1404e74004854981e9d679e297">
+    <display-name>LingoToons</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570198774-logo.png" />
+  </channel>
+  <channel id="5b632eff6c374016bfa7c3f2b57ecfcd">
+    <display-name>TinyTeen</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570205339-logo.png" />
+  </channel>
+  <channel id="6d7c40d5d7094819bdac146848e3232c">
+    <display-name>TRT Eba TV</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570117108-logo.png" />
+  </channel>
+  <channel id="65a6d71c62f040c88b5d94ffce37ac41">
+    <display-name>Diyanet Tv</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570168487-logo.png" />
+  </channel>
+  <channel id="834646de6ec542d58b8693a1c66cb77d">
+    <display-name>Al Quran Al Kareem</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570146542-logo.png" />
+  </channel>
+  <channel id="b8709b434b184f1799ff69489b1d0afe">
+    <display-name>Al Sunnah Al Nabawiya</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570139075-logo.png" />
+  </channel>
+  <channel id="a4af252cfc94422abdcce577ab5593f4">
+    <display-name>Lâlegül</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570210089-logo.png" />
+  </channel>
+  <channel id="629ca00d24f74ba3afaf002bf152f9f6">
+    <display-name>TRT Müzik</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570124238-logo.png" />
+  </channel>
+  <channel id="d5337bfc73374a8aa5dd23a5867897f6">
+    <display-name>Dream Türk</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570113835-logo.png" />
+  </channel>
+  <channel id="bc50e50e78754d9785f0f779e8985a68">
+    <display-name>Trace Urban</display-name>
+    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570164177-logo.png" />
+  </channel>
+  <channel id="360tv">
+    <display-name>360</display-name>
   </channel>
   <channel id="ahaber">
-    <display-name lang="tr">A HABER</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838612.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="aspor">
-    <display-name lang="tr">A SPOR</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838287.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="a2tv">
-    <display-name lang="tr">A2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837289.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="akittv">
-    <display-name lang="tr">AKIT TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838546.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="atv">
-    <display-name lang="tr">ATV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838305.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="benguturktv">
-    <display-name lang="tr">BENGUTURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838732.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="beyaztv">
-    <display-name lang="tr">BEYAZ TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838801.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="bloomberght">
-    <display-name lang="tr">BLOOMBERG HT</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837595.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="cnnturk">
-    <display-name lang="tr">CNN TURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838363.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="dmax">
-    <display-name lang="tr">DMAX</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837556.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ekoturk">
-    <display-name lang="tr">EKOTURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838250.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="haberglobal">
-    <display-name lang="tr">HABER GLOBAL</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838040.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="haberturktv">
-    <display-name lang="tr">HABERTURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838714.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="halktv">
-    <display-name lang="tr">HALK TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838585.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="kanal7">
-    <display-name lang="tr">KANAL 7</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838695.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="kanald">
-    <display-name lang="tr">KANAL D</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838833.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="now">
-    <display-name lang="tr">NOW</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838440.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ntv">
-    <display-name lang="tr">NTV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838399.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="showtv">
-    <display-name lang="tr">SHOW TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839061.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="startv">
-    <display-name lang="tr">STAR TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838418.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trt1">
-    <display-name lang="tr">TRT 1</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839124.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trt2">
-    <display-name lang="tr">TRT 2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839153.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trt3spor">
-    <display-name lang="tr">TRT 3 SPOR</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839212.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtbelgesel">
-    <display-name lang="tr">TRT BELGESEL</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250328726039.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trthaber">
-    <display-name lang="tr">TRT HABER</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837609.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtspor">
-    <display-name lang="tr">TRT SPOR</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839291.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtsporyildiz">
-    <display-name lang="tr">TRT SPOR YILDIZ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838619.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtturk">
-    <display-name lang="tr">TRT TURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838728.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="natgeo">
-    <display-name lang="tr">NATIONAL GEOGRAPHIC</display-name>
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sozcutv">
-    <display-name lang="tr">SÖZCÜ TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230215906808.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtavaz">
-    <display-name lang="tr">TRT AVAZ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003410.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="dreamturk">
-    <display-name lang="tr">DREAM TÜRK TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003240.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="number1turk">
-    <display-name lang="tr">NUMBER1 TÜRK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240910523389.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="powerturk">
-    <display-name lang="tr">POWER TÜRK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211221328664.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="eurosport1">
-    <display-name lang="tr">EUROSPORT 1</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228335380.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="eurosport2">
-    <display-name lang="tr">EUROSPORT 2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228334730.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ssport">
-    <display-name lang="tr">S SPORT</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ssport2">
-    <display-name lang="tr">S SPORT 2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="natgeowild">
-    <display-name lang="tr">NATIONAL GEOGRAPHIC WILD</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003272.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinema1001">
-    <display-name lang="tr">SİNEMA 1001</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003348.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemaaile">
-    <display-name lang="tr">SİNEMA AİLE</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210907159369.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemaaksiyon">
-    <display-name lang="tr">SİNEMA AKSİYON</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210913164361.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemakomedi">
-    <display-name lang="tr">SİNEMA KOMEDİ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003485.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinematv">
-    <display-name lang="tr">SİNEMA TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003521.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemayerli">
-    <display-name lang="tr">SİNEMA YERLİ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003522.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="teve2">
-    <display-name lang="tr">TEVE2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003273.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="tlc">
-    <display-name lang="tr">TLC</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003404.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="tv4">
-    <display-name lang="tr">TV4</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20220107345852.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="tv8">
-    <display-name lang="tr">TV8</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240910523045.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="tvnet">
-    <display-name lang="tr">TVNET</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20220329421918.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ulusalkanal">
-    <display-name lang="tr">ULUSAL 1</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003468.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ulketv">
-    <display-name lang="tr">ÜLKE TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003467.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtdiyanetcocuk">
-    <display-name lang="tr">TRT DİYANET ÇOCUK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230518007126.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtmuzik">
-    <display-name lang="tr">TRT MÜZİK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210824122838.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="minikacocuk">
-    <display-name lang="tr">MİNİKA ÇOCUK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003307.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="minikago">
-    <display-name lang="tr">MİNİKA GO</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211124298353.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="nbatv">
-    <display-name lang="tr">NBA TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240611449307.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="beinsportshaber">
-    <display-name lang="tr">Bein Sports Haber</display-name>
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports1">
-    <display-name lang="tr">Beinsports</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports2">
-    <display-name lang="tr">Beinsports 2</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports3">
-    <display-name lang="tr">Beinsports 3</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports4">
-    <display-name lang="tr">Beinsports 4</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-<channel id="360tv">
-    <display-name>360</display-name>
+    <display-name>A Haber</display-name>
   </channel>
   <channel id="anews">
     <display-name>A News</display-name>
@@ -326,11 +575,23 @@
   <channel id="apara">
     <display-name>A Para</display-name>
   </channel>
+  <channel id="aspor">
+    <display-name>A Spor</display-name>
+  </channel>
   <channel id="a2">
     <display-name>A2</display-name>
   </channel>
+  <channel id="atv">
+    <display-name>ATV</display-name>
+  </channel>
   <channel id="bengütürk">
     <display-name>Bengütürk</display-name>
+  </channel>
+  <channel id="beyaztv">
+    <display-name>Beyaz TV</display-name>
+  </channel>
+  <channel id="bloomberght">
+    <display-name>Bloomberg HT</display-name>
   </channel>
   <channel id="cartoonnetwork">
     <display-name>Cartoon Network</display-name>
@@ -340,6 +601,9 @@
   </channel>
   <channel id="cnntürk">
     <display-name>CNN Türk</display-name>
+  </channel>
+  <channel id="dmax">
+    <display-name>DMAX</display-name>
   </channel>
   <channel id="ekoltv">
     <display-name>Ekol TV</display-name>
@@ -356,17 +620,35 @@
   <channel id="gzt">
     <display-name>GZT</display-name>
   </channel>
+  <channel id="haberglobal">
+    <display-name>Haber Global</display-name>
+  </channel>
   <channel id="habertürk">
     <display-name>Habertürk</display-name>
   </channel>
+  <channel id="halktv">
+    <display-name>Halk TV</display-name>
+  </channel>
   <channel id="htspor">
     <display-name>HT Spor</display-name>
+  </channel>
+  <channel id="kanal7">
+    <display-name>Kanal 7</display-name>
+  </channel>
+  <channel id="kanald">
+    <display-name>Kanal D</display-name>
+  </channel>
+  <channel id="ntv">
+    <display-name>NTV</display-name>
   </channel>
   <channel id="krt">
     <display-name>KRT</display-name>
   </channel>
   <channel id="nowtv">
     <display-name>NOW</display-name>
+  </channel>
+  <channel id="showtv">
+    <display-name>Show TV</display-name>
   </channel>
   <channel id="tv100">
     <display-name>tv100</display-name>
@@ -377,14 +659,35 @@
   <channel id="sportstv">
     <display-name>Sports TV</display-name>
   </channel>
+  <channel id="startv">
+    <display-name>Star TV</display-name>
+  </channel>
   <channel id="tele1">
     <display-name>TELE1</display-name>
+  </channel>
+  <channel id="teve2">
+    <display-name>Teve2</display-name>
   </channel>
   <channel id="tgrthaber">
     <display-name>TGRT Haber</display-name>
   </channel>
+  <channel id="tlc">
+    <display-name>TLC</display-name>
+  </channel>
+  <channel id="trt2">
+    <display-name>TRT 2</display-name>
+  </channel>
+  <channel id="trt3spor">
+    <display-name>TRT 3</display-name>
+  </channel>
   <channel id="trtarabi">
     <display-name>TRT Arabi</display-name>
+  </channel>
+  <channel id="trtavaz">
+    <display-name>TRT Avaz</display-name>
+  </channel>
+  <channel id="trtbelgesel">
+    <display-name>TRT Belgesel</display-name>
   </channel>
   <channel id="trtçocuk">
     <display-name>TRT Çocuk</display-name>
@@ -392,14 +695,32 @@
   <channel id="trteba">
     <display-name>TRT EBA</display-name>
   </channel>
+  <channel id="trthaber">
+    <display-name>TRT Haber</display-name>
+  </channel>
   <channel id="trtkurdi">
     <display-name>TRT Kurdi</display-name>
+  </channel>
+  <channel id="trtspor">
+    <display-name>TRT Spor</display-name>
   </channel>
   <channel id="trttürk">
     <display-name>TRT Türk</display-name>
   </channel>
   <channel id="trtworld">
     <display-name>TRT World</display-name>
+  </channel>
+  <channel id="trt1">
+    <display-name>TRT 1</display-name>
+  </channel>
+  <channel id="tv4">
+    <display-name>TV4</display-name>
+  </channel>
+  <channel id="tv8">
+    <display-name>TV8</display-name>
+  </channel>
+  <channel id="tvnet">
+    <display-name>TVNET</display-name>
   </channel>
   <channel id="tyttürk">
     <display-name>TYT Türk</display-name>
@@ -20361,568 +20682,197 @@
   </programme>
   
 
-<channel id="c96462af22e446af9de2b4b3074d6dcd">
-    <display-name>Sinema Tv</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570167524-logo.png" />
-  </channel>
-  <channel id="c7be8b031f3445b8b00d5f04c56e92b1">
-    <display-name>Sinema Aksiyon</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570170738-logo.png" />
-  </channel>
-  <channel id="8ae0db77acaf477a828a8725e3897c44">
-    <display-name>Sinema Yerli</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570171420-logo.png" />
-  </channel>
-  <channel id="445b116c1f604040a2b9db73d43de7a6">
-    <display-name>Sinema Aile</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570163460-logo.png" />
-  </channel>
-  <channel id="830860341e6d4f03963c45493af3984f">
-    <display-name>Sinema 1001</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570158989-logo.png" />
-  </channel>
-  <channel id="ec8039984ba146feb474f6f76611cb97">
-    <display-name>Sinema Komedi</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570160334-logo.png" />
-  </channel>
-  <channel id="bc3051503c0946e18471352367c823d7">
-    <display-name>TRT 1</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570087306-logo.png" />
-  </channel>
-  <channel id="f4ca064faede45ca85675c84449a0a01">
-    <display-name>ATV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570088144-logo.png" />
-  </channel>
-  <channel id="01630810aa214e70a55b1712e1c4d407">
-    <display-name>Show TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570088889-logo.png" />
-  </channel>
-  <channel id="94c5e9579d5c41dc8fc1b110dc6eb12c">
-    <display-name>Kanal D</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570089719-logo.png" />
-  </channel>
-  <channel id="54f666cd8d104693bb92381f0f6e91b3">
-    <display-name>Star</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570090476-logo.png" />
-  </channel>
-  <channel id="efe9ab7341fc4751b8c7fa4b9b719d97">
-    <display-name>Kanal 7</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570091223-logo.png" />
-  </channel>
-  <channel id="829af9c9a3ae47618f7f3bce4a4c1381">
-    <display-name>NOW</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570086383-logo.png" />
-  </channel>
-  <channel id="b279d47ac37c46c5974335e402a3044c">
-    <display-name>TV 8</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570085414-logo.png" />
-  </channel>
-  <channel id="dbf9220e69c547dd8e30727d6103b9fd">
-    <display-name>Beyaz Tv</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570092289-logo.png" />
-  </channel>
-  <channel id="b8b865e42ad748b787bae30725bd45a4">
-    <display-name>A2</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570093085-logo.png" />
-  </channel>
-  <channel id="b80f446cb9614d6680a4787ec8ed8b11">
-    <display-name>TV 2</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570094020-logo.png" />
-  </channel>
-  <channel id="47e7174a3a21426d8afed3ec89f5a057">
-    <display-name>360</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570094918-logo.png" />
-  </channel>
-  <channel id="8790ce92a7ff4982a0cf8ef2e84e4e04">
-    <display-name>TLC</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570095657-logo.png" />
-  </channel>
-  <channel id="81b2fac99eaf4957bae9624de388e2f8">
-    <display-name>DMAX</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570096426-logo.png" />
-  </channel>
-  <channel id="931a551c56e447929389aa1029cde406">
-    <display-name>Kon TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570097263-logo.png" />
-  </channel>
-  <channel id="2c6af070ae0041d5a8162318213db8f9">
-    <display-name>TV 100</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570098175-logo.png" />
-  </channel>
-  <channel id="8973a6f2d61b4883827c9e197f6696de">
-    <display-name>Cnbc-e</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570098860-logo.png" />
-  </channel>
-  <channel id="9c6567d8af894a0f9cf4626e9909bd24">
-    <display-name>Ulusal Kanal</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570099600-logo.png" />
-  </channel>
-  <channel id="5ee3136199da452092a804a0ef605d7c">
-    <display-name>GZT</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570100310-logo.png" />
-  </channel>
-  <channel id="9c2c7e9fef0841fb91d70d31e13418ad">
-    <display-name>Tv 8,5</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570115496-logo.png" />
-  </channel>
-  <channel id="38e127e59d24440cb7a3d76e2e3ce1af">
-    <display-name>Cosmo EN</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570335649-logo.png" />
-  </channel>
-  <channel id="89858488b8bc45bc937a8aea7e36ac6b">
-    <display-name>Kanal B</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570166645-logo.png" />
-  </channel>
-  <channel id="5db7f92ba15741b19ca51337c8466ccc">
-    <display-name>Genç TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570203657-logo.png" />
-  </channel>
-  <channel id="52d08e78a5954c7e8288708377589aee">
-    <display-name>Vav TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570150173-logo.png" />
-  </channel>
-  <channel id="682e9b090a3943fdb158fa451458d086">
-    <display-name>TYT Türk</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570218890-logo.png" />
-  </channel>
-  <channel id="507c4fafdb324a50a59fd886d6da5ead">
-    <display-name>TMB</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570174151-logo.png" />
-  </channel>
-  <channel id="93ebd4fbb6f0419d946e506aa9b356ae">
-    <display-name>TV 4</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570114630-logo.png" />
-  </channel>
-  <channel id="a46de77b15ab4ed485941f401698a9f2">
-    <display-name>Bengü Türk TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570154886-logo.png" />
-  </channel>
-  <channel id="81efd91e3992450283928170da32003f">
-    <display-name>TRT 2</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570101286-logo.png" />
-  </channel>
-  <channel id="3751f58c73d749e68aef8f3e3659dc8d">
-    <display-name>Tarih Tv</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570150918-logo.png" />
-  </channel>
-  <channel id="c5428240b2694303bb73ea900e69e9c4">
-    <display-name>Classical Harmony</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570208103-logo.png" />
-  </channel>
-  <channel id="3cd1de84f3094055b60feb837b805a88">
-    <display-name>TRT GENÇ</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570210861-logo.png" />
-  </channel>
-  <channel id="c611c30621a64cddb3d4caa8da8d71df">
-    <display-name>TRT Haber</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570106249-logo.png" />
-  </channel>
-  <channel id="7ff39b3f1daf40839eb084b210f621e8">
-    <display-name>A Haber</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570110196-logo.png" />
-  </channel>
-  <channel id="47ee5b8f5d9b47bfafc5f5f2078a0b43">
-    <display-name>NTV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1782846980365-logo.png" />
-  </channel>
-  <channel id="58151a85298540fbba34060a8299982f">
-    <display-name>CNN Türk</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570113139-logo.png" />
-  </channel>
-  <channel id="5537fc709abd42dfa325fdf17a9bd2a4">
-    <display-name>24</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570118622-logo.png" />
-  </channel>
-  <channel id="4deeda09725945ee9d7790e6d576c60e">
-    <display-name>TGRT Haber</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570109389-logo.png" />
-  </channel>
-  <channel id="dc20b35eae4c47349afcc17dc58e3a71">
-    <display-name>HABERTÜRK TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570107871-logo.png" />
-  </channel>
-  <channel id="52b841c272d74e549c169d087200e737">
-    <display-name>Bloomberg HT</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570172173-logo.png" />
-  </channel>
-  <channel id="a0fe6ca3367f49f08d513a52ca306be3">
-    <display-name>Ülke TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1781192206388-logo.png" />
-  </channel>
-  <channel id="091d3c6a2e7241fb95d4a80c95ef2728">
-    <display-name>Tvnet</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570134909-logo.png" />
-  </channel>
-  <channel id="da648d69bdfc44ccacd65e4353facec1">
-    <display-name>Akit</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570120184-logo.png" />
-  </channel>
-  <channel id="9d1a90d0dbae4278beffed9299f4f4ae">
-    <display-name>Brt 1</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570139747-logo.png" />
-  </channel>
-  <channel id="cec39de857b342d08166923153d0abef">
-    <display-name>TRT Türk</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570122830-logo.png" />
-  </channel>
-  <channel id="599dc6f96550459d97dae532247e7323">
-    <display-name>TRT Avaz</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570125870-logo.png" />
-  </channel>
-  <channel id="c45dcc0b733a4c89960582eefc5d7429">
-    <display-name>TRT3 Spor - TBMM TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570102272-logo.png" />
-  </channel>
-  <channel id="90483f5565d245648782df1935075a85">
-    <display-name>TRT Kurdî</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570125045-logo.png" />
-  </channel>
-  <channel id="ef546f6ba4004656a26cb0a76e6f7cb5">
-    <display-name>Haber Global</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570145113-logo.png" />
-  </channel>
-  <channel id="3671bbe097434b7d93bf165f99123e2e">
-    <display-name>Ekol TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570117968-logo.png" />
-  </channel>
-  <channel id="558a4d1181684fc98e43e75eb782d997">
-    <display-name>KRT TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1789457541548-logo.png" />
-  </channel>
-  <channel id="419fefa4c21444fba1f08778b4348359">
-    <display-name>Halk TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570108614-logo.png" />
-  </channel>
-  <channel id="80db2aee76604d2ab1e9934405a5afbc">
-    <display-name>TH Türk Haber</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570140529-logo.png" />
-  </channel>
-  <channel id="0f3b049de64541f7b931ca54f4eebde6">
-    <display-name>SZC</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570135750-logo.png" />
-  </channel>
-  <channel id="1f52e6c074444037a1d37c7bf999983c">
-    <display-name>a Para</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570119360-logo.png" />
-  </channel>
-  <channel id="db299b669fe744d285745884e770e2a7">
-    <display-name>Ekotürk</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570142047-logo.png" />
-  </channel>
-  <channel id="a464cced1fd14e23a2df15c8ec5a87dc">
-    <display-name>TV 42</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570204511-logo.png" />
-  </channel>
-  <channel id="1648f3b140d04d46896b355db93b830e">
-    <display-name>TV 5</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570155560-logo.png" />
-  </channel>
-  <channel id="c99d906bd96245e29d56f231d96dbe5c">
-    <display-name>Lider Haber</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570196962-logo.png" />
-  </channel>
-  <channel id="46779f0d315d41498387d211b96ff053">
-    <display-name>Tele 1</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570209441-logo.png" />
-  </channel>
-  <channel id="3287584afde84452bbbb3ddc122737c3">
-    <display-name>As Tv</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570183703-logo.png" />
-  </channel>
-  <channel id="848ca57ee4ea4a879baffe683491eadb">
-    <display-name>Flash TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1789626361587-logo.png" />
-  </channel>
-  <channel id="3095c7c6b03446ebbc95a07f613d4505">
-    <display-name>TRT World</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778581948542-logo.png" />
-  </channel>
-  <channel id="c73417c0045f43549b2d1060e1dfeca6">
-    <display-name>A News</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570111917-logo.png" />
-  </channel>
-  <channel id="ade3a474231348a78ac581f171b6153d">
-    <display-name>CNN International</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570185673-logo.png" />
-  </channel>
-  <channel id="2b917f76a78f426d92b9d0faf9a66efe">
-    <display-name>Bloomberg</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570120960-logo.png" />
-  </channel>
-  <channel id="429f7d3e6b0e40448bc99bbac074d204">
-    <display-name>Al Jazeera (Arapça)</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570196157-logo.png" />
-  </channel>
-  <channel id="5583c74a60ff43a6b3912bb89d146ab7">
-    <display-name>Al Jazeera (İngilizce)</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570195442-logo.png" />
-  </channel>
-  <channel id="a86691d75fd24e85b25c6cbe3f363275">
-    <display-name>TRT Arabi</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570103248-logo.png" />
-  </channel>
-  <channel id="6cb09ffc3afd4c9b891f95ccd3a8955d">
-    <display-name>Dw Tv (İngilizce)</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570178676-logo.png" />
-  </channel>
-  <channel id="fdd2d6e0b30c4ef084945372e5401563">
-    <display-name>France 24 (İngilizce)</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570162002-logo.png" />
-  </channel>
-  <channel id="5764725588f145d791aa46a39bc7520e">
-    <display-name>France 24 (Fransızca)</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570193348-logo.png" />
-  </channel>
-  <channel id="01166c6badbf43b0901e0854dcb3d8fd">
-    <display-name>CGTN</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570192525-logo.png" />
-  </channel>
-  <channel id="d47df7df8be54b71b5184e4820874c29">
-    <display-name>Russia 24</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570197630-logo.png" />
-  </channel>
-  <channel id="01bc70f573d748bebc0b4e6ddfbea410">
-    <display-name>TRT Belgesel</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570104255-logo.png" />
-  </channel>
-  <channel id="4ccd9d456bad48c2bae1f9034e8e8bd7">
-    <display-name>National Geographic</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570142784-logo.png" />
-  </channel>
-  <channel id="8574f4d4b3424e4dad7f3d0cda7681cc">
-    <display-name>National Geographic Wild</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570141235-logo.png" />
-  </channel>
-  <channel id="0537dc3fcf08420e8afab6a057dbf7a4">
-    <display-name>Discovery Channel</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570164844-logo.png" />
-  </channel>
-  <channel id="3fe28127bd4041db95e41255f62c8629">
-    <display-name>ID</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570145835-logo.png" />
-  </channel>
-  <channel id="3172ff658b394c05b79d89120e7cdaeb">
-    <display-name>Viasat History</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1779307256033-logo.png" />
-  </channel>
-  <channel id="5d2360a47c7d4d299bf16cd6baf9247b">
-    <display-name>Love Nature</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570177841-logo.png" />
-  </channel>
-  <channel id="e2d80065743844e68d78ebdfc9f20938">
-    <display-name>DocuSCREEN</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570158246-logo.png" />
-  </channel>
-  <channel id="e458cf00140242a797b3d24b3aa80fe8">
-    <display-name>Viasat Explore</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1779307458757-logo.png" />
-  </channel>
-  <channel id="fc3973a5ff4f4d0c802016dda6a6d653">
-    <display-name>CGTN Documentary</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570191788-logo.png" />
-  </channel>
-  <channel id="d087405fb0cb4ea0bf423c255e7f97b2">
-    <display-name>Az TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570122204-logo.png" />
-  </channel>
-  <channel id="3c779e73b326426f8e9665fd67cbf6a8">
-    <display-name>Türkmeneli TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570175030-logo.png" />
-  </channel>
-  <channel id="d9b0e1af7e044007858dcebb082aeaa2">
-    <display-name>Tv 5 Monde Europe</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570173173-logo.png" />
-  </channel>
-  <channel id="1f714edf52c1492f9e6365e61504afc0">
-    <display-name>Cctv 4</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570190829-logo.png" />
-  </channel>
-  <channel id="6fba7546122a48f69906d2db5e7fbf92">
-    <display-name>Saudi Tv</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570200170-logo.png" />
-  </channel>
-  <channel id="3e0f10e666d6409eb355beb60dec718a">
-    <display-name>BİR TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570194567-logo.png" />
-  </channel>
-  <channel id="796669440bbd41b7a449f6e2f7c32fad">
-    <display-name>Hayat 2</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570200742-logo.png" />
-  </channel>
-  <channel id="86c69ecc91bc422d80c8b3d58a24ebe2">
-    <display-name>Planeta RTR</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570201449-logo.png" />
-  </channel>
-  <channel id="1cef0910ad4d4564b0ed2c38e47321a8">
-    <display-name>Kbs World</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778582142834-logo.png" />
-  </channel>
-  <channel id="45121765b09a4d30b1d3999826eed4a6">
-    <display-name>Nhk World</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570188986-logo.png" />
-  </channel>
-  <channel id="9cea1b4c91bf4eb8af3cc40a8bcf0b60">
-    <display-name>Arirang</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570187195-logo.png" />
-  </channel>
-  <channel id="6484b8d7399548f4af333511103a86d3">
-    <display-name>Freedom</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570202158-logo.png" />
-  </channel>
-  <channel id="bb09f3b79f464904bc9ffb3c8148c14a">
-    <display-name>TRT Spor</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1782738482607-logo.png" />
-  </channel>
-  <channel id="ab1b7d14560d41b7811d82ae1fb878a8">
-    <display-name>beIN SPORTS HABER</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570136525-logo.png" />
-  </channel>
-  <channel id="f7d370cb19a842b88ac220e17e964b9a">
-    <display-name>A Spor</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570111151-logo.png" />
-  </channel>
-  <channel id="9bc691e193e0495fa6b6421385b81c72">
-    <display-name>Eurosport 1</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570202985-logo.png" />
-  </channel>
-  <channel id="1f3fc9de44a14d09bff073ab1f3aca38">
-    <display-name>Eurosport 2</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570186524-logo.png" />
-  </channel>
-  <channel id="0ebb4b6cf8164b97b69200ba215196d8">
-    <display-name>HT Spor</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570207392-logo.png" />
-  </channel>
-  <channel id="4a45c4df746546948a62328b528d4aef">
-    <display-name>Trace Sports Stars</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570165691-logo.png" />
-  </channel>
-  <channel id="a1baa4479d9c4091a2d82740c14bba7f">
-    <display-name>CosmoSports</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570175788-logo.png" />
-  </channel>
-  <channel id="6e79e022db3a4e0ca3735f5fd9e1f708">
-    <display-name>TRT Spor Yıldız</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570123542-logo.png" />
-  </channel>
-  <channel id="16437a6c130d4dfda2cd9250c399e2d9">
-    <display-name>Sports Tv</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570188162-logo.png" />
-  </channel>
-  <channel id="64f4c29c5bc249a79eb877eb5c7d140c">
-    <display-name>FB TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570154009-logo.png" />
-  </channel>
-  <channel id="d11802f20a524088bfd0cc2acaa4eb11">
-    <display-name>FX</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570129607-logo.png" />
-  </channel>
-  <channel id="0d4e9348ed4144ff87e9fc34e77e8ba3">
-    <display-name>Epic Drama</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1779262589286-logo.png" />
-  </channel>
-  <channel id="79ac56dcb271408c8dfda77569e7d894">
-    <display-name>Film Screen International</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570179676-logo.png" />
-  </channel>
-  <channel id="42ef646f31ac4792a16e44757961f840">
-    <display-name>MyZEN TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570137500-logo.png" />
-  </channel>
-  <channel id="a4b49165fe0c4070beaf66819bd56bf3">
-    <display-name>TRT Çocuk</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570105118-logo.png" />
-  </channel>
-  <channel id="10d73f4dccff4d92bf2a37fcbd27d709">
-    <display-name>Minika Çocuk</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570128713-logo.png" />
-  </channel>
-  <channel id="66da3b9c3a2740c197419ae7b9119c98">
-    <display-name>Minika Go</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570127856-logo.png" />
-  </channel>
-  <channel id="f1863b2addb1469a888ed1af5a0e5638">
-    <display-name>TRT Diyanet Çocuk</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570182399-logo.png" />
-  </channel>
-  <channel id="e792a5cd155840399de3a5e67ff1478f">
-    <display-name>SpaceTOON</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570206644-logo.png" />
-  </channel>
-  <channel id="ad472f78aa4544b198c84113c286b093">
-    <display-name>Azoomee</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570169390-logo.png" />
-  </channel>
-  <channel id="d5863ac2b29943238a454dbf6b1d8e51">
-    <display-name>BabyTV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570153127-logo.png" />
-  </channel>
-  <channel id="eb7052dca7c04a71b65730c943ee816a">
-    <display-name>Disney Junior</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570147251-logo.png" />
-  </channel>
-  <channel id="6a3806b2092a4208a3810b59b16c66c2">
-    <display-name>Cartoon Network</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570184411-logo.png" />
-  </channel>
-  <channel id="8eada4b013af42479187878de6998680">
-    <display-name>Moonbug Kids</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570180963-logo.png" />
-  </channel>
-  <channel id="4580a51f539746f6baaa18a33a326ef2">
-    <display-name>Duck TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570130413-logo.png" />
-  </channel>
-  <channel id="91690f3e79de427c92f8738488037604">
-    <display-name>English Club TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570143739-logo.png" />
-  </channel>
-  <channel id="6ca72d685afe4366928f99d6aa4528ce">
-    <display-name>Da Vinci</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570176523-logo.png" />
-  </channel>
-  <channel id="188cb56fa2114708ae991ead7b7982e5">
-    <display-name>LangLab</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570151794-logo.png" />
-  </channel>
-  <channel id="ae0f9a1404e74004854981e9d679e297">
-    <display-name>LingoToons</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570198774-logo.png" />
-  </channel>
-  <channel id="5b632eff6c374016bfa7c3f2b57ecfcd">
-    <display-name>TinyTeen</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570205339-logo.png" />
-  </channel>
-  <channel id="6d7c40d5d7094819bdac146848e3232c">
-    <display-name>TRT Eba TV</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570117108-logo.png" />
-  </channel>
-  <channel id="65a6d71c62f040c88b5d94ffce37ac41">
-    <display-name>Diyanet Tv</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570168487-logo.png" />
-  </channel>
-  <channel id="834646de6ec542d58b8693a1c66cb77d">
-    <display-name>Al Quran Al Kareem</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570146542-logo.png" />
-  </channel>
-  <channel id="b8709b434b184f1799ff69489b1d0afe">
-    <display-name>Al Sunnah Al Nabawiya</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570139075-logo.png" />
-  </channel>
-  <channel id="a4af252cfc94422abdcce577ab5593f4">
-    <display-name>Lâlegül</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570210089-logo.png" />
-  </channel>
-  <channel id="629ca00d24f74ba3afaf002bf152f9f6">
-    <display-name>TRT Müzik</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570124238-logo.png" />
-  </channel>
-  <channel id="d5337bfc73374a8aa5dd23a5867897f6">
-    <display-name>Dream Türk</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570113835-logo.png" />
-  </channel>
-  <channel id="bc50e50e78754d9785f0f779e8985a68">
-    <display-name>Trace Urban</display-name>
-    <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570164177-logo.png" />
-  </channel>
-  </tv>
+<channel id="24tv">
+    <display-name lang="tr">24</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838386.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="360">
+    <display-name lang="tr">360</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838188.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="a2tv">
+    <display-name lang="tr">A2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837289.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="akittv">
+    <display-name lang="tr">AKIT TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838546.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="benguturktv">
+    <display-name lang="tr">BENGUTURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838732.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="cnnturk">
+    <display-name lang="tr">CNN TURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838363.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ekoturk">
+    <display-name lang="tr">EKOTURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838250.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="haberturktv">
+    <display-name lang="tr">HABERTURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838714.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="now">
+    <display-name lang="tr">NOW</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838440.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtsporyildiz">
+    <display-name lang="tr">TRT SPOR YILDIZ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838619.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtturk">
+    <display-name lang="tr">TRT TURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838728.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="natgeo">
+    <display-name lang="tr">NATIONAL GEOGRAPHIC</display-name>
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sozcutv">
+    <display-name lang="tr">SÖZCÜ TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230215906808.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="dreamturk">
+    <display-name lang="tr">DREAM TÜRK TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003240.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="number1turk">
+    <display-name lang="tr">NUMBER1 TÜRK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240910523389.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="powerturk">
+    <display-name lang="tr">POWER TÜRK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211221328664.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="eurosport1">
+    <display-name lang="tr">EUROSPORT 1</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228335380.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="eurosport2">
+    <display-name lang="tr">EUROSPORT 2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228334730.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ssport">
+    <display-name lang="tr">S SPORT</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ssport2">
+    <display-name lang="tr">S SPORT 2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="natgeowild">
+    <display-name lang="tr">NATIONAL GEOGRAPHIC WILD</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003272.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinema1001">
+    <display-name lang="tr">SİNEMA 1001</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003348.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemaaile">
+    <display-name lang="tr">SİNEMA AİLE</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210907159369.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemaaksiyon">
+    <display-name lang="tr">SİNEMA AKSİYON</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210913164361.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemakomedi">
+    <display-name lang="tr">SİNEMA KOMEDİ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003485.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinematv">
+    <display-name lang="tr">SİNEMA TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003521.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemayerli">
+    <display-name lang="tr">SİNEMA YERLİ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003522.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ulusalkanal">
+    <display-name lang="tr">ULUSAL 1</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003468.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ulketv">
+    <display-name lang="tr">ÜLKE TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003467.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtdiyanetcocuk">
+    <display-name lang="tr">TRT DİYANET ÇOCUK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230518007126.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtmuzik">
+    <display-name lang="tr">TRT MÜZİK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210824122838.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="minikacocuk">
+    <display-name lang="tr">MİNİKA ÇOCUK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003307.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="minikago">
+    <display-name lang="tr">MİNİKA GO</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211124298353.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="nbatv">
+    <display-name lang="tr">NBA TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240611449307.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="beinsportshaber">
+    <display-name lang="tr">Bein Sports Haber</display-name>
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports1">
+    <display-name lang="tr">Beinsports</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports2">
+    <display-name lang="tr">Beinsports 2</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports3">
+    <display-name lang="tr">Beinsports 3</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports4">
+    <display-name lang="tr">Beinsports 4</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+</tv>
