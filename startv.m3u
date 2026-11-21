@@ -67,6 +67,8 @@ https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6a
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae1b637817b40855bbfa456&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Sevdiğim Sensin 24. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/s24.jpg" group-title="STARTV Dizileri",TR: Sevdiğim Sensin 24. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af6135842746daf396f26ef&SecretKey=NtvApiSecret2014*&.m3u8
+#EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Sevdiğim Sensin 25. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/sev-bol.jpg" group-title="STARTV Dizileri",TR: Sevdiğim Sensin 25. Bölüm
+https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afe91a2d048d568da67701d&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çirkin 1. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/kapak(47).jpg" group-title="STARTV Dizileri",TR: Çirkin 1. Bölüm
 https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_69c7edd6c51e175df4aee164&SecretKey=NtvApiSecret2014*&.m3u8
 #EXTINF:-1 tvg-id="vod.tr" tvg-name="TR: Çirkin 2. Bölüm" tvg-logo="https://media.startv.com.tr/star-tv/images/cirkin1920.jpg" group-title="STARTV Dizileri",TR: Çirkin 2. Bölüm
