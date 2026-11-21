@@ -1,324 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="merged-epg-tr-final"><channel id="24tv">
-    <display-name lang="tr">24</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838386.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="360">
-    <display-name lang="tr">360</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838188.png" />
-    <url>http://www.tivibu.com.tr</url>
+<tv generator-info-name="merged-epg-tr-final"><channel id="360tv">
+    <display-name>360</display-name>
   </channel>
   <channel id="ahaber">
-    <display-name lang="tr">A HABER</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838612.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="aspor">
-    <display-name lang="tr">A SPOR</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838287.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="a2tv">
-    <display-name lang="tr">A2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837289.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="akittv">
-    <display-name lang="tr">AKIT TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838546.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="atv">
-    <display-name lang="tr">ATV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838305.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="benguturktv">
-    <display-name lang="tr">BENGUTURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838732.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="beyaztv">
-    <display-name lang="tr">BEYAZ TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838801.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="bloomberght">
-    <display-name lang="tr">BLOOMBERG HT</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837595.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="cnnturk">
-    <display-name lang="tr">CNN TURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838363.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="dmax">
-    <display-name lang="tr">DMAX</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837556.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ekoturk">
-    <display-name lang="tr">EKOTURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838250.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="haberglobal">
-    <display-name lang="tr">HABER GLOBAL</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838040.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="haberturktv">
-    <display-name lang="tr">HABERTURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838714.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="halktv">
-    <display-name lang="tr">HALK TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838585.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="kanal7">
-    <display-name lang="tr">KANAL 7</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838695.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="kanald">
-    <display-name lang="tr">KANAL D</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838833.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="now">
-    <display-name lang="tr">NOW</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838440.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ntv">
-    <display-name lang="tr">NTV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838399.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="showtv">
-    <display-name lang="tr">SHOW TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839061.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="startv">
-    <display-name lang="tr">STAR TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838418.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trt1">
-    <display-name lang="tr">TRT 1</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839124.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trt2">
-    <display-name lang="tr">TRT 2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839153.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trt3spor">
-    <display-name lang="tr">TRT 3 SPOR</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839212.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtbelgesel">
-    <display-name lang="tr">TRT BELGESEL</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250328726039.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trthaber">
-    <display-name lang="tr">TRT HABER</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837609.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtspor">
-    <display-name lang="tr">TRT SPOR</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801839291.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtsporyildiz">
-    <display-name lang="tr">TRT SPOR YILDIZ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838619.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtturk">
-    <display-name lang="tr">TRT TURK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838728.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="natgeo">
-    <display-name lang="tr">NATIONAL GEOGRAPHIC</display-name>
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sozcutv">
-    <display-name lang="tr">SÖZCÜ TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230215906808.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtavaz">
-    <display-name lang="tr">TRT AVAZ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003410.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="dreamturk">
-    <display-name lang="tr">DREAM TÜRK TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003240.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="number1turk">
-    <display-name lang="tr">NUMBER1 TÜRK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240910523389.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="powerturk">
-    <display-name lang="tr">POWER TÜRK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211221328664.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="eurosport1">
-    <display-name lang="tr">EUROSPORT 1</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228335380.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="eurosport2">
-    <display-name lang="tr">EUROSPORT 2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228334730.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ssport">
-    <display-name lang="tr">S SPORT</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ssport2">
-    <display-name lang="tr">S SPORT 2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="natgeowild">
-    <display-name lang="tr">NATIONAL GEOGRAPHIC WILD</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003272.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinema1001">
-    <display-name lang="tr">SİNEMA 1001</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003348.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemaaile">
-    <display-name lang="tr">SİNEMA AİLE</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210907159369.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemaaksiyon">
-    <display-name lang="tr">SİNEMA AKSİYON</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210913164361.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemakomedi">
-    <display-name lang="tr">SİNEMA KOMEDİ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003485.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinematv">
-    <display-name lang="tr">SİNEMA TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003521.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="sinemayerli">
-    <display-name lang="tr">SİNEMA YERLİ</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003522.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="teve2">
-    <display-name lang="tr">TEVE2</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003273.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="tlc">
-    <display-name lang="tr">TLC</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003404.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="tv4">
-    <display-name lang="tr">TV4</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20220107345852.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="tv8">
-    <display-name lang="tr">TV8</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240910523045.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="tvnet">
-    <display-name lang="tr">TVNET</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20220329421918.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ulusalkanal">
-    <display-name lang="tr">ULUSAL 1</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003468.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="ulketv">
-    <display-name lang="tr">ÜLKE TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003467.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtdiyanetcocuk">
-    <display-name lang="tr">TRT DİYANET ÇOCUK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230518007126.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="trtmuzik">
-    <display-name lang="tr">TRT MÜZİK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210824122838.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="minikacocuk">
-    <display-name lang="tr">MİNİKA ÇOCUK</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003307.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="minikago">
-    <display-name lang="tr">MİNİKA GO</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211124298353.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="nbatv">
-    <display-name lang="tr">NBA TV</display-name>
-    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240611449307.png" />
-    <url>http://www.tivibu.com.tr</url>
-  </channel>
-  <channel id="beinsportshaber">
-    <display-name lang="tr">Bein Sports Haber</display-name>
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports1">
-    <display-name lang="tr">Beinsports</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports2">
-    <display-name lang="tr">Beinsports 2</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports3">
-    <display-name lang="tr">Beinsports 3</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-  <channel id="beinsports4">
-    <display-name lang="tr">Beinsports 4</display-name>
-    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png" />
-    <url>http://www.beinsports.com.tr</url>
-  </channel>
-<channel id="360tv">
-    <display-name>360</display-name>
+    <display-name>A Haber</display-name>
   </channel>
   <channel id="anews">
     <display-name>A News</display-name>
@@ -326,11 +11,23 @@
   <channel id="apara">
     <display-name>A Para</display-name>
   </channel>
+  <channel id="aspor">
+    <display-name>A Spor</display-name>
+  </channel>
   <channel id="a2">
     <display-name>A2</display-name>
   </channel>
+  <channel id="atv">
+    <display-name>ATV</display-name>
+  </channel>
   <channel id="bengütürk">
     <display-name>Bengütürk</display-name>
+  </channel>
+  <channel id="beyaztv">
+    <display-name>Beyaz TV</display-name>
+  </channel>
+  <channel id="bloomberght">
+    <display-name>Bloomberg HT</display-name>
   </channel>
   <channel id="cartoonnetwork">
     <display-name>Cartoon Network</display-name>
@@ -340,6 +37,9 @@
   </channel>
   <channel id="cnntürk">
     <display-name>CNN Türk</display-name>
+  </channel>
+  <channel id="dmax">
+    <display-name>DMAX</display-name>
   </channel>
   <channel id="ekoltv">
     <display-name>Ekol TV</display-name>
@@ -356,17 +56,35 @@
   <channel id="gzt">
     <display-name>GZT</display-name>
   </channel>
+  <channel id="haberglobal">
+    <display-name>Haber Global</display-name>
+  </channel>
   <channel id="habertürk">
     <display-name>Habertürk</display-name>
   </channel>
+  <channel id="halktv">
+    <display-name>Halk TV</display-name>
+  </channel>
   <channel id="htspor">
     <display-name>HT Spor</display-name>
+  </channel>
+  <channel id="kanal7">
+    <display-name>Kanal 7</display-name>
+  </channel>
+  <channel id="kanald">
+    <display-name>Kanal D</display-name>
+  </channel>
+  <channel id="ntv">
+    <display-name>NTV</display-name>
   </channel>
   <channel id="krt">
     <display-name>KRT</display-name>
   </channel>
   <channel id="nowtv">
     <display-name>NOW</display-name>
+  </channel>
+  <channel id="showtv">
+    <display-name>Show TV</display-name>
   </channel>
   <channel id="tv100">
     <display-name>tv100</display-name>
@@ -377,14 +95,35 @@
   <channel id="sportstv">
     <display-name>Sports TV</display-name>
   </channel>
+  <channel id="startv">
+    <display-name>Star TV</display-name>
+  </channel>
   <channel id="tele1">
     <display-name>TELE1</display-name>
+  </channel>
+  <channel id="teve2">
+    <display-name>Teve2</display-name>
   </channel>
   <channel id="tgrthaber">
     <display-name>TGRT Haber</display-name>
   </channel>
+  <channel id="tlc">
+    <display-name>TLC</display-name>
+  </channel>
+  <channel id="trt2">
+    <display-name>TRT 2</display-name>
+  </channel>
+  <channel id="trt3spor">
+    <display-name>TRT 3</display-name>
+  </channel>
   <channel id="trtarabi">
     <display-name>TRT Arabi</display-name>
+  </channel>
+  <channel id="trtavaz">
+    <display-name>TRT Avaz</display-name>
+  </channel>
+  <channel id="trtbelgesel">
+    <display-name>TRT Belgesel</display-name>
   </channel>
   <channel id="trtçocuk">
     <display-name>TRT Çocuk</display-name>
@@ -392,14 +131,32 @@
   <channel id="trteba">
     <display-name>TRT EBA</display-name>
   </channel>
+  <channel id="trthaber">
+    <display-name>TRT Haber</display-name>
+  </channel>
   <channel id="trtkurdi">
     <display-name>TRT Kurdi</display-name>
+  </channel>
+  <channel id="trtspor">
+    <display-name>TRT Spor</display-name>
   </channel>
   <channel id="trttürk">
     <display-name>TRT Türk</display-name>
   </channel>
   <channel id="trtworld">
     <display-name>TRT World</display-name>
+  </channel>
+  <channel id="trt1">
+    <display-name>TRT 1</display-name>
+  </channel>
+  <channel id="tv4">
+    <display-name>TV4</display-name>
+  </channel>
+  <channel id="tv8">
+    <display-name>TV8</display-name>
+  </channel>
+  <channel id="tvnet">
+    <display-name>TVNET</display-name>
   </channel>
   <channel id="tyttürk">
     <display-name>TYT Türk</display-name>
@@ -20737,4 +20494,197 @@
     <display-name>Trace Urban</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570164177-logo.png" />
   </channel>
-  </tv>
+  <channel id="24tv">
+    <display-name lang="tr">24</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838386.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="360">
+    <display-name lang="tr">360</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838188.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="a2tv">
+    <display-name lang="tr">A2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801837289.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="akittv">
+    <display-name lang="tr">AKIT TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838546.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="benguturktv">
+    <display-name lang="tr">BENGUTURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838732.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="cnnturk">
+    <display-name lang="tr">CNN TURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838363.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ekoturk">
+    <display-name lang="tr">EKOTURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838250.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="haberturktv">
+    <display-name lang="tr">HABERTURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838714.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="now">
+    <display-name lang="tr">NOW</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838440.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtsporyildiz">
+    <display-name lang="tr">TRT SPOR YILDIZ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838619.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtturk">
+    <display-name lang="tr">TRT TURK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20250801838728.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="natgeo">
+    <display-name lang="tr">NATIONAL GEOGRAPHIC</display-name>
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sozcutv">
+    <display-name lang="tr">SÖZCÜ TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230215906808.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="dreamturk">
+    <display-name lang="tr">DREAM TÜRK TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003240.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="number1turk">
+    <display-name lang="tr">NUMBER1 TÜRK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240910523389.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="powerturk">
+    <display-name lang="tr">POWER TÜRK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211221328664.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="eurosport1">
+    <display-name lang="tr">EUROSPORT 1</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228335380.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="eurosport2">
+    <display-name lang="tr">EUROSPORT 2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211228334730.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ssport">
+    <display-name lang="tr">S SPORT</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ssport2">
+    <display-name lang="tr">S SPORT 2</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="natgeowild">
+    <display-name lang="tr">NATIONAL GEOGRAPHIC WILD</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003272.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinema1001">
+    <display-name lang="tr">SİNEMA 1001</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003348.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemaaile">
+    <display-name lang="tr">SİNEMA AİLE</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210907159369.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemaaksiyon">
+    <display-name lang="tr">SİNEMA AKSİYON</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210913164361.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemakomedi">
+    <display-name lang="tr">SİNEMA KOMEDİ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003485.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinematv">
+    <display-name lang="tr">SİNEMA TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003521.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="sinemayerli">
+    <display-name lang="tr">SİNEMA YERLİ</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210422003522.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ulusalkanal">
+    <display-name lang="tr">ULUSAL 1</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003468.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="ulketv">
+    <display-name lang="tr">ÜLKE TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003467.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtdiyanetcocuk">
+    <display-name lang="tr">TRT DİYANET ÇOCUK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20230518007126.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="trtmuzik">
+    <display-name lang="tr">TRT MÜZİK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210824122838.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="minikacocuk">
+    <display-name lang="tr">MİNİKA ÇOCUK</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20210421003307.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="minikago">
+    <display-name lang="tr">MİNİKA GO</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20211124298353.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="nbatv">
+    <display-name lang="tr">NBA TV</display-name>
+    <icon src="https://itv224234.tmp.tivibu.com.tr:6430/images/poster/20240611449307.png" />
+    <url>http://www.tivibu.com.tr</url>
+  </channel>
+  <channel id="beinsportshaber">
+    <display-name lang="tr">Bein Sports Haber</display-name>
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports1">
+    <display-name lang="tr">Beinsports</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports1.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports2">
+    <display-name lang="tr">Beinsports 2</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports2.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports3">
+    <display-name lang="tr">Beinsports 3</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports3.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+  <channel id="beinsports4">
+    <display-name lang="tr">Beinsports 4</display-name>
+    <icon src="https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png|https://media-cf.tr.beinsports.com/App_Themes/2011/gfx/beinlogo/bein_sports4.png" />
+    <url>http://www.beinsports.com.tr</url>
+  </channel>
+</tv>
